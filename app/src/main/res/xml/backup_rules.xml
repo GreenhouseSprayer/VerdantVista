@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Back up the favorites database and user settings -->
+    <include domain="database" path="." />
+    <include domain="sharedpref" path="." />
+
+    <!-- No need to exclude 'external' explicitly as it's not included above.
+         By specifying includes, other domains are excluded by default. -->
+</full-backup-content>

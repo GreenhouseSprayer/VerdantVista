@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_expand_more_black_24dp"
+            android:rotation="90"
+            android:contentDescription="Back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="?attr/colorPrimary" />
+
+        <TextView
+            android:id="@+id/title_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/btn_back"
+            app:layout_constraintStart_toEndOf="@id/btn_back"
+            app:layout_constraintTop_toTopOf="@id/btn_back" />
+
+        <!-- Nature Categories (Restored All) -->
+        <TextView
+            android:id="@+id/label_categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="@string/category_label"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_back" />
+
+        <GridLayout
+            android:id="@+id/categories_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:columnCount="2"
+            app:layout_constraintTop_toBottomOf="@id/label_categories">
+
+            <CheckBox
+                android:id="@+id/check_plants"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/taxon_plants"
+                android:textColor="#FFFFFF"
+                android:button="@drawable/selector_checkbox_circle"
+                app:buttonTint="?attr/colorPrimary"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+            <CheckBox
+                android:id="@+id/check_birds"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/taxon_birds"
+                android:textColor="#FFFFFF"
+                android:button="@drawable/selector_checkbox_circle"
+                app:buttonTint="?attr/colorPrimary"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+            <CheckBox
+                android:id="@+id/check_insects"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/taxon_insects"
+                android:textColor="#FFFFFF"
+                android:button="@drawable/selector_checkbox_circle"
+                app:buttonTint="?attr/colorPrimary"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+            <CheckBox
+                android:id="@+id/check_fungi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/taxon_fungi"
+                android:textColor="#FFFFFF"
+                android:button="@drawable/selector_checkbox_circle"
+                app:buttonTint="?attr/colorPrimary"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+            <CheckBox
+                android:id="@+id/check_mammals"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/taxon_mammals"
+                android:textColor="#FFFFFF"
+                android:button="@drawable/selector_checkbox_circle"
+                app:buttonTint="?attr/colorPrimary"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+            <CheckBox
+                android:id="@+id/check_herps"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/taxon_herps"
+                android:textColor="#FFFFFF"
+                android:button="@drawable/selector_checkbox_circle"
+                app:buttonTint="?attr/colorPrimary"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+            <CheckBox
+                android:id="@+id/check_aquatic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="@string/taxon_aquatic"
+                android:textColor="#FFFFFF"
+                android:button="@drawable/selector_checkbox_circle"
+                app:buttonTint="?attr/colorPrimary"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+        </GridLayout>
+
+        <!-- Aesthetic Dropdown -->
+        <TextView
+            android:id="@+id/label_aesthetic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/theme_label"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/categories_container" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/theme_dropdown_layout"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxStrokeColor="@color/white"
+            app:hintTextColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/label_aesthetic">
+
+            <AutoCompleteTextView
+                android:id="@+id/theme_selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:padding="16dp"
+                android:hint="Select Theme"
+                android:textColor="@color/white"
+                android:popupBackground="?attr/colorSurface"
+                tools:text="Forest (Evergreen)" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Location Dropdown -->
+        <TextView
+            android:id="@+id/label_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/label_location"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/theme_dropdown_layout" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/location_dropdown_layout"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxStrokeColor="@color/white"
+            app:hintTextColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/label_location">
+
+            <AutoCompleteTextView
+                android:id="@+id/location_selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:padding="16dp"
+                android:hint="Select Region"
+                android:textColor="@color/white"
+                android:popupBackground="?attr/colorSurface"
+                tools:text="Worldwide" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Interval Dropdown -->
+        <TextView
+            android:id="@+id/label_interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/label_update_interval"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/location_dropdown_layout" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/interval_dropdown_layout"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxStrokeColor="@color/white"
+            app:hintTextColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/label_interval">
+
+            <AutoCompleteTextView
+                android:id="@+id/interval_selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:padding="16dp"
+                android:hint="Select Frequency"
+                android:textColor="@color/white"
+                android:popupBackground="?attr/colorSurface"
+                tools:text="1 Hour" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Proximity Notifications -->
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/switch_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/label_proximity_notifications"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/interval_dropdown_layout" />
+
+        <TextView
+            android:id="@+id/desc_notifications"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/desc_proximity_notifications"
+            android:textColor="?attr/colorSecondary"
+            android:alpha="0.7"
+            android:textSize="13sp"
+            app:layout_constraintTop_toBottomOf="@id/switch_notifications"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/desc_notifications">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_help"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="16dp"
+                android:background="?attr/colorSecondary"
+                android:alpha="0.2"
+                android:layout_marginHorizontal="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_privacy"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

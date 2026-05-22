@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Forest (Standard) -->
+    <color name="forest_primary">#4CAF50</color>
+    <color name="forest_primary_variant">#388E3C</color>
+    <color name="forest_accent">#8BC34A</color>
+    <color name="forest_background">#121212</color>
+    <color name="forest_surface">#1E1E1E</color>
+
+    <!-- Desert -->
+    <color name="desert_primary">#FF9800</color>
+    <color name="desert_primary_variant">#F57C00</color>
+    <color name="desert_accent">#FFC107</color>
+    <color name="desert_background">#1A130F</color>
+    <color name="desert_surface">#261C15</color>
+
+    <!-- Midnight -->
+    <color name="midnight_primary">#673AB7</color>
+    <color name="midnight_primary_variant">#512DA8</color>
+    <color name="midnight_accent">#9C27B0</color>
+    <color name="midnight_background">#0A0A14</color>
+    <color name="midnight_surface">#141420</color>
+
+    <!-- Ocean -->
+    <color name="ocean_primary">#00BCD4</color>
+    <color name="ocean_primary_variant">#0097A7</color>
+    <color name="ocean_accent">#4DD0E1</color>
+    <color name="ocean_background">#001219</color>
+    <color name="ocean_surface">#001C26</color>
+
+    <!-- Spring -->
+    <color name="spring_primary">#FFB7C5</color> <!-- Cherry Blossom Pink -->
+    <color name="spring_primary_variant">#F48FB1</color>
+    <color name="spring_accent">#A5D6A7</color> <!-- Fresh Green -->
+    <color name="spring_background">#1B1517</color>
+    <color name="spring_surface">#251E21</color>
+
+    <!-- Summer -->
+    <color name="summer_primary">#FBC02D</color> <!-- Sun Yellow -->
+    <color name="summer_primary_variant">#F9A825</color>
+    <color name="summer_accent">#4CAF50</color> <!-- Lush Green -->
+    <color name="summer_background">#15140A</color>
+    <color name="summer_surface">#1F1D0E</color>
+
+    <!-- Autumn -->
+    <color name="autumn_primary">#E64A19</color> <!-- Burnt Orange -->
+    <color name="autumn_primary_variant">#BF360C</color>
+    <color name="autumn_accent">#8D6E63</color> <!-- Woody Brown -->
+    <color name="autumn_background">#19120F</color>
+    <color name="autumn_surface">#241A16</color>
+
+    <!-- Winter -->
+    <color name="winter_primary">#90CAF9</color> <!-- Ice Blue -->
+    <color name="winter_primary_variant">#64B5F6</color>
+    <color name="winter_accent">#E0E0E0</color> <!-- Snow White/Gray -->
+    <color name="winter_background">#0D1117</color>
+    <color name="winter_surface">#161B22</color>
+
+    <color name="text_secondary_light">#BDBDBD</color>
+    <color name="text_secondary_dark">#808080</color>
+    <color name="control_normal_light">#E0E0E0</color>
+</resources>

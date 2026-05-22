@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Atmospheric Top-Glow: Soft overhead theme light fading to deep matte black -->
+    <!-- This replaces the diagonal fade with a more professional vertical bloom -->
+    <gradient
+        android:angle="270"
+        android:startColor="?attr/colorSurface"
+        android:centerColor="?attr/android:colorBackground"
+        android:endColor="#050505"
+        android:centerY="0.3"
+        android:type="linear" />
+</shape>

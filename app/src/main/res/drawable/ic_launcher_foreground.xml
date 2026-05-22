@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Distant Hill (Verdant) -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M10,75 Q45,45 80,75 L98,75 L98,90 L10,90 Z" />
+
+    <!-- Near Hill (Lush) -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M10,90 L10,80 Q54,55 98,85 L98,90 Z" />
+
+    <!-- The Sun / Discovery Focus -->
+    <path
+        android:fillColor="#FFF176"
+        android:pathData="M54,55 A8,8 0 1,0 54,39 A8,8 0 1,0 54,55" />
+
+</vector>

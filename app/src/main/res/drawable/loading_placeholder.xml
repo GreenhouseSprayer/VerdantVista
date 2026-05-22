@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Clean, Cinematic Background (No more yellow/green sunset) -->
+    <item android:drawable="@drawable/loading_background_cinematic" />
+
+    <!-- Soft, centered Verdant Vista icon -->
+    <item
+        android:drawable="@drawable/ic_launcher_foreground"
+        android:gravity="center"
+        android:width="120dp"
+        android:height="120dp"
+        android:alpha="0.4" />
+</layer-list>

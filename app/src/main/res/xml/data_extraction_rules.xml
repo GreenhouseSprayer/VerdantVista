@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Back up the favorites database and user settings -->
+        <include domain="database" path="." />
+        <include domain="sharedpref" path="." />
+
+        <!-- No need to exclude 'external' explicitly as it's not included above.
+             By specifying includes, other domains are excluded by default. -->
+    </cloud-backup>
+    <device-transfer>
+        <!-- For device-to-device transfer, we include everything so the
+             new phone starts with a full cache ready to go -->
+        <include domain="database" path="." />
+        <include domain="sharedpref" path="." />
+        <include domain="file" path="." />
+        <include domain="external" path="." />
+    </device-transfer>
+</data-extraction-rules>

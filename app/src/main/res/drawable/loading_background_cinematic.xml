@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Cinematic 'Fog' Vignette to draw focus to the center -->
+    <gradient
+        android:centerX="50%"
+        android:centerY="45%"
+        android:gradientRadius="400dp"
+        android:startColor="#1A201A"
+        android:centerColor="#0D110D"
+        android:endColor="#000000"
+        android:type="radial" />
+</shape>
