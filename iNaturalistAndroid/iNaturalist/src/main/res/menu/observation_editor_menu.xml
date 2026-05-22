@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/prefers_community_taxon"
+        android:title="@string/opt_out_of_community_taxon"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/remove_date"
+        android:title="@string/remove_date_observed"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/remove_time"
+        android:title="@string/remove_time_observed"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/remove_location"
+        android:title="@string/remove_location"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/edit_observation_license"
+        android:title="@string/edit_observation_license"
+        app:showAsAction="never" />
+</menu>

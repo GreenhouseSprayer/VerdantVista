@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content" android:minWidth="50dp"
+    android:layout_height="50dp">
+    <ImageButton
+        android:id="@+id/observation_photo"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:src="@drawable/ic_action_email"
+        android:adjustViewBounds="false"
+        android:scaleType="centerCrop"
+        android:background="#5D5B5E"
+        android:contentDescription="@string/view_image"
+        />
+</LinearLayout>

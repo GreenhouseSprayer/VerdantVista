@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
+    android:background="#EFEFEF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/tutorial_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/app_title"
+            android:src="@drawable/slide_logo" />
+
+        <TextView
+            android:id="@+id/tutorial_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explore and Connect with Nature"
+            android:layout_below="@id/tutorial_image"
+            android:textSize="17sp"
+            android:textColor="#FF4A4A4A"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tutorial_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contribute"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textColor="#FF4A4A4A"
+            android:layout_marginBottom="14dp"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_address">电邮地址</string>
+    <string name="delete_observation">删除观察记录</string>
+    <string name="observation_deleted">已删除的观察记录</string>
+    <string name="species_guess_hint">物种名称</string>
+    <string name="ok">好的</string>
+    <string name="cancel">取消</string>
+    <string name="loading">载入</string>
+    <string name="street">街道</string>
+    <!-- As in map tiles using satellite imagery, generally used as an option when choosing a base map type -->
+    <string name="satellite">卫星</string>
+    <string name="couldnt_load_nearby_observations">无法载入附近的观察记录： %1$s</string>
+    <string name="username_invalid">使用者名或密码无效，请重新登入。</string>
+    <string name="signing_in">登入中...</string>
+    <string name="signed_in">已登入!</string>
+    <string name="please_sign_in">请先登入</string>
+    <string name="please_sign_in_description">请登入到您的 iNaturalist 帐户或注册一个新帐户。</string>
+    <string name="please_enable_location_services">请启用定位服务，以便找到您目前的位置...</string>
+    <string name="go_to_settings">前往设置</string>
+    <string name="photo_not_specified">未指定的照片</string>
+    <string name="set_date">日期</string>
+    <string name="set_time">时间</string>
+    <!-- "Blast" is meant to be a jocular, intentionally archaic curse. It should not be translated as a word that might offend anyone. If that's impossible, please just leave it out. We occasionally use language like this add a little personality, but that doesn't always translate very well. -->
+    <string name="something_went_wrong">糟糕，有地方出错了：%1$s</string>
+    <string name="edit">编辑</string>
+    <string name="oh_no">哦不！%1$s</string>
+    <string name="observations">我的观察记录</string>
+    <string name="map">地图</string>
+    <string name="settings">设置</string>
+    <string name="projects">项目</string>
+    <string name="delete_photo">删除照片</string>
+    <string name="my_location">我的位置</string>
+    <string name="nearby_observations">附近的观察记录</string>
+    <string name="add">新增</string>
+    <string name="view_on_inat">在 iNaturalist 网站上查看</string>
+    <string name="reload">重新载入</string>
+    <string name="view_in_browser">在浏览器中阅览</string>
+    <string name="add_observation">新增观察记录</string>
+    <string name="take_picture">拍摄照片</string>
+    <string name="save">储存</string>
+    <string name="no_observations_yet">还没有观察记录！</string>
+    <string name="or">或</string>
+    <string name="signed_out">登出</string>
+    <string name="username">使用者名称</string>
+    <string name="password">密码</string>
+    <string name="unknown">未知</string>
+    <string name="unknown_species">未知的物种</string>
+    <string name="edit_observation">编辑观察记录</string>
+    <string name="discard_changes">您确定要放弃未储存的修改吗？</string>
+    <string name="yes">是的</string>
+    <string name="no">否</string>
+    <!-- Label for a button that adds an identification that is the same as another identification, as in "Do you agree this is correct?" Should be short. -->
+    <string name="agree">同意？</string>
+    <string name="no_comments">尚未评论或鉴定</string>
+    <string name="add_comment">新增评论</string>
+    <string name="add_id">新增鉴定</string>
+    <string name="remarks">注记...</string>
+    <string name="enter_taxon_name">物种名称</string>
+    <string name="no_projects">找不到任务!</string>
+    <string name="no_guides">找不到指南!</string>
+    <string name="loading_projects">载入任务中...</string>
+    <string name="joined_projects">已加入</string>
+    <string name="nearby_projects">附近</string>
+    <!-- Tab title for the list of featured projects in the Projects screen -->
+    <string name="featured_projects">精选</string>
+    <!-- Verb, used as a label for actions like leaving a project -->
+    <string name="leave">离开</string>
+    <string name="join">加入</string>
+    <string name="no_check_list">在名录中无分类群!</string>
+    <string name="failed_to_add_obs_to_project">新增观察记录 \'%1$s\' 至任务 \'%2$s\': %3$s 失败</string>
+    <string name="invalid_project_field">请于栏位 \'%1s\' 中输入一个有效的值</string>
+    <!-- Title of interface used to add an observation to a project. This should be relatively short, not much more than a few characters longer than the English translation. -->
+    <string name="select_projects">从参与的任务中选择</string>
+    <string name="not_connected">您必须连接到网路才可以做这件事！</string>
+    <string name="search_projects">搜寻任务...</string>
+    <string name="search_guides">搜寻指南...</string>
+    <string name="save_observation">储存观察记录</string>
+    <!-- Header for a description an individual guide -->
+    <string name="about_guide">简介</string>
+    <string name="about_guide_all_caps">简介</string>
+    <!-- Header for a description an individual project -->
+    <string name="about_project">简介</string>
+    <string name="about_project_all_caps">简介</string>
+    <string name="about_this_app">简介</string>
+    <string name="about_taxon_short">简介</string>
+    <!-- Noun describing the ability to obscure or hide the coordinates of an observation. Should be a short noun or noun-phrase suitable for use on a button or popup header -->
+    <string name="geoprivacy">地理资讯隐私权</string>
+    <!-- Generally used when we need to display both the label and the value on one line. Specifically used in the toolbar at the top of the location chooser -->
+    <string name="geoprivacy_with_value">地理信息隐私权：%1$s</string>
+    <string name="delete_confirmation">您确定您想要删除此观察记录吗？</string>
+    <!-- This refers to field guide-like content within the app, i.e. user-created lists of species that help other people identify organisms. It does not refer to tutorials or other instructional content. -->
+    <string name="guides">指南</string>
+    <string name="my_guides">您的</string>
+    <string name="nearby_guides">附近的</string>
+    <string name="all_guides">全部</string>
+    <string name="no_taxa">在本指南中找不到任何分类群！</string>
+    <string name="search_taxa">搜寻分类群...</string>
+    <string name="no_internet_guides">指南必须要有网路连线</string>
+    <string name="no_internet_projects">任务必须要有网路连线</string>
+    <string name="locale_gl">加利西亚语</string>
+    <string name="locale_eu">巴斯克文</string>
+    <string name="use_device_language_settings">使用设备的语言设置</string>
+    <string name="choose_location">选择位置</string>
+    <string name="done">已完成</string>
+    <string name="please_sign_in_via_settings">您必须登入以查看您加入的任务。</string>
+    <string name="contact_support">联络支援团队</string>
+    <string name="leave_project">离开任务群组</string>
+    <string name="leave_project_confirmation">您确定要离开此任务群组吗？</string>
+    <string name="discard_location_changes">您确定要放弃未储存的修改吗？</string>
+    <string name="edit_location">编辑位置</string>
+    <string name="edit_locality_notes">编辑本地化注释</string>
+    <string name="get_current_location">取得目前位置</string>
+    <string name="pull_to_refresh">下拉来重新整理...</string>
+    <string name="release_to_refresh">放开以重新整理...</string>
+    <string name="refreshing">重新整理中...</string>
+    <plurals name="sync_x_observations">
+        <item quantity="other">同步 %1$d 笔观察记录</item>
+    </plurals>
+    <string name="sync_observations">同步观察记录</string>
+    <string name="lets_get_started">让我们开始吧 ！</string>
+    <string name="view_nearby_observations">查看附近的观察记录</string>
+    <string name="skip_for_now">现在略过</string>
+    <string-array name="tutorial_titles">
+        <item></item>
+        <item>观察</item>
+        <item>分享</item>
+        <item>学习</item>
+        <item>贡献</item>
+    </string-array>
+    <string-array name="tutorial_descriptions">
+        <item>探索并和大自然联结</item>
+        <item>到外面去 ！找些野生动植物并拍摄清楚、完整的照片。</item>
+        <item>与 iNaturalist 社群分享你的观察记录。</item>
+        <item>在您的观察记录中回头检查评论跟鉴定！</item>
+        <item><![CDATA[为了对大自然有更多的认识以及保护，<b>研究级</b> 的观察记录将分享予科学家使用。]]></item>
+    </string-array>
+    <string-array name="geoprivacy_items">
+        <item>开启</item>
+        <item>遮蔽</item>
+        <item>仅自己可见</item>
+    </string-array>
+    <string name="alert_sign_out">您确定要登出吗？此操作将删除您在此装置上的所有观察记录。它不会影响你已经上传到 iNaturalist 的任何观察记录。</string>
+    <string name="alert_unsupported_media_type">抱歉，但从这个来源载入照片时发生问题</string>
+    <!-- Second person verb, used as a section title as in the "Explore" screen where you explore observations made by other people -->
+    <string name="explore">探索</string>
+    <string name="restricted_to_current_map_area">限制在目前的地图区域范围</string>
+    <string name="search">搜寻</string>
+    <string name="details">详细资料</string>
+    <string name="observation_photos">观察照片</string>
+    <string name="no_observations_found">尚未有观察记录</string>
+    <string name="license_none">保留一切著作权利</string>
+    <string name="sources_and_attribution">来源与属性</string>
+    <string name="photos"><![CDATA[<b>照片：</b> %1$s]]></string>
+    <string name="text"><![CDATA[<b>文字：</b> %1$s]]></string>
+    <!-- The dialog content asking the user to switch to another iNat network -->
+    <string name="alert_message_use_inaturalist">主要的 iNaturalist 网路。点选「好的」按钮将设定您的 app 为全球 iNaturalist 网路的一部分。</string>
+    <string name="alert_message_use_naturalista">NaturaLista 是 iNaturalist 附属网络位于墨西哥的成员。此操作会让支援 NaturaLista 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_naturewatchnz">iNaturalist NZ 是 iNaturalist 附属网络位于新西兰的成员。此操作会让支援 iNaturalist NZ 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistcanada">iNaturalist Canada 是 iNaturalist 附属网络位于加拿大的成员。此操作会让支援 iNaturalist Canada 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_naturalistacolombia">Naturalista 是 iNaturalist 附属网络位于哥伦比亚的成员。此操作会让支援 Naturalista 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_biodiversity4all">Biodiversity4All 是 iNaturalist 附属网络位于葡萄牙的成员。此操作会让支援 Biodiversity4All 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistpanama">iNaturalist Panamá 是 iNaturalist 附属网络位于巴拿马的成员。此操作会让支援 iNaturalist Panamá 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistecuador">iNaturalist Ecuador 是 iNaturalist 附属网络位于厄瓜多尔的成员。此操作会让支援 iNaturalist Ecuador 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistaustralia">iNaturalist Australia 是 iNaturalist 附属网络位于澳大利亚的成员。此操作会让支援 iNaturalist Australia 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_argentinat">ArgentiNat 是 iNaturalist 附属网络位于阿根廷的成员。此操作会让支援 ArgentiNat 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistil">iNaturalist Israel 是 iNaturalist 附属网络位于以色列的成员。此操作会让支援 iNaturalist Israel 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistfi">iNaturalist Finland 是 iNaturalist 附属网络位于芬兰的成员。此操作会让支援 iNaturalist Finland 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistcl">iNaturalist Chile 是 iNaturalist 附属网络位于智利的成员。此操作会让支援 iNaturalist Chile 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistgr">iNaturalist Greece 是 iNaturalist 附属网络位于希腊的成员。此操作会让支援 iNaturalist Greece 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistlu">iNaturalist Luxembourg 是 iNaturalist 附属网络位于卢森堡的成员。此操作会让支援 iNaturalist Luxembourg 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistuk">iNaturalist United Kingdom 是 iNaturalist 附属网络位于英国的成员。此操作会让支援 iNaturalist United Kingdom 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistcr">iNaturalist Costa Rica 是 iNaturalist 附属网络位于哥斯达黎加的成员。此操作会让支援 iNaturalist Costa Rica 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistgt">iNaturalist Guatemala 是 iNaturalist 附属网络位于危地马拉的成员。此操作会让支援 iNaturalist Guatemala 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalistse">iNaturalist Sweden 是 iNaturalist 附属网络位于瑞典的成员。此操作会让支援 iNaturalist Sweden 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_naturalistauy">Naturalista Uruguay 是 iNaturalist 附属网络位于乌拉圭的成员。此操作会让支援 Naturalista Uruguay 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="alert_message_use_inaturalisttw">iNaturalist Taiwan 是 iNaturalist 附属网络位于中国台湾的成员。此操作会让支援 iNaturalist Taiwan 的地方机构有权访问您的电子邮件地址，和被遮蔽的或私有的观察记录的真实坐标。如果您有超过 1000 笔观察记录的话，请不要尝试性的更改您的附属网络。您确定要更改您的 iNat 附属网络吗？</string>
+    <string name="editor">编辑</string>
+    <string name="license">授权</string>
+    <string name="download_for_offline_use">下载供离线使用</string>
+    <string name="download_not_available">不提供下载服务</string>
+    <string name="guide_editor_must_enable_this_feature">指南编辑必须启用此功能。</string>
+    <string name="are_you_sure">您确定吗？</string>
+    <string name="download_guide_alert">这将下载 %1$s 的资料，所以就算您没有网路连线，也可以离线使用本指南。</string>
+    <string name="failed_to_download_guide">下载指南失败</string>
+    <string name="internet_connection_seems_to_be_offline">网路连线显示为离线状态。</string>
+    <string name="downloading">正在下载…</string>
+    <string name="extracting">正在解压缩...</string>
+    <string name="downloaded">已下载</string>
+    <string name="delete_download">删除已下载档案</string>
+    <string name="re_download">重新下载</string>
+    <string name="error">错误</string>
+    <string name="could_not_retrieve_guide">无法取得指南详细资讯—可能是网路错误。</string>
+    <string name="inat_support_email_subject">iNaturalist 说明 (版本 %1$s-%2$s; 使用者 id-%3$s)</string>
+    <string name="send_email">传送电子邮件...</string>
+    <string name="login_with">登入</string>
+    <string name="gplus">谷歌</string>
+    <string name="email">电子邮件</string>
+    <string name="skip">略过 &gt;</string>
+    <string name="log_in">登入</string>
+    <!-- Second person imperative, usually a label on a button to sign up for a new account -->
+    <string name="sign_up">注册</string>
+    <!-- Title of the view used to sign up for a new account -->
+    <string name="sign_up_title">注册</string>
+    <string name="min_6_chars">最少 6 个字元以上</string>
+    <string name="use_my_license"><![CDATA[是的，授权我的内容，这样科学家就可以使用我的数据了（推荐）。<b>了解更多</b>]]></string>
+    <string name="content_licensing">内容授权</string>
+    <string name="content_licensing_description">如果您想在您的照片套用创意公用授权－非商业使用条款的话，请勾选此方框。你之后可以选择不同的授权或移除它，但这个授权对于分享资料给研究者是最好的授权。</string>
+    <!-- Try to keep this about the length of the English text -->
+    <string name="username_or_email">使用者名称或电子邮件</string>
+    <string name="forgot">忘了吗？</string>
+    <string name="or_login_with">或透过以下方式登入:</string>
+    <string name="registering">注册中...</string>
+    <string name="recommended_next_step">下一步（推荐）</string>
+    <string name="could_not_register_user">无法注册使用者</string>
+    <!-- Short label for a button in the side bar, not much more than 16 characters -->
+    <string name="login_signup">登入 / 注册</string>
+    <string name="please_sign_in_via_settings_for_guides">您必须登入以查看您的指南。</string>
+    <string name="please_sign_in_for_updates">您必须登入以查看您的更新资讯。</string>
+    <string name="by_using_inat_terms"><![CDATA[使用 iNaturalist 即代表您同意<b><a href="https://www.inaturalist.org/pages/terms">服务条款</a></b>和<b><a href="https://www.inaturalist.org/pages/privacy">隐私权政策</a></b>]]></string>
+    <string name="activity">动态</string>
+    <!-- Label for a button to open the camera to take a new photo for an observation -->
+    <string name="camera">拍照</string>
+    <!-- Label for a button to import an existing photo for an observation -->
+    <string name="upload_photo">选择图片</string>
+    <string name="first">第一</string>
+    <string name="make_first">设为第一</string>
+    <string name="notes">备注</string>
+    <string name="is_captive">它是饲育或栽培的</string>
+    <string name="location_visibility">位置可见度</string>
+    <string name="set_location">位置</string>
+    <string name="coordinates_lat">纬度:</string>
+    <string name="coordinates_lon">经度:</string>
+    <string name="coordinates_acc">定位精确度</string>
+    <string name="required">* 必填项目</string>
+    <string name="downloading_observations">正在下载观察记录...</string>
+    <string name="no_thanks">不用，感恩</string>
+    <string name="turn_on">开启</string>
+    <string name="introducing_auto_sync">介绍自动上传！</string>
+    <string name="turn_on_auto_sync">在设定中打开自动上传，您的观察记录将自动上传到 iNaturalist。</string>
+    <string name="automatic_upload">自动上传 （自动同步）</string>
+    <string name="waiting_to_upload">等待上传中…</string>
+    <string name="uploading">上传中...</string>
+    <string name="failed_to_add_to_project">新增至任务 \'%1$s\' 失败: %2$s</string>
+    <string name="needs_your_attention">需要您的注意...</string>
+    <string name="observation">观察记录</string>
+    <string name="share">分享</string>
+    <string name="unable_to_acquire_location">无法找到位置</string>
+    <string name="casual_grade">非正式</string>
+    <string name="needs_id">待鉴定</string>
+    <string name="research_grade">研究级</string>
+    <string name="data_quality">数据质量</string>
+    <string name="casual_grade_add_location"><![CDATA[ 新增一个<b>位置</b>资讯，让此笔观察记录进展至「需要 ID」状态。 ]]></string>
+    <string name="casual_grade_add_date"><![CDATA[ 新增一个<b>日期</b>资讯，让此笔观察记录进展至「需要 ID」状态。 ]]></string>
+    <string name="casual_grade_add_photo"><![CDATA[ 新增一张<b>照片</b>，让此笔观察记录进展至「需要 ID」状态。 ]]></string>
+    <string name="casual_grade_captive"><![CDATA[ 观察记录列为非正式等级因为它是饲育/栽培的。 ]]></string>
+    <string name="needs_id_more_ids"><![CDATA[ 观察记录需要从社群中取得<b>更多的鉴定</b>以成为「研究等级」。 ]]></string>
+    <plurals name="included_in_projects">
+        <item quantity="other">包含在 %1$d 个任务中</item>
+    </plurals>
+    <string name="geoprivacy_explanation"><![CDATA[地理资讯隐私权(Geoprivacy)的设定控制了您的观察记录中如何显示空间座标 （纬度和经度）。选项为： <br/> <b>开放</b>—每个人都可以看到座标，除非此分类群受到威胁。 <br/><b>遮敝</b>—公开的座标是在 0.2 x 0.2 度范围内随机显示，其中包含了真实座标，这相当于大约在赤道有 22 x 22 公里面积的开放座标，而随着接近两极此面积会逐渐减少。真实的座标是仅对您和您向其中新增加的观察专案策展人可见。<br/> <b>私人</b>—座标在公开地图上是完全隐藏的，只有您和您加入到观察专案中的策展人才能看到真实的座标。 <br/> <br/>注意：个别专案策展人不管您的地理资讯隐私权如何设定，他还是可以看到您的座标，所以如果对于谁可以存取座标有疑虑的话，您应该确保您信任您所参与的专案策展人。]]></string>
+    <string name="id_title">%1$s 的鉴定 • %2$s</string>
+    <string name="comment_title">%1$s • %2$s</string>
+    <string name="delete">删除</string>
+    <string name="delete_id">撤销鉴定</string>
+    <string name="delete_comment">删除评论</string>
+    <string name="delete_id_message">您确定您想要撤回此鉴定？</string>
+    <string name="delete_comment_message">您确定想要删除此评论吗？</string>
+    <string name="suggest_id">推荐鉴定</string>
+    <string name="update_comment">更新评论</string>
+    <string name="fave_this_observation">收藏此观察记录</string>
+    <string name="faved">我的最爱</string>
+    <string name="be_the_first_to_fave_this_obs">当第一个收藏此观察记录的人</string>
+    <string name="leave_a_comment">留下您的评论或鉴定建议…</string>
+    <string name="location_coords">纬度: %1$s 经度: %2$s 精确度: %3$s</string>
+    <string name="location_coords_no_acc">纬度: %1$s 经度: %2$s</string>
+    <string name="location">位置</string>
+    <string name="login_in_to_add_comments_ids">登入或注册来留下你的评论或鉴定建议...</string>
+    <string name="login_in_to_fav">登入或注册能来查看收藏夹或收藏此观察记录...</string>
+    <string name="sync_obs_to_see_favs">同步该记录并查看点赞量</string>
+    <!-- Message when you try to view faves on an observation you haven't uploaded yet -->
+    <string name="sync_obs_to_add_comments_ids">同步该记录以添加评论或提交鉴定</string>
+    <!--  Label for a button to add an observation without a photo or a sound  -->
+    <string name="no_photo">没有媒体</string>
+    <string name="about_this_species">关于这个物种</string>
+    <string name="view_on_wikipedia">维基百科文章</string>
+    <string name="photo"><![CDATA[照片： <b><a href="%1$s">%2$s</a></b>]]></string>
+    <string name="photo_attr"><![CDATA[照片： <b>%1$s</b>]]></string>
+    <string name="finding_current_location">搜寻您所在的位置...</string>
+    <string name="flag_as_captive">标记为饲育/栽培的</string>
+    <string name="observation_flagged_as_captive">观察记录被标记为饲育/栽培的</string>
+    <string name="are_you_sure_you_want_to_flag_as_captive_no_close">您确定要将此观察记录标记为饲育/栽培？</string>
+    <string name="do_you_agree_to_the_following">你同意以下吗？</string>
+    <string name="terms">使用条款</string>
+    <string name="observation_rules">观察记录的规则</string>
+    <string name="couldnt_load_project_details">无法载入任务详细资讯： %1$s</string>
+    <string name="no_people_found">找不到使用者</string>
+    <string name="rank">排序</string>
+    <string name="identifications">鉴定</string>
+    <string name="no_news_found">没有新闻</string>
+    <string name="news">新闻</string>
+    <string name="article">文章</string>
+    <string name="couldnt_load_project_news">无法载入任务之新闻： %1$s</string>
+    <string name="couldnt_load_user_details">无法载入使用者详细资讯: %1$s</string>
+    <string name="more_bio"><![CDATA[<b><font color="#ffffff"> 更多»</font></b>]]></string>
+    <string name="no_location">无位置资讯</string>
+    <string name="add_to_projects">添加至项目</string>
+    <string name="are_you_sure_you_want_to_save_obs_without_coords">您确定要储存没有座标的观察记录吗？</string>
+    <string name="users_identification">%1$s 的鉴定 • %2$s</string>
+    <string name="edit_profile">编辑个人资料</string>
+    <string name="remove_photo">移除照片</string>
+    <string name="name">名字</string>
+    <string name="tell_us_about_yourself">告诉我们关于您自己...</string>
+    <string name="view_profile">查看个人资料</string>
+    <string name="are_you_sure_you_want_to_remove_photo">您确定要移除您的相片吗？</string>
+    <string name="updating_profile">更新个人资料中…</string>
+    <string name="there_was_a_problem_updating_profile">更新您的个人资料时发生问题！</string>
+    <string name="there_was_a_problem_updating_profile_params">更新您的个人资料时发生问题：%1$s</string>
+    <!-- Notice of which user is currently logged in, e.g. "Currently logged in as kueda" -->
+    <string name="currently_logged_in_as_html"><![CDATA[目前已经以 <b>%1$s</b> 身份登录。]]></string>
+    <string name="log_out">登出</string>
+    <string name="not_logged_in">未登入</string>
+    <!-- Prompt to log in to your account or sign up for a new account -->
+    <string name="login_or_sign_up">登录或注册</string>
+    <string name="auto_upload_description">自动上传新的观察和编辑过的观察记录</string>
+    <string name="language">语言</string>
+    <string name="version">版本</string>
+    <string name="inat_network">iNaturalist 网路</string>
+    <string name="inat_network_description">iNaturalist 附属网络是给 iNaturalist 社区本地化的框架。网站服务由当地机构支援，而这些机构已和 iNaturalist 签署协议，以此鼓励使用 iNaturalist 并且能有利于当地的生物多样性。</string>
+    <string name="more_info">更多信息</string>
+    <string name="select_network">选择附属网络</string>
+    <string name="help">说明</string>
+    <string name="stop">停止</string>
+    <string name="resume">继续</string>
+    <string name="cleaning_up">清除中...</string>
+    <string name="syncing">同步中...</string>
+    <string name="syncing_observation_fields">同步观察记录栏位中...</string>
+    <string name="syncing_observations">同步观察记录中...</string>
+    <string name="syncing_paused">暂停</string>
+    <string name="upload">上传</string>
+    <string name="search_observations">搜寻观察记录中...</string>
+    <string name="withdraw">撤回</string>
+    <!-- Dialog title for when you are updating the description of an identification -->
+    <string name="update_id_description">更新鉴定描述</string>
+    <string name="your_identification">您的鉴定：%1$s</string>
+    <string name="onboarding_species_name">如果能的话，请填写您看到的生物的名字，即便只是“昆虫”或“鸟类”也行，或者干脆留空。其他人也许会帮您鉴定！</string>
+    <string name="upload_complete">上传完成！</string>
+    <string name="onboarding_upload_description">请稍后回来查看其他人对你的观察记录的辨认及评论。</string>
+    <string name="importing_photos">正在汇入照片中...</string>
+    <string name="multi_select_description">在一张照片上长按以汇入多张照片</string>
+    <string name="preparing_photo">准备照片中...</string>
+    <string name="recommended_for_you">向您推荐</string>
+    <string name="missions">任务</string>
+    <string name="browse_by_category">按类别浏览</string>
+    <string name="couldnt_load_recommended_missions">无法载入推荐的任务: %1$s</string>
+    <string name="plants">植物</string>
+    <string name="mammals">哺乳动物</string>
+    <string name="insects">昆虫</string>
+    <string name="reptiles">爬行动物</string>
+    <string name="animals">动物</string>
+    <string name="fish">鱼类</string>
+    <string name="mollusks">软体动物</string>
+    <string name="protozoans">原生动物</string>
+    <string name="chromista">海带，硅藻和其它相关生物</string>
+    <string name="amphibians">两生类</string>
+    <string name="fungi">真菌</string>
+    <string name="birds">鸟类</string>
+    <string name="arachnids">蛛形纲动物</string>
+    <string name="no_connectivity">没有连线</string>
+    <string name="no_recommended_missions">看起来在此区域内并无推荐。尝试移动到新的位置。</string>
+    <string name="what_to_look_for">要找些什么？</string>
+    <string name="have_been_seen_here">曾在此被看到</string>
+    <string name="observe">观察</string>
+    <string name="nearby_missions">附近的任务</string>
+    <string name="searching_your_area">搜寻您所在地区中…</string>
+    <string name="expanding_your_search_area">扩展您的搜寻区域...</string>
+    <string name="introducing_missions">介绍任务！</string>
+    <string name="missions_onboarding_description">「任务」是对于您附近找寻生物的即时建议。透过这种方式您可以发现没看过的新物种 ！（需要网路连线）</string>
+    <string name="ok_got_it">OK，了解！</string>
+    <string name="could_not_download_observations">由于网络问题，最新的观察记录未能载入。请稍后再试。</string>
+    <string name="no_news_yet">尚未更新。请保持关注！</string>
+    <string name="my_content">我的内容</string>
+    <string name="following">关注中</string>
+    <string name="no_updates_yet">尚未更新。请保持关注！</string>
+    <string name="you_will_only_receive_updates_when_creating">一旦您已上传观察记录就会收到更新的资讯。</string>
+    <string name="you_will_only_receive_updates_when_following">一旦您已上传观察记录就会收到更新的资讯。</string>
+    <string name="user_activity_id"><![CDATA[<b>%1$s</b>建议了物种鉴定：%2$s<font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_activity_comment"><![CDATA[<b>%1$s</b>作出了评论：“%2$s”<font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_activity_mention"><![CDATA[<b>%1$s</b> 提到了您： &ldquo;%2$s&rdquo; <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="deleted_photos_from_cache_error">看起来您在上传前清除了 App 的快取而删除了一张照片。您需要从您的照片库中重新加回此照片至您的观察记录。之后当您清理 App 快取时请确定您已经上传了所有照片。</string>
+    <!--
+        Label for the number of new notifications you might have. This specific string is used in
+        the side drawer next to the Activity menu item when you have new activity on your own
+        content.
+    -->
+    <plurals name="new_activities">
+        <item quantity="other">%1s 则新通知</item>
+    </plurals>
+    <string name="no_results_found">找不到结果...</string>
+    <plurals name="syncing_x_out_of_y_observations">
+        <item quantity="other">正在同步 %2$d 笔观察记录中的第 %1$d 笔……</item>
+    </plurals>
+    <string name="deleting_observations">删除观察记录中...</string>
+    <string name="preparing">准备中...</string>
+    <string name="add_edit_remark">新增/编辑备注</string>
+    <string name="restore">复原</string>
+    <string name="compare">比较</string>
+    <string name="select">选择</string>
+    <string name="source_wikipedia">（来源：维基百科）</string>
+    <string name="conservation_source"><![CDATA[<b>来源：</b><i>%1$s</i>]]></string>
+    <string name="conservation_status_least_concern">轻度关注</string>
+    <string name="conservation_status_near_threatened">接近威胁</string>
+    <string name="conservation_status_vulnerable">易受害</string>
+    <string name="conservation_status_endangered">濒临灭绝</string>
+    <string name="conservation_status_critically_endangered">严重濒临灭绝</string>
+    <string name="conservation_status_extinct_in_the_wild">野外灭绝</string>
+    <string name="conservation_status_extinct">灭绝</string>
+    <string name="map_of_observations">观察地图</string>
+    <string name="taxonomy">分类</string>
+    <string name="about_this_section">关于这一节</string>
+    <!-- Explanation of the taxonomy displayed on the taxon detail screen. -->
+    <string name="taxonomy_info">这些是这个特定分类群的祖先连结。它们是依照粗至细来排序。使用这些连结来移动生命之树(Tree of Life)的上下顺序。举例来说，如果您不知道这个生物是什么，但知道它是属于哪一群，在列表上点击一个分类群来查看关于它的更多资讯。</string>
+    <string name="more_info_on_inat">iNaturalist.org 网站上的更多信息</string>
+    <string name="view_suggestions">查看建议</string>
+    <string name="species_search">物种搜寻</string>
+    <string name="were_not_confident_enough">我们信心不足以致于无法提出对此物种的建议，但这是我们10笔最佳建议。</string>
+    <string name="were_not_confident_enough_no_suggestions">我们无法提供合适的建议</string>
+    <!-- Header for a list of suggested taxa based on observation frequency (i.e. not incorporating visual similarity) -->
+    <string name="most_observed_options_matching_filters">符合筛选条件中最多观察的选项</string>
+    <!-- Header for a list of suggested taxa -->
+    <string name="top_suggestions">最佳建议</string>
+    <string name="pretty_sure_rank">我们很肯定的是在这 %1$s:</string>
+    <string name="what_did_you_see">您看到什么？</string>
+    <string name="suggest_species">建议的物种</string>
+    <string name="suggest_species_description">针对照片中外观相似度来建议物种。</string>
+    <string name="visually_similar">外观看起来很像</string>
+    <string name="visually_similar_seen_nearby">视觉上相似/附近曾见过</string>
+    <string name="visually_similar_expected_nearby">视觉上相似/预料在附近</string>
+    <string name="seen_nearby">附近曾见过</string>
+    <string name="expected_nearby">预料在附近</string>
+    <string name="enlarge">放大</string>
+    <!-- Label for a button that shows children of the current taxon, e.g. species within a genus or families within an order -->
+    <string name="view_children">查看子项目</string>
+    <string name="taxon_has_no_photos">这分类群没有照片。</string>
+    <string name="terrain">地形</string>
+    <string name="filters">搜索条件</string>
+    <string name="exploring_all">浏览全部</string>
+    <string name="nearby">附近</string>
+    <string name="couldnt_load_results">无法加载结果: %1$s</string>
+    <!-- This should match the way Research Grade has been transalted, so if that's been translated as "grado de investigación" this should be "GI" -->
+    <string name="research_grade_initials">RG</string>
+    <string name="taxon_search_hint">例如：鸟类，君主斑蝶</string>
+    <string name="location_search_hint">例如：城市，州，公园，国家</string>
+    <string name="no_taxon">抱歉，未找到相关分类信息</string>
+    <string name="please_select_taxon">请在列表中选择一个正确的分类名称（或者清除分类名称的字段）。</string>
+    <string name="sorry_no_location">抱歉，未找到相关位置信息</string>
+    <string name="location_not_found">未能在我们的数据库中找到您所搜索的位置信息。请在位置搜索栏下的选项中选择一个位置，或者清除位置搜索栏中的内容</string>
+    <string name="undefined">未定义的</string>
+    <string name="street_segment">街道区段</string>
+    <string name="intersection">交叉点</string>
+    <string name="town">镇</string>
+    <!-- As in a political administrative area, e.g. Hawaii in the United States -->
+    <string name="state">州（state)</string>
+    <string name="county">县</string>
+    <string name="local_administrative_area">地方管辖区域</string>
+    <string name="country">国家</string>
+    <string name="island">岛屿</string>
+    <string name="airport">机场</string>
+    <string name="drainage">下水道</string>
+    <string name="land_feature">地貌特征</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="miscellaneous">其他</string>
+    <string name="nationality">国籍</string>
+    <!-- Place type describing an area spanning multiple countries, e.g. Western Europe or Hispaniola -->
+    <string name="supername">国家以上的行政区域</string>
+    <string name="point_of_interest">感兴趣的地方</string>
+    <!-- Place type for a place like https://en.wikipedia.org/wiki/Region -->
+    <string name="region">区域</string>
+    <!-- Place type for a place without much of a formal definition, e.g. the San Francisco Bay Area -->
+    <string name="colloquial">口语化的</string>
+    <string name="zone">区域</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="historical_state">旧省份</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="historical_county">旧郡县</string>
+    <string name="continent">大陆</string>
+    <string name="estate">财产</string>
+    <string name="historical_town">历史城镇</string>
+    <string name="aggregate">聚落</string>
+    <string name="open_space">空地</string>
+    <string name="territory">领土</string>
+    <string name="district">区</string>
+    <string name="province">省份</string>
+    <string name="municipality">自治市/区</string>
+    <string name="parish">行政区</string>
+    <!-- Added by mistake with some GADM place types, but subsequently used by some of our users. Assume it's a type of place contained within a "department" -->
+    <string name="department_segment">部门</string>
+    <string name="city_building">城市建筑</string>
+    <string name="commune">合作社</string>
+    <string name="governorate">行省</string>
+    <string name="prefecture">州 (Prefecture)</string>
+    <string name="canton">郡</string>
+    <string name="republic">共和国</string>
+    <string name="division">分区</string>
+    <string name="subdivision">子分区</string>
+    <!-- https://gadm.org place type, presumably describing an area larger than an individual property but smaller than a neighborhood -->
+    <string name="village_block">局部街区</string>
+    <!-- Mongolian sub-sub-national place type: https://en.wikipedia.org/wiki/Districts_of_Mongolia -->
+    <string name="sum">区（蒙古）</string>
+    <string name="shire">郡（英国）</string>
+    <string name="prefecture_city">州府</string>
+    <!-- Indonesian sub-sub-national place type -->
+    <string name="regency">市（印尼）</string>
+    <string name="constituency">选区</string>
+    <string name="local_authority">地方行政区域</string>
+    <!-- https://en.wikipedia.org/wiki/Poblacion -->
+    <string name="poblacion">城区（菲律宾）</string>
+    <!-- https://en.wikipedia.org/wiki/Delegations_of_Tunisia -->
+    <string name="delegation">代表</string>
+    <string name="apply_filters">使用搜索条件</string>
+    <string name="remove_filters">移除筛选项</string>
+    <string name="reset">重置</string>
+    <string name="show_only_my_observations">只显示我的观察记录</string>
+    <string name="project">项目</string>
+    <string name="user">用户</string>
+    <string name="search_users">搜索用户...</string>
+    <string name="quality_grade">质量级别</string>
+    <!-- Label for observation filters specifying when the observations were made in the field (not necessarily when they were added to iNaturalist) -->
+    <string name="date_observed">观察日期</string>
+    <!-- Generally used as a menu option to indicate no preference, e.g. Date of Observation: Any / Exact / Range / Month -->
+    <string name="any">任意</string>
+    <!-- Used to separate a date range, e.g. "2018-01-04 to 2018-05-02" -->
+    <string name="to">至</string>
+    <string name="exact_date">精确日期</string>
+    <string name="start">开始</string>
+    <string name="end">结尾</string>
+    <string name="months">月份</string>
+    <string name="choose_months">选择月份</string>
+    <string name="map_area">地图区域</string>
+    <string name="global">全球的</string>
+    <!-- As in redo search in the current map area -->
+    <string name="search_map_area">在地图所示范围内搜索</string>
+    <!-- Compact form of "X minutes ago", so "3 minutes ago" would be "3m" -->
+    <string name="date_minute">%d分钟前</string>
+    <!-- Compact form of "X hours ago", so "3 hours ago" would be "3h" -->
+    <string name="date_hour">%d小时前</string>
+    <!-- Compact form of "X days ago", so "3 days ago" would be "3d" -->
+    <string name="date_day">%d天前</string>
+    <!-- Compact form of "X weeks ago", so "3 weeks ago" would be "3w" -->
+    <string name="date_week">%d周前</string>
+    <string name="new_observation">新观察</string>
+    <string name="inactive_taxon">无效分类单元</string>
+    <string name="no_identifications_found">追踪您替其他用户的观察记录所做的鉴定</string>
+    <string name="no_species_found">这份名单显示的是您观察次数最多的物种。\n\n 贴士：地球上有超过九百万的物种，赶快出门开始观察吧！</string>
+    <string name="make_an_observation">提交观察记录</string>
+    <string name="no_observations_found_new">观察记录指的是您在特定的时间和位置和物种个体之间的邂逅</string>
+    <string name="discard_comment">确定放弃评论吗？</string>
+    <string name="leave_comment">添加评论...</string>
+    <string name="swipe">滑动</string>
+    <string name="swipe_indicator">›</string>
+    <string name="potential_disagreement">潜在的分歧</string>
+    <string name="do_you_think_this_could_be"><![CDATA[已有的证据是否可以确保这是<b>%1$s</b>？]]></string>
+    <!-- This sentence expresses uncertainty at a fine taxonomic level but certainty at a higher taxonomic level, e.g. "I don't know if this is a dog but I'm sure it is a mammal." -->
+    <string name="i_dont_know_but"><![CDATA[我不知道，但我确定这是<b>%1$s</b>。]]></string>
+    <string name="no_but_it_is_a_member_of_taxon"><![CDATA[不，但这确实属于<b>%1$s</b>。]]></string>
+    <string name="submit">提交</string>
+    <string name="change_password">更改密码</string>
+    <string name="search_projects_youve_joined">搜索您所加入的项目...</string>
+    <string name="must_be_connected_to_load_more_obs">您必须连接到网络才能加载更多观察记录</string>
+    <string name="inat_about_title_new">iNaturalist 是一个设立在美国的独立501(c)(3) 非营利机构(EIN 92-1296468)</string>
+    <!--
+        Pronunciation of people's names (as approved by the people in question):
+
+        Abhas Misraraj: ɑbhɑs mɪʃrɑrɑdʒ (http://ipa-reader.xyz/?text=%C9%91bh%C9%91s%20m%C9%AA%CA%83r%C9%91r%C9%91d%CA%92)
+        Alex Shepard: ˈæ.lɪks ˈʃɛpɚd (http://ipa-reader.xyz/?text=%CB%88%C3%A6.l%C9%AAks%20%CB%88%CA%83%C9%9Bp%C9%9Ad)
+        Ken-ichi Ueda: ˌkɛˈniʧi weɪdɑ (http://ipa-reader.xyz/?text=%CB%8Ck%C9%9B%CB%88ni%CA%A7i%20we%C9%AAd%C9%91)
+        Tony Iwane: ˈtoʊni ɪˈwɑneɪ (http://ipa-reader.xyz/?text=%CB%88to%CA%8Ani%20%C9%AA%CB%88w%C9%91ne%C9%AA)
+    -->
+    <string name="inat_credits2"><![CDATA[iNaturalist 的创建要归功于每一个参与我们社区的人。这包括构建软件、设计界面、维护底层、支援社区并促进合作的人员，包括Yaron Budowski、Amanda Bullington、Tony Iwane、Johannes Klein、Patrick Leary、Scott Loarie、Abhas Misraraj、Sylvain Morin、Carrie Seltzer、Alex Shepard, 以及 Ken-ichi Ueda。<br/><br/>加州理工学院 (CalTech) 和康奈尔科技校区 (Cornell Tech) 协助开发了可以识别图片、并提供物种鉴定上的建议的电脑视觉系统。我们感谢 Grant Van Horn, Serge Belongie, 以及 Pietro Perona 一同协助这项工作。更多资讯请访问<a href="https://www.visipedia.org">visipedia.org</a>. 特别感谢 NVIDIA 提供帮助。]]></string>
+    <string name="inat_credits_networks_pre"><![CDATA[以下国家支持本地化的、全面整合的以及含有构建于 iNaturalist 基础上的网站的 iNaturalist 附属网络，感谢相关合作组织的协助。]]></string>
+    <string name="inat_credits_post"><![CDATA[iNaturalist 也深深的感谢开源开发者，他们为我们每天依赖的软件提供了许多东西。有关开源贡献，请参阅 <a href="https://github.com/inaturalist/iNaturalistAndroid">https://github.com/inaturalist/iNaturalistAndroid</a>.<br/> 我们感谢 crowdin.com 社区的志愿者提供的翻译协助，特别是 Eduardo Martínez, 林政道 (Lin Cheng-Tao), KestrelLam, cgalindo, vilseskog, NCAA, ldacosta, radana, Mykola Pukhalskyi, danieleseglie, 以及 katunchik. <br/>IUCN 第二类保护区由国际自然保护联盟 (IUCN) 和世界保护监测中心 (UNEP-WCMC) 提供，世界保护地数据库 (WDPA) [On-line], [11/2014], Cambridge, UK: UNEP-WCMC. 可在 <a href="http://www.protectedplanet.net">www.protectedplanet.net</a> 查看。]]></string>
+    <string name="credits_title">贡献者</string>
+    <string name="password_changed">您在此应用中设置的密码无法通过验证。您是否在网页版中更改了密码呢？请在此输入新的密码</string>
+    <string name="just_so_you_know">只是让您知道...</string>
+    <string name="ask_for_g_plus_permissions">为了使用您的 Google 账户，Google 要求我们征得访问您通讯录的许可，虽然我们并不会以任何原因访问您的通讯录。如果您不同意该许可，您则需要通过账号-密码来注册或登录。</string>
+    <string name="new_to_inat_sign_up_now"><![CDATA[初次访问%1$s? <b>注册吧！</b>]]></string>
+    <string name="see_more_observations">检视更多观察记录</string>
+    <string name="see_more_species">查看更多物种</string>
+    <string name="see_more_identifications">查看更多标识</string>
+    <string name="collection_and_umbrella_projects">搜集型和统筹型项目</string>
+    <string name="description">描述</string>
+    <string name="quantity">数量</string>
+    <string name="agree2">同意</string>
+    <string name="project_observations">观察资料</string>
+    <string name="project_species">物种</string>
+    <string name="project_people">人员</string>
+    <!-- People who added identifications to observations in a project -->
+    <string name="project_identifiers">鉴定者</string>
+    <string name="got_it">明白！</string>
+    <string name="view_all">检视全部</string>
+    <string name="observers">观察者</string>
+    <!-- Describes the attribute being annotated, e.g. if the annotation is for life stage, "Life Stage" is the attribute. -->
+    <string name="attribute">属性</string>
+    <!-- Value of an annotation, e.g. if the annotation is for life stage and the value chosen is "Adult" then "Adult" is the value -->
+    <string name="value">值</string>
+    <!-- Label for a button allowing users to state that they think an annotation is incorrect -->
+    <string name="disagree">反对</string>
+    <!-- Annotations are key/value pairs applied to observations with a controlled vocabulary -->
+    <string name="annotations">注释</string>
+    <!-- Used when filtering observations with annotations -->
+    <string name="with_annotation">附带注释</string>
+    <!-- Attribute of an annotation. Synonymous with "Attribute" but slightly more explanatory for use in a popup header -->
+    <string name="annotation_name">属性名</string>
+    <!-- Annotation value for when no annotation has been chosen -->
+    <string name="none">无</string>
+    <!-- Phenological state of flowers on a plant -->
+    <string name="annotation_name_flowers_and_fruits">开花和挂果</string>
+    <!-- Describes life stage at the time of observation, e.g. juvenile, adult -->
+    <string name="annotation_name_life_stage">生活史阶段</string>
+    <!-- Noun, describes sex of the organism -->
+    <string name="annotation_name_sex">性别</string>
+    <!-- Attribute that describes whether the organism is alive or dead -->
+    <string name="annotation_name_alive_or_dead">活体或死亡</string>
+    <!-- Attribute that describes what kind of evidence of an organism's presence was recorded in this observation -->
+    <string name="annotation_name_evidence_of_presence">物种出现的证据</string>
+    <!-- Attribute that describes the phenological state of the leaves on a plant -->
+    <string name="annotation_name_leaves">叶片</string>
+    <!-- Attribute that describes whether the observed organism is part of an established population or something more like a waif or escaped pet -->
+    <string name="annotation_name_established">已定殖</string>
+    <!-- Adjective, having open flowers -->
+    <string name="annotation_value_flowers">开花</string>
+    <!-- Adjective, having fruit or seeds -->
+    <string name="annotation_value_fruits_or_seeds">果实或种子</string>
+    <!-- Adjective, having unopened flowers -->
+    <string name="annotation_value_flower_buds">花芽</string>
+    <!-- Observation presents no evidence of flowering phenology -->
+    <string name="annotation_value_no_flowers_or_fruits">无花无果</string>
+    <!-- Adjective describing the life stage where an individual can reproduce -->
+    <string name="annotation_value_adult">成体</string>
+    <!-- Adjective describing the odonate life stage between nymph and adult -->
+    <string name="annotation_value_teneral">初成体</string>
+    <!-- Noun for a dormant phase of holometabolous insects between larva and adult -->
+    <string name="annotation_value_pupa">蛹</string>
+    <!-- Noun for larval stage of some aquatic insects and most hemimetabolous insects -->
+    <string name="annotation_value_nymph">若虫</string>
+    <!-- Noun for the arthropod life stage between egg and adult -->
+    <string name="annotation_value_larva">幼虫</string>
+    <string name="annotation_value_egg">卵</string>
+    <!-- Life stage before adulthood, could work as a noun or an adjective -->
+    <string name="annotation_value_juvenile">幼体</string>
+    <!-- Life stage between pupa and adult, generally used for mayflies (Ephemeroptera) -->
+    <string name="annotation_value_subimago">亚成体</string>
+    <string name="annotation_value_female">雌性</string>
+    <string name="annotation_value_male">雄性</string>
+    <!-- Adjective, alive and shows no signs of imminent death -->
+    <string name="annotation_value_alive">活体</string>
+    <!-- Adjective, dead or shows signs of imminent death -->
+    <string name="annotation_value_dead">死亡</string>
+    <!-- Value for when the value of the attribute cannot be determined -->
+    <string name="annotation_value_cannot_be_determined">无法确认</string>
+    <!-- "Evidence of Presence" value when the observation depicts the organism itself and not some kind of sign the organism left behind -->
+    <string name="annotation_value_organism">生物</string>
+    <!-- "Evidence of Presence" value when for bird feathers -->
+    <string name="annotation_value_feather">羽毛</string>
+    <!-- "Evidence of Presence" value when for fecal remains -->
+    <string name="annotation_value_scat">排泄物</string>
+    <!-- "Evidence of Presence" value for impressions in the ground or snow -->
+    <string name="annotation_value_track">足迹</string>
+    <!-- "Evidence of Presence" value when for bones -->
+    <string name="annotation_value_bone">骨骼</string>
+    <!-- "Evidence of Presence" value when for discarded reptile skins and arthropod exoskeletons -->
+    <string name="annotation_value_molt">蜕皮</string>
+    <!-- "Evidence of Presence" value when for something created by an animal, made with or excavated from other materials -->
+    <string name="annotation_value_construction">构造物</string>
+    <!-- "Evidence of Presence" value when for deformed plant tissue outgrowth caused by a parasitic organism -->
+    <string name="annotation_value_gall">虫瘿</string>
+    <!-- "Evidence of Presence" value when for hair that is no longer attached to the organism from which it originated -->
+    <string name="annotation_value_hair">毛发</string>
+    <!-- "Evidence of Presence" value when for evidence of feeding between the dermal layers of a leaf -->
+    <string name="annotation_value_leafmine">潜道</string>
+    <!-- "Leaves" value when for leaf buds that are opening -->
+    <string name="annotation_value_breaking_leaf_buds">叶芽萌发</string>
+    <!-- "Leaves" value when for green leaves -->
+    <string name="annotation_value_green_leaves">绿叶</string>
+    <!-- "Leaves" value when for leaves with colors other than green, e.g. dying leaves in autumn -->
+    <string name="annotation_value_colored_leaves">有色叶</string>
+    <!-- "Leaves" value when there are no living leaves -->
+    <string name="annotation_value_no_live_leaves">无活叶</string>
+    <!-- "Established" value when the organism is not established, e.g. an escaped pet. See https://www.inaturalist.org/blog/91460-piloting-an-establishment-annotation-with-amphibians-and-reptiles -->
+    <string name="annotation_value_not_established">未定殖</string>
+    <!-- Text for a label for a list of projects the viewer has joined -->
+    <string name="joined_projects_all_caps">已加入</string>
+    <string name="nearby_projects_all_caps">附近的</string>
+    <string name="featured_projects_all_caps">精选</string>
+    <!-- Text for a button or label that allows someone to join a project -->
+    <string name="join_all_caps">加入</string>
+    <string name="my_guides_all_caps">你的</string>
+    <string name="nearby_guides_all_caps">附近的</string>
+    <string name="all_guides_all_caps">所有</string>
+    <string name="description_all_caps">描述</string>
+    <string name="quantity_all_caps">数量</string>
+    <plurals name="observation_count_all_caps">
+        <item quantity="other">%1$s 笔观察记录</item>
+    </plurals>
+    <string name="agree_all_caps">同意</string>
+    <string name="observations_all_caps">观察记录</string>
+    <string name="species_all_caps">物种</string>
+    <string name="people_all_caps">用户</string>
+    <string name="identifiers_all_caps">鉴定者</string>
+    <string name="identifications_all_caps">鉴定记录</string>
+    <string name="news_all_caps">新闻</string>
+    <string name="got_it_all_caps">知道了！</string>
+    <string name="view_all_all_caps">查看全部</string>
+    <string name="observers_all_caps">观察者</string>
+    <string name="observations_regular">观察记录</string>
+    <string name="data_quality_assessment">数据质量评估</string>
+    <string name="research_grade_qualification">研究级资质</string>
+    <string name="date_specified">指定日期</string>
+    <string name="location_specified">指定的位置</string>
+    <string name="has_photos_or_sounds">有照片或声音</string>
+    <string name="has_id_supported_by_two_or_more">具有两个或多个支持的 ID</string>
+    <string name="date_is_accurate">日期是准确的</string>
+    <string name="location_is_accurate">位置是准确的</string>
+    <string name="organism_is_wild">生物是野生的</string>
+    <string name="evidence_of_organism">生物体的证据</string>
+    <string name="recent_evidence_of_an_organism">生物的最新证据</string>
+    <string name="community_id_at_species_level_or_lower">物种级或较低的社区 ID</string>
+    <string name="based_on_evidence_can_community_id_be_confirmed">根据证据, 社区身份证还能确认或改进吗？</string>
+    <string name="no_as_good_as_it_can_be">不, 它是尽可能好的</string>
+    <string name="evidence_related_to_single_subject">与单一主体有关的证据</string>
+    <string name="seasonality">季节性</string>
+    <string name="verifiable">可验证</string>
+    <string name="no_annotation">无批注</string>
+    <string name="donate_to_inaturalist">捐助 iNaturalist</string>
+    <string name="prefers_scientific_name_first">优先显示学名</string>
+    <string name="prefers_scientific_name_first_description">在普通名称之前显示学名。</string>
+    <string name="network_credit_inaturalistcanada"><![CDATA[加拿大：iNaturalist Canada (<a href="https://inaturalist.ca">inaturalist.ca</a>) 由加拿大野生动物联盟 (Canadian Wildlife Federation)、安大略皇家博物馆 (Royal Ontario Museum)、NatureServe Canada 以及加拿大公园局 (Parks Canada) 共同营运]]></string>
+    <string name="network_credit_naturalistacolombia"><![CDATA[哥伦比亚：Naturalista (<a href="https://colombia.inaturalist.org">colombia.inaturalist.org</a>) 由洪堡研究所 (Instituto Humboldt) 营运]]></string>
+    <string name="network_credit_naturalista"><![CDATA[墨西哥：NaturaLista (<a href="https://naturalista.mx">NaturaLista.mx</a>) 由国家生物多样性使用及知识委员会 (Comisión nacional para el conocimiento y uso de la biodiversidad; CONABIO) 营运]]></string>
+    <string name="network_credit_naturewatchnz"><![CDATA[新西兰：iNaturalist NZ — Mātaki Taiao (<a href="https://inaturalist.nz">inaturalist.nz</a>) 由新西兰生物多样性记录网络 (New Zealand Biodiversity Recording Network) 营运]]></string>
+    <string name="network_credit_biodiversity4all"><![CDATA[葡萄牙: 营运 Biodisy4all 的全民生物多样性协会 (Associação Biodiversidade Para Todos; <a href="https://biodiversity4all.org">biodistiny4al. org</a>)]]></string>
+    <string name="network_credit_inaturalistpanama"><![CDATA[巴拿马: 营运 iNaturalistPa 的环境部 (Ministerio de Ambiente; <a href="https://panama.inaturalist.org">panama.inaturalist.org</a>)]]></string>
+    <string name="network_credit_argentinat"><![CDATA[阿根廷：Fundación Vida Silvestre Argentina 支持 ArgentiNat (<a href="https://www.argentinat.org">www.argentinat.org</a>)]]></string>
+    <string name="network_credit_inaturalistaustralia"><![CDATA[澳大利亚：Atlas of Living Australia 支持 iNaturalist Australia (<a href="https://inaturalist.ala.org.au">inaturalist.ala.org.au</a>)]]></string>
+    <string name="network_credit_inaturalistecuador"><![CDATA[厄瓜多尔：Instituto Nacional de Biodiversidad (INABIO) 支持 iNaturalist Ecuador (<a href="https://ecuador.inaturalist.org">ecuador.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistil"><![CDATA[以色列：海法大学支持 iNaturalist Israel (<a href="https://israel.inaturalist.org">israel.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistfi"><![CDATA[芬兰：芬兰自然历史博物馆（LUOMUS）支持 iNaturalist Finland (<a href="https://inaturalist.laji.fi/">inaturalist.laji.fi</a>]]></string>
+    <string name="network_credit_inaturalistcl"><![CDATA[智利：Ministerio del Medio Ambiente 支持 iNaturalist Chile (<a href="https://inaturalist.mma.gob.cl/">inaturalist.mma.gob.cl</a>)]]></string>
+    <string name="network_credit_inaturalistgr"><![CDATA[希腊：iSea 支持 iNaturalist Greece (<a href="https://greece.inaturalist.org">greece.iNaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistlu"><![CDATA[卢森堡：卢森堡国立自然史博物馆 (Mnhnl) 支持 iNaturalist Luxembourg (<a href="https://inaturalist.lu">inaturalist.lu</a>)]]></string>
+    <string name="network_credit_inaturalistuk"><![CDATA[英国：国家生物多样性保护网基金支持 iNaturalist United Kingdom (<a href="https://uk.inaturalist.org">uk.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistcr"><![CDATA[哥斯达黎加：Comisión Nacional para la Gestión de la Biodiversidad (CONAGEBIO) 支持 Naturalista Costa Rica (<a href="https://costarica.inaturalist.org">costarica.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistgt"><![CDATA[危地马拉：Consejo Nacional de Áreas Protegidas (CONAP) 支持 iNaturalist Guatemala (<a href="https://guatemala.inaturalist.org">guatemala.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistse"><![CDATA[瑞典：瑞典农业科学大学瑞典物种信息中心支持 iNaturalist Sweden (<a href="https://www.inaturalist.se">www.inaturalist.se</a>)]]></string>
+    <string name="network_credit_naturalistauy"><![CDATA[乌拉圭：JULANA and Biodiversidata 支持 Naturalista Uruguay (<a href="http://www.naturalista.uy/">www.naturalista.uy</a>)]]></string>
+    <string name="network_credit_inaturalisttw"><![CDATA[中国台湾：嘉义大学和农业部林业试验所支持 iNaturalist Taiwan (<a href="https://taiwan.inaturalist.org/">https://taiwan.inaturalist.org/</a>)]]></string>
+    <string name="mark_all_as_viewed">全部标记为已读</string>
+    <string name="content_hidden">内容已隐藏</string>
+    <string name="show_hidden_content">显示隐藏内容</string>
+    <string name="content_hidden_because">因为%3$s，所以在%2$s的内容被@%1$s隐藏。</string>
+    <string name="contact_support_with_link"><![CDATA[<a href="mailto:help@inaturalist.org">联系客服</a>]]></string>
+    <string name="content">内容</string>
+    <string name="has_photos">拥有照片</string>
+    <string name="has_sounds">拥有声音</string>
+    <string name="could_not_play_sound">无法播放声音 - 可能是网络问题</string>
+    <string name="cant_play_soundcloud"><![CDATA[若要要听Soundcloud声音，请查看 <a href="%1$s">网站</a>。]]></string>
+    <string name="soundcloud">Soundcloud</string>
+    <!-- Label for a button to open a sound recorder to record a new sound for an observation -->
+    <string name="record_sound">录音</string>
+    <string name="couldnt_retrieve_sound">无法从默认录音设备取得声音，请尝试导入声音</string>
+    <!-- Label for a button to import an existing sound for an observation -->
+    <string name="upload_sound">选择音频</string>
+    <string name="multi_select_sound_description">在单一音频上长按以导入多个音频</string>
+    <string name="alert_unsupported_audio_type">对不起，从此来源加载音频时出现问题</string>
+    <string name="invalid_audio_extension">导入声音时出错：只能导入WAV/MP3/AMR格式的声音文件</string>
+    <string name="importing_sounds">正在导入音频(s)...</string>
+    <string name="observation_sound">声音观察记录</string>
+    <string name="deleted_sounds_from_cache_error">看起来您在上传前清除了 App 的缓存而删除了一张照片。您需要从您的照片库中重新加回此照片至您的观察记录。之后当您清理 App 缓存时请确定您已经上传了所有照片。</string>
+    <!-- Used when recording a sound - it's a counter, counting the number of seconds that have passed. e.g. 3.2 sec = 3.2. seconds -->
+    <string name="seconds">%1$.1f 秒</string>
+    <string name="clear_all_debug_logs">清除所有除错记录</string>
+    <string name="clears_up_storage_room_on_your_phone">清理您手机上的存储空间</string>
+    <string name="number_of_days_to_store_logs">存储记录的天数</string>
+    <string name="send_debug_logs_from_start_date">从起始日期发送除错记录</string>
+    <string name="send_debug_logs_by_email">通过电子邮件发送除错记录 (从指定日期开始)</string>
+    <string name="debug_settings">除错设置</string>
+    <string name="are_you_sure_you_want_to_delete_logs">您确定要删除所有纠错记录吗？只有当您想要清理手机的存储空间时再按“是”</string>
+    <string name="no_log_files_found">没有找到指定日期范围内的日志文件 - 请尝试更早的日期？</string>
+    <string name="choose_pinned_location">选择钉选位置</string>
+    <string name="pin_current_location">釘选当前位置</string>
+    <string name="location_pinned_successfully">当前位置钉选成功</string>
+    <string name="delete_this_pinned_location">删除这个釘选的位置？</string>
+    <!-- Verb, as in "Duplicate this photo" - Second person imperative -->
+    <string name="duplicate">复制</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the photo for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_photo">无法复制照片！</string>
+    <string name="couldnt_edit_photo">无法编辑照片！</string>
+    <!-- Verb, as in "Rotate this photo" -->
+    <string name="ucrop_rotate">旋转</string>
+    <!-- Verb, as in "Scale (resize) this photo" -->
+    <string name="ucrop_scale">缩放比例</string>
+    <!-- Verb, as in "Crop this photo" -->
+    <string name="ucrop_crop">裁剪：</string>
+    <!-- Label for adjusting the brightness of an image -->
+    <string name="ucrop_brightness">亮度</string>
+    <!-- Label for adjusting the contrast of an image -->
+    <string name="ucrop_contrast">对比度</string>
+    <!-- Label for adjusting the saturation of an image -->
+    <string name="ucrop_saturation">饱和度</string>
+    <!-- Label for adjusting the sharpness of an image -->
+    <string name="ucrop_sharpness">锐度</string>
+    <!-- Label for image cropping mode that maintains the original aspect ratio -->
+    <string name="ucrop_label_original">原始照片</string>
+    <!-- Label for image cropping mode that has no limits on the aspect ratio -->
+    <string name="ucrop_label_free">无限制</string>
+    <!-- Verb phrase, button label to edit an observation photo -->
+    <string name="ucrop_label_edit_photo">编辑照片</string>
+    <string name="service_temporarily_unavailable">服务暂时不可用。</string>
+    <string name="please_try_again_in_a_few_hours">请几小时后再试。</string>
+    <!-- e.g. "Please try again in 3 hours", or "Please try again in 15 minutes" -->
+    <string name="please_try_again_in_x">请在 %1$d %2$s 后再试。</string>
+    <string name="hours">小时</string>
+    <string name="minutes">分钟</string>
+    <string name="seconds_value">秒</string>
+    <string name="shop_the_inat_store">在 iNat 商店购物</string>
+    <string name="delete_your_account">删除您的帐户</string>
+    <string name="delete_account_message"><![CDATA[删除您的帐户将会删除：<br/><br/><ul><li> 您的所有观察记录，包括以鉴定帮助你们的所有人的努力。</li><li> 您已添加到其他人观察的所有身份验证。 这将可能影响这些观测结果的数据质量。</li><li> 您已添加的所有评论。</li></ul><br/>此外，此操作不能撤消。 如果您稍后更改主意，您将\n无法回复任何内容。<br/><br/>如果此服务生成的通知太多， 考虑在 <a href="https://www.inaturalist.org/users/edit">编辑网站上的设置</a> 选择不接受某些通知或停止接收来自我们的邮件。 如果您在特定的人遇到问题，请考虑 <a href="https://www.inaturalist.org/users/edit">禁用他们</a> 而不是删除您的帐户。<br/><br/>如果您仍然确定要删除您的帐户。 在下面的表单中输入 <b>\"%1$s\"</b> 然后点击按钮删除您的帐户和所有数据。]]></string>
+    <string name="your_account_has_been_deleted">您的帐号已经被删除</string>
+    <string name="you_must_enter_username_in_the_form_to_delete_account">您必须在表单中输入\'%1$s\'才能删除您的帐户</string>
+    <!-- Second person hint text asking the user to enter their username -->
+    <string name="type_your_username">输入您的用户名</string>
+    <string name="error_deleting_account">删除您的帐户时发生错误 - 请检查您的网络连接</string>
+    <string name="verify_your_password">请确认您的密码</string>
+    <string name="third_party_data_sharing">第三方数据共享</string>
+    <string name="disable_third_party_data_sharing">禁用第三方数据共享</string>
+    <string name="do_not_collect_third_party_data">不要使用第三方服务来收集稳定性和使用数据</string>
+    <string name="enabled">已启用</string>
+    <string name="disabled">已禁用</string>
+    <string name="third_party_data_sharing_notes1"><![CDATA[我们使用各种第三方服务来监测稳定性并诊断我们软件中的缺陷和问题。 这些第三方包括：<br/><ul><li>Google (<a href="https://analytics.google.com/">Google Analytics</a> <a href="https://firebase.google.com/products/crashlytics/">Firebase Crashlytics</a></li><li><a href="https://newrelic.com/">New Relic</a></li></ul><a href="https://newrelic.com/">]]></string>
+    <string name="third_party_data_sharing_notes2"><![CDATA[我们与这些第三方共享的信息包括：<br/><ul><li>IP地址（可用于推测您所在的城市，并在不同网站或服务中追踪您； <a href="https://support.google.com/analytics/answer/2763052">IP anonymization</a> in Google Analytics and <a href="https://firebase.google.com/support/privacy">Firebase Crashlytics</a> does not record IP address to our knowledge)</li><li>Browser details, like make, model, and version</li><li>Crash details, like exactly what line of code caused a crash</li><li>Device details, like make and model of a mobile phone</li></ul>]]></string>
+    <string name="third_party_data_sharing_notes3"><![CDATA[<b>这些第三方服务为我们</b>以相对较少的员工维持 iNaturalist 的稳定性和可用性提供了巨大的价值。 在移动设备上，我们几乎没有其他方法可以深入了解正在发生的问题，因为软件运行在我们无法控制的设备上。 有时，我们甚至没有意识到此类问题的发生，直到我们在这些服务提供的数据中看到它们。<b>通过分享此信息，您将帮助我们为您和整个 iNaturalist 社区提供服务。</b>]]></string>
+    <string name="third_party_data_sharing_notes4"><![CDATA[请注意，这个选项仅适用于我们向这些公司明确发送的分析和崩溃数据。 所有iNaturalist 服务器都由Microsoft提供和托管，所有iNaturalist 图像都由Amazon 托管，几乎所有iNaturalist 地图都由Google提供服务。 这意味着每次您都会在 iNaturalist 上看到观察结果， 您正在连接到这些公司提供的服务，并且暴露您的IP地址。 至少在 iPhone 应用程序中，我们使用 Apple 的地图)。 如果没有这些公司提供的服务，可能就不会有iNaturalist 。 并且，我们可以限制您在使用 iNat 时与他们共享的数据的数量和类型。 我们不能完全停止数据流动。]]></string>
+    <string name="common_names_place"><![CDATA[常用名称的使用位置： <b>%1$s</b>]]></string>
+    <string name="tap_to_prioritize_common_names">点击以指定从特定地点来显示优先的常用名</string>
+    <string name="search_places">搜索地点</string>
+    <string name="restart_app">重启应用</string>
+    <string name="disable_third_party_sharing_restart">为了立即禁用第三方数据共享，应用程序必须重启。</string>
+    <plurals name="are_you_sure_you_want_to_delete_observations">
+        <item quantity="other">您确定要删除这 %1$d 笔观察记录吗？</item>
+    </plurals>
+    <string name="future_observed_on_date_error">您的观察记录是在 %1$s创建的(并提交) 的，但您正在尝试设置一个晚于: %2$s的观察日期</string>
+    <string name="no_more_photos_allowed">观察记录只能有 %1$d 张照片。您需要删除一些照片以添加更多照片。</string>
+    <string name="warning_multiple_photos">如果您在此观察中添加了不同生物的照片， 或在不同地点或时间的同一种类，您应该删除这些照片并将其作为单独的观察添加。一个观察只能有 %1$d 张照片。</string>
+    <string name="choosing_specific_language_warning">为您的帐户选择特定语言需要与互联网连接</string>
+    <string name="running_in_background_notfication">在后台运行，以便我们可以不间断地运行程序</string>
+    <string name="opt_out_of_community_taxon">取消加入至社群鉴定出来的分类群</string>
+    <string name="opt_in_to_community_taxon">选择加入至社群鉴定出来的分类群</string>
+    <string name="opt_out_message">选择退出社区分类单元，会使得此观察记录被关联到您当前鉴定的分类单元，而非被添加到此观察的鉴定所得出的分类单元。 如果有足够的鉴定与您的鉴定不一致，您的观察就将会变成非正式的。 只有在您确定您的鉴定是正确的且他人的鉴定不正确的情况下，您才应该选择退出。</string>
+    <!-- Dialog title when notifying the user that the action they tried to perform requires them to grant location permission to the app -->
+    <string name="permission_required">需要权限</string>
+    <!-- Message displayed when the user tries to perform an action that requires location permission -->
+    <string name="to_access_your_location">要访问您的位置，您必须授予此应用访问位置的权限。</string>
+    <!-- Dialog title when displaying a message that an action is not permitted -->
+    <string name="forbidden">禁止</string>
+    <!-- Message displayed when the user tries to share media with the iNat app from another app that from which iNat does not accept media -->
+    <string name="app_you_shared_blocked">您共享的应用程序创建不适合观察的照片，因为它们并不代表您在另一个生物体身上的体验证据， 因为它们包括不适当的品牌或商业内容，或因为它们以其他方式违反我们的服务条款。</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="list_observation_checkbox_description">复选观察记录的复选框</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="observation_list_item_iconic_pic_description">用于观察分类群的缩略图</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="observation_list_item_obs_pic_description">观察记录的缩略图</string>
+    <string name="messages">消息</string>
+    <string name="all_messages">所有消息</string>
+    <string name="search_messages">搜索消息</string>
+    <string name="no_messages">您目前没有消息。您可以通过点击绿色按钮发送新消息，或者从别人的个人资料页面发送消息。</string>
+    <string name="no_messages_found">未找到消息。</string>
+    <string name="send_a_message">发送私信</string>
+    <string name="sending_message">正在发送信息...</string>
+    <string name="could_not_send_message">无法发送消息： %1$s</string>
+    <string name="subject">主题</string>
+    <string name="body">正文</string>
+    <string name="type_your_message_here">在此处输入您的消息</string>
+    <string name="new_message_to">发送消息给 %1$s</string>
+    <string name="who_would_you_like_to_send_a_message_to">您想给谁发送消息？</string>
+    <string name="new_message">新消息</string>
+    <string name="search_for_inaturalist_users">搜索 iNaturalist 用户</string>
+    <string name="please_sign_in_for_messages">您必须登录才能查看您的消息。</string>
+    <string name="sorry">对不起</string>
+    <string name="you_must_have_three_observations">必须有三次可验证的观察或三次替别人做出的身份验证才能做到这一点。</string>
+    <string name="mute_this_user">静言此用户</string>
+    <string name="unmute_this_user">取消静言此用户</string>
+    <string name="flag_this_conversation">标记此对话</string>
+    <string name="mute_this_user_question">静言此用户？</string>
+    <string name="you_will_no_longer_receive_messages">您将不再收到此用户动态的任何通知，包括消息、评论、鉴定和提及。</string>
+    <string name="mute">禁言</string>
+    <string name="muting_user">静言用户...</string>
+    <string name="unmuting_user">正在取消静言用户...</string>
+    <string name="failed_muting_user">静言用户失败！</string>
+    <string name="failed_unmuting_user">取消静言用户失败！</string>
+    <string name="flag_conversation">标记对话</string>
+    <string name="spam">垃圾邮件</string>
+    <string name="commercial_solicitation">商业邀請、链接到无处等</string>
+    <string name="offensive_inappropriate">冒犯性的/不恰当的</string>
+    <string name="misleading_or_illegal_content">误导性或非法内容，种族歧视或民族蔑称等。有关我们对“适当”的更多定义，详见FAQ常见问题解答</string>
+    <string name="other">其它</string>
+    <string name="some_other_reason">您可以说明其他一些原因。</string>
+    <string name="continue_text">继续</string>
+    <string name="why_are_you_flagging_this_item">你为什么要标记这个项目？</string>
+    <string name="thank_you_for_submitting_the_flag">感谢您提交标记！</string>
+    <string name="flagging_conversation">标记对话...</string>
+    <string name="failed_flagging_conversation">标记对话失败！</string>
+    <string name="no_subject">无主题</string>
+    <!-- As in "matter and energy", or "life is a self-replicating pattern of matter subject to evolutionary processes" -->
+    <string name="rank_state_of_matter">物态</string>
+    <string name="rank_kingdom">界</string>
+    <string name="rank_subkingdom">亚界</string>
+    <string name="rank_phylum">门</string>
+    <string name="rank_subphylum">亚门</string>
+    <string name="rank_superclass">总纲</string>
+    <string name="rank_class">纲</string>
+    <string name="rank_subclass">亚纲</string>
+    <string name="rank_infraclass">下纲</string>
+    <string name="rank_superorder">总目</string>
+    <string name="rank_order">目</string>
+    <string name="rank_suborder">亚目</string>
+    <string name="rank_infraorder">下目</string>
+    <string name="rank_subterclass">下纲</string>
+    <string name="rank_parvorder">小目</string>
+    <string name="rank_zoosection">派</string>
+    <string name="rank_zoosubsection">动物群落</string>
+    <string name="rank_superfamily">总科</string>
+    <string name="rank_epifamily">领科</string>
+    <string name="rank_family">科</string>
+    <string name="rank_subfamily">亚科</string>
+    <string name="rank_supertribe">总族</string>
+    <string name="rank_tribe">族</string>
+    <string name="rank_subtribe">亚族</string>
+    <string name="rank_genus">属</string>
+    <string name="rank_genushybrid">属间杂种</string>
+    <string name="rank_subgenus">亚属</string>
+    <string name="rank_section">节</string>
+    <string name="rank_subsection">亚节</string>
+    <string name="rank_complex">复合群</string>
+    <!-- Singular -->
+    <string name="rank_species">物种</string>
+    <string name="rank_hybrid">杂交种</string>
+    <!-- Singular -->
+    <string name="rank_subspecies">亚种</string>
+    <string name="rank_variety">变种</string>
+    <string name="rank_form">型</string>
+    <string name="rank_infrahybrid">种内杂种</string>
+    <string name="rank_leaves">叶片</string>
+    <string name="location_lat_lng">位置： %1$f， %2$f</string>
+    <string name="i_consent_process_personal_info"><![CDATA[我同意允许iNaturalist 存储和处理有关我的有限的个人信息，以便管理我的帐户。 <b>了解更多</b>]]></string>
+    <string name="about_personal_information">关于个人信息</string>
+    <string name="personal_information_notes"><![CDATA[我们需要储存用户名称以及电子邮箱地址之类的个人信息来管理在网站上的账号，因要符合隐私法规的要求，需要您勾选此方框來表明您同意上述的个人信息使用。要了解更多关于我们如何收集以及使用信息，请查看我们的 <a href="https://www.inaturalist.org/privacy">隐私政策</a>和 <a href="https://www.inaturalist.org/terms">服务条款</a>。]]></string>
+    <string name="i_agree_to_tos_and_privacy"><![CDATA[我同意 <a href="https://www.inaturalist.org/terms">服务条款</a> 和
+ <a href="https://www.inaturalist.org/privacy">隐私政策</a>, 我已经审阅了
+<a href="https://www.inaturalist.org/pages/community+guidelines">社区准则</a>。]]></string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="terms_of_service">服务条款</string>
+    <!-- Placeholder text shown in place of a username when the user has been deleted -->
+    <string name="deleted_user">已删除的用户</string>
+    <!-- Short date formatting template for dates in the current year. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_short_this_year">MMM d</string>
+    <!-- Short date formatting template for any date. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_short">MM/dd/yy</string>
+    <!-- Short time formatting template for 24-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="time_short_24_hour">HH:mm</string>
+    <!-- Short time formatting template for 12-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="time_short_12_hour">hh:mma</string>
+    <!-- Long date formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_long">MMM d, yyyy</string>
+    <!-- Obscured observations date formatting template (only month+year). Note that non-formatting letters should be surrounded by single quotes, and to include an actual single quote you need to double it, so "MMM ''yy" will render as "Oct '24", and "'Month:' MMM, ''yy" will render as "Month: Oct '24" Odd numbers of single quotes are not allowed. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_obscured">MMM \'\'yy</string>
+    <!-- Long date with time formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_long_with_time">MMMM d, yyyy hh:mma</string>
+    <string name="show_common_names">显示常用名</string>
+    <string name="show_common_names_description">如果您只想查看学名，请禁用此功能。</string>
+    <string name="email_must_look_like_email_address">电子邮箱必须是电子邮件的格式</string>
+    <string name="username_must_begin_with">用户名必须以字母开头，不得包含空格，只使用字母、数字、破折号和下划线</string>
+    <string name="password_too_short">密码长度必须为至少6个字符</string>
+    <string name="switch_to_grid_view">切换到网格视图</string>
+    <string name="switch_to_list_view">切换到列表视图</string>
+    <string name="remove_project_filter">删除项目过滤器</string>
+    <string name="remove_observer_filter">删除观察者过滤器</string>
+    <string name="filter_observations_by_an_exact_date">按特定日期筛选观察</string>
+    <string name="filter_observations_by_a_date_range">按日期范围筛选观察</string>
+    <string name="filter_observations_by_months">按月份筛选观察</string>
+    <!-- Used to demonstrate annotation filters, e.g. Life Stage = Egg -->
+    <string name="equals_sign">=</string>
+    <string name="include_suggestions_not_seen_nearby">包括未在附近看到过的建议</string>
+    <string name="only_view_nearby_suggestions">只查看附近的建议</string>
+    <string name="suggestions_source">建议来源</string>
+    <string name="research_grade_observations">研究级观察</string>
+    <string name="visually_similar_description">iNaturalist 将根据图片在视觉上与例年在此时此地附近观察到的物种的相似程度提出建议。</string>
+    <string name="research_grade_observations_description">除了提供视觉上类似的建议，iNaturalist也可以建议在特定地点和特定分类组内观察到的物种。</string>
+    <string name="taxon">分类：</string>
+    <string name="place">地点：</string>
+    <string name="pretty_sure_kingdom">我们比较确定它在这个界：</string>
+    <string name="pretty_sure_subkingdom">我们比较确定它属于这个亚界：</string>
+    <string name="pretty_sure_phylum">我们比较确定它属于这个门：</string>
+    <string name="pretty_sure_subphylum">我们比较确定它属于这个亚门：</string>
+    <string name="pretty_sure_superclass">我们比较确定它属于这个超纲：</string>
+    <string name="pretty_sure_class">我们比较确定它属于这个纲：</string>
+    <string name="pretty_sure_subclass">我们比较确定它属于这个亚纲：</string>
+    <string name="pretty_sure_infraclass">我们比较确定它属于这个下纲：</string>
+    <string name="pretty_sure_superorder">我们比较确定它属于这个总目：</string>
+    <string name="pretty_sure_order">我们比较确定它属于这个目：</string>
+    <string name="pretty_sure_suborder">我们比较确定它属于这个亚目：</string>
+    <string name="pretty_sure_infraorder">我们比较确定它属于这个下目：</string>
+    <string name="pretty_sure_subterclass">我们比较确定它属于这个小纲：</string>
+    <string name="pretty_sure_parvorder">我们比较确定它属于这个小目：</string>
+    <string name="pretty_sure_zoosection">我们比较确定它属于这个派：</string>
+    <string name="pretty_sure_zoosubsection">我们比较确定它属于这个亚派：</string>
+    <string name="pretty_sure_superfamily">我们比较确定它属于这个总科：</string>
+    <string name="pretty_sure_epifamily">我们比较确定它属于这个领科：</string>
+    <string name="pretty_sure_family">我们比较确定它属于这个科：</string>
+    <string name="pretty_sure_subfamily">我们比较确定它属于这个亚科：</string>
+    <string name="pretty_sure_supertribe">我们比较确定它属于这个总族：</string>
+    <string name="pretty_sure_tribe">我们比较确定它属于这个族：</string>
+    <string name="pretty_sure_subtribe">我们比较确定它属于这个亚族：</string>
+    <string name="pretty_sure_genus">我们比较确定它属于这个属：</string>
+    <string name="pretty_sure_genushybrid">我们比较确定它属于这个杂交属：</string>
+    <string name="pretty_sure_subgenus">我们比较确定它属于这个亚属：</string>
+    <string name="pretty_sure_section">我们比较确定它属于这个组：</string>
+    <string name="pretty_sure_subsection">我们比较确定它属于这个亚组：</string>
+    <string name="pretty_sure_complex">我们比较确定它属于这个复合群：</string>
+    <!-- Singular -->
+    <string name="pretty_sure_species">我们比较确定它属于这个物种：</string>
+    <string name="pretty_sure_hybrid">我们比较确定它属于这个杂交种：</string>
+    <!-- Singular -->
+    <string name="pretty_sure_subspecies">我们比较确定它属于这个亚种：</string>
+    <string name="pretty_sure_variety">我们比较确定它属于这个变种：</string>
+    <string name="pretty_sure_form">我们比较确定它在属于这个型：</string>
+    <string name="pretty_sure_infrahybrid">我们比较确定它属于这个杂交种：</string>
+    <string name="remove_date_observed">移除观察日期和时间</string>
+    <string name="remove_time_observed">移除观察时间</string>
+    <string name="remove_location">移除位置信息</string>
+    <string name="are_you_sure_you_want_to_remove_date">您确定要移除观察的日期和时间？</string>
+    <string name="are_you_sure_you_want_to_remove_time">您确定要移除此观察的时间吗？</string>
+    <string name="are_you_sure_you_want_to_remove_location">您确定要移除此位置信息吗？</string>
+    <string name="share_location">分享位置</string>
+    <string name="share_hidden_location">分享隐藏位置</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the sound for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_sound">无法复制声音！</string>
+    <string name="sound_format_not_supported">Android不支持此音频编码。</string>
+    <string name="view_observations">查看观察</string>
+    <string name="choose_this_option">选择此选项</string>
+    <string name="compare_observation_with_this_option">将观察记录与此选项比较</string>
+    <string name="go_back">返回</string>
+    <string name="change_the_source_of_the_suggestions">更改建议的来源</string>
+    <string name="thumbnail_photo_for_suggested_taxon">建议的分类群缩略图</string>
+    <!-- Accessibility text for the comments and IDs tab on the observation detail view -->
+    <string name="comments_ids_title">评论和鉴定</string>
+    <!-- Accessibility text for the faves tab on the observation detail view -->
+    <string name="faves">喜爱</string>
+    <!-- Accessibility text for a button that navigates to the previous option in a list of options -->
+    <string name="previous_option">上一个选项</string>
+    <!-- Accessibility text for a button that navigates to the next option in a list of options -->
+    <string name="next_option">下一个</string>
+    <string name="no_observations_yet2">还没有观察记录</string>
+    <string name="no_species_yet">还没有物种。</string>
+    <string name="no_identifications_yet">还没有鉴定。</string>
+    <string name="sort_by">排序方式</string>
+    <string-array name="explore_order_by_items">
+        <item>加入日期</item>
+        <item>观察日期</item>
+        <item>更新日期</item>
+        <!--<item>Faves</item>-->
+        <item>随机</item>
+    </string-array>
+    <string-array name="explore_order_items">
+        <item>降序</item>
+        <item>升序</item>
+    </string-array>
+    <!-- Full sentence will look something like: "Sorted by Date Observed (Descending)" -
+    See explore_order_by_items and explore_order_items keys !-->
+    <string name="sorted_by_full">由 %1$s (%2$s)排序</string>
+    <!-- Label for an observation search filter to exclude your own observations -->
+    <string name="hide_my_observations">隐藏我的观察记录</string>
+    <!-- Label for an option to follow an observation, i.e. subscribe to future updates -->
+    <string name="follow_this_observation">关注此观察</string>
+    <!-- Label for an option to unfollow an observation, i.e. unsubscribe to future updates -->
+    <string name="unfollow_this_observation">取消关注此观察</string>
+    <!-- Error message shown when an attempt to follow an observation fails -->
+    <string name="could_not_follow_observation">无法关注此观察记录</string>
+    <!-- Error message shown when an attempt to unfollow an observation fails -->
+    <string name="could_not_unfollow_observation">无法取消关注此观察记录</string>
+    <!-- Label for a button to copy the coordinates of an observation -->
+    <string name="copy_coordinates">复制坐标</string>
+    <string name="coordinates_copied_to_clipboard">坐标已复制到剪贴板</string>
+    <!--  Title of a section on the observation detail view that displays minor metadata  -->
+    <string name="metadata">元数据</string>
+    <!--  iNat observation identifier  -->
+    <string name="id">ID</string>
+    <!--  iNat observation Universally Unique Identifier  -->
+    <string name="uuid">UUID</string>
+    <!--  Universal Resource Locator  -->
+    <string name="url">URL</string>
+    <string name="default_licenses">默认授权</string>
+    <string name="default_observation_license">默认观察授权</string>
+    <string name="default_photo_license">默认照片协议</string>
+    <string name="default_sound_license">默认声音协议</string>
+    <string name="change_existing_licenses">更改已存在的授权</string>
+    <string name="change_licenses_for_existing_observations">更改现有观察、照片和声音的授权</string>
+    <string name="change_licenses_for_all_existing_observations">更改所有现有观察的授权</string>
+    <string name="change_licenses_for_all_existing_photos">更改所有现有照片的授权</string>
+    <string name="change_licenses_for_all_existing_sounds">更改所有现有声音的授权</string>
+    <string name="change_observation_licenses">更改观察授权</string>
+    <string name="change_photo_licenses">更改照片授权</string>
+    <string name="change_sound_licenses">更改声音授权</string>
+    <string name="change_licenses_for_observations_confirmation"><![CDATA[将 <b>%1$d</b> 现有观察记录的授权更改为 <b>%2$s</b>?]]></string>
+    <string name="change_licenses_for_photos_confirmation"><![CDATA[将现有照片的授权更改为 <b>%1$s</b>?]]></string>
+    <string name="change_licenses_for_sounds_confirmation"><![CDATA[将现有声音的授权更改为 <b>%1$s</b>?]]></string>
+    <string name="observation_licenses_updated">观察授权已更新</string>
+    <string name="photo_licenses_updated">照片授权已更新</string>
+    <string name="sound_licenses_updated">声音授权已更新</string>
+    <string name="existing_observation_licenses_have_been_updated">所有现有的观察授权已更改为 %1$s。</string>
+    <string name="existing_photo_licenses_have_been_updated">所有现有的照片授权已更改为 %1$s。</string>
+    <string name="existing_sound_licenses_have_been_updated">所有现有的声音授权已更改为 %1$s。</string>
+    <string name="default_licenses_description"><![CDATA[许可您的内容使任何人在遵守许可条款的情况下都有合法的使用权，而不必请求您的许可。 此外，iNat还在为对我们的数据感兴趣的一些伙伴组织制作的定期更新的档案中包含您的创意共有许可内容。 例如，我们会将无版权(CC0)、分发(CC BY)， 和分发-非商业化 (CC BY-NC)的记录提供给 <a href="https://www.gbif.org/">全球生物多样性信息设施(GBIF)</a>，这是一个编纂和分发世界各地生物多样性信息的国际政府间组织。]]></string>
+    <string name="photo_license">照片授权</string>
+    <string name="sound_license">声音的授权</string>
+    <string name="edit_photo_license">编辑照片授权</string>
+    <string name="observation_license">观察授权</string>
+    <string name="edit_observation_license">编辑观察授权</string>
+    <string name="about_licenses">关于授权</string>
+    <string name="view_license">查看授权</string>
+    <!-- License Names -->
+    <string name="license_name_cc0">公有领域</string>
+    <string name="license_name_cc_by">署名</string>
+    <string name="license_name_cc_by_nc">署名-非商业性使用</string>
+    <string name="license_name_cc_by_nc_sa">署名-非商业性使用-相同方式共享</string>
+    <string name="license_name_cc_by_nc_nd">署名-非商业性使用-禁止修改</string>
+    <string name="license_name_cc_by_nd">署名-禁止演绎</string>
+    <string name="license_name_cc_by_sa">署名-相同方式共享</string>
+    <string name="license_name_no_license">保留所有权利</string>
+    <!-- License Descriptions -->
+    <string name="license_description_cc0">该许可协议会将您的作品发布至公有领域，这样其他人可以复制、修改、发布和执行您的工作，甚至商业目的，所有行为不需要请求许可或向您提供报酬。这是提供的许可协议中最具适应性的。推荐用于大规模传播和授权材料的使用。</string>
+    <string name="license_description_cc_by">该许可协议允许其他人发行、修改、转换或以您的作品为基础进行创作，甚至商业目的，只要他们依您的原创进行创作的话。</string>
+    <string name="license_description_cc_by_nc">该许可协议允许其他人修改、转换或以您的作品为基础进行创作，但不能用于商业目的，并且虽然他们的新作品也必须基于您，及非商业性使用，但它们不需要依据相同条款授权他们的衍生作品。</string>
+    <string name="license_description_cc_by_nc_sa">该许可协议允许其他人修改、转换或以本作品为基础进行创作，但不能用于商业目的，只要他们依您的作品创作，并使用相同条款授权他们的新作品的话。</string>
+    <string name="license_description_cc_by_nc_nd">该许可协议是六种主流许可协议中限制最大的，只允许其他人根据您的协议下载您的作品并与其他人分享，但他们不能以任何方式更改它，或以商业目的使用。</string>
+    <string name="license_description_cc_by_nd">该许可协议允许再分发，无论是商业目的还是非商业目的，只要它根据您的协议，完整地保持不变的话。</string>
+    <string name="license_description_cc_by_sa">此许可证允许其他人插排、改编您的资源和基于原版二次创作，甚至包括用于商业用途，只要他们标明您为作者，并且新资源的许可证使用相同的条款。此许可证通常与\"非盈利\"的免费和开源软件许可证进行比较。所有基于您的新资源将使用相同的许可证，因此任何衍生版本也允许商业使用。这是维基百科使用的许可证。建议当包括维基百科或类似项目的资源时，使用此许可证。</string>
+    <string name="license_description_no_license">除了在服务条款中授权给 %{site_name} 的权限之外，您对您的内容保有完整的版权。</string>
+    <string name="invalid_photo">不支持的照片格式</string>
+    <!-- Text attributing observers and identifiers alongside automated identification suggestions -->
+    <string name="suggestions_based_on">建议基于由 iNaturalist 社区提供的观察和鉴定，包括%1$s、%2$s、%3$s和其它更多。</string>
+    <!-- Preference to control what tapping on the action button does on My Observations -->
+    <string name="default_observation_action">默认观察授权</string>
+    <!-- Option for the "Default Observation Action" preference that performs the default action of showing a slide-up menu of options -->
+    <string name="show_options">显示选项</string>
+    <!-- Placeholder text for an observation field value -->
+    <string name="field_value">字段值</string>
+    <string name="expand_annotation_to_agree_or_disagree">展开注释以选择同意或不同意</string>
+    <string name="delete_attribute_value">删除属性值</string>
+    <string name="open_menu_for_more_options">打开菜单以获取更多选项</string>
+    <string name="change_user_profile_photo">更改个人资料照片</string>
+    <string name="expand_list">展开列表</string>
+    <string name="change_map_layers">更改地图图层(地形 vs. 卫星)</string>
+    <string name="redo_observation_search">在此地图区域重新搜索观察记录</string>
+    <string name="view_observations_on_map">在地图上查看观察记录</string>
+    <string name="view_observations_on_grid">在网格上查看观察记录</string>
+    <string name="clear_text">清除文本</string>
+    <string name="observation_has_sounds">含有音频的观察记录</string>
+    <string name="go_to_my_location">转到我的当前位置</string>
+    <string name="change_geoprivacy">更改地理位置</string>
+    <string name="active_filters">使用中的筛选条件</string>
+    <string name="message_is_flagged">消息已标记</string>
+    <string name="user_is_muted">用户已被禁言</string>
+    <string name="cancel_multiple_obs_selection">取消选择多项观察记录</string>
+    <string name="delete_observations">删除观察记录</string>
+    <string name="comment_count">评论次数</string>
+    <string name="id_count">鉴定次数</string>
+    <string name="observation_selected">已选择的观察记录</string>
+    <string name="share_observation">分享观察记录</string>
+    <string name="unknown_location">未知位置</string>
+    <!-- Verb, used as an accessibility label for closing a view, e.g. a popup -->
+    <string name="close">关闭</string>
+    <string name="set_date2">设定日期</string>
+    <string name="project_selected">已选项目</string>
+    <string name="project_unselected">未选择的项目</string>
+    <string name="show_my_observations">显示我的观察记录</string>
+    <string name="play_pause_sound">播放或暂停声音</string>
+    <string name="view_image">查看照片</string>
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a green check mark and a thumbs-up icon -->
+    <string name="assessment_passes">通过评估</string>
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote in favor of a specific assessment -->
+    <string name="agree_assessment_passes">同意通过评估</string>
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a red X and a thumbs-down icon -->
+    <string name="does_not_pass_assessment">未通过评估</string>
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote against a specific assessment -->
+    <string name="disagree_assessment_passes">不同意通过评估</string>
+    <plurals name="delete_x_selected_observations">
+        <item quantity="other">删除 %1$d 个选定的观察</item>
+    </plurals>
+    <plurals name="sync_x_selected_observations">
+        <item quantity="other">同步 %1$d 个选定的观察</item>
+    </plurals>
+    <string name="add_media_evidence">添加媒体证据</string>
+    <string name="remove_identification">删除身份证明</string>
+    <string name="issue_with_updating_photos">最近已修复更新该记录中的照片时出现的问题。 请退出登录并重新登录以解决这个问题。</string>
+    <string name="app_version_copied_to_clipboard">已复制应用版本</string>
+    <string name="authentication_failed">验证失败</string>
+    <string name="please_try_again_soon">请稍后再试。</string>
+    <string name="verify_your_email">验证您的邮箱地址。</string>
+    <string name="after_you_change_your_password">在您更改密码后，您将被注销，您将需要用您的新密码再次登录。 您还将从iNaturalist 移动应用以及代表您发布到 iNaturalist 的其他应用或网站中注销。 请确保您已经上传任何待处理的观察记录才能这样做。 任何未上传的观察记录都将丢失。</string>
+    <!-- Error message when a user tries to add upload a photo or a sound that is larger than the allowed 20 MB -->
+    <string name="couldnt_upload_file_too_large">无法上传文件 - 大于 20MB</string>
+    <string name="you_have_been_signed_out_please_sign_in_again">您已登出。请重新登入。</string>
+    <!-- Accessibility label for a button that closes an announcement -->
+    <string name="close_announcement">关闭通知</string>
+    <string name="import_photos_from">导入照片自...</string>
+    <string name="cannot_find_default_camera">找不到默认相机来拍照，请联系客服</string>
+    <string name="please_click_link_to_confirm_email">请点击你电子邮件中的链接来确认你在 iNaturallist 上的电子邮件</string>
+    <string name="click_to_resend_confirmation_email">点击这里重新发送验证邮件</string>
+</resources>

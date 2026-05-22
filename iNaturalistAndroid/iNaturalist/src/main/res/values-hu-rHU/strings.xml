@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_address">Email cím</string>
+    <string name="delete_observation">Megfigyelés törlése</string>
+    <string name="observation_deleted">Megfigyelés törölve</string>
+    <string name="species_guess_hint">Faj neve...</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Mégse</string>
+    <string name="loading">Betöltés...</string>
+    <string name="street">Utca</string>
+    <!-- As in map tiles using satellite imagery, generally used as an option when choosing a base map type -->
+    <string name="satellite">Műhold</string>
+    <string name="couldnt_load_nearby_observations">Nem sikerült a közeli megfigyelések betöltése: %1$s</string>
+    <string name="username_invalid">A felhasználónév vagy jelszó érvénytelen, kérjük jelentkezz be újra.</string>
+    <string name="signing_in">Bejelentkezés...</string>
+    <string name="signed_in">Bejelentkezve!</string>
+    <string name="please_sign_in">Kérjük, jelentkezz be</string>
+    <string name="please_sign_in_description">Kérjük, jelentkezz be iNaturalist-fiókodba vagy hozz létre egy újat.</string>
+    <string name="please_enable_location_services">A jelenlegi helyzeted meghatározásához kapcsold be a Helyszolgáltatásokat... </string>
+    <string name="go_to_settings">Ugrás a Beállításokhoz</string>
+    <string name="photo_not_specified">Nincs megadva fénykép</string>
+    <string name="set_date">Dátum megadása</string>
+    <string name="set_time">Idő megadása</string>
+    <!-- "Blast" is meant to be a jocular, intentionally archaic curse. It should not be translated as a word that might offend anyone. If that's impossible, please just leave it out. We occasionally use language like this add a little personality, but that doesn't always translate very well. -->
+    <string name="something_went_wrong">A manóba. %1$s</string>
+    <string name="edit">Szerkesztés</string>
+    <string name="oh_no">Ó ne! %1$s</string>
+    <string name="observations">Megfigyeléseim</string>
+    <string name="map">Térkép</string>
+    <string name="settings">Beállítások</string>
+    <string name="projects">Projektek</string>
+    <string name="delete_photo">Fénykép törlése</string>
+    <string name="my_location">Saját pozíció</string>
+    <string name="nearby_observations">Közeli megfigyelések</string>
+    <string name="add">Hozzáadás</string>
+    <string name="view_on_inat">Megnyitás az iNaturalist.orgon</string>
+    <string name="reload">Újratöltés</string>
+    <string name="view_in_browser">Megnyitás böngészőben</string>
+    <string name="add_observation">Megfigyelés hozzáadása</string>
+    <string name="take_picture">Fénykép készítése</string>
+    <string name="save">Mentés</string>
+    <string name="no_observations_yet">Még nincsenek megfigyelések!</string>
+    <string name="or">vagy</string>
+    <string name="signed_out">Kijelentkezés</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="unknown">Ismeretlen</string>
+    <string name="unknown_species">Ismeretlen faj</string>
+    <string name="edit_observation">Megfigyelés szerkesztése</string>
+    <string name="discard_changes">Biztosan eldobod a változásokat?</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <!-- Label for a button that adds an identification that is the same as another identification, as in "Do you agree this is correct?" Should be short. -->
+    <string name="agree">Elfogadod?</string>
+    <string name="no_comments">Nincs még hozzászólás/meghatározás</string>
+    <string name="add_comment">Hozzászólás</string>
+    <string name="add_id">Meghatározás hozzáadása</string>
+    <string name="remarks">Megjegyzések...</string>
+    <string name="enter_taxon_name">Add meg a taxon nevét</string>
+    <string name="no_projects">Nem található projekt!</string>
+    <string name="no_guides">Nem található útmutató!</string>
+    <string name="loading_projects">Projektek betöltése...</string>
+    <string name="joined_projects">Csatlakozva</string>
+    <string name="nearby_projects">A közelben</string>
+    <!-- Tab title for the list of featured projects in the Projects screen -->
+    <string name="featured_projects">Kiemelt</string>
+    <!-- Verb, used as a label for actions like leaving a project -->
+    <string name="leave">Elhagyás</string>
+    <string name="join">Csatlakozás</string>
+    <string name="no_check_list">Nincsenek taxonok az ellenőrzőlistán!</string>
+    <string name="failed_to_add_obs_to_project">\'%1$s\' meghatározás hozzáadása sikertelen \'%2$s\' projekthez: %3$s</string>
+    <string name="invalid_project_field">\'%1s\': adj meg egy érvényes értéket</string>
+    <!-- Title of interface used to add an observation to a project. This should be relatively short, not much more than a few characters longer than the English translation. -->
+    <string name="select_projects">Válassz a Csatlakozó projektek közül</string>
+    <string name="not_connected">Ehhez internetkapcsolat szükséges.</string>
+    <string name="search_projects">Projektek keresése...</string>
+    <string name="search_guides">Vezetők keresése...</string>
+    <string name="save_observation">Megfigyelés mentése</string>
+    <!-- Header for a description an individual guide -->
+    <string name="about_guide">Névjegy</string>
+    <string name="about_guide_all_caps">NÉVJEGY</string>
+    <!-- Header for a description an individual project -->
+    <string name="about_project">Névjegy</string>
+    <string name="about_project_all_caps">NÉVJEGY</string>
+    <string name="about_this_app">Névjegy</string>
+    <string name="about_taxon_short">Névjegy</string>
+    <!-- Noun describing the ability to obscure or hide the coordinates of an observation. Should be a short noun or noun-phrase suitable for use on a button or popup header -->
+    <string name="geoprivacy">Pozíció láthatósága</string>
+    <!-- Generally used when we need to display both the label and the value on one line. Specifically used in the toolbar at the top of the location chooser -->
+    <string name="geoprivacy_with_value">Pozíció láthatósága: %1$s</string>
+    <string name="delete_confirmation">Biztosan törlöd ezt a megfigyelést?</string>
+    <!-- This refers to field guide-like content within the app, i.e. user-created lists of species that help other people identify organisms. It does not refer to tutorials or other instructional content. -->
+    <string name="guides">Útmutatók</string>
+    <string name="my_guides">Sajátjaid</string>
+    <string name="nearby_guides">A közelben</string>
+    <string name="all_guides">Összes</string>
+    <string name="no_taxa">Nem találhatók taxonok az útmutatóhoz!</string>
+    <string name="search_taxa">Taxonok keresése...</string>
+    <string name="no_internet_guides">Az útmutatóhoz internetkapcsolat szükséges</string>
+    <string name="no_internet_projects">A projektekhez internetkapcsolat szükséges</string>
+    <string name="locale_gl">Galíciai</string>
+    <string name="locale_eu">Baszk</string>
+    <string name="use_device_language_settings">A készülék nyelvi beállításainak átvétele</string>
+    <string name="choose_location">Hely megadása</string>
+    <string name="done">Kész</string>
+    <string name="please_sign_in_via_settings">A projektjeid megtekintéséhez be kell jelentkezned.</string>
+    <string name="contact_support">Kapcsolatfelvétel</string>
+    <string name="leave_project">Kilépés a projektből </string>
+    <string name="leave_project_confirmation">Biztosan kilépsz ebből a projektből?</string>
+    <string name="discard_location_changes">Biztosan eldobod a mentetlen módosításokat?</string>
+    <string name="edit_location">Hely szerkesztése</string>
+    <string name="edit_locality_notes">Helyi megjegyzések szerkesztése</string>
+    <string name="get_current_location">Aktuális hely meghatározása</string>
+    <string name="pull_to_refresh">Húzd le a frissítéshez...</string>
+    <string name="release_to_refresh">A frissítéshez engedd el...</string>
+    <string name="refreshing">Frissítés...</string>
+    <plurals name="sync_x_observations">
+        <item quantity="one">%1$d megfigyelés szinkronizálása</item>
+        <item quantity="other">%1$d megfigyelés szinkronizálása</item>
+    </plurals>
+    <string name="sync_observations">Szinkron megfigyelések</string>
+    <string name="lets_get_started">Lássunk neki!</string>
+    <string name="view_nearby_observations">Közeli megfigyelések</string>
+    <string name="skip_for_now">Most kihagyás</string>
+    <string-array name="tutorial_titles">
+        <item></item>
+        <item>Megfigyel</item>
+        <item>Megoszt</item>
+        <item>Tanulás</item>
+        <item>Hozzájárulás</item>
+    </string-array>
+    <string-array name="tutorial_descriptions">
+        <item>Fedezd fel, és csatlakozz a természettel</item>
+        <item>Kapsz külsőt! Találsz valami vad, és a világos, teljes méretű fényképet.</item>
+        <item>Osszad meg a megfigyelésedet a iNaturalist Közösséggel.</item>
+        <item>Térj vissza később a megjegyzések és meghatározások megtekintéséhez.</item>
+        <item><![CDATA[<b>kutatási osztály</b> megfigyelések jobb megértése és a természet védelmében dolgozó tudósok vannak megosztva.]]></item>
+    </string-array>
+    <string-array name="geoprivacy_items">
+        <item>Nyitott</item>
+        <item>Kitakart</item>
+        <item>Privát</item>
+    </string-array>
+    <string name="alert_sign_out">Biztos kijelentkezel? Ezzel törlöd megfigyeléseid ezen az eszközön. A már feltöltött megfigyeléseid ez nem érinti.</string>
+    <string name="alert_unsupported_media_type">Sajnos a fénykép betöltése sikertelen</string>
+    <!-- Second person verb, used as a section title as in the "Explore" screen where you explore observations made by other people -->
+    <string name="explore">Felfedezés</string>
+    <string name="restricted_to_current_map_area">Korlátozott a jelenlegi térkép terület</string>
+    <string name="search">Keresés</string>
+    <string name="details">Részletek</string>
+    <string name="observation_photos">Megfigyelés képei</string>
+    <string name="no_observations_found">Nincsenek megfigyelések</string>
+    <string name="license_none">Nincs, minden jog fenntartva.</string>
+    <string name="sources_and_attribution">Források és tulajdon</string>
+    <string name="photos"><![CDATA[<b>Fényképek:</b> %1$s]]></string>
+    <string name="text"><![CDATA[<b>Szöveg:</b> %1$s]]></string>
+    <!-- The dialog content asking the user to switch to another iNat network -->
+    <string name="alert_message_use_inaturalist">Az elsődleges iNaturalist Network. Az OK-ra koppintva az alkalmazás a globális iNaturalist hálózat részévé válik.</string>
+    <string name="alert_message_use_naturalista">A NaturaLista a mexikói iNaturalist Network tagja. A NaturaLista helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_naturewatchnz">Az iNaturalist NZ az új zélandi iNaturalist Network tagja. Az iNaturalist NZ helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistcanada">Az iNaturalist Canada a kanadai iNaturalist Network tagja. Az iNaturalist Canada helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_naturalistacolombia">A Naturalista az kolumbiai iNaturalist Network tagja. A Naturalista helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_biodiversity4all">A Biodiversity4All a portugál iNaturalist Network tagja. A Biodiversity4All helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistpanama">Az iNaturalist Panamá a panamai iNaturalist Network tagja. Az iNaturalist Panamá helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistecuador">Az iNaturalist Ecuador az equádori iNaturalist Network tagja. Az iNaturalist Ecuador helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistaustralia">Az iNaturalist Australia az ausztrál iNaturalist Network tagja. Az iNaturalist Australia helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_argentinat">Az ArgentiNat az argentín iNaturalist Network tagja. Az ArgentiNat helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistil">Az iNaturlaist Israel az iyraeli iNaturalist Network tagja. Az iNaturalist Israel helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistfi">Az iNaturalist Finland a finnországi iNaturalist Network tagja. Az iNaturalist Finland helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistcl">Az iNaturalist Chile a chilei iNaturalist Network tagja. Az iNaturalist Chile helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistgr">Az iNaturlaist Greece a görögországi iNaturalist Network tagja. Az iNaturalist Greece helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistlu">Az iNaturalist Luxenbourg a luxemburgi iNaturalist Network tagja. Az iNaturalist Luxenbourg helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistuk">Az iNaturalist United Kingdom az egyesült királysági iNaturalist Network tagja. Az iNaturalist United Kingdom helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistcr">Az iNaturalist Costa Rica az costa ricai iNaturalist Network tagja. Az iNaturalist Costa Rica helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistgt">Az iNaturalist Guatemala a guatemalai iNaturalist Network tagja. Az iNaturalist Guatemalai helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="alert_message_use_inaturalistse">Az iNaturlaist Sweden a svédországi iNaturalist Network tagja. Az iNaturalist Sweden helyi intézményi támogatói hozzáférhetnek az emailcímedhez és a megfigyeléseid pontos, egyébként fedett vagy privát koordinátáihoz. Kérjük, hogy próbaképpen ne módosíts a partneri beállításokon, ha 1000-nél több megfigyelésed van. Szeretnéd módosítani a partneri beállításaidat?</string>
+    <string name="editor">Szerkesztő</string>
+    <string name="license">Licensz</string>
+    <string name="download_for_offline_use">Letöltés kapcsolat nélküli használatra</string>
+    <string name="download_not_available">A letöltés nem érhető el</string>
+    <string name="guide_editor_must_enable_this_feature">Az útmutató-szerkesztőnek bekapcsolva kell lennie ehhez a funkcióhoz.</string>
+    <string name="are_you_sure">Biztos vagy benne?</string>
+    <string name="download_guide_alert">Ez %1$s adat letöltésével jár, így a kalauzt akkor is használhatod, ha nincs interneted.</string>
+    <string name="failed_to_download_guide">Nem sikerült letölteni az útmutatót</string>
+    <string name="internet_connection_seems_to_be_offline">Úgy néz ki, hogy nincs internetkapcsolat.</string>
+    <string name="downloading">Letöltés...</string>
+    <string name="extracting">Kicsomagolás...</string>
+    <string name="downloaded">Letöltve</string>
+    <string name="delete_download">Letöltés törlése</string>
+    <string name="re_download">Letöltés újra</string>
+    <string name="error">Hiba</string>
+    <string name="could_not_retrieve_guide">Valószínűleg hálózati hiba miatt a kalauz elérése sikertelen.</string>
+    <string name="inat_support_email_subject">Segítségkérés: iNaturalist (verzió: %1$s - %2$s; felhasználó: %3$s)</string>
+    <string name="send_email">E-mail küldése</string>
+    <string name="login_with">Bejelentkezés a következővel:</string>
+    <string name="gplus">Google</string>
+    <string name="email">E-mail</string>
+    <string name="skip">Kihagyás ›</string>
+    <string name="log_in">Bejelentkezés</string>
+    <!-- Second person imperative, usually a label on a button to sign up for a new account -->
+    <string name="sign_up">Regisztráció</string>
+    <!-- Title of the view used to sign up for a new account -->
+    <string name="sign_up_title">Regisztráció</string>
+    <string name="min_6_chars">Minimum 6 karakter</string>
+    <string name="use_my_license"><![CDATA[Igen, engedélyezem a tartalmaim használatát, ezzel a tudóstársadalom több adathoz juthat (ajánlott). <b>További információ</b>]]></string>
+    <string name="content_licensing">Tartalomlicensz</string>
+    <string name="content_licensing_description">A fotóid Nem kereskedelmi Creative Commons megjelöléséhez pipáld ki ezt a négyzetet. Később ezt eltávolíthatod és módosíthatod, de a kutatókkal való megosztáshoz ez a legmegfelelőbb licensz.</string>
+    <!-- Try to keep this about the length of the English text -->
+    <string name="username_or_email">Felhasználónév vagy e-mail</string>
+    <string name="forgot">Nem emlékszel rá?</string>
+    <string name="or_login_with">Vagy jelentkezz be ezzel:</string>
+    <string name="registering">Regisztráció folyamatban...</string>
+    <string name="recommended_next_step">Javasolt következő lépés</string>
+    <string name="could_not_register_user">A regisztráció sikertelen</string>
+    <!-- Short label for a button in the side bar, not much more than 16 characters -->
+    <string name="login_signup">Bejelentkezés / Regisztráció</string>
+    <string name="please_sign_in_via_settings_for_guides">A kalauzaid megtekintéséhez be kell jelentkezned.</string>
+    <string name="please_sign_in_for_updates">A frissítéseid megtekintéséhez be kell jelentkezned.</string>
+    <string name="by_using_inat_terms"><![CDATA[Az iNaturalist használatával elfogadod a <a href="https://www.inaturalist.org/pages/terms">Felhasználói feltételeket</a></b> és az<a href="https://www.inaturalist.org/pages/privacy">Adatvédelmi nyilatkozatot</a></b>]]></string>
+    <string name="activity">Aktivitás</string>
+    <!-- Label for a button to open the camera to take a new photo for an observation -->
+    <string name="camera">Fénykép készítése</string>
+    <!-- Label for a button to import an existing photo for an observation -->
+    <string name="upload_photo">Kép kiválasztása</string>
+    <string name="first">1.</string>
+    <string name="make_first">Elejére</string>
+    <string name="notes">Megjegyzések</string>
+    <string name="is_captive">Fogságban lévő vagy kultivált</string>
+    <string name="location_visibility">A hely láthatósága</string>
+    <string name="set_location">Hely</string>
+    <string name="coordinates_lat">Szélesség:</string>
+    <string name="coordinates_lon">Hosszúság:</string>
+    <string name="coordinates_acc">Pont.</string>
+    <string name="required">* Kötelező</string>
+    <string name="downloading_observations">Megfigyelések letöltése...</string>
+    <string name="no_thanks">Köszönöm, nem</string>
+    <string name="turn_on">Bekapcsolás</string>
+    <string name="introducing_auto_sync">Bemutatkozik az Auto-Sync!</string>
+    <string name="turn_on_auto_sync">A Beállításoknál kapcsold be az Autoszinkront, így a megfigyeléseid automatikusan feltöltődnek az iNaturlaist-re.</string>
+    <string name="automatic_upload">Automatikus feltöltés (Autoszinkron)</string>
+    <string name="waiting_to_upload">Várakozás a feltöltésre...</string>
+    <string name="uploading">Feltöltés...</string>
+    <string name="failed_to_add_to_project">%1$s projekthez adás sikertelen. Ok: %2$s</string>
+    <string name="needs_your_attention">Figyelmet igényel...</string>
+    <string name="observation">Megfigyelés</string>
+    <string name="share">Megosztás</string>
+    <string name="unable_to_acquire_location">Hely meghatározása sikertelen</string>
+    <string name="casual_grade">Hobbiszintű</string>
+    <string name="needs_id">Meghatározásra vár</string>
+    <string name="research_grade">Tudományos szintű</string>
+    <string name="data_quality">Adatminőség</string>
+    <string name="casual_grade_add_location"><![CDATA[Adj meg <b>helyet</b> ahhoz, hogy a megfigyelés "Meghatározásra vár" státuszt kapjon.]]></string>
+    <string name="casual_grade_add_date"><![CDATA[Adj meg <b>dátumot</b> ahhoz, hogy a megfigyelés "Meghatározásra vár" státuszt kapjon.]]></string>
+    <string name="casual_grade_add_photo"><![CDATA[Adj hozzá <b>fényképet</b>, hogy a megfigyelés "Meghatározásra vár" státuszt kapjon.]]></string>
+    <string name="casual_grade_captive"><![CDATA[A megfigyelés hobbiszintű, mivel az organizmus <b>fogságban lévő/kultivált</b>.]]></string>
+    <string name="needs_id_more_ids"><![CDATA[A megfigyeléshez <b>több meghatározás</b> kell a közösségtől, hogy tudományos szintre emelkedjen.]]></string>
+    <plurals name="included_in_projects">
+        <item quantity="one">%1$d projekt része</item>
+        <item quantity="other">%1$d projekt része</item>
+    </plurals>
+    <string name="geoprivacy_explanation"><![CDATA[A helyre vontakozó adatok védelmi beállításaival megszabhatod, hogy hogy jelenek meg a megfigyeléseid koordinátái (szélességi és hosszúsági). A következők közül választhatsz: <br/>nyitott</b> - Mindenki számára látható, kivéve ha a taxon veszélyeztetett. <br/>kitakart</b> - A megjelenített koordináták egy, az eredeti koordináták körüli 0,2 x 0,2 fokos területen belüli random pontot jelölnek. Ez a pontatlanítás az egyenlítőnél 22 x 22 km nagyságú nyégyzetnek felel meg, amely a sarkok felé haladva csökken. Az eredeti koordináták csak számodra és a megfigyelésedhez tartozó projekt(ek) kurátora számára láthatók. <br/>Privát</b> - A koordináták egyáltalán nem jelennek meg a nyilvános térképen, csak számodra és a megfigyelésedhez tartozó projek(ek) kutrátorai számára láthatók. <br/>Fontos: az egyéni projektek kurátorai e beállításoktól függetlenül mindig láthatják az eredeti koordinátákat. Ha ez gondot okoz, csak olyan projektben vegyél részt, amelynek kurátorában megbízol.]]></string>
+    <string name="id_title">%1$s meghatározása • %2$s</string>
+    <string name="comment_title">%1$s • %2$s</string>
+    <string name="delete">Törlés</string>
+    <string name="delete_id">Meghatározás visszavonása</string>
+    <string name="delete_comment">Hozzászólás törlése</string>
+    <string name="delete_id_message">Biztosan visszavonod ezt a meghatározást?</string>
+    <string name="delete_comment_message">Biztosan törölni szeretnéd ezt a hozzászólást?</string>
+    <string name="suggest_id">Meghatározás</string>
+    <string name="update_comment">Hozzászólás módosítása</string>
+    <string name="fave_this_observation">Kedvencként megjelölés</string>
+    <string name="faved">Kedvenc</string>
+    <string name="be_the_first_to_fave_this_obs">Elsőként kedvencelheted ezt a megfigyelést...</string>
+    <string name="leave_a_comment">Javasolj meghatározást vagy írj megjegyzést...</string>
+    <string name="location_coords">Szél: %1$s Hossz: %2$s Pontosság: %3$s</string>
+    <string name="location_coords_no_acc">Szél.: %1$s Hossz.: %2$s</string>
+    <string name="location">Hely</string>
+    <string name="login_in_to_add_comments_ids">Meghatározáshoz vagy hozzászóláshoz jelentkezz be vagy regisztrálj...</string>
+    <string name="login_in_to_fav">A kedvencelésekhez lépj be vagy regisztrálj...</string>
+    <string name="sync_obs_to_see_favs">Szinkronizáld ezt a megfigyelést a kedvencelésekhez...</string>
+    <!-- Message when you try to view faves on an observation you haven't uploaded yet -->
+    <string name="sync_obs_to_add_comments_ids">Megjegyzés írásához és meghatározáshoz szinkronizáld ezt a megfigyelést...</string>
+    <!--  Label for a button to add an observation without a photo or a sound  -->
+    <string name="no_photo">Nincs média</string>
+    <string name="about_this_species">A fajról</string>
+    <string name="view_on_wikipedia">Wikipédia-szócikk</string>
+    <string name="photo"><![CDATA[Fénykép: <b><a href="%1$s">%2$s</a></b>]]></string>
+    <string name="photo_attr"><![CDATA[Fénykép: <b>%1$s</b>]]></string>
+    <string name="finding_current_location">Aktuális hely keresése...</string>
+    <string name="flag_as_captive">Megjelölés fogságban/kultiváltként</string>
+    <string name="observation_flagged_as_captive">A megfigyelés fogságban/kultiváltként megjelölve</string>
+    <string name="do_you_agree_to_the_following">Egyetértesz a következővel?</string>
+    <string name="terms">Feltételek</string>
+    <string name="observation_rules">A megfigyelés szabályai</string>
+    <string name="couldnt_load_project_details">%1$s projekt részleteinek betöltése sikertelen</string>
+    <string name="no_people_found">Nincsenek személyek</string>
+    <string name="rank">Rang</string>
+    <string name="identifications">Meghatározások</string>
+    <string name="no_news_found">Nincs új</string>
+    <string name="news">Hírek</string>
+    <string name="article">Cikk</string>
+    <string name="couldnt_load_project_news">%1$s projekt híreinek betöltése sikertelen.</string>
+    <string name="couldnt_load_user_details">%1$s felhasználó részleteinek betöltése sikertelen</string>
+    <string name="more_bio"><![CDATA[<b><font color="#ffffff">Továbbiak »</font></b>]]></string>
+    <string name="no_location">Nincs helyadat</string>
+    <string name="add_to_projects">Hozzáadás projek(ek)hez</string>
+    <string name="are_you_sure_you_want_to_save_obs_without_coords">Biztosan elmented a megfigyelést koordináták nélkül?</string>
+    <string name="users_identification">%1$s meghatározása: %2$s</string>
+    <string name="edit_profile">Profil szerkesztése</string>
+    <string name="remove_photo">Fénykép eltávolítása</string>
+    <string name="name">Név</string>
+    <string name="tell_us_about_yourself">Mondj valamit magadról...</string>
+    <string name="view_profile">Profil megtekintése</string>
+    <string name="are_you_sure_you_want_to_remove_photo">Biztosan el szeretnéd távolítani ezt a fényképet?</string>
+    <string name="updating_profile">Profil frissítése...</string>
+    <string name="there_was_a_problem_updating_profile">A profilod frissítése során hibába ütköztünk.</string>
+    <string name="there_was_a_problem_updating_profile_params">A profilod frissítése során a következő hiba lépett fel: %1$s</string>
+    <!-- Notice of which user is currently logged in, e.g. "Currently logged in as kueda" -->
+    <string name="currently_logged_in_as_html"><![CDATA[Belépve <b>%1$s</b>-ként]]></string>
+    <string name="log_out">Kijelentkezés</string>
+    <string name="not_logged_in">Nem vagy bejelentkezve</string>
+    <!-- Prompt to log in to your account or sign up for a new account -->
+    <string name="login_or_sign_up">Bejelentkezés vagy regisztráció</string>
+    <string name="auto_upload_description">Új megfigyelések és meglévők módosításainak automatikus feltöltése </string>
+    <string name="language">Nyelv</string>
+    <string name="version">Verzió</string>
+    <string name="inat_network">iNaturalist Network</string>
+    <string name="inat_network_description">Az iNaturalist Hálózat a helyi iNaturalist-közösségek támogatására jött létre. A Hálózat weboldalait olyan helyi intézmények támogatják, amelyek megállapodtak az iNaturalist-tel a helyi használat bátorítására és a helyi biológiai sokféleség elősegítésére. </string>
+    <string name="more_info">További információ</string>
+    <string name="select_network">Hálózati szervezet kiválasztása</string>
+    <string name="help">Súgó</string>
+    <string name="stop">Leállítás</string>
+    <string name="resume">Folytatás</string>
+    <string name="cleaning_up">Tisztítás…</string>
+    <string name="syncing">Szinkronizálás...</string>
+    <string name="syncing_observation_fields">Adatmezők szinkronizálása...</string>
+    <string name="syncing_observations">Megfigyelések szinkronizálása...</string>
+    <string name="syncing_paused">Szüneteltetve</string>
+    <string name="upload">Feltöltés</string>
+    <string name="search_observations">Megfigyelések keresése...</string>
+    <string name="withdraw">Visszavonás</string>
+    <!-- Dialog title for when you are updating the description of an identification -->
+    <string name="update_id_description">Meghatározás leírásának frissítése</string>
+    <string name="your_identification">Meghatározásod: %1$s </string>
+    <string name="onboarding_species_name">Ha felismered amit láttál, add meg a nevét (pl. pitypang, rovar), vagy hagyd üresen. Mások segíteni fognak ebben.</string>
+    <string name="upload_complete">A feltöltés sikeres</string>
+    <string name="onboarding_upload_description">Nézz vissza hamarosan a megfigyeléseidre érkezett meghatározásokra és hozzászólásokra.</string>
+    <string name="importing_photos">Fénykép(ek) importálása...</string>
+    <string name="multi_select_description">A fényképet nyomvatartva több fényképet is importálhatsz. </string>
+    <string name="preparing_photo">Fénykép előkészítése</string>
+    <string name="recommended_for_you">Neked ajánlott</string>
+    <string name="missions">Küldetések</string>
+    <string name="browse_by_category">Böngészés kategóriák alapján</string>
+    <string name="couldnt_load_recommended_missions">Az ajánlott küldetések betöltése sikertelen: %1$s</string>
+    <string name="plants">Növények</string>
+    <string name="mammals">Emlősök</string>
+    <string name="insects">Rovarok</string>
+    <string name="reptiles">Hüllők</string>
+    <string name="animals">Állatok</string>
+    <string name="fish">Halak</string>
+    <string name="mollusks">Puhatestűek</string>
+    <string name="protozoans">Állati egysejtűek</string>
+    <string name="chromista">Hínárok, kovamoszatok és társai</string>
+    <string name="amphibians">Kétéltűek</string>
+    <string name="fungi">Gombák</string>
+    <string name="birds">Madarak</string>
+    <string name="arachnids">Pókszabásúak</string>
+    <string name="no_connectivity">Nincs kapcsolat</string>
+    <string name="no_recommended_missions">Nincs javaslat erre a területre. Próbálozz máshol.</string>
+    <string name="what_to_look_for">Mit keress</string>
+    <string name="have_been_seen_here">Látták itt</string>
+    <string name="observe">Megfigyel</string>
+    <string name="nearby_missions">Közeli küldetések</string>
+    <string name="searching_your_area">Keresés a területeden...</string>
+    <string name="expanding_your_search_area">A keresési területed kiterjesztése...</string>
+    <string name="introducing_missions">Bemutatjuk a küldetéseket!</string>
+    <string name="missions_onboarding_description">A küldetések valósidejű javaslatok arra, hogy mit érdemes a közeledben keresni. Ezzel számodra új fajokat fedezhetsz fel. (Internetkapcsolat szükséges)</string>
+    <string name="ok_got_it">Rendben!</string>
+    <string name="could_not_download_observations">Kapcsolódási hiba miatt a legutóbbi megfigyelések letöltése sikertelen. Próbálkozz később.</string>
+    <string name="no_news_yet">Még nincsenek hírek, de légy résen!</string>
+    <string name="my_content">Tartalmaim</string>
+    <string name="following">Követve</string>
+    <string name="no_updates_yet">Még nincsenek frissítések, de légy résen!</string>
+    <string name="you_will_only_receive_updates_when_creating">(Csak megfigyelések készítése után kapsz frissítéseket)</string>
+    <string name="you_will_only_receive_updates_when_following">(Csak megfigyelések követése után kapsz frissítéseket)</string>
+    <string name="user_activity_id"><![CDATA[<b>%1$s</b> meghatározása: %2$s <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_activity_comment"><![CDATA[<b>%1$s</b> hozzászólt: &ldquo;%2$s&rdquo; <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="deleted_photos_from_cache_error">Úgy tűnik, a fékyépet törölted a gyorsítótárból a feltöltés előtt. Újból add hozzá a fényképet a gallériádból a megfigyeléshez. A jövőben csak minden fénykép feltöltése után töröld az alkalmazás gyorsítótárát.</string>
+    <!--
+        Label for the number of new notifications you might have. This specific string is used in
+        the side drawer next to the Activity menu item when you have new activity on your own
+        content.
+    -->
+    <plurals name="new_activities">
+        <item quantity="one">%1s új</item>
+        <item quantity="other">%1s új</item>
+    </plurals>
+    <string name="no_results_found">Nincs találat...</string>
+    <plurals name="syncing_x_out_of_y_observations">
+        <item quantity="one">Meghatározás szinkronizálása: %2$d/%1$d</item>
+        <item quantity="other">Megfigyelések szinkronizálása: %1$d/%2$d</item>
+    </plurals>
+    <string name="deleting_observations">Megfigyelések törlése...</string>
+    <string name="preparing">Előkészítés...</string>
+    <string name="add_edit_remark">Jegyzet</string>
+    <string name="restore">Visszaállítás</string>
+    <string name="compare">Összehasonlít</string>
+    <string name="select">Kiválasztás</string>
+    <string name="source_wikipedia">(Forrás: Wikipedia)</string>
+    <string name="conservation_source"><![CDATA[<b>Forrás:</b> <i>%1$s</i>]]></string>
+    <string name="conservation_status_least_concern">Nem fenyegetett</string>
+    <string name="conservation_status_near_threatened">Mérsékelten fenyegetett</string>
+    <string name="conservation_status_vulnerable">Sebezhető</string>
+    <string name="conservation_status_endangered">Veszélyeztetett</string>
+    <string name="conservation_status_critically_endangered">Súlyosan veszélyeztetett</string>
+    <string name="conservation_status_extinct_in_the_wild">Vadon kihalt</string>
+    <string name="conservation_status_extinct">Kihalt</string>
+    <string name="map_of_observations">Megfigyelési térkép</string>
+    <string name="taxonomy">Rendszertan</string>
+    <string name="about_this_section">Tudnivalók</string>
+    <!-- Explanation of the taxonomy displayed on the taxon detail screen. -->
+    <string name="taxonomy_info">E taxonnak ezek a magasabb szerveződési szintjei. A sorrendjük a magasabb szintűtől az alacsonyabb szintűig terjed. E linkek használatával le és fel lépkedhetsz az életfán. Például ha nem tudod, milyen élőlényről van szó, de be tudod határolni a besorolását, a listából egy taxonra koppintva többet megtudhatsz az élőlényről.</string>
+    <string name="more_info_on_inat">További információ: iNaturlaist.org</string>
+    <string name="view_suggestions">Javaslatok megtekintése</string>
+    <string name="species_search">Fajok keresése</string>
+    <string name="were_not_confident_enough">Nincs kellő bizonyosságú javaslatunk, de a legjobb tippjeink:</string>
+    <string name="were_not_confident_enough_no_suggestions">Nincs kellő bizonyosságú javaslatunk.</string>
+    <!-- Header for a list of suggested taxa based on observation frequency (i.e. not incorporating visual similarity) -->
+    <string name="most_observed_options_matching_filters">A szűrésnek megfelelő leggyakoribb megfigyelések:</string>
+    <!-- Header for a list of suggested taxa -->
+    <string name="top_suggestions">Legjobb javaslatok</string>
+    <string name="pretty_sure_rank">Nagy bizonyossággal e %1$s:</string>
+    <string name="what_did_you_see">Mit láttál?</string>
+    <string name="suggest_species">Javaslat fajra</string>
+    <string name="suggest_species_description">Fajfelismerés a fényképek hasonlóságai alapján.</string>
+    <string name="visually_similar">Kinézetre hasonló</string>
+    <string name="visually_similar_seen_nearby">Kinézetre hasonló / Közelben található</string>
+    <string name="seen_nearby">A közelben látták</string>
+    <string name="enlarge">Nagyítás</string>
+    <!-- Label for a button that shows children of the current taxon, e.g. species within a genus or families within an order -->
+    <string name="view_children">Gyermekek megtekintése</string>
+    <string name="taxon_has_no_photos">Ehhez a taxonhoz nem tartoznak fényképek.</string>
+    <string name="terrain">Terep</string>
+    <string name="filters">Szűrők</string>
+    <string name="exploring_all">Felfedezés: mind</string>
+    <string name="nearby">A közelben</string>
+    <string name="couldnt_load_results">Eredmények betöltése sikertelen: %1$s</string>
+    <!-- This should match the way Research Grade has been transalted, so if that's been translated as "grado de investigación" this should be "GI" -->
+    <string name="research_grade_initials">Tud.</string>
+    <string name="taxon_search_hint">pl. madarak, káposztalepke</string>
+    <string name="location_search_hint">pl. város, megye, nemzeti park, ország...</string>
+    <string name="no_taxon">Bocs, a taxon nem található.</string>
+    <string name="please_select_taxon">Válassz egy érvényes taxont a listáról (vagy törölje a taxon mezőt).</string>
+    <string name="sorry_no_location">Bocs, a hely nem található</string>
+    <string name="location_not_found">A hely nem szerepel az adatbázisunkban. Válassz egy helyet az keresőmező alatti listáról, vagy töröld a kulcsszót a keresőmezőből. </string>
+    <string name="undefined">Meghatározatlan</string>
+    <string name="street_segment">Utcarész</string>
+    <string name="intersection">Kereszteződés</string>
+    <string name="town">Település</string>
+    <!-- As in a political administrative area, e.g. Hawaii in the United States -->
+    <string name="state">Megye, állam</string>
+    <string name="county">Ország</string>
+    <string name="local_administrative_area">Helyi önkormányzati terület</string>
+    <string name="country">Ország</string>
+    <string name="island">Sziget</string>
+    <string name="airport">Repülőtér</string>
+    <string name="drainage">Csatorna</string>
+    <string name="land_feature">Felszíni forma</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="miscellaneous">Egyéb</string>
+    <string name="nationality">Nemzetiség</string>
+    <!-- Place type describing an area spanning multiple countries, e.g. Western Europe or Hispaniola -->
+    <string name="supername">Régió</string>
+    <string name="point_of_interest">Látnivaló</string>
+    <!-- Place type for a place like https://en.wikipedia.org/wiki/Region -->
+    <string name="region">Régió</string>
+    <!-- Place type for a place without much of a formal definition, e.g. the San Francisco Bay Area -->
+    <string name="colloquial">Köznyelvi</string>
+    <string name="zone">Zóna</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="historical_state">Történelmi állam</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="historical_county">Történelmi ország</string>
+    <string name="continent">Kontinens</string>
+    <string name="estate">Birtok</string>
+    <string name="historical_town">Történelmi település</string>
+    <string name="aggregate">Összesített</string>
+    <string name="open_space">Szabadterület</string>
+    <string name="territory">Terület</string>
+    <string name="district">Kerület</string>
+    <string name="province">Tartomány</string>
+    <string name="municipality">Község</string>
+    <string name="parish">Közösség</string>
+    <!-- Added by mistake with some GADM place types, but subsequently used by some of our users. Assume it's a type of place contained within a "department" -->
+    <string name="department_segment">Területrész</string>
+    <string name="city_building">Városépület</string>
+    <string name="commune">Közösség</string>
+    <string name="governorate">Kormányzóság</string>
+    <string name="prefecture">Prefektúra</string>
+    <string name="canton">Megye</string>
+    <string name="republic">Köztársaság</string>
+    <string name="division">Részleg</string>
+    <string name="subdivision">Alrészleg</string>
+    <!-- https://gadm.org place type, presumably describing an area larger than an individual property but smaller than a neighborhood -->
+    <string name="village_block">Épületegyüttes</string>
+    <!-- Mongolian sub-sub-national place type: https://en.wikipedia.org/wiki/Districts_of_Mongolia -->
+    <string name="sum">sum</string>
+    <string name="shire">megye</string>
+    <string name="prefecture_city">Prefektúra város</string>
+    <!-- Indonesian sub-sub-national place type -->
+    <string name="regency">Kormányzóság</string>
+    <string name="constituency">Választókerület</string>
+    <string name="local_authority">Helyi hatóság</string>
+    <!-- https://en.wikipedia.org/wiki/Poblacion -->
+    <string name="poblacion">Óváros</string>
+    <!-- https://en.wikipedia.org/wiki/Delegations_of_Tunisia -->
+    <string name="delegation">Kirendeltség</string>
+    <string name="apply_filters">Szűrők alkalmazása</string>
+    <string name="remove_filters">Szűrők eltávolítása</string>
+    <string name="reset">Visszaállítás</string>
+    <string name="show_only_my_observations">Csak saját megfigyeléseim megjelenítése</string>
+    <string name="project">Projekt</string>
+    <string name="user">Felhasználó</string>
+    <string name="search_users">Felhasználók keresése...</string>
+    <string name="quality_grade">Minőségi szint</string>
+    <!-- Label for observation filters specifying when the observations were made in the field (not necessarily when they were added to iNaturalist) -->
+    <string name="date_observed">A megfigyelés dátuma</string>
+    <!-- Generally used as a menu option to indicate no preference, e.g. Date of Observation: Any / Exact / Range / Month -->
+    <string name="any">Mindegy</string>
+    <!-- Used to separate a date range, e.g. "2018-01-04 to 2018-05-02" -->
+    <string name="to">-</string>
+    <string name="exact_date">Pontos dátum</string>
+    <string name="start">Kezdete</string>
+    <string name="end">Vége</string>
+    <string name="months">Hónapok</string>
+    <string name="choose_months">Hónap(ok) kiválasztása</string>
+    <string name="map_area">Térképtartomány</string>
+    <string name="global">Globális</string>
+    <!-- As in redo search in the current map area -->
+    <string name="search_map_area">Keresés az aktuális térképtartományban</string>
+    <!-- Compact form of "X minutes ago", so "3 minutes ago" would be "3m" -->
+    <string name="date_minute">%d perce</string>
+    <!-- Compact form of "X hours ago", so "3 hours ago" would be "3h" -->
+    <string name="date_hour">%d órája</string>
+    <!-- Compact form of "X days ago", so "3 days ago" would be "3d" -->
+    <string name="date_day">%d napja</string>
+    <!-- Compact form of "X weeks ago", so "3 weeks ago" would be "3w" -->
+    <string name="date_week">%d hete</string>
+    <string name="new_observation">Új megfigyelés</string>
+    <string name="inactive_taxon">Inaktív taxon</string>
+    <string name="no_identifications_found">Más felhasználók általi megfigyelések meghatározásainak követése.</string>
+    <string name="no_species_found">Ez az általad leggyakrabban megfigyelt fajok listája.\n\n Becslések alapján 9 milliófaj él a Földön, tehát van még mit megfigyelni.</string>
+    <string name="make_an_observation">Megfigyelés készítése</string>
+    <string name="no_observations_found_new">A megfigyelés egy adott organizmus adott időpontban és adott területen való rögzítése.</string>
+    <string name="discard_comment">Biztosan elveted ezt a hozzászólást?</string>
+    <string name="leave_comment">Hozzászólás</string>
+    <string name="swipe">Húzás</string>
+    <string name="swipe_indicator">›</string>
+    <string name="potential_disagreement">Lehetséges konfliktus</string>
+    <string name="do_you_think_this_could_be"><![CDATA[Elégséges bizonyíték ez arra, hogy ez <b>%1$s</b>?]]></string>
+    <!-- This sentence expresses uncertainty at a fine taxonomic level but certainty at a higher taxonomic level, e.g. "I don't know if this is a dog but I'm sure it is a mammal." -->
+    <string name="i_dont_know_but"><![CDATA[Nem tudom, de biztosan <b>%1$s</b>.]]></string>
+    <string name="no_but_it_is_a_member_of_taxon"><![CDATA[Nem, de <b>%1$s</b> tagja.]]></string>
+    <string name="submit">Küldés</string>
+    <string name="change_password">Jelszó módosítása</string>
+    <string name="search_projects_youve_joined">Keresés a követett projektekben</string>
+    <string name="must_be_connected_to_load_more_obs">További megfigyelések betöltéséhez internetkapcsolat szükséges.</string>
+    <string name="inat_about_title_new">Az iNaturalist az Egyesült Államokban egy 501(c)(3) besorolású nonprofit szervezet (EIN 92-1296468)</string>
+    <!--
+        Pronunciation of people's names (as approved by the people in question):
+
+        Abhas Misraraj: ɑbhɑs mɪʃrɑrɑdʒ (http://ipa-reader.xyz/?text=%C9%91bh%C9%91s%20m%C9%AA%CA%83r%C9%91r%C9%91d%CA%92)
+        Alex Shepard: ˈæ.lɪks ˈʃɛpɚd (http://ipa-reader.xyz/?text=%CB%88%C3%A6.l%C9%AAks%20%CB%88%CA%83%C9%9Bp%C9%9Ad)
+        Ken-ichi Ueda: ˌkɛˈniʧi weɪdɑ (http://ipa-reader.xyz/?text=%CB%8Ck%C9%9B%CB%88ni%CA%A7i%20we%C9%AAd%C9%91)
+        Tony Iwane: ˈtoʊni ɪˈwɑneɪ (http://ipa-reader.xyz/?text=%CB%88to%CA%8Ani%20%C9%AA%CB%88w%C9%91ne%C9%AA)
+    -->
+    <string name="inat_credits2"><![CDATA[Az iNaturalist köszönettel tartozik a közössége minden egyes tagjának. Akik a szoftvereket írják, a felhasználói felületen dolgoznak, az infrastruktúrát karban tartják, a közösséget építik: Yaron Budowski, Amanda Bullington, Tony Iwane, Johannes Klein, Patrick Leary, Scott Loarie, Abhas Misraraj, Sylvain Morin, Carrie Seltzer, Alex Shepard, Angie Ta és Ken-ichi Ueda.<br/><br/>A CalTech és a Cornell Tech segített annak a gépi látás rendszernek a kifejesztésében, amely fényképek alapján segít a fajok azonosításában. A számítógépes látás terén kifejtett kutató munkásságukért köszönet illeti a következőket: Grant Van Horn, Serge Belongie és Pietro Perona. További információ érhető el a  <a href="http://www.visipedia.org">visipedia.org</a> oldalon. Külön köszönet az NVIDIA-nak a segítségért.]]></string>
+    <string name="inat_credits_networks_pre"><![CDATA[Partnerszervezeteinknek köszönhetően a nemzetközi iNaturalist Network a lokalizált, integrált, iNaturalist-alapú weboldalak támogatója a következő országokban.]]></string>
+    <string name="inat_credits_post"><![CDATA[Az iNaturalist mély hálával tartozik a nyílt forráskódú fejlesztők felé is, akik nagyon sokat dolgoztak az alapvető szoftereinken. A nyílt forráskódú munkákat megtekintheted a <a href="https://github.com/inaturalist/iNaturalistAndroid">https://github.com/inaturalist/iNaturalistAndroid</a> oldalon.<br/> Szintén köszönjük a crowdin.com közösségének a a fordítások terén nyújtott segítségét, különösen a következőknek: Eduardo Martínez, Lin Cheng-Tao, KestrelLam, cgalindo, vilseskog, NCAA, ldacosta, radana, Mykola Pukhalskyi, danieleseglie, and katunchik. <br/>Az IUCN II. kategóriájú helyek forrása az IUCN és UNEP-WCMC (2015), The World Database on Protected Areas (WDPA) [On-line], [11/2014], Cambridge, UK: UNEP-WCMC. Elérhetőség: <a href="http://www.protectedplanet.net">www.protectedplanet.net</a>]]></string>
+    <string name="credits_title">Közreműködők</string>
+    <string name="password_changed">Az alkalmazás által használt jelszó már hibás. Módosítottad a weboldalon? Add meg az új jelszót itt</string>
+    <string name="just_so_you_know">Csak hogy tudd...</string>
+    <string name="ask_for_g_plus_permissions">A Google-fiókod használatához a Google kötelezővé teszi számunkra, hogy engedélyt kérjünk tőled a kontaktlistádhoz való hozzáféréshez. Mi semmilyen okból nem használjuk ezt a hozzáférést. Ha megtagadod ezt a hozzáférést, regisztrálj vagy jelentkezz be másik felhasználói névvel és jelszóval.</string>
+    <string name="new_to_inat_sign_up_now"><![CDATA[Még nincs %1$s-fiókod? <b>Regisztálj!</b>]]></string>
+    <string name="see_more_observations">További megfigyelések megtekintése</string>
+    <string name="see_more_species">További fajok megtekintése</string>
+    <string name="see_more_identifications">További meghatározások megtekintése</string>
+    <string name="collection_and_umbrella_projects">Gyűjtő- és ernyőprojektek</string>
+    <string name="description">Leírás</string>
+    <string name="quantity">Menny.</string>
+    <string name="agree2">Elfogadom</string>
+    <string name="project_observations">Megfigyelések</string>
+    <string name="project_species">Fajok</string>
+    <string name="project_people">Emberek</string>
+    <!-- People who added identifications to observations in a project -->
+    <string name="project_identifiers">Meghatározók</string>
+    <string name="got_it">Rendben!</string>
+    <string name="view_all">Összes</string>
+    <string name="observers">Megfigyelők</string>
+    <!-- Describes the attribute being annotated, e.g. if the annotation is for life stage, "Life Stage" is the attribute. -->
+    <string name="attribute">Attribútum</string>
+    <!-- Value of an annotation, e.g. if the annotation is for life stage and the value chosen is "Adult" then "Adult" is the value -->
+    <string name="value">Érték</string>
+    <!-- Label for a button allowing users to state that they think an annotation is incorrect -->
+    <string name="disagree">Nem ért egyet</string>
+    <!-- Annotations are key/value pairs applied to observations with a controlled vocabulary -->
+    <string name="annotations">Magyarázat</string>
+    <!-- Used when filtering observations with annotations -->
+    <string name="with_annotation">Magyarázattal</string>
+    <!-- Attribute of an annotation. Synonymous with "Attribute" but slightly more explanatory for use in a popup header -->
+    <string name="annotation_name">Magyarázat név</string>
+    <!-- Annotation value for when no annotation has been chosen -->
+    <string name="none">Nincs</string>
+    <!-- Phenological state of flowers on a plant -->
+    <!-- Describes life stage at the time of observation, e.g. juvenile, adult -->
+    <string name="annotation_name_life_stage">Életszakasz</string>
+    <!-- Noun, describes sex of the organism -->
+    <string name="annotation_name_sex">Nem</string>
+    <!-- Attribute that describes whether the organism is alive or dead -->
+    <string name="annotation_name_alive_or_dead">Élő vagy élettelen</string>
+    <!-- Attribute that describes what kind of evidence of an organism's presence was recorded in this observation -->
+    <string name="annotation_name_evidence_of_presence">Megjelenési bizonyíték</string>
+    <!-- Attribute that describes the phenological state of the leaves on a plant -->
+    <!-- Attribute that describes whether the observed organism is part of an established population or something more like a waif or escaped pet -->
+    <!-- Adjective, having open flowers -->
+    <!-- Adjective, having fruit or seeds -->
+    <!-- Adjective, having unopened flowers -->
+    <!-- Observation presents no evidence of flowering phenology -->
+    <!-- Adjective describing the life stage where an individual can reproduce -->
+    <string name="annotation_value_adult">Felnőtt</string>
+    <!-- Adjective describing the odonate life stage between nymph and adult -->
+    <string name="annotation_value_teneral">Frissen kikelt</string>
+    <!-- Noun for a dormant phase of holometabolous insects between larva and adult -->
+    <string name="annotation_value_pupa">Báb</string>
+    <!-- Noun for larval stage of some aquatic insects and most hemimetabolous insects -->
+    <string name="annotation_value_nymph">Nimfa</string>
+    <!-- Noun for the arthropod life stage between egg and adult -->
+    <string name="annotation_value_larva">Lárva</string>
+    <string name="annotation_value_egg">Pete, tojás</string>
+    <!-- Life stage before adulthood, could work as a noun or an adjective -->
+    <string name="annotation_value_juvenile">Fiatal </string>
+    <!-- Life stage between pupa and adult, generally used for mayflies (Ephemeroptera) -->
+    <string name="annotation_value_subimago">Szubimágó</string>
+    <string name="annotation_value_female">Nőstény</string>
+    <string name="annotation_value_male">Hím</string>
+    <!-- Adjective, alive and shows no signs of imminent death -->
+    <string name="annotation_value_alive">Élő</string>
+    <!-- Adjective, dead or shows signs of imminent death -->
+    <string name="annotation_value_dead">Élettelen</string>
+    <!-- Value for when the value of the attribute cannot be determined -->
+    <string name="annotation_value_cannot_be_determined">Nem határozható meg</string>
+    <!-- "Evidence of Presence" value when the observation depicts the organism itself and not some kind of sign the organism left behind -->
+    <string name="annotation_value_organism">Élőlény</string>
+    <!-- "Evidence of Presence" value when for bird feathers -->
+    <string name="annotation_value_feather">Toll</string>
+    <!-- "Evidence of Presence" value when for fecal remains -->
+    <string name="annotation_value_scat">Ürülék</string>
+    <!-- "Evidence of Presence" value for impressions in the ground or snow -->
+    <string name="annotation_value_track">Nyom</string>
+    <!-- "Evidence of Presence" value when for bones -->
+    <string name="annotation_value_bone">Csont</string>
+    <!-- "Evidence of Presence" value when for discarded reptile skins and arthropod exoskeletons -->
+    <string name="annotation_value_molt">Levedlett kültakaró</string>
+    <!-- "Evidence of Presence" value when for something created by an animal, made with or excavated from other materials -->
+    <!-- "Evidence of Presence" value when for deformed plant tissue outgrowth caused by a parasitic organism -->
+    <!-- "Evidence of Presence" value when for hair that is no longer attached to the organism from which it originated -->
+    <!-- "Evidence of Presence" value when for evidence of feeding between the dermal layers of a leaf -->
+    <!-- "Leaves" value when for leaf buds that are opening -->
+    <!-- "Leaves" value when for green leaves -->
+    <!-- "Leaves" value when for leaves with colors other than green, e.g. dying leaves in autumn -->
+    <!-- "Leaves" value when there are no living leaves -->
+    <!-- "Established" value when the organism is not established, e.g. an escaped pet. See https://www.inaturalist.org/blog/91460-piloting-an-establishment-annotation-with-amphibians-and-reptiles -->
+    <!-- Text for a label for a list of projects the viewer has joined -->
+    <string name="joined_projects_all_caps">CSATLAKOZVA</string>
+    <string name="nearby_projects_all_caps">KÖZELI</string>
+    <string name="featured_projects_all_caps">KIEMELT</string>
+    <!-- Text for a button or label that allows someone to join a project -->
+    <string name="join_all_caps">CSATLAKOZÁS</string>
+    <string name="my_guides_all_caps">SAJÁT</string>
+    <string name="nearby_guides_all_caps">KÖZELI</string>
+    <string name="all_guides_all_caps">MIND</string>
+    <string name="description_all_caps">LEÍRÁS</string>
+    <string name="quantity_all_caps">MENNY.</string>
+    <plurals name="observation_count_all_caps">
+        <item quantity="one">%1$s MEGFIGYELÉS</item>
+        <item quantity="other">%1$s MEGFIGYELÉS</item>
+    </plurals>
+    <string name="agree_all_caps">EGYETÉRTEK</string>
+    <string name="observations_all_caps">MEGFIGYELÉS</string>
+    <string name="species_all_caps">FAJ</string>
+    <string name="people_all_caps">FELHASZNÁLÓ</string>
+    <string name="identifiers_all_caps">MEGHATÁROZÓ</string>
+    <string name="identifications_all_caps">MEGHATÁROZÁS</string>
+    <string name="news_all_caps">HÍREK</string>
+    <string name="got_it_all_caps">RENDBEN</string>
+    <string name="view_all_all_caps">MIND MEGTEKINTÉSE</string>
+    <string name="observers_all_caps">MEGFIGYELŐ</string>
+    <string name="observations_regular">Megfigyelések</string>
+    <string name="data_quality_assessment">Adatminőség</string>
+    <string name="research_grade_qualification">Tudományos szintű besorolás</string>
+    <string name="date_specified">Dátum megadva</string>
+    <string name="location_specified">Hely megadva</string>
+    <string name="has_photos_or_sounds">Van fénykép vagy hang</string>
+    <string name="has_id_supported_by_two_or_more">Két vagy több meghatározás egyezik</string>
+    <string name="date_is_accurate">A dátum pontos</string>
+    <string name="location_is_accurate">A hely pontos</string>
+    <string name="organism_is_wild">Vadon élő organizmus</string>
+    <string name="evidence_of_organism">Bizonyíték az organizmusra</string>
+    <string name="recent_evidence_of_an_organism">Friss bizonyíték az organizmusra</string>
+    <string name="community_id_at_species_level_or_lower">Közösségi meghatározás faji szinten vagy alatta</string>
+    <string name="based_on_evidence_can_community_id_be_confirmed">A bizonyíték alapján lehet még javítani a közösségi meghatározáson?</string>
+    <string name="no_as_good_as_it_can_be">Nem, ettől már nem lehet jobb</string>
+    <string name="seasonality">Szezonalitás</string>
+    <string name="verifiable">Megerősíthető</string>
+    <string name="no_annotation">Nincs magyarázat</string>
+    <string name="donate_to_inaturalist">Az iNaturalist támogatása</string>
+    <string name="prefers_scientific_name_first">A tudományos név legyen az első</string>
+    <string name="prefers_scientific_name_first_description">Tudományos név megjelenítése elsőként</string>
+    <string name="network_credit_inaturalistcanada"><![CDATA[Kanada: az iNaturalist Canada működtetői a Canadian Wildlife Federation, a Royal Ontario Museum, a NatureServe Canada és a Parks Canada(<a href="https://inaturalist.ca">inaturalist.ca</a>)]]></string>
+    <string name="network_credit_naturalistacolombia"><![CDATA[Kolumbia: a Naturalista működtetője az Instituto Humboldt(<a href="https://colombia.inaturalist.org">colombia.inaturalist.org</a>)]]></string>
+    <string name="network_credit_naturalista"><![CDATA[Mexikó: a NaturaLista működtetője a Comisión nacional para el conocimiento y uso de la biodiversidad (CONABIO)(<a href="https://naturalista.mx">NaturaLista.mx</a>)]]></string>
+    <string name="network_credit_naturewatchnz"><![CDATA[Új Zéland: az iNaturalist NZ — Mātaki Taiao működtetője a New Zealand Biodiversity Recording Network(<a href="https://inaturalist.nz">inaturalist.nz</a>)]]></string>
+    <string name="network_credit_biodiversity4all"><![CDATA[Portugal: Associação Biodiversidade Para Todos operating Biodiversity4All (<a href="https://biodiversity4all.org">Biodiversity4All.org</a>)]]></string>
+    <string name="network_credit_inaturalistpanama"><![CDATA[Panama: az iNaturlaistPa működtetője a Ministerio de Ambiente(<a href="https://panama.inaturalist.org">panama.inaturalist.org</a>)]]></string>
+    <string name="network_credit_argentinat"><![CDATA[Argentína: az ArgentiNat támogatója a Fundación Vida Silvestre Argentina(<a href="https://www.argentinat.org">www.argentinat.org</a>)]]></string>
+    <string name="network_credit_inaturalistaustralia"><![CDATA[Ausztrália: az iNaturalist Australia támogatója az Atlas of Living Australia(<a href="https://inaturalist.ala.org.au">inaturalist.ala.org.au</a>)]]></string>
+    <string name="network_credit_inaturalistecuador"><![CDATA[Equádor: az iNaturalist Ecuador támógatója az Instituto Nacional de Biodiversidad (INABIO)(<a href="https://ecuador.inaturalist.org">ecuador.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistil"><![CDATA[Izrael: iNaturalist Israel támogatója: University of Haifa (<a href="https://israel.inaturalist.org">israel.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistfi"><![CDATA[Finnország: az iNaturalist Finland (<a href="https://inaturalist.laji.fi/">https://inaturalist.laji.fi</a>) támogatója a Finnish Museum of Naturalist History (LUOMUS).]]></string>
+    <string name="network_credit_inaturalistlu"><![CDATA[Luxemburg: az iNaturalist Luxembourg (<a href="https://inaturalist.lu">inaturalist.lu</a>) támogatója a Luxembourg National Museum of Natural History (MnhnL).]]></string>
+    <string name="network_credit_inaturalistuk"><![CDATA[Egyesült Királyság: az iNaturalist United Kingdom (<a href="https://uk.inaturalist.org">uk.inaturalist.org</a>) támogatója a National Biodiversity Network Trust.]]></string>
+    <string name="mark_all_as_viewed">Mind megjelölése megtekintettként</string>
+    <string name="content_hidden">Rejtett tartalom</string>
+    <string name="show_hidden_content">Rejtett tartalom megjelenítése</string>
+    <string name="content_hidden_because">\@%1$s elrejtette ekkor: %2$s. Ok: \"%3$s\"</string>
+    <string name="contact_support_with_link"><![CDATA[<a href="mailto:help@inaturalist.org">Kapcsolatfelvétel</a>]]></string>
+    <string name="content">Tartalom</string>
+    <string name="has_photos">Fényképpel</string>
+    <string name="has_sounds">Hanggal</string>
+    <string name="could_not_play_sound">Hang lejátszása sikertelen, valószínűleg hálózati hiba</string>
+    <string name="cant_play_soundcloud"><![CDATA[Soundcloud hangok lejátszása <a href="%1$s">ezen a weboldalon</a>.]]></string>
+    <string name="soundcloud">Soundcloud</string>
+    <!-- Label for a button to open a sound recorder to record a new sound for an observation -->
+    <string name="record_sound">Hangrögzítés</string>
+    <string name="couldnt_retrieve_sound">A hang nem elérhető az alapértelmezett felvevőből. Próbáld inkább importálni.</string>
+    <!-- Label for a button to import an existing sound for an observation -->
+    <string name="upload_sound">Hang kiválasztása</string>
+    <string name="multi_select_sound_description">A hangikont nyomvatartva több hangot is importálhatsz. </string>
+    <string name="alert_unsupported_audio_type">A hang betöltése ebből a forrásból sajnos sikertelen</string>
+    <string name="invalid_audio_extension">Hang(ok) importálása sikertelen: csak WAW, MP3 és AMR kiterjesztésű fájlok importálhatók.</string>
+    <string name="importing_sounds">Hang(ok) importálása...</string>
+    <string name="observation_sound">A megfigyelés hangja</string>
+    <string name="deleted_sounds_from_cache_error">Úgy tűnik, a hangfájlt törölted a gyorsítótárból a feltöltés előtt. Újból add hozzá a hangfájlt a könyvtáradból a megfigyeléshez. A jövőben csak minden hangfájl feltöltése után töröld az alkalmazás gyorsítótárát.</string>
+    <!-- Used when recording a sound - it's a counter, counting the number of seconds that have passed. e.g. 3.2 sec = 3.2. seconds -->
+    <string name="seconds">%1$.1f mp</string>
+    <string name="clear_all_debug_logs">Teljes műveleti napló törlése</string>
+    <string name="clears_up_storage_room_on_your_phone">Tárhelyet szabadít fel a mobilodon</string>
+    <string name="number_of_days_to_store_logs">Naplófájl ennyi napig mentsen</string>
+    <string name="send_debug_logs_from_start_date">Műveleti napló küldése a kezdődátumtól</string>
+    <string name="send_debug_logs_by_email">Műveleti napló küldése emailben (megadott dátumtól)</string>
+    <string name="debug_settings">Hibakeresési beállítások</string>
+    <string name="are_you_sure_you_want_to_delete_logs">Biztosan törlöd az összes hibakeresési adatot? Csak akkor tedd ezt, ha fel szeretnél szabadítani a mobiltelefonod tárhelyéből.</string>
+    <string name="no_log_files_found">Nem található naplófájl erre az időtartamra. Talán próbáld korábbról.</string>
+    <string name="choose_pinned_location">Tárolt helyzetek</string>
+    <string name="pin_current_location">Jelenlegi helyzet tárolása</string>
+    <string name="location_pinned_successfully">Jelenlegi helyzet sikeresen eltárolva</string>
+    <string name="delete_this_pinned_location">Törlöd ezt a tárolt helyzetet?</string>
+    <!-- Verb, as in "Duplicate this photo" - Second person imperative -->
+    <string name="duplicate">Duplikálás</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the photo for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_photo">A fénykép duplikálása sikertelen!</string>
+    <string name="couldnt_edit_photo">A fénykép szerkesztése sikertelen!</string>
+    <!-- Verb, as in "Rotate this photo" -->
+    <string name="ucrop_rotate">Elforgatás</string>
+    <!-- Verb, as in "Scale (resize) this photo" -->
+    <string name="ucrop_scale">Átméretezés</string>
+    <!-- Verb, as in "Crop this photo" -->
+    <string name="ucrop_crop">Vág</string>
+    <!-- Label for adjusting the brightness of an image -->
+    <string name="ucrop_brightness">Fényerő</string>
+    <!-- Label for adjusting the contrast of an image -->
+    <string name="ucrop_contrast">Kontraszt</string>
+    <!-- Label for adjusting the saturation of an image -->
+    <string name="ucrop_saturation">Telítettség</string>
+    <!-- Label for adjusting the sharpness of an image -->
+    <string name="ucrop_sharpness">Élesség</string>
+    <!-- Label for image cropping mode that maintains the original aspect ratio -->
+    <string name="ucrop_label_original">Eredeti</string>
+    <!-- Label for image cropping mode that has no limits on the aspect ratio -->
+    <string name="ucrop_label_free">Tetszőleges</string>
+    <!-- Verb phrase, button label to edit an observation photo -->
+    <string name="ucrop_label_edit_photo">Fénykép szerkesztése</string>
+    <string name="service_temporarily_unavailable">A szolgáltatás átmenetileg nem elérhető</string>
+    <string name="please_try_again_in_a_few_hours">Néhány óra múlva próbáld újra.</string>
+    <!-- e.g. "Please try again in 3 hours", or "Please try again in 15 minutes" -->
+    <string name="please_try_again_in_x">%1$d %2$s múlva próbáld újra.</string>
+    <string name="hours">óra</string>
+    <string name="minutes">perc</string>
+    <string name="seconds_value">másodperc</string>
+    <string name="shop_the_inat_store">Vásárlás az iNat Boltban</string>
+    <string name="delete_your_account">A fiók törlése</string>
+    <string name="delete_account_message"><![CDATA[A fiókod megszüntetésével törlődnek az alábbiak: <br/><br/><ul><li> Minden megfigyelésed, beleértve mindazon felhasználók munkái, akik segítettek meghatározásaikkal.</li><li> Más felhasználók megfigyeléseihez adott minden meghatározásod, amely negatív hatással lehet azok adatminőségére.</li><li> Minden hozzászólásod.</li></ul><br/>Továbbá, a fiók megszüntetése visszavonhatatlan. Ha később meggondolnád magad, nem tudjuk visszaállítani a tartalmaidat.<br/><br/>Ha túl sok értesítést kapsz tőlünk, <a href="https://www.inaturalist.org/users/edit">módosítsd a beállításaidat a weboldalon</a>, ezzel letilthatod a különféle értesítéseket és emaileket. Ha egy felhasználó aktivitása kellemetlen számodra, <a href="https://www.inaturalist.org/users/edit">elnémíthatod</a> a fiókod megszüntetése nélkül.<br/><br/>Ha ezek után is meg szeretnéd szüntetni a fiókod, írd be ezt az alábbi mzőbe: <b>%1$s</b>, majd nyomd meg a gombot a fiókod és az adataid törléséhez.]]></string>
+    <string name="your_account_has_been_deleted">Töröltük a fiókod.</string>
+    <string name="you_must_enter_username_in_the_form_to_delete_account">A fiókod törléséhez írd be ezt a mezőbe: %1$s</string>
+    <!-- Second person hint text asking the user to enter their username -->
+    <string name="type_your_username">Írd be felhasználóneved</string>
+    <string name="error_deleting_account">Fiókod törlése sikertelen. Ellenőrizd az internetkapcsolatod.</string>
+    <string name="verify_your_password">Jelszó megerősítése</string>
+    <string name="third_party_data_sharing">Adatmegosztás harmadik féllel</string>
+    <string name="disable_third_party_data_sharing">Harmadik féllel való adatmegosztás kikapcsolása</string>
+    <string name="do_not_collect_third_party_data">Harmadik féltől származó szolgáltatásokkal ne gyűjtsön adatokat az alkalmazás működéséről.</string>
+    <string name="enabled">Bekapcsolva</string>
+    <string name="disabled">Kikapcsolva</string>
+    <string name="third_party_data_sharing_notes1"><![CDATA[Különféle, harmadik féltől származó szolgáltatásokkal figyeljük a szoftverleállásokat és diagnosztizáljuk a szofterhibákat. Például: <ul>Google )<a href="https://analytics.google.com/">Google Analytics</a>,<a href="https://firebase.google.com/products/crashlytics/">Firebase Crashlytics</a>)</li><li><a href="https://newrelic.com/">New relic</a></li></ul>]]></string>
+    <string name="common_names_place"><![CDATA[Köznyelvi név forrása: <b>%1$s</b>]]></string>
+    <string name="tap_to_prioritize_common_names">Koppints ide a köznyelvi név regiójának kiválasztásához.</string>
+    <string name="search_places">Helyek keresése</string>
+    <string name="restart_app">Alkalmazás újraindítása</string>
+    <string name="disable_third_party_sharing_restart">Harmadik féllel való adatmegosztás azonnali kikapcsolásához újrindítás szükséges.</string>
+    <plurals name="are_you_sure_you_want_to_delete_observations">
+        <item quantity="one">Biztosan törlöd ezt az %1$d megfigyelést?</item>
+        <item quantity="other">Biztosan törölsz %1$d megfigyelést?</item>
+    </plurals>
+    <string name="future_observed_on_date_error">A megfigyelésed dátuma %1$s, de az új dátum (%2$s) ettől későbbi.</string>
+    <string name="no_more_photos_allowed">Egy megfigyelés legfeljebb %1$d fényképet tartalmazhat. Továbbiak hozzáadásához először el kell távolítanod néhányat.</string>
+    <string name="warning_multiple_photos">Ne adj fényképet többféle organizmusról, különféle időpontról vagy helyről egy megfigyeléshez, inkább külön megfigyeléshez töltsd fel. Egy megfigyelés legfeljebb %1$d fényképet tartalmazhat.</string>
+    <string name="choosing_specific_language_warning">A fiókod nyelvének megválasztásához internetkapcsolat szükséges.</string>
+    <string name="running_in_background_notfication">A megszakítások megakadályozása érdekében a háttérben fut.</string>
+    <string name="opt_out_of_community_taxon">A Közösségi Taxon engedélyezésének megszüntetése</string>
+    <string name="opt_in_to_community_taxon">A Közösségi Taxon engedélyezése</string>
+    <!-- Dialog title when notifying the user that the action they tried to perform requires them to grant location permission to the app -->
+    <string name="permission_required">Engedélyezés szükséges</string>
+    <!-- Message displayed when the user tries to perform an action that requires location permission -->
+    <string name="to_access_your_location">A helyzetedhez való hozzáféréshez engedélyezd a helyzetmeghatározást az alkalmazás számára.</string>
+    <!-- Dialog title when displaying a message that an action is not permitted -->
+    <string name="forbidden">Nem engedélyezett</string>
+    <!-- Message displayed when the user tries to share media with the iNat app from another app that from which iNat does not accept media -->
+    <string name="app_you_shared_blocked">A fényképekhez használt alkalmazás nem felel meg megfigyelések rögzítéséhez, mert nem szolgálnak az organizmusok bizonyítékául, vagy mert nem megengedett márkajelölést vagy marketingüzenetet tartalmaznak, vagy mert más okból sértik a Szolgáltatási Feltételeinket.</string>
+    <!-- Description of a UI element for screen readers -->
+    <!-- Description of a UI element for screen readers -->
+    <string name="observation_list_item_iconic_pic_description">Indexkép a megfigyelés taxonjához</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="observation_list_item_obs_pic_description">A megfigyelés indexképe</string>
+    <string name="messages">Üzenetek</string>
+    <string name="all_messages">Minden üzenet</string>
+    <string name="search_messages">Üzenetek keresése</string>
+    <string name="no_messages">Jelenleg nincsenek üzeneteid. A zöld gombra koppintva küldhetsz üzeneteket, vagy a profiloldakról üzenhetsz a felhasználóknak.</string>
+    <string name="no_messages_found">Nincsenek üzenetek.</string>
+    <string name="send_a_message">Üzenetküldés</string>
+    <string name="sending_message">Üzenet küldése...</string>
+    <string name="could_not_send_message">Üzenetküldés sikertelen: %1$s</string>
+    <string name="subject">Tárgy</string>
+    <string name="body">Üzenet</string>
+    <string name="type_your_message_here">Írd ide az üzeneted</string>
+    <string name="new_message_to">Új üzenet %1$s számára</string>
+    <string name="who_would_you_like_to_send_a_message_to">Kinek szeretnél üzenetet küldeni?</string>
+    <string name="new_message">Új üzenet</string>
+    <string name="search_for_inaturalist_users">iNaturalist-felhasználók keresése</string>
+    <string name="please_sign_in_for_messages">Az üzeneteid megtekintéséhez be kell jelentkezned.</string>
+    <string name="sorry">Sajnáljuk</string>
+    <string name="you_must_have_three_observations">Ehhez legalább három megerősíthető megfigyeléssel vagy három meghatározással kell rendelkezned.</string>
+    <string name="mute_this_user">Felhasználó némítása</string>
+    <string name="unmute_this_user">Némítás visszavonása</string>
+    <string name="flag_this_conversation">Beszélgetés bejelentése</string>
+    <string name="mute_this_user_question">Némítod ezt a felhasználót?</string>
+    <string name="you_will_no_longer_receive_messages">Ezentúl nem kapsz értesítéseket ennek a felhasználónak a tevékenységeiről, beleértve az üzeneteit, hozzászólásait, meghatározásait és említéseit.</string>
+    <string name="mute">Némítás</string>
+    <string name="muting_user">Felhasználó némítása...</string>
+    <string name="unmuting_user">Némítás visszavonása...</string>
+    <string name="failed_muting_user">A felhasználó némítása sikertelen!</string>
+    <string name="failed_unmuting_user">A felhasználó némítása sikertelen!</string>
+    <string name="flag_conversation">Beszélgetés bejelentése</string>
+    <string name="spam">Spam</string>
+    <string name="commercial_solicitation">Üzleti ajánlat, nemműködő linkek, stb.</string>
+    <string name="offensive_inappropriate">Erőszakos / Helytelen</string>
+    <string name="misleading_or_illegal_content">Félrevezető vagy illegális tartalom, rasszista vagy kiközösítő megnyilvánulás, stb. További információ a Gyakran Ismételt Kérdések között.</string>
+    <string name="other">Egyéb</string>
+    <string name="some_other_reason">Egyéb megmagyarázható ok.</string>
+    <string name="continue_text">Folytatás</string>
+    <string name="why_are_you_flagging_this_item">Mi az alapja ennek a bejelentésnek?</string>
+    <string name="thank_you_for_submitting_the_flag">Köszönjük a bejelentést!</string>
+    <string name="flagging_conversation">Társalgás bejelentése</string>
+    <string name="failed_flagging_conversation">A társalgás bejelentése sikertelen!</string>
+    <string name="no_subject">Nincs tárgy</string>
+    <!-- As in "matter and energy", or "life is a self-replicating pattern of matter subject to evolutionary processes" -->
+    <string name="rank_state_of_matter">Entitás</string>
+    <string name="rank_kingdom">Ország</string>
+    <string name="rank_subkingdom">Alország</string>
+    <string name="rank_phylum">Törzs</string>
+    <string name="rank_subphylum">Altörzs</string>
+    <string name="rank_superclass">Főosztály</string>
+    <string name="rank_class">Osztály</string>
+    <string name="rank_subclass">Alosztály</string>
+    <string name="rank_infraclass">Alosztályág</string>
+    <string name="rank_superorder">Főrend</string>
+    <string name="rank_order">Rend</string>
+    <string name="rank_suborder">Alrend</string>
+    <string name="rank_infraorder">Alrendág</string>
+    <string name="rank_subterclass">Subterclass</string>
+    <string name="rank_parvorder">Parvorder</string>
+    <string name="rank_zoosection">Zoosection</string>
+    <string name="rank_zoosubsection">Zoosubsection</string>
+    <string name="rank_superfamily">Főcsalád</string>
+    <string name="rank_epifamily">Epifamily</string>
+    <string name="rank_family">Család</string>
+    <string name="rank_subfamily">Alcsalád</string>
+    <string name="rank_supertribe">Főnemzetségcsoport</string>
+    <string name="rank_tribe">Nemzetségcsoport</string>
+    <string name="rank_subtribe">Alnemzetségcsoport</string>
+    <string name="rank_genus">Nemzetség</string>
+    <string name="rank_genushybrid">Nemzetséghibrid</string>
+    <string name="rank_subgenus">Alnemzetség</string>
+    <string name="rank_section">Fajcsoport</string>
+    <string name="rank_subsection">Alfajcsoport</string>
+    <string name="rank_complex">Komplex</string>
+    <!-- Singular -->
+    <string name="rank_species">Faj</string>
+    <string name="rank_hybrid">Hibrid</string>
+    <!-- Singular -->
+    <string name="rank_subspecies">Alfaj</string>
+    <string name="rank_variety">Változat</string>
+    <string name="rank_form">Forma</string>
+    <string name="rank_infrahybrid">Infrahibrid</string>
+    <string name="rank_leaves">Végpontok</string>
+    <string name="location_lat_lng">Hely: %1$f, %2$f</string>
+    <string name="i_consent_process_personal_info"><![CDATA[Beleegyezem, hogy az iNaturalist korlátozott személyes információkat tároljon és dolgozzon fel rólam a fiókom kezelése érdekében. <b>További információ</b>]]></string>
+    <string name="about_personal_information">A személyes információkról</string>
+    <string name="personal_information_notes"><![CDATA[A személyes információkat, mint például felhasználóneveket és email címeket, az oldal működtetéséhez használjuk fel. Az adatvédelmi törvények értelmében e négyzet bejelölésével engedélyezed a személyes információid ecélú használatát. Az <a href="https://www.inaturalist.org/privacy">Adatvédelmi nyilatkozat</a> és a <a href="https://www.inaturalist.org/terms">Felhasználási feltételek</a> további részleteket tartalmaz a gyűjtött információk köréről és azok felhasználásáról.]]></string>
+    <string name="i_agree_to_tos_and_privacy"><![CDATA[Egyetértek a <a href="https://www.inaturalist.org/terms">Felhasználási feltételekkel</a> és az <a href="https://www.inaturalist.org/privacy">Adatvédelmi nyilatkozattal</a>, és átolvastam a <a href="https://www.inaturalist.org/pages/community+guidelines">Közösségi irányelveket</a>.]]></string>
+    <string name="privacy_policy">Adatvédelmi nyilatkozat</string>
+    <string name="terms_of_service">Felhasználási feltételek</string>
+    <!-- Placeholder text shown in place of a username when the user has been deleted -->
+    <string name="deleted_user">Törölt felhasználó</string>
+    <!-- Short date formatting template for dates in the current year. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_short_this_year">MMM. d</string>
+    <!-- Short date formatting template for any date. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_short">yyyy. MM. dd.</string>
+    <!-- Short time formatting template for 24-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="time_short_24_hour">HH:mm</string>
+    <!-- Short time formatting template for 12-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="time_short_12_hour">hh:mma</string>
+    <!-- Long date formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_long">yyyy. MMM d.</string>
+    <!-- Obscured observations date formatting template (only month+year). Note that non-formatting letters should be surrounded by single quotes, and to include an actual single quote you need to double it, so "MMM ''yy" will render as "Oct '24", and "'Month:' MMM, ''yy" will render as "Month: Oct '24" Odd numbers of single quotes are not allowed. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <!-- Long date with time formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_long_with_time">yyyy. MMMM d. hh:mma</string>
+    <string name="show_common_names">Közhasználatú nevek megjelenítése</string>
+    <string name="show_common_names_description">Kapcsold ki, ha a tudományos neveket szeretnéd látni.</string>
+    <string name="email_must_look_like_email_address">Az emailnek úgy kell kinéznie, mint egy email cím</string>
+    <string name="username_must_begin_with">A felhasználó névnek betűvel kell kezdődnie, nem tartalmazhat szóközt, és csak betű, szám, kötőjel vagy alulvonás szerepelhet benne</string>
+    <string name="password_too_short">A jelszónak legalább hat karakternek kell lennie</string>
+    <string name="switch_to_grid_view">Váltás rács nézetre</string>
+    <string name="switch_to_list_view">Váltás lista nézetre</string>
+    <string name="remove_project_filter">Projektszűrő eltávolítása</string>
+    <string name="remove_observer_filter">Megfigyelőszűrő eltávolítása</string>
+    <string name="filter_observations_by_an_exact_date">Megfigyelések szűrése pontos dátum szerint</string>
+    <string name="filter_observations_by_a_date_range">Megfigyelések szűrése dátumtartomány szerint</string>
+    <string name="filter_observations_by_months">Megfigyelések szűrése hónap szerint</string>
+    <!-- Used to demonstrate annotation filters, e.g. Life Stage = Egg -->
+    <string name="equals_sign">=</string>
+    <string name="include_suggestions_not_seen_nearby">Földrajzilag távolabb eső javaslatok megjelenítése</string>
+    <string name="only_view_nearby_suggestions">Csak közeli javaslatok megjelenítése</string>
+    <string name="suggestions_source">A javaslat forrása</string>
+    <string name="research_grade_observations">Tudományos szintű megfigyelések</string>
+    <string name="visually_similar_description">Az iNaturalist a javaslatokat vizuális hasonlóság és a közelben megfigyelt fajok alapján nyújtja.</string>
+    <string name="research_grade_observations_description">Vizuális hasonlóság helyett az iNaturalist meghatározott hely és meghatározott taxon alapján tesz javaslatokat.</string>
+    <string name="taxon">Taxon:</string>
+    <string name="place">Hely:</string>
+    <string name="pretty_sure_kingdom">Nagy bizonyossággal ezen ország:</string>
+    <string name="pretty_sure_subkingdom">Nagy bizonyossággal ezen alország:</string>
+    <string name="pretty_sure_phylum">Nagy bizonyossággal e törzs:</string>
+    <string name="pretty_sure_subphylum">Nagy bizonyossággal ezen altörzs:</string>
+    <string name="pretty_sure_superclass">Nagy bizonyossággal e főosztály:</string>
+    <string name="pretty_sure_class">Nagy bizonyossággal ezen osztály:</string>
+    <string name="pretty_sure_subclass">Nagy bizonyossággal ezen alosztály:</string>
+    <string name="pretty_sure_infraclass">Nagy bizonyossággal ezen alosztályág:</string>
+    <string name="pretty_sure_superorder">Nagy bizonyossággal e főrend:</string>
+    <string name="pretty_sure_order">Nagy bizonyossággal e rend:</string>
+    <string name="pretty_sure_suborder">Nagy bizonyossággal ezen alrend:</string>
+    <string name="pretty_sure_infraorder">Nagy bizonyossággal ezen alrendág:</string>
+    <string name="pretty_sure_subterclass">Nagy bizonyossággal e subterclass:</string>
+    <string name="pretty_sure_parvorder">Nagy bizonyossággal e parvorder:</string>
+    <string name="pretty_sure_zoosection">Nagy bizonyossággal e zoosection:</string>
+    <string name="pretty_sure_zoosubsection">Nagy bizonyossággal e zoosubsection:</string>
+    <string name="pretty_sure_superfamily">Nagy bizonyossággal e főcsalád:</string>
+    <string name="pretty_sure_epifamily">Nagy bizonyossággal ezen epifamily:</string>
+    <string name="pretty_sure_family">Nagy bizonyossággal e család:</string>
+    <string name="pretty_sure_subfamily">Nagy bizonyossággal ezen alcsalád:</string>
+    <string name="pretty_sure_supertribe">Nagy bizonyossággal e főnemzetségcsoport:</string>
+    <string name="pretty_sure_tribe">Nagy bizonyossággal e nemzetségcsoport:</string>
+    <string name="pretty_sure_subtribe">Nagy bizonyossággal ezen alnemzetségcsoport:</string>
+    <string name="pretty_sure_genus">Nagy bizonyossággal e nemzetség:</string>
+    <string name="pretty_sure_genushybrid">Nagy bizonyossággal e nemzetséghibrid:</string>
+    <string name="pretty_sure_subgenus">Nagy bizonyossággal ezen alnemzetség:</string>
+    <string name="pretty_sure_section">Nagy bizonyossággal e szekció:</string>
+    <string name="pretty_sure_subsection">Nagy bizonyossággal ezen alszekció:</string>
+    <string name="pretty_sure_complex">Nagy bizonyossággal e komplex:</string>
+    <!-- Singular -->
+    <string name="pretty_sure_species">Nagy bizonyossággal e faj:</string>
+    <string name="pretty_sure_hybrid">Nagy bizonyossággal ezen hibrid:</string>
+    <!-- Singular -->
+    <string name="pretty_sure_subspecies">Nagy bizonyossággal ezen alfaj:</string>
+    <string name="pretty_sure_variety">Nagy bizonyossággal e változat:</string>
+    <string name="pretty_sure_form">Nagy bizonyossággal e forma:</string>
+    <string name="pretty_sure_infrahybrid">Nagy bizonyossággal ezen infrahibrid:</string>
+    <string name="remove_date_observed">A megfigyelési dátum és idő eltávolítása</string>
+    <string name="remove_time_observed">A megfigyelési idő eltávolítása</string>
+    <string name="remove_location">Hely eltávolítása</string>
+    <string name="are_you_sure_you_want_to_remove_date">Biztosan eltávolítod a megfigyelési dátumot és időt?</string>
+    <string name="are_you_sure_you_want_to_remove_time">Biztosan eltávolítod a megfigyelési időt?</string>
+    <string name="are_you_sure_you_want_to_remove_location">Biztosan eltávolítod a helyet?</string>
+    <string name="share_location">Hely megosztása</string>
+    <string name="share_hidden_location">Rejtett hely megosztása</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the sound for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_sound">A hang duplikálása sikertelen!</string>
+    <string name="sound_format_not_supported">Ezt a hangkódolást az Android nem támogatja.</string>
+    <string name="view_observations">Megfigyelések megtekintése</string>
+    <string name="choose_this_option">Kiválasztás</string>
+    <string name="compare_observation_with_this_option">Ezen opcióval rendelkező megfigyelések összehasonlítása</string>
+    <string name="go_back">Vissza</string>
+    <string name="change_the_source_of_the_suggestions">A javaslatok forrásának módosítása</string>
+    <string name="thumbnail_photo_for_suggested_taxon">A javasolt taxon indexképe</string>
+    <!-- Accessibility text for the comments and IDs tab on the observation detail view -->
+    <string name="comments_ids_title">Hozzászólások és meghatározások</string>
+    <!-- Accessibility text for the faves tab on the observation detail view -->
+    <string name="faves">Kedvencek</string>
+    <!-- Accessibility text for a button that navigates to the previous option in a list of options -->
+    <string name="previous_option">Előző beállítás</string>
+    <!-- Accessibility text for a button that navigates to the next option in a list of options -->
+    <string name="next_option">Következő beállítás</string>
+    <string name="no_observations_yet2">Még nincsenek megfigyelések.</string>
+    <string name="no_species_yet">Még nincs faj.</string>
+    <string name="no_identifications_yet">Még nincs meghatározás.</string>
+    <string name="sort_by">Rendezési szempont</string>
+    <string-array name="explore_order_by_items">
+        <item>Létrehozás dátuma</item>
+        <item>Megfigyelés dátuma</item>
+        <item>Frissítés dátuma</item>
+        <!--<item>Faves</item>-->
+        <item>Véletlenszerű</item>
+    </string-array>
+    <string-array name="explore_order_items">
+        <item>Csökkenő</item>
+        <item>Növekvő</item>
+    </string-array>
+    <!-- Full sentence will look something like: "Sorted by Date Observed (Descending)" -
+    See explore_order_by_items and explore_order_items keys !-->
+    <string name="sorted_by_full">%1$s szerint rendezve (%2$s)</string>
+    <!-- Label for an observation search filter to exclude your own observations -->
+    <string name="hide_my_observations">Megfigyeléseim elrejtése</string>
+    <!-- Label for an option to follow an observation, i.e. subscribe to future updates -->
+    <string name="follow_this_observation">Megfigyelés követése</string>
+    <!-- Label for an option to unfollow an observation, i.e. unsubscribe to future updates -->
+    <string name="unfollow_this_observation">Követés megszüntetése</string>
+    <!-- Error message shown when an attempt to follow an observation fails -->
+    <string name="could_not_follow_observation">A megfigyelés követése sikertelen</string>
+    <!-- Error message shown when an attempt to unfollow an observation fails -->
+    <string name="could_not_unfollow_observation">A követés megszüntetése sikertelen</string>
+    <!-- Label for a button to copy the coordinates of an observation -->
+    <string name="copy_coordinates">Koordináták másolása</string>
+    <string name="coordinates_copied_to_clipboard">A koordináták a vágólapra másolva</string>
+    <!--  Title of a section on the observation detail view that displays minor metadata  -->
+    <string name="metadata">Metaadatok</string>
+    <!--  iNat observation identifier  -->
+    <string name="id">Azonosító</string>
+    <!--  iNat observation Universally Unique Identifier  -->
+    <string name="uuid">UUID</string>
+    <!--  Universal Resource Locator  -->
+    <string name="url">URL</string>
+    <string name="default_licenses">Alapértelmezett licenszek</string>
+    <string name="default_observation_license">Alapértelmezett megfigyelési licenc</string>
+    <string name="default_photo_license">Alapértelmezett fényképlicenc</string>
+    <string name="default_sound_license">Alapértelmezett hanglicenc</string>
+    <string name="change_existing_licenses">Meglévő licencek módosítása</string>
+    <string name="change_licenses_for_existing_observations">Minden meglévő megfigyelés, fénykép és hang licencének módosítása</string>
+    <string name="change_licenses_for_all_existing_observations">Minden meglévő megfigyelés licencének módosítása</string>
+    <string name="change_licenses_for_all_existing_photos">Minden meglévő fénykép licencének módosítása</string>
+    <string name="change_licenses_for_all_existing_sounds">Minden meglévő hang licencének módosítása</string>
+    <string name="change_observation_licenses">Megfigyelési licencek módosítása</string>
+    <string name="change_photo_licenses">Fényképlicencek módosítása</string>
+    <string name="change_sound_licenses">Hanglicencek módosítása</string>
+    <string name="change_licenses_for_observations_confirmation"><![CDATA[Valóban módosítod az eddigi megfigyelések licencét erről: <b>%1$d</b> erre: <b>%2$s</b>?]]></string>
+    <string name="change_licenses_for_photos_confirmation"><![CDATA[Valóban módosítod az eddigi fényképek licencét erre: <b>%1$s</b>?]]></string>
+    <string name="change_licenses_for_sounds_confirmation"><![CDATA[Valóban módosítod az eddigi hangok licencét erre: <b>%1$s</b>?]]></string>
+    <string name="observation_licenses_updated">A megfigyelési licenc módosítva</string>
+    <string name="photo_licenses_updated">Fényképlicencek módosítva</string>
+    <string name="sound_licenses_updated">Hanglicencek módosítva</string>
+    <string name="existing_observation_licenses_have_been_updated">Minden eddigi megfigyelés licence módosult erre: %1$s.</string>
+    <string name="existing_photo_licenses_have_been_updated">Minden eddigi fénykép licence módosult erre: %1$s.</string>
+    <string name="existing_sound_licenses_have_been_updated">Minden eddigi hang licence módosult erre: %1$s.</string>
+    <string name="photo_license">Fényképlicenc</string>
+    <string name="sound_license">Hanglicenc</string>
+    <string name="edit_photo_license">Fényképlicenc módosítása</string>
+    <string name="observation_license">Megfigyelési licensz</string>
+    <string name="edit_observation_license">Megfigyelési licensz módosítása</string>
+    <string name="about_licenses">A licenszekről</string>
+    <string name="view_license">Licensz megtekintése</string>
+    <!-- License Names -->
+    <string name="license_name_cc0">Nyilvános domén</string>
+    <string name="license_name_cc_by">Nevezd meg!</string>
+    <string name="license_name_cc_by_nc">Nevezd meg - Ne add el!</string>
+    <string name="license_name_cc_by_nc_sa">Nevezd meg - Ne add el - Így add tovább!</string>
+    <string name="license_name_cc_by_nc_nd">Nevezd meg - Ne add el - Ne változtasd!</string>
+    <string name="license_name_cc_by_nd">Nevezd meg - Ne változtasd!</string>
+    <string name="license_name_cc_by_sa">Nevezd meg - Így add tovább!</string>
+    <string name="license_name_no_license">Minden jog fenntartva</string>
+    <!-- License Descriptions -->
+    <string name="license_description_cc_by_sa">Ez a licenc lehetővé teszi mások számára, hogy remixeljék, adaptálják és felhasználják a munkádat, akár kereskedelmi célokra is, feltéve, hogy feltüntetnek Téged, és új alkotásaikat azonos feltételek mellett licencelik. Ezt a licencet gyakran hasonlítják a \"copyleft\" szabad és nyílt forráskódú szoftverlicencekhez. A te műveden alapuló minden új alkotás ugyanazt a licencet fogja viselni, így minden származékos alkotás kereskedelmi felhasználása is megengedett lesz. Ezt a licencet használja a Wikipédia, és olyan anyagokhoz ajánlott, amelyeknek hasznára válna a Wikipédia és hasonló licencű projektek tartalmának beépítése.</string>
+    <string name="license_description_no_license">A tartalmaid tekintetében minden szerző jogot megtartasz, kivéve azokat, amelyekkel az iNaturalist-ot felruháztad a Felhasználói Feltételek elfogadásával.</string>
+    <string name="invalid_photo">Nem támogatott fényképformátum</string>
+    <!-- Text attributing observers and identifiers alongside automated identification suggestions -->
+    <string name="suggestions_based_on">A javaslatok forrása az iNaturalist közössége által tett megfigyelések és a meghatározások, benne például %1$s@, %2$s@, %3$s@ és sokan mások. </string>
+    <!-- Preference to control what tapping on the action button does on My Observations -->
+    <string name="default_observation_action">Alapértelmezett megfigyeléstevékenység</string>
+    <!-- Option for the "Default Observation Action" preference that performs the default action of showing a slide-up menu of options -->
+    <string name="show_options">Beállítások megjelenítése</string>
+    <!-- Placeholder text for an observation field value -->
+    <string name="field_value">Mezőérték</string>
+    <string name="expand_annotation_to_agree_or_disagree">Bejegyzés bővítése egyetértéshez vagy egyet nem értéshez</string>
+    <string name="delete_attribute_value">Érték törlése</string>
+    <string name="open_menu_for_more_options">Menü megnyitása a további opciókért</string>
+    <string name="change_user_profile_photo">Profilfénykép módosítása</string>
+    <string name="expand_list">Lista kibontása</string>
+    <string name="change_map_layers">Térképnézet módosítása (domborzat vs. műholdkép)</string>
+    <string name="redo_observation_search">Megfigyelések újbóli keresése ezen a területen</string>
+    <string name="view_observations_on_map">Megfigyelések megtekintése térképen</string>
+    <string name="view_observations_on_grid">Megfigyelések megtekintése rácselrendezésben</string>
+    <string name="clear_text">Szöveg törlése</string>
+    <string name="observation_has_sounds">A megfigyeléshez tartozik hang</string>
+    <string name="go_to_my_location">Jelenlegi pozícióm</string>
+    <string name="change_geoprivacy">A pozíció láthatóságának módosítása</string>
+    <string name="active_filters">Aktív szűrők</string>
+    <string name="message_is_flagged">Az üzenet kifogásolhatóként megjelölve</string>
+    <string name="user_is_muted">A felhasználó némítva van</string>
+    <string name="cancel_multiple_obs_selection">Többszörös kiválasztás visszavonása</string>
+    <string name="delete_observations">Megfigyelések törlése</string>
+    <string name="comment_count">Hozzászólások száma</string>
+    <string name="id_count">Meghatározások száma</string>
+    <string name="observation_selected">Megfigyelés kijelölve</string>
+    <string name="share_observation">Megfigyelés megosztása</string>
+    <string name="unknown_location">Ismeretlen hely</string>
+    <!-- Verb, used as an accessibility label for closing a view, e.g. a popup -->
+    <string name="close">Bezárás</string>
+    <string name="set_date2">Dátum megadása</string>
+    <string name="project_selected">Kiválasztott projekt</string>
+    <string name="project_unselected">Projekt kiválasztása visszavonva</string>
+    <string name="show_my_observations">Megfigyeléseim megjelenítése</string>
+    <string name="play_pause_sound">Hang lejátszása vagy szüneteltetése</string>
+    <string name="view_image">Kép megjelenítése</string>
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a green check mark and a thumbs-up icon -->
+    <string name="assessment_passes">Kiértékelés sikeres</string>
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote in favor of a specific assessment -->
+    <string name="agree_assessment_passes">Egyetértés a sikeres kiértékeléssel</string>
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a red X and a thumbs-down icon -->
+    <string name="does_not_pass_assessment">A kiértékelés eredménye sikertelen</string>
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote against a specific assessment -->
+    <string name="disagree_assessment_passes">Egyetértés a sikertelen kiértékeléssel</string>
+    <plurals name="delete_x_selected_observations">
+        <item quantity="one">%1$d megfigyelés törlése</item>
+        <item quantity="other">%1$d megfigyelés törlése</item>
+    </plurals>
+    <plurals name="sync_x_selected_observations">
+        <item quantity="one">%1$d megfigyelés szinkronizálása</item>
+        <item quantity="other">%1$d megfigyelés szinkronizálása</item>
+    </plurals>
+    <string name="add_media_evidence">Bizonyíték (média) hozzáadása</string>
+    <string name="remove_identification">Meghatározás eltávolítása</string>
+    <string name="issue_with_updating_photos">E megfigyelés fényképeinek frissítésével kapcsolatos hiba elhárult. Kérjük, a megoldáshoz jelentkezz ki, majd jelentkezz be újból. </string>
+    <string name="app_version_copied_to_clipboard">Verzió a vágólapra másolva</string>
+    <string name="authentication_failed">Sikertelen hitelesítés</string>
+    <string name="please_try_again_soon">Kérjük, próbáld újra később.</string>
+    <string name="verify_your_email">Erõsítsd meg az e-mail címed</string>
+    <string name="after_you_change_your_password">A jelszavad módosítása után a rendszer kiléptet, majd az új jelszavaddal újra be kell lépned. Ugyanez történik az iNaturlalist mobilalkalmazásoknál is, és minden olyan weboldalnál és alkalmazásnál, amely a nevedben k-ld adatokat ay iNaturalistra. Bizonyosodj meg arról, hogy nincs függőben lévő megfigyelésed, mivel azok feltöltése megszakad, és a megfigyelés elveszik.</string>
+    <!-- Error message when a user tries to add upload a photo or a sound that is larger than the allowed 20 MB -->
+    <string name="couldnt_upload_file_too_large">A fájl feltöltése sikertelen - 20MB-nál nagyobb</string>
+    <string name="you_have_been_signed_out_please_sign_in_again">Ki lettél léptetve. Kérlek lépj be és próbáld újra.</string>
+    <!-- Accessibility label for a button that closes an announcement -->
+    <string name="close_announcement">Bejelentés bezárása</string>
+    <string name="import_photos_from">Fényképek importálása...</string>
+    <string name="cannot_find_default_camera">Nem találtunk elérhető fényképezőalkalmazást. Kérjük, vedd fel a kapcsolatot az ügyfélszolgálattal.</string>
+    <string name="please_click_link_to_confirm_email">Kérjük, hogy az emailcím megerősítéséhez kattints az emailben található linkre.</string>
+    <string name="click_to_resend_confirmation_email">A hitelesítő email újraküldéséhez kattints ide.</string>
+</resources>

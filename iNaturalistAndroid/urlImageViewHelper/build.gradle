@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'com.koushikdutta.urlimageviewhelper'
+    compileSdk rootProject.ext.compileSdkVersion
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}

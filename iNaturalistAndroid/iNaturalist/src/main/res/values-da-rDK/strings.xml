@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_address">E-mailadresse</string>
+    <string name="delete_observation">Slet observation</string>
+    <string name="observation_deleted">Observation slettet</string>
+    <string name="species_guess_hint">Artsnavn</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annullér</string>
+    <string name="loading">Indlæser...</string>
+    <string name="street">Gade</string>
+    <!-- As in map tiles using satellite imagery, generally used as an option when choosing a base map type -->
+    <string name="satellite">Satellit</string>
+    <string name="couldnt_load_nearby_observations">Kunne ikke indlæse nærliggende observationer: %1$s</string>
+    <string name="username_invalid">Brugernavn eller adgangskode er ugyldig, log ind igen.</string>
+    <string name="signing_in">Logger ind...</string>
+    <string name="signed_in">Logget ind!</string>
+    <string name="please_sign_in">Log ind</string>
+    <string name="please_sign_in_description">Log ind på din iNaturalist konto eller tilmeld dig for at oprette en ny.</string>
+    <string name="please_enable_location_services">Aktivér placeringstjenester for at kunne finde din nuværende placering...</string>
+    <string name="go_to_settings">Gå til Indstillinger</string>
+    <string name="photo_not_specified">Foto er ikke specificeret</string>
+    <string name="set_date">Dato</string>
+    <string name="set_time">Tid</string>
+    <!-- "Blast" is meant to be a jocular, intentionally archaic curse. It should not be translated as a word that might offend anyone. If that's impossible, please just leave it out. We occasionally use language like this add a little personality, but that doesn't always translate very well. -->
+    <string name="something_went_wrong">Hmm, noget gik galt: %1$s</string>
+    <string name="edit">Redigér</string>
+    <string name="oh_no">Åh nej! %1$s</string>
+    <string name="observations">Mine observationer</string>
+    <string name="map">Kort</string>
+    <string name="settings">Indstillinger</string>
+    <string name="projects">Projekter</string>
+    <string name="delete_photo">Slet foto</string>
+    <string name="my_location">Min placering</string>
+    <string name="nearby_observations">Nærliggende observationer</string>
+    <string name="add">Tilføj</string>
+    <string name="view_on_inat">Se på iNaturalist.org</string>
+    <string name="reload">Genindlæs</string>
+    <string name="view_in_browser">Vis i browser</string>
+    <string name="add_observation">Tilføj observation</string>
+    <string name="take_picture">Tag foto</string>
+    <string name="save">Gem</string>
+    <string name="no_observations_yet">Ingen observationer endnu!</string>
+    <string name="or">eller</string>
+    <string name="signed_out">Log ud</string>
+    <string name="username">Brugernavn</string>
+    <string name="password">Adgangskode</string>
+    <string name="unknown">Ukendt</string>
+    <string name="unknown_species">Ukendte arter</string>
+    <string name="edit_observation">Redigér observation</string>
+    <string name="discard_changes">Sikker på, at du vil slette ikke-gemte ændringer?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <!-- Label for a button that adds an identification that is the same as another identification, as in "Do you agree this is correct?" Should be short. -->
+    <string name="agree">Enig?</string>
+    <string name="no_comments">Ingen kommentarer/identifikationer endnu</string>
+    <string name="add_comment">Tilføj kommentar</string>
+    <string name="add_id">Tilføj identifikation</string>
+    <string name="remarks">Bemærkninger...</string>
+    <string name="enter_taxon_name">Artsnavn</string>
+    <string name="no_projects">Ingen projekter fundet!</string>
+    <string name="no_guides">Ingen guider fundet!</string>
+    <string name="loading_projects">Indlæser projekter...</string>
+    <string name="joined_projects">Blev medlem</string>
+    <string name="nearby_projects">I nærheden</string>
+    <!-- Tab title for the list of featured projects in the Projects screen -->
+    <string name="featured_projects">Udvalgte</string>
+    <!-- Verb, used as a label for actions like leaving a project -->
+    <string name="leave">Forlad</string>
+    <string name="join">Deltag</string>
+    <string name="no_check_list">Ingen Taksa i tjekliste!</string>
+    <string name="failed_to_add_obs_to_project">Mislykkedes at føje observation \'%1$s\' til projekt \'%2$s\': %3$s</string>
+    <string name="invalid_project_field">Angiv en gyldig værdi i felt \"%1s\"</string>
+    <!-- Title of interface used to add an observation to a project. This should be relatively short, not much more than a few characters longer than the English translation. -->
+    <string name="select_projects">Vælg fra forbundne projekter</string>
+    <string name="not_connected">Du behøver Internetadgang for at kunne gøre dette!</string>
+    <string name="search_projects">Søg projekter...</string>
+    <string name="search_guides">Søg guides...</string>
+    <string name="save_observation">Gem observation</string>
+    <!-- Header for a description an individual guide -->
+    <string name="about_guide">Om</string>
+    <string name="about_guide_all_caps">OM</string>
+    <!-- Header for a description an individual project -->
+    <string name="about_project">Om</string>
+    <string name="about_project_all_caps">OM</string>
+    <string name="about_this_app">Om</string>
+    <string name="about_taxon_short">Om</string>
+    <!-- Noun describing the ability to obscure or hide the coordinates of an observation. Should be a short noun or noun-phrase suitable for use on a button or popup header -->
+    <string name="geoprivacy">Geofortrolighed</string>
+    <!-- Generally used when we need to display both the label and the value on one line. Specifically used in the toolbar at the top of the location chooser -->
+    <string name="geoprivacy_with_value">Geofortrolighed: %1$s</string>
+    <string name="delete_confirmation">Sikker på, at du vil slette denne observation?</string>
+    <!-- This refers to field guide-like content within the app, i.e. user-created lists of species that help other people identify organisms. It does not refer to tutorials or other instructional content. -->
+    <string name="guides">Guider</string>
+    <string name="my_guides">Dine</string>
+    <string name="nearby_guides">I nærheden</string>
+    <string name="all_guides">Alle</string>
+    <string name="no_taxa">Ingen taxa fundet til denne guide!</string>
+    <string name="search_taxa">Søg taxa...</string>
+    <string name="no_internet_guides">Guider kræver en Internetforbindelse</string>
+    <string name="no_internet_projects">Projekter kræver en Internetforbindelse</string>
+    <string name="locale_gl">Galicisk</string>
+    <string name="locale_eu">Baskisk</string>
+    <string name="use_device_language_settings">Benyt enhedens sprogindstilling</string>
+    <string name="choose_location">Vælg placering</string>
+    <string name="done">Udført</string>
+    <string name="please_sign_in_via_settings">Du skal være logget ind for at se projekter, du deltager i.</string>
+    <string name="contact_support">Kontakt Support</string>
+    <string name="leave_project">Forlad projekt</string>
+    <string name="leave_project_confirmation">Sikker på, at du vil forlade dette projekt?</string>
+    <string name="discard_location_changes">Sikker på, at du vil kasserer ikke-gemte ændringer?</string>
+    <string name="edit_location">Redigér placering</string>
+    <string name="edit_locality_notes">Redigér lokalitetsnotater</string>
+    <string name="get_current_location">Hent nuværende placering</string>
+    <string name="pull_to_refresh">Træk for at opdatere...</string>
+    <string name="release_to_refresh">Slip for at opdatere...</string>
+    <string name="refreshing">Opdaterer...</string>
+    <plurals name="sync_x_observations">
+        <item quantity="one">Synk %1$d observation</item>
+        <item quantity="other">Synk %1$d observationer</item>
+    </plurals>
+    <string name="sync_observations">Synk Observationer</string>
+    <string name="lets_get_started">Lad os komme i gang!</string>
+    <string name="view_nearby_observations">Vis observationer i nærheden</string>
+    <string name="skip_for_now">Overspring for nu</string>
+    <string-array name="tutorial_titles">
+        <item></item>
+        <item>Observere</item>
+        <item>Del</item>
+        <item>Lære</item>
+        <item>Bidrage</item>
+    </string-array>
+    <string-array name="tutorial_descriptions">
+        <item>Udforsk og kom i kontakt med naturen</item>
+        <item>Gå udenfor! Find noget vildt, og tag et klart, fuldrammefoto.</item>
+        <item>Del din observation med iNaturalist-fællesskabet.</item>
+        <item>Tjek igen senere for kommentarer til og identifikationer af din observation!</item>
+        <item><![CDATA[Observationer af <b>forskningskvalitet</b> deles med forskere, som arbejder for bedre at forstå og beskytte naturen.]]></item>
+    </string-array>
+    <string-array name="geoprivacy_items">
+        <item>Åben</item>
+        <item>Sløret</item>
+        <item>Fortrolig</item>
+    </string-array>
+    <string name="alert_sign_out">Sikker på, at du vil logge ud? Dette vil slette alle dine observationer på denne enhed. Det vil ikke påvirke observationer, du har uploadet til iNaturalist.</string>
+    <string name="alert_unsupported_media_type">Beklager, der var problemer med at indlæse fotoet fra denne kilde</string>
+    <!-- Second person verb, used as a section title as in the "Explore" screen where you explore observations made by other people -->
+    <string name="explore">Udforsk</string>
+    <string name="restricted_to_current_map_area">Begrænset til aktuelt kortområde</string>
+    <string name="search">Søg</string>
+    <string name="details">Detaljer</string>
+    <string name="observation_photos">Observationsfotos</string>
+    <string name="no_observations_found">Ingen observationer fundet</string>
+    <string name="license_none">Ingen, alle rettigheder forbeholdes</string>
+    <string name="sources_and_attribution">Kilder og Tilskrivning</string>
+    <string name="photos"><![CDATA[<b>Fotos:</b> %1$s]]></string>
+    <string name="text"><![CDATA[<b>Tekst:</b> %1$s]]></string>
+    <!-- The dialog content asking the user to switch to another iNat network -->
+    <string name="alert_message_use_inaturalist">Overordnet iNaturalist-netværk. Ved at klikke OK vil din app blive en del af det globale iNaturalist-netværk.</string>
+    <string name="alert_message_use_naturalista">NaturaLista er medlem af iNaturalist Network i Mexico. Lokale institutioner, som supporterer NaturaLista, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_naturewatchnz">iNaturalist NZ er medlem af iNaturalist Network i New Zealand. Lokale institutioner, som supporterer iNaturalist NZ, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistcanada">iNaturalist Canada er medlem af iNaturalist Network i Canada. Lokale institutioner, som supporterer iNaturalist Canada, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_naturalistacolombia">Naturalista er medlem af iNaturalist Network i Colombia. Lokale institutioner, som supporterer Naturalista, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_biodiversity4all">Biodiversity4All er medlem af iNaturalist Network i Portugal. Lokale institutioner, som supporterer Biodiversity4All, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistpanama">iNaturalist Panamá er medlem af iNaturalist Network i Panama. Lokale institutioner, som supporterer iNaturalist Panamá, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistecuador">iNaturalist Ecuador er medlem af iNaturalist Network i Ecuador. Lokale institutioner, som supporterer iNaturalist Ecuador, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistaustralia">iNaturalist Australien er medlem af iNaturalist Network i Australien. Lokale institutioner, som supporterer Naturalist Australien, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_argentinat">ArgentiNat er medlem af iNaturalist Network i Argentina. Lokale institutioner, som supporterer NaturaLista, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistil">iNaturalist Isreal er medlem af iNaturalist Network i Isreal. Lokale institutioner, som supporterer Naturalist Australien, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistfi">iNaturalist Finland er medlem af iNaturalist Network i Finland. Lokale institutioner, som supporterer iNaturalist Finland, har adgang til din e-mailadresse samt til de sande koordinater for observationer, som er offentligt skjult eller private. Skift venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du skifte din tilknytning?</string>
+    <string name="alert_message_use_inaturalistcl">iNaturalist Chile er medlem af iNaturalist Network i Chile. Lokale institutioner, som supporterer iNaturalist Finland, har adgang til din e-mailadresse samt til de sande koordinater for observationer, som er offentligt skjult eller private. Skift venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du skifte din tilknytning?</string>
+    <string name="alert_message_use_inaturalistgr">iNaturalist Grækenland er medlem af iNaturalist Network i Grækenland. Lokale institutioner, som supporterer Naturalist Grækenland, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistlu">iNaturalist Luxembourg er medlem af iNaturalist Network i Luxembourg. Lokale institutioner, som supporterer Naturalist Luxembourg, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistuk">iNaturalist Storbrittanien er medlem af iNaturalist Network i Storbrittanien. Lokale institutioner, som supporterer Naturalist Storbrittanien, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistcr">iNaturalist Costa Rica er medlem af iNaturalist Network i Costa Rica. Lokale institutioner, som supporterer Naturalist Costa Rica, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistgt">iNaturalist Guatemala er medlem af iNaturalist Network i Guatemala. Lokale institutioner, som supporterer Naturalist Guatemala, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalistse">iNaturalist Sverige er medlem af iNaturalist Network i Sverige. Lokale institutioner, som supporterer Naturalist Sverige, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_naturalistauy">Naturalista Uruguay er medlem af iNaturalist Network i Uruguay. Lokale institutioner, som støtter Naturalista Uruguay, kan se din e-mail og de reelle koordinater for observationer, som er offentligt slørede eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="alert_message_use_inaturalisttw">iNaturalist Taiwan er medlem af iNaturalist Network i Taiwan. Lokale institutioner, som understøtter iNaturalist Taiwan, har adgang til din e-mailadresse samt til de reelle koordinater for observationer, som er offentligt sløret eller fortrolige. Ændr venligst ikke din tilknytning eksperimentelt, hvis du har flere end 1.000 observationer. Vil du ændre din tilknytning?</string>
+    <string name="editor">Redaktør</string>
+    <string name="license">Licens</string>
+    <string name="download_for_offline_use">Download til offlinebrug</string>
+    <string name="download_not_available">Download ikke tilgængelig</string>
+    <string name="guide_editor_must_enable_this_feature">Guideredaktøren skal aktivere denne funktion.</string>
+    <string name="are_you_sure">Sikker?</string>
+    <string name="download_guide_alert">Dette vil downloade %1$s data, så du også kan benytte denne guide uden offline.</string>
+    <string name="failed_to_download_guide">Download af guide mislykkedes</string>
+    <string name="internet_connection_seems_to_be_offline">Der lader ikke til at være nogen Internetadgang.</string>
+    <string name="downloading">Downloader...</string>
+    <string name="extracting">Udpakker...</string>
+    <string name="downloaded">Downloadet</string>
+    <string name="delete_download">Slet download</string>
+    <string name="re_download">Download igen</string>
+    <string name="error">Fejl</string>
+    <string name="could_not_retrieve_guide">Kunne ikke hente guidedetaljer - sandsynligvis en netværksfejl.</string>
+    <string name="inat_support_email_subject">Hjælp med iNaturalist (version %1$s - %2$s; bruger-ID - %3$s)</string>
+    <string name="send_email">Send e-mail...</string>
+    <string name="login_with">Log ind med</string>
+    <string name="gplus">Google</string>
+    <string name="email">E-mail</string>
+    <string name="skip">Overspring ›</string>
+    <string name="log_in">Log ind</string>
+    <!-- Second person imperative, usually a label on a button to sign up for a new account -->
+    <string name="sign_up">Tilmeld</string>
+    <!-- Title of the view used to sign up for a new account -->
+    <string name="sign_up_title">Opret konto</string>
+    <string name="min_6_chars">Min. 6 tegn</string>
+    <string name="use_my_license"><![CDATA[Ja, licensér mit indhold, så forskerne kan benytte mine data (anbefales). <b>Få mere at vide</b>]]></string>
+    <string name="content_licensing">Indholdslicensering</string>
+    <string name="content_licensing_description">Markér dette afkrydsningsfelt, hvis du vil anvende en Creative Commons Kildeangivelse - Ikke-kommerciel licens til dine fotos. Du kan vælge en anden licens eller fjerne licensen senere, men dette er den bedste licens til deling med forskere.</string>
+    <!-- Try to keep this about the length of the English text -->
+    <string name="username_or_email">Brugernavn eller e-mail</string>
+    <string name="forgot">Glemt?</string>
+    <string name="or_login_with">Eller log ind med:</string>
+    <string name="registering">Registrerer...</string>
+    <string name="recommended_next_step">Anbefalet næste trin</string>
+    <string name="could_not_register_user">Kunne ikke registrere bruger</string>
+    <!-- Short label for a button in the side bar, not much more than 16 characters -->
+    <string name="login_signup">Log ind/Tilmeld</string>
+    <string name="please_sign_in_via_settings_for_guides">Du skal være logget ind for at kunne se dine guider.</string>
+    <string name="please_sign_in_for_updates">Du skal være logget ind for at kunne se dine opdateringer.</string>
+    <string name="by_using_inat_terms"><![CDATA[Ved afbenyttelse af iNaturalist accepterer du vores <b><a href="https://www.inaturalist.org/pages/terms">Tjenestevilkår</a></b> og <b><a href="https://www.inaturalist.org/pages/privacy">Fortrolighedspolitik</a></b>]]></string>
+    <string name="activity">Aktivitet</string>
+    <!-- Label for a button to open the camera to take a new photo for an observation -->
+    <string name="camera">Tag foto</string>
+    <!-- Label for a button to import an existing photo for an observation -->
+    <string name="upload_photo">Vælg billede</string>
+    <string name="first">1.</string>
+    <string name="make_first">Gør til 1.</string>
+    <string name="notes">Notater</string>
+    <string name="is_captive">Er i fangeskab eller dyrket</string>
+    <string name="location_visibility">Placeringssynlighed</string>
+    <string name="set_location">Placering</string>
+    <string name="coordinates_lat">Br.gr:</string>
+    <string name="coordinates_lon">Læ.gr:</string>
+    <string name="coordinates_acc">Nøj. </string>
+    <string name="required">* Kræves</string>
+    <string name="downloading_observations">Downloader observationer...</string>
+    <string name="no_thanks">Nej tak</string>
+    <string name="turn_on">Slå Til</string>
+    <string name="introducing_auto_sync">Introducerer Auto-Synk!</string>
+    <string name="turn_on_auto_sync">Slå Auto-Synk til i Indstillinger og dine observationer vil automatisk blive overført til iNaturalist.</string>
+    <string name="automatic_upload">Automatisk Upload (Auto Synk)</string>
+    <string name="waiting_to_upload">Venter på at uploade...</string>
+    <string name="uploading">Uploader...</string>
+    <string name="failed_to_add_to_project">Mislykkede at føje til projektet \'%1$s\': %2$s</string>
+    <string name="needs_your_attention">Kræver din opmærksomhed...</string>
+    <string name="observation">Observation</string>
+    <string name="share">Del</string>
+    <string name="unable_to_acquire_location">Kan ikke bestemme placering</string>
+    <string name="casual_grade">Uspecificeret kvalitet</string>
+    <string name="needs_id">Behøver ID</string>
+    <string name="research_grade">Forskningskvalitet</string>
+    <string name="data_quality">Datakvalitet</string>
+    <string name="casual_grade_add_location"><![CDATA[ Tilføj en <b>placering</b> for at fremrykke denne observation til "Behøver ID"-status. ]]></string>
+    <string name="casual_grade_add_date"><![CDATA[ Tilføj en <b>dato</b> for at fremrykke denne observation til "Behøver ID"-status. ]]></string>
+    <string name="casual_grade_add_photo"><![CDATA[ Tilføj et <b>foto</b> for at fremrykke denne observation til "Behøver ID"-status. ]]></string>
+    <string name="casual_grade_captive"><![CDATA[ Observation er i uspecificeret kvalitet, da den er <b>fangeskab/dyrket</b>. ]]></string>
+    <string name="needs_id_more_ids"><![CDATA[ Observation behøver <b>yderligere identifikationer</b> fra fællesskabet for at opnå status som "Forskningskvalitet". ]]></string>
+    <plurals name="included_in_projects">
+        <item quantity="one">Inkludér i %1$d projekt</item>
+        <item quantity="other">Inkludér i %1$d projekter</item>
+    </plurals>
+    <string name="geoprivacy_explanation"><![CDATA[ Geofortrolighed er en indstilling, du kan vælge til dine observationer, der styrer, hvordan de rumlige koordinater (bredde- og længdegrad) vises. Her er mulighederne:<br/><b>Åben</b> - Alle kan se koordinaterne, medmindre taxonen er truet.<br/><b>Sløret</b> - Offentlige koordinater vises som et tilfældigt punkt inden for et 0,2 x 0,2 graders område indeholdende de sande koordinater, som omregnet svarer til ca. 22 kvadratkilometers usikkerhed ved ækvator, og som mindskes, når du nærmer dig polerne. Sande koordinater er kun synlige for dig og bestyrerne af projektet, hvortil du føjer observationen.<br/><b>Fortrolig</b> - Koordinater er helt skjult på offentlige landkort. Sande koordinater er kun synlige for dig og bestyrerene af det project, hvortil du føjer observationen. <br/><br/>Bemærk, at bestyrere for individuelle projekter altid kan se koordinaterne uanset dine geofortrolighedsindstillinger, så er du bekymret over, hvem som har adgang til koordinaterne, skal du være sikker på, at du kan stole på bestyrerne af de projekter, hvori du deltager. ]]></string>
+    <string name="id_title">%1$ss ID • %2$s</string>
+    <string name="comment_title">%1$s • %2$s</string>
+    <string name="delete">Slet</string>
+    <string name="delete_id">Træk identifikation tilbage</string>
+    <string name="delete_comment">Slet kommentar</string>
+    <string name="delete_id_message">Sikker på, at du vil trække denne identifikation tilbage?</string>
+    <string name="delete_comment_message">Sikker på, at du vil slette denne kommentar?</string>
+    <string name="suggest_id">Foreslå ID</string>
+    <string name="update_comment">Opdatere kommentar</string>
+    <string name="fave_this_observation">Favorisér denne Observation</string>
+    <string name="faved">Favoriseret</string>
+    <string name="be_the_first_to_fave_this_obs">Vær den første til at favorisere observationen...</string>
+    <string name="leave_a_comment">Skriv en kommentar eller foreslå en identifikation...</string>
+    <string name="location_coords">Br.gr.: %1$s Lg.gr.: %2$s Nøj: %3$s</string>
+    <string name="location_coords_no_acc">Br.gr.: %1$s Lg.gr.: %2$s</string>
+    <string name="location">Placering</string>
+    <string name="login_in_to_add_comments_ids">Log ind eller Tilmeld dig for kommentere eller foreslå en identifikation...</string>
+    <string name="login_in_to_fav">Log ind eller Tilmeld dig for at se favoriserede eller favorisere observationen...</string>
+    <string name="sync_obs_to_see_favs">Synk observationen for at se favoriserede...</string>
+    <!-- Message when you try to view faves on an observation you haven't uploaded yet -->
+    <string name="sync_obs_to_add_comments_ids">Synk observationen for at kunne kommentere eller foreslå en identifikation...</string>
+    <!--  Label for a button to add an observation without a photo or a sound  -->
+    <string name="no_photo">Intet medie</string>
+    <string name="about_this_species">Om denne Art</string>
+    <string name="view_on_wikipedia">Wikipedia-artikel</string>
+    <string name="photo"><![CDATA[Foto: <b><a href="%1$s">%2$s</a></b>]]></string>
+    <string name="photo_attr"><![CDATA[Foto: <b>%1$s</b>]]></string>
+    <string name="finding_current_location">Finde nuværende placering...</string>
+    <string name="flag_as_captive">Markér som fangenskab/dyrket</string>
+    <string name="observation_flagged_as_captive">Observation markeret som fangenskab/dyrket</string>
+    <string name="are_you_sure_you_want_to_flag_as_captive_no_close">Sikker på, at du vil markere denne observation som fangenskab/dyrket?</string>
+    <string name="do_you_agree_to_the_following">Accepterer du følgende?</string>
+    <string name="terms">Vilkår</string>
+    <string name="observation_rules">Observationsregler</string>
+    <string name="couldnt_load_project_details">Kunne ikke indlæse projektdetaljer: %1$s</string>
+    <string name="no_people_found">Ingen personer fundet</string>
+    <string name="rank">Rangering</string>
+    <string name="identifications">Identifikationer</string>
+    <string name="no_news_found">Ingen nyhedsemner fundet</string>
+    <string name="news">Nyheder</string>
+    <string name="article">Artikel</string>
+    <string name="couldnt_load_project_news">Kunne ikke indlæse projektnyheder: %1$s</string>
+    <string name="couldnt_load_user_details">Kunne ikke indlæse brugerdetaljer: %1$s</string>
+    <string name="more_bio"><![CDATA[<b><font color="#ffffff">Mere »</font></b>]]></string>
+    <string name="no_location">Ingen placering</string>
+    <string name="add_to_projects">Føj til projekt(er)</string>
+    <string name="are_you_sure_you_want_to_save_obs_without_coords">Sikker på, at du vil gemme observationen uden koordinatoplysninger?</string>
+    <string name="users_identification">%1$ss ID: %2$s</string>
+    <string name="edit_profile">Redigér profil</string>
+    <string name="remove_photo">Fjern foto</string>
+    <string name="name">Navn</string>
+    <string name="tell_us_about_yourself">Fortæl os om dig selv...</string>
+    <string name="view_profile">Vis profil</string>
+    <string name="are_you_sure_you_want_to_remove_photo">Sikker på, at du vil fjerne dit foto?</string>
+    <string name="updating_profile">Opdaterer profil...</string>
+    <string name="there_was_a_problem_updating_profile">Et problem opstod under opdatering af din profil!</string>
+    <string name="there_was_a_problem_updating_profile_params">Et problem opstod under opdatering af din profil: %1$s</string>
+    <!-- Notice of which user is currently logged in, e.g. "Currently logged in as kueda" -->
+    <string name="currently_logged_in_as_html"><![CDATA[Pt. logget ind som <b>%1$s</b>]]></string>
+    <string name="log_out">Log ud</string>
+    <string name="not_logged_in">Ikke logget ind</string>
+    <!-- Prompt to log in to your account or sign up for a new account -->
+    <string name="login_or_sign_up">Log ind eller Tilmeld</string>
+    <string name="auto_upload_description">Auto-upload nye observationer og/eller redigeringer til observationer</string>
+    <string name="language">Sprog</string>
+    <string name="version">Version</string>
+    <string name="inat_network">iNaturalist Network</string>
+    <string name="inat_network_description">iNaturalist Network danner rammen for lokalisering af iNaturalist-fællesskabet. Netværkswebsteder supporteres af lokale institutioner, som har underskrevet en aftale med iNaturalist om at fremme lokalt brug og gavne lokal biodiversitet.</string>
+    <string name="more_info">Yderligere info</string>
+    <string name="select_network">Vælg netværksassociation</string>
+    <string name="help">Hjælp</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Genoptag</string>
+    <string name="cleaning_up">Rydder op...</string>
+    <string name="syncing">Synker...</string>
+    <string name="syncing_observation_fields">Synker observationsfelter...</string>
+    <string name="syncing_observations">Synker observationer...</string>
+    <string name="syncing_paused">På pause</string>
+    <string name="upload">Upload</string>
+    <string name="search_observations">Søg Observationer...</string>
+    <string name="withdraw">Træk tilbage</string>
+    <!-- Dialog title for when you are updating the description of an identification -->
+    <string name="update_id_description">Opdatér Identifikationsbeskrivelse</string>
+    <string name="your_identification">Din ID: %1$s</string>
+    <string name="onboarding_species_name">Betegn, hvad du så, hvis du kan, selvom det blot er \"insekt\" eller \"fugl\", eller lad blot dette være tomt. Andre kan hjælpe dig med at identificere det!</string>
+    <string name="upload_complete">Upload fuldført!</string>
+    <string name="onboarding_upload_description">Vend snart tilbage for at tjekke identifikationer og kommentarer på din(e) observation(er).</string>
+    <string name="importing_photos">Importerer foto(s)...</string>
+    <string name="multi_select_description">Importér flere fotos vha. et langt-tryk på ét enkelt foto</string>
+    <string name="preparing_photo">Klargør foto...</string>
+    <string name="recommended_for_you">Anbefalet til dig</string>
+    <string name="missions">Missioner</string>
+    <string name="browse_by_category">Gennemse efter kategori</string>
+    <string name="couldnt_load_recommended_missions">Kunne ikke indlæse anbefalede missioner: %1$s</string>
+    <string name="plants">Planter</string>
+    <string name="mammals">Pattedyr</string>
+    <string name="insects">Insekter</string>
+    <string name="reptiles">Krybdyr</string>
+    <string name="animals">Dyr</string>
+    <string name="fish">Fisk</string>
+    <string name="mollusks">Bløddyr</string>
+    <string name="protozoans">Protozoer</string>
+    <string name="chromista">Tang, kiselalger og beslægtede</string>
+    <string name="amphibians">Padder</string>
+    <string name="fungi">Svampe</string>
+    <string name="birds">Fugle</string>
+    <string name="arachnids">Spindlere</string>
+    <string name="no_connectivity">Ingen forbindelse</string>
+    <string name="no_recommended_missions">Ser ud til, at der ingen anbefalinger er i dette område. Prøv at flytte til en ny placering.</string>
+    <string name="what_to_look_for">Hvad man kan kigge efter</string>
+    <string name="have_been_seen_here">Er blevet set her</string>
+    <string name="observe">Observere</string>
+    <string name="nearby_missions">Missioner i nærheden</string>
+    <string name="searching_your_area">Søger i dit område...</string>
+    <string name="expanding_your_search_area">Udvider dit søgeområde...</string>
+    <string name="introducing_missions">Introducerer Missioner!</string>
+    <string name="missions_onboarding_description">Missioner er realtidsanbefalinger til, hvad du bør kigge efter omkring dig. På denne måde kan du opdage for dig hidtil ukendte arter! (kræver Internetadgang)</string>
+    <string name="ok_got_it">OK, forstået!</string>
+    <string name="could_not_download_observations">Kunne ikke downloade seneste observationer - forbindelsesproblemer. Forsøg igen senere.</string>
+    <string name="no_news_yet">Endnu ingen nyheder, men tjek igen senere!</string>
+    <string name="my_content">Mit Indhold</string>
+    <string name="following">Følger</string>
+    <string name="no_updates_yet">Endnu ingen opdateringer, men tjek igen senere!</string>
+    <string name="you_will_only_receive_updates_when_creating">(Du vil kun modtage opdateringer, når du har oprettet observationer)</string>
+    <string name="you_will_only_receive_updates_when_following">(Du vil kun modtage opdateringer, når du følger observationer)</string>
+    <string name="user_activity_id"><![CDATA[<b>%1$s</b> foreslog en ID: %2$s <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_activity_comment"><![CDATA[<b>%1$s</b> kommenterede: &ldquo;%2$s&rdquo; <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_activity_mention"><![CDATA[<b>%1$s</b> nævnte dig: &ldquo;%2$s&rdquo; <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="deleted_photos_from_cache_error">Ser ud til, at du slettede et foto inden upload ved at rydde app\'ens cache. Du skal føje fotoet til din observation igen fra dit Galleri. Tjek fremadrettet, at du har uploadet alle dine fotos, inden du evt. rydder app-cachen.</string>
+    <!--
+        Label for the number of new notifications you might have. This specific string is used in
+        the side drawer next to the Activity menu item when you have new activity on your own
+        content.
+    -->
+    <plurals name="new_activities">
+        <item quantity="one">%1s ny</item>
+        <item quantity="other">%1s nye</item>
+    </plurals>
+    <string name="no_results_found">Ingen resultater fundet...</string>
+    <plurals name="syncing_x_out_of_y_observations">
+        <item quantity="one">Synker %1$d af %2$d observation...</item>
+        <item quantity="other">Synker %1$d af %2$d observationer...</item>
+    </plurals>
+    <string name="deleting_observations">Sletter observationer...</string>
+    <string name="preparing">Klargør...</string>
+    <string name="add_edit_remark">Tilføj/redigér bemærkning</string>
+    <string name="restore">Gendan</string>
+    <string name="compare">Sammenlign</string>
+    <string name="select">Vælg</string>
+    <string name="source_wikipedia">(Kilde: Wikipedia)</string>
+    <string name="conservation_source"><![CDATA[<b>Kilde:</b> <i>%1$s</i>]]></string>
+    <string name="conservation_status_least_concern">Af mindst betydning</string>
+    <string name="conservation_status_near_threatened">Næsten truet</string>
+    <string name="conservation_status_vulnerable">Udsat</string>
+    <string name="conservation_status_endangered">Truet</string>
+    <string name="conservation_status_critically_endangered">Kritisk truet</string>
+    <string name="conservation_status_extinct_in_the_wild">Uddød i naturen</string>
+    <string name="conservation_status_extinct">Uddød</string>
+    <string name="map_of_observations">Observationskort</string>
+    <string name="taxonomy">Taksonomi</string>
+    <string name="about_this_section">Om dette afsnit</string>
+    <!-- Explanation of the taxonomy displayed on the taxon detail screen. -->
+    <string name="taxonomy_info">Disse er links til den specifikke taksons forfædre, og er rangeret fra grovere til mere veldefinerede. Benyt disse links til placering oppe og nede på Tree of Life. Ved du f. eks. Ikke, hvad en organisme er, men er klar over, hvilken klassificering den hører under, så tryk på en klassificering fra listen for at se yderligere oplysninger om den.</string>
+    <string name="more_info_on_inat">Yderligere info på iNaturalist.org</string>
+    <string name="view_suggestions">Se forslag</string>
+    <string name="species_search">Artssøgning</string>
+    <string name="were_not_confident_enough">Vi er ikke tilstrækkeligt sikre til at give en anbefaling, men her vore bedste forslag.</string>
+    <string name="were_not_confident_enough_no_suggestions">Vi er ikke tilstrækkeligt sikre til at komme med en anbefaling.</string>
+    <!-- Header for a list of suggested taxa based on observation frequency (i.e. not incorporating visual similarity) -->
+    <string name="most_observed_options_matching_filters">Mest observerede jf. indstillinger i matchningfiltre:</string>
+    <!-- Header for a list of suggested taxa -->
+    <string name="top_suggestions">Topforslag</string>
+    <string name="pretty_sure_rank">Vi er ret sikre på, at den er i denne %1$s:</string>
+    <string name="what_did_you_see">Hvad så du?</string>
+    <string name="suggest_species">Foreslå arter</string>
+    <string name="suggest_species_description">Foreslå arter baseret på visuelle ligheder med fotos.</string>
+    <string name="visually_similar">Visuelt sammenfald</string>
+    <string name="visually_similar_seen_nearby">Visuelt sammenfald/Observeret i nærheden</string>
+    <string name="visually_similar_expected_nearby">Visuelt ens/Forventet i nærheden</string>
+    <string name="seen_nearby">Observeret i nærheden</string>
+    <string name="expected_nearby">Forventet i nærheden</string>
+    <string name="enlarge">Forstør</string>
+    <!-- Label for a button that shows children of the current taxon, e.g. species within a genus or families within an order -->
+    <string name="view_children">Se underordnede</string>
+    <string name="taxon_has_no_photos">Denne takson har ingen fotos.</string>
+    <string name="terrain">Terræn</string>
+    <string name="filters">Filtre</string>
+    <string name="exploring_all">Udforsker alt</string>
+    <string name="nearby">I nærheden</string>
+    <string name="couldnt_load_results">Kunne ikke indlæse resultater: %1$s</string>
+    <!-- This should match the way Research Grade has been transalted, so if that's been translated as "grado de investigación" this should be "GI" -->
+    <string name="research_grade_initials">FK</string>
+    <string name="taxon_search_hint">f.eks. fugle, monark</string>
+    <string name="location_search_hint">f.eks. park, by, stat, land...</string>
+    <string name="no_taxon">Beklager, takson blev ikke fundet</string>
+    <string name="please_select_taxon">Vælg en gyldig takson fra listen (eller ryd taksonfeltet).</string>
+    <string name="sorry_no_location">Beklager, placering ikke fundet</string>
+    <string name="location_not_found">Placeringen eller stedet, du har søgt efter, er ikke i vores database. Vælg et sted fra listen med muligheder under placeringssøgefeltet eller ryd søgefeltet.</string>
+    <string name="undefined">Udefineret</string>
+    <string name="street_segment">Gadesegment</string>
+    <string name="intersection">Vejkryds</string>
+    <string name="town">By</string>
+    <!-- As in a political administrative area, e.g. Hawaii in the United States -->
+    <string name="state">Stat</string>
+    <string name="county">Region/amt</string>
+    <string name="local_administrative_area">Lokalstyreområde</string>
+    <string name="country">Land</string>
+    <string name="island">Ø</string>
+    <string name="airport">Lufthavn</string>
+    <string name="drainage">Kloak</string>
+    <string name="land_feature">Landskab</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="miscellaneous">Diverse</string>
+    <string name="nationality">Nationalitet</string>
+    <!-- Place type describing an area spanning multiple countries, e.g. Western Europe or Hispaniola -->
+    <string name="supername">Supernavn</string>
+    <string name="point_of_interest">Seværdighed</string>
+    <!-- Place type for a place like https://en.wikipedia.org/wiki/Region -->
+    <string name="region">Region</string>
+    <!-- Place type for a place without much of a formal definition, e.g. the San Francisco Bay Area -->
+    <string name="colloquial">Hverdags</string>
+    <string name="zone">Zone</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="historical_state">Historisk stat</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="historical_county">Historisk region</string>
+    <string name="continent">Kontinent</string>
+    <string name="estate">Gods</string>
+    <string name="historical_town">Historisk by</string>
+    <string name="aggregate">Sammenlægning</string>
+    <string name="open_space">Åben plads</string>
+    <string name="territory">Territorium</string>
+    <string name="district">Distrikt</string>
+    <string name="province">Provins</string>
+    <string name="municipality">Kommune</string>
+    <string name="parish">Sogn</string>
+    <!-- Added by mistake with some GADM place types, but subsequently used by some of our users. Assume it's a type of place contained within a "department" -->
+    <string name="department_segment">Afdelingssegment</string>
+    <string name="city_building">Byhus</string>
+    <string name="commune">Administrativt distrikt</string>
+    <string name="governorate">Guvernement</string>
+    <string name="prefecture">Præfektur</string>
+    <string name="canton">Canton</string>
+    <string name="republic">Republik</string>
+    <string name="division">Afdeling</string>
+    <string name="subdivision">Underafdeling</string>
+    <!-- https://gadm.org place type, presumably describing an area larger than an individual property but smaller than a neighborhood -->
+    <string name="village_block">Landsbyblok</string>
+    <!-- Mongolian sub-sub-national place type: https://en.wikipedia.org/wiki/Districts_of_Mongolia -->
+    <string name="sum">Sum</string>
+    <string name="shire">Herred</string>
+    <string name="prefecture_city">Præfekturby</string>
+    <!-- Indonesian sub-sub-national place type -->
+    <string name="regency">Herredømme</string>
+    <string name="constituency">Valgkreds</string>
+    <string name="local_authority">Lokal myndighed</string>
+    <!-- https://en.wikipedia.org/wiki/Poblacion -->
+    <string name="poblacion">Samfund</string>
+    <!-- https://en.wikipedia.org/wiki/Delegations_of_Tunisia -->
+    <string name="delegation">Delegation</string>
+    <string name="apply_filters">Anvend filtre</string>
+    <string name="remove_filters">Fjern filtre</string>
+    <string name="reset">Nulstil</string>
+    <string name="show_only_my_observations">Vis kun mine observationer</string>
+    <string name="project">Projekt</string>
+    <string name="user">Bruger</string>
+    <string name="search_users">Søg efter brugere...</string>
+    <string name="quality_grade">Kvalitetsklasse</string>
+    <!-- Label for observation filters specifying when the observations were made in the field (not necessarily when they were added to iNaturalist) -->
+    <string name="date_observed">Observationsdato</string>
+    <!-- Generally used as a menu option to indicate no preference, e.g. Date of Observation: Any / Exact / Range / Month -->
+    <string name="any">Alle</string>
+    <!-- Used to separate a date range, e.g. "2018-01-04 to 2018-05-02" -->
+    <string name="to">til</string>
+    <string name="exact_date">Eksakt dato</string>
+    <string name="start">Start</string>
+    <string name="end">Slut</string>
+    <string name="months">Måneder</string>
+    <string name="choose_months">Vælg måned(er)</string>
+    <string name="map_area">Kortområde</string>
+    <string name="global">Globalt</string>
+    <!-- As in redo search in the current map area -->
+    <string name="search_map_area">Søg i kortområde</string>
+    <!-- Compact form of "X minutes ago", so "3 minutes ago" would be "3m" -->
+    <string name="date_minute">%d m</string>
+    <!-- Compact form of "X hours ago", so "3 hours ago" would be "3h" -->
+    <string name="date_hour">%d t</string>
+    <!-- Compact form of "X days ago", so "3 days ago" would be "3d" -->
+    <string name="date_day">%d d</string>
+    <!-- Compact form of "X weeks ago", so "3 weeks ago" would be "3w" -->
+    <string name="date_week">%d u</string>
+    <string name="new_observation">Ny observation</string>
+    <string name="inactive_taxon">Inaktiv takson</string>
+    <string name="no_identifications_found">Følg identifikationer, du foreslår til andre personers observationer, her.</string>
+    <string name="no_species_found">Dette er en liste over arter, du hyppigst har observeret.\n\nBaggrundsinfo: Der er anslået 9 millioner arter på jorden, så kom bare ud at observere dem!</string>
+    <string name="make_an_observation">Foretag en observation</string>
+    <string name="no_observations_found_new">Observationer er optegnelser over dine møder med individuelle organismer på bestemte tidpunkter og steder.</string>
+    <string name="discard_comment">Sikker på, at du vil kassere denne kommentar?</string>
+    <string name="leave_comment">Skriv en kommentar...</string>
+    <string name="swipe">Stryg</string>
+    <string name="swipe_indicator">›</string>
+    <string name="potential_disagreement">Potentiel uenighed</string>
+    <string name="do_you_think_this_could_be"><![CDATA[Er der dokumentation nok til at bekræfte, at dette er <b>%1$s</b>?]]></string>
+    <!-- This sentence expresses uncertainty at a fine taxonomic level but certainty at a higher taxonomic level, e.g. "I don't know if this is a dog but I'm sure it is a mammal." -->
+    <string name="i_dont_know_but"><![CDATA[Ved det ikke, men jeg er overbevist om, at det er <b>%1$s</b>.]]></string>
+    <string name="no_but_it_is_a_member_of_taxon"><![CDATA[Nej, men det er et medlem af <b>%1$s</b>.]]></string>
+    <string name="submit">Indsend</string>
+    <string name="change_password">Skift adgangskode</string>
+    <string name="search_projects_youve_joined">Søg i projekter du deltager i...</string>
+    <string name="must_be_connected_to_load_more_obs">Du skal have Internetforbindelse for at indlæse flere observationer</string>
+    <string name="inat_about_title_new">iNaturalist er en uafhængig 501(c)(3) nonprofitorganisation baseret i USA (EIN 92-1296468)</string>
+    <!--
+        Pronunciation of people's names (as approved by the people in question):
+
+        Abhas Misraraj: ɑbhɑs mɪʃrɑrɑdʒ (http://ipa-reader.xyz/?text=%C9%91bh%C9%91s%20m%C9%AA%CA%83r%C9%91r%C9%91d%CA%92)
+        Alex Shepard: ˈæ.lɪks ˈʃɛpɚd (http://ipa-reader.xyz/?text=%CB%88%C3%A6.l%C9%AAks%20%CB%88%CA%83%C9%9Bp%C9%9Ad)
+        Ken-ichi Ueda: ˌkɛˈniʧi weɪdɑ (http://ipa-reader.xyz/?text=%CB%8Ck%C9%9B%CB%88ni%CA%A7i%20we%C9%AAd%C9%91)
+        Tony Iwane: ˈtoʊni ɪˈwɑneɪ (http://ipa-reader.xyz/?text=%CB%88to%CA%8Ani%20%C9%AA%CB%88w%C9%91ne%C9%AA)
+    -->
+    <string name="inat_credits2"><![CDATA[iNaturalist eksisterer takket være hver enkelt person, der deltager i vores fællesskab. De personer, som bygger softwaren, designer grænseflader, vedligeholder vores infrastruktur, støtter fællesskabet og fremmer samarbejder er Yaron Budowski, Amanda Bullington, Tony Iwane, Johannes Klein, Patrick Leary, Scott Loarie, Abhas Misraraj, Sylvain Morin, Carrie Seltzer, Alex Shepard, Angie Ta og Ken-ichi Ueda.<br/><br/>CalTech og Cornell Tech bistod med at udvikle computersynssystemet, der foreslår identifikation fra fotos. Vi takker Grant Van Horn, Serge Belongie og Pietro Perona for at fremme forskningen i computersyn. Mere information kan findes på <a href="https://www.visipedia.org">visipedia.org</a>. Særlig tak til NVIDIA for yderligere bistand.]]></string>
+    <string name="inat_credits_networks_pre"><![CDATA[Det internationale iNaturalist Network understøtter lokaliserede, fuldt integrerede, iNaturalist-baserede websteder i flg. lande takket være støtte fra associerede partnerorganisationer.]]></string>
+    <string name="inat_credits_post"><![CDATA[iNaturalist er også dybt taknemmelig overfor de open source-udviklere, som har tilvejebragt så meget af den software, vi er afhængige af dagligt. Se <a href="https://github.com/inaturalist/iNaturalistAndroid">https://github.com/inaturalist/iNaturalistAndroid</a> for open source bidragsydere.<br/> Vi er taknemmelige for oversættelsesbistanden fra frivillige i crowdin.com-fællesskabet, især Eduardo Martínez, Lin Cheng-Tao, KestrelLam, cgalindo, vilseskog, NCAA, ldacosta, radana, Mykola Pukhalskyi, danieleseglie og katunchik. <br/>IUCN-kategori II steder tilgængeliggjort af IUCN og UNEP-WCMC (2015), The World Database on Protected Areas (WDPA) [On-line], [11/2014], Cambridge, UK: UNEP-WCMC. Tilgængelig på: <a href="http://www.protectedplanet.net">www.protectedplanet.net</a>]]></string>
+    <string name="credits_title">Krediteringer</string>
+    <string name="password_changed">Adgangskoden, som app\'en benytter, fungerer ikke længere - du har muligvis ændret den på webstedet. Angiv den nye adgangskode her</string>
+    <string name="just_so_you_know">Blot så du ved det...</string>
+    <string name="ask_for_g_plus_permissions">For at kunne benytte din Google-konto, kræver Google, at der anmodes om tilladelse til at tilgå dine kontakter, selvom dette ikke sker under nogen onstændigheder. Nægter du denne tilladelse, vil du skulle tilmelde dig eller logge ind med brugernavn og adgangskode.</string>
+    <string name="new_to_inat_sign_up_now"><![CDATA[Ny her hos %1$s? <b>Tilmeld dig nu!</b>]]></string>
+    <string name="see_more_observations">Se flere observationer</string>
+    <string name="see_more_species">Se flere arter</string>
+    <string name="see_more_identifications">Se flere identifikationer</string>
+    <string name="collection_and_umbrella_projects">Samling og Paraplyprojekter</string>
+    <string name="description">Beskrivelse</string>
+    <string name="quantity">Antal</string>
+    <string name="agree2">Enig</string>
+    <string name="project_observations">Observationer</string>
+    <string name="project_species">Arter</string>
+    <string name="project_people">Personer</string>
+    <!-- People who added identifications to observations in a project -->
+    <string name="project_identifiers">Identifikatorer</string>
+    <string name="got_it">Forstået!</string>
+    <string name="view_all">Vis alle</string>
+    <string name="observers">Observatører</string>
+    <!-- Describes the attribute being annotated, e.g. if the annotation is for life stage, "Life Stage" is the attribute. -->
+    <string name="attribute">Karakteristik</string>
+    <!-- Value of an annotation, e.g. if the annotation is for life stage and the value chosen is "Adult" then "Adult" is the value -->
+    <string name="value">Værdi</string>
+    <!-- Label for a button allowing users to state that they think an annotation is incorrect -->
+    <string name="disagree">Uenig</string>
+    <!-- Annotations are key/value pairs applied to observations with a controlled vocabulary -->
+    <string name="annotations">Anmærkninger</string>
+    <!-- Used when filtering observations with annotations -->
+    <string name="with_annotation">Med anmærkning</string>
+    <!-- Attribute of an annotation. Synonymous with "Attribute" but slightly more explanatory for use in a popup header -->
+    <string name="annotation_name">Anmærkningsnavn</string>
+    <!-- Annotation value for when no annotation has been chosen -->
+    <string name="none">Ingen</string>
+    <!-- Phenological state of flowers on a plant -->
+    <string name="annotation_name_flowers_and_fruits">Blomster og Frugter</string>
+    <!-- Describes life stage at the time of observation, e.g. juvenile, adult -->
+    <string name="annotation_name_life_stage">Livsstadie</string>
+    <!-- Noun, describes sex of the organism -->
+    <string name="annotation_name_sex">Køn</string>
+    <!-- Attribute that describes whether the organism is alive or dead -->
+    <string name="annotation_name_alive_or_dead">Levende eller Død</string>
+    <!-- Attribute that describes what kind of evidence of an organism's presence was recorded in this observation -->
+    <string name="annotation_name_evidence_of_presence">Bevis for tilstedeværelse</string>
+    <!-- Attribute that describes the phenological state of the leaves on a plant -->
+    <string name="annotation_name_leaves">Blade</string>
+    <!-- Attribute that describes whether the observed organism is part of an established population or something more like a waif or escaped pet -->
+    <string name="annotation_name_established">Etableret</string>
+    <!-- Adjective, having open flowers -->
+    <string name="annotation_value_flowers">Blomster</string>
+    <!-- Adjective, having fruit or seeds -->
+    <string name="annotation_value_fruits_or_seeds">Frugter eller Frø</string>
+    <!-- Adjective, having unopened flowers -->
+    <string name="annotation_value_flower_buds">Blomstknopper</string>
+    <!-- Observation presents no evidence of flowering phenology -->
+    <string name="annotation_value_no_flowers_or_fruits">Ingen Blomster eller Frugter</string>
+    <!-- Adjective describing the life stage where an individual can reproduce -->
+    <string name="annotation_value_adult">Voksen</string>
+    <!-- Adjective describing the odonate life stage between nymph and adult -->
+    <string name="annotation_value_teneral">Uudvokset</string>
+    <!-- Noun for a dormant phase of holometabolous insects between larva and adult -->
+    <string name="annotation_value_pupa">Puppe</string>
+    <!-- Noun for larval stage of some aquatic insects and most hemimetabolous insects -->
+    <string name="annotation_value_nymph">Nymfe</string>
+    <!-- Noun for the arthropod life stage between egg and adult -->
+    <string name="annotation_value_larva">Larve</string>
+    <string name="annotation_value_egg">Æg</string>
+    <!-- Life stage before adulthood, could work as a noun or an adjective -->
+    <string name="annotation_value_juvenile">Ung</string>
+    <!-- Life stage between pupa and adult, generally used for mayflies (Ephemeroptera) -->
+    <string name="annotation_value_subimago">Subimago</string>
+    <string name="annotation_value_female">Hunkøn</string>
+    <string name="annotation_value_male">Hankøn</string>
+    <!-- Adjective, alive and shows no signs of imminent death -->
+    <string name="annotation_value_alive">Levende</string>
+    <!-- Adjective, dead or shows signs of imminent death -->
+    <string name="annotation_value_dead">Død</string>
+    <!-- Value for when the value of the attribute cannot be determined -->
+    <string name="annotation_value_cannot_be_determined">Kan ikke bestemmes</string>
+    <!-- "Evidence of Presence" value when the observation depicts the organism itself and not some kind of sign the organism left behind -->
+    <string name="annotation_value_organism">Organisme</string>
+    <!-- "Evidence of Presence" value when for bird feathers -->
+    <string name="annotation_value_feather">Fjer</string>
+    <!-- "Evidence of Presence" value when for fecal remains -->
+    <string name="annotation_value_scat">Ekskrement</string>
+    <!-- "Evidence of Presence" value for impressions in the ground or snow -->
+    <string name="annotation_value_track">Spor</string>
+    <!-- "Evidence of Presence" value when for bones -->
+    <string name="annotation_value_bone">Knogle</string>
+    <!-- "Evidence of Presence" value when for discarded reptile skins and arthropod exoskeletons -->
+    <string name="annotation_value_molt">Ham</string>
+    <!-- "Evidence of Presence" value when for something created by an animal, made with or excavated from other materials -->
+    <string name="annotation_value_construction">Konstruktion</string>
+    <!-- "Evidence of Presence" value when for deformed plant tissue outgrowth caused by a parasitic organism -->
+    <string name="annotation_value_gall">Gevækst</string>
+    <!-- "Evidence of Presence" value when for hair that is no longer attached to the organism from which it originated -->
+    <string name="annotation_value_hair">Hår</string>
+    <!-- "Evidence of Presence" value when for evidence of feeding between the dermal layers of a leaf -->
+    <string name="annotation_value_leafmine">Bladtunnel/-hulrum</string>
+    <!-- "Leaves" value when for leaf buds that are opening -->
+    <string name="annotation_value_breaking_leaf_buds">Udspringende Bladknopper</string>
+    <!-- "Leaves" value when for green leaves -->
+    <string name="annotation_value_green_leaves">Grønne Blade</string>
+    <!-- "Leaves" value when for leaves with colors other than green, e.g. dying leaves in autumn -->
+    <string name="annotation_value_colored_leaves">Farvede Blade</string>
+    <!-- "Leaves" value when there are no living leaves -->
+    <string name="annotation_value_no_live_leaves">Ingen Levende Blade</string>
+    <!-- "Established" value when the organism is not established, e.g. an escaped pet. See https://www.inaturalist.org/blog/91460-piloting-an-establishment-annotation-with-amphibians-and-reptiles -->
+    <string name="annotation_value_not_established">Ikke-etableret</string>
+    <!-- Text for a label for a list of projects the viewer has joined -->
+    <string name="joined_projects_all_caps">DELTAGER</string>
+    <string name="nearby_projects_all_caps">I NÆRHEDEN</string>
+    <string name="featured_projects_all_caps">FREMHÆVEDE</string>
+    <!-- Text for a button or label that allows someone to join a project -->
+    <string name="join_all_caps">TILMELD</string>
+    <string name="my_guides_all_caps">DINE</string>
+    <string name="nearby_guides_all_caps">I NÆRHEDEN</string>
+    <string name="all_guides_all_caps">ALLE</string>
+    <string name="description_all_caps">BESKRIVELSE</string>
+    <string name="quantity_all_caps">ANTAL</string>
+    <plurals name="observation_count_all_caps">
+        <item quantity="one">%1$s OBSERVATION</item>
+        <item quantity="other">%1$s OBSERVATIONER</item>
+    </plurals>
+    <string name="agree_all_caps">ACCEPTÉR</string>
+    <string name="observations_all_caps">OBSERVATIONER</string>
+    <string name="species_all_caps">ARTER</string>
+    <string name="people_all_caps">PERSONER</string>
+    <string name="identifiers_all_caps">IDENTIFIKATORER</string>
+    <string name="identifications_all_caps">IDENTIFIKATIONER</string>
+    <string name="news_all_caps">NYHEDER</string>
+    <string name="got_it_all_caps">FORSTÅET!</string>
+    <string name="view_all_all_caps">SE ALLE</string>
+    <string name="observers_all_caps">OBSERVATØRER</string>
+    <string name="observations_regular">Observationer</string>
+    <string name="data_quality_assessment">Datakvalitetsvurdering</string>
+    <string name="research_grade_qualification">Forskningskvalitetskvalifikation</string>
+    <string name="date_specified">Dato angivet</string>
+    <string name="location_specified">Placering angivet</string>
+    <string name="has_photos_or_sounds">Har fotos eller lyde</string>
+    <string name="has_id_supported_by_two_or_more">Har ID understøttet af to eller flere</string>
+    <string name="date_is_accurate">Dato er korrekt</string>
+    <string name="location_is_accurate">Placering er korrekt</string>
+    <string name="organism_is_wild">Organisme er vildtlevende</string>
+    <string name="evidence_of_organism">Bevis for organisme</string>
+    <string name="recent_evidence_of_an_organism">Nylige beviser på en organisme</string>
+    <string name="community_id_at_species_level_or_lower">Fællesskabs-ID på artsniveau eller lavere</string>
+    <string name="based_on_evidence_can_community_id_be_confirmed">Kan Fællesskabs-ID\'et stadig bekræftes eller forbedres baseret på beviset?</string>
+    <string name="no_as_good_as_it_can_be">Nej, det er så godt, som det kan blive</string>
+    <string name="evidence_related_to_single_subject">Bevis relateret til et enkelt emne</string>
+    <string name="seasonality">Sæsonudsving</string>
+    <string name="verifiable">Verificerbar</string>
+    <string name="no_annotation">Ingen anmærkning</string>
+    <string name="donate_to_inaturalist">Donér til iNaturalist</string>
+    <string name="prefers_scientific_name_first">Vis videnskabelige navne først</string>
+    <string name="prefers_scientific_name_first_description">Vis videnskabelige navne før almindelige navne.</string>
+    <string name="network_credit_inaturalistcanada"><![CDATA[Canada: Canadian Wildlife Federation, the Royal Ontario Museum, NatureServe Canada og Parks Canada, som driver iNaturalist Canada (<a href="https://inaturalist.ca">inaturalist.ca</a>)]]></string>
+    <string name="network_credit_naturalistacolombia"><![CDATA[Colombia: Instituto Humboldt, som driver Naturalista (<a href="https://colombia.inaturalist.org">colombia.inaturalist.org</a>)]]></string>
+    <string name="network_credit_naturalista"><![CDATA[Mexico: Comisión nacional para el conocimiento y uso de la biodiversidad (CONABIO), som driver NaturaLista (<a href="https://naturalista.mx">NaturaLista.mx</a>)]]></string>
+    <string name="network_credit_naturewatchnz"><![CDATA[New Zealand: New Zealand Biodiversity Recording Network, som driver iNaturalist NZ — Mātaki Taiao (<a href="https://inaturalist.nz">inaturalist.nz</a>)]]></string>
+    <string name="network_credit_biodiversity4all"><![CDATA[Portugal: Associação Biodiversidade Para Todos, som driver Biodiversity4All (<a href="https://biodiversity4all.org">Biodiversity4All.org</a>)]]></string>
+    <string name="network_credit_inaturalistpanama"><![CDATA[Panama: Ministerio de Ambiente, som driver iNaturalistPa (<a href="https://panama.inaturalist.org">panama.inaturalist.org</a>)]]></string>
+    <string name="network_credit_argentinat"><![CDATA[Argentina: Fundación Vida Silvestre Argentina understøtter ArgentiNat (<a href="https://www.argentinat.org">www.argentinat.org</a>)]]></string>
+    <string name="network_credit_inaturalistaustralia"><![CDATA[Australia: Atlas of Living Australia understøtter iNaturalist Australia (<a href="https://inaturalist.ala.org.au">inaturalist.ala.org.au</a>)]]></string>
+    <string name="network_credit_inaturalistecuador"><![CDATA[Ecuador: Instituto Nacional de Biodiversidad (INABIO) understøtter iNaturalist Ecuador (<a href="https://ecuador.inaturalist.org">ecuador.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistil"><![CDATA[Israel: University of Haifa understøtter iNaturalist Israel (<a href="https://israel.inaturalist.org">israel.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistfi"><![CDATA[Finland: Finsk Museum for Naturalist Historik (LUOMUS) understøtter iNaturalist Finland (<a href="https://inaturalist.laji.fi/">inaturalist.laji.fi</a>)]]></string>
+    <string name="network_credit_inaturalistcl"><![CDATA[Chile: Ministerio del Medio Ambiente supporterer iNaturalist Chile (<a href="https://inaturalist.mma.gob.cl/">inaturalist.mma.gob.cl</a>)]]></string>
+    <string name="network_credit_inaturalistgr"><![CDATA[Grækenland: iSea understøtter iNaturalist Grækenland (<a href="https://greece.inaturalist.org">greece.iNaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistlu"><![CDATA[Luxembourg: Luxembourg Nationale Naturhistoriske Museum (MnhnL) understøtter iNaturalist Luxembourg (<a href="https://inaturalist.lu">inaturalist.lu</a>)]]></string>
+    <string name="network_credit_inaturalistuk"><![CDATA[Storbrittanien: National Biodiversity Network Trust understøtter iNaturalist Storbrittanien (<a href="https://uk.inaturalist.org">uk.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistcr"><![CDATA[Costa Rica: Comisión Nacional para la Gestión de la Biodiversidad (CONAGEBIO) understøtter Naturalista Costa Rica (<a href="https://costarica.inaturalist.org">costarica.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistgt"><![CDATA[Guatemala: Consejo Nacional de Áreas Protegidas (CONAP) understøtter iNaturalist Guatemala (<a href="https://guatemala.inaturalist.org">guatemala.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistse"><![CDATA[Sweden: SLU Swedish Species Information Centre understøtter iNaturalist Sweden (<a href="https://www.inaturalist.se">www.inaturalist.se</a>)]]></string>
+    <string name="network_credit_naturalistauy"><![CDATA[Uruguay: JULANA og Biodiversidata supporterer Naturalista Uruguay (<a href="http://www.naturalista.uy/">www.naturalista.uy</a>)]]></string>
+    <string name="network_credit_inaturalisttw"><![CDATA[Taiwan: National Chiayi University og Taiwan Forestry Research Institute understøtter iNaturalist Taiwan (<a href="https://taiwan.inaturalist.org/">https://taiwan.inaturalist.org/</a>)]]></string>
+    <string name="mark_all_as_viewed">Markér alle som set</string>
+    <string name="content_hidden">Indhold skjult</string>
+    <string name="show_hidden_content">Vis Skjult Indhold</string>
+    <string name="content_hidden_because">Indhold skjult af @%1$s d. %2$s fordi: \"%3$s\"</string>
+    <string name="contact_support_with_link"><![CDATA[<a href="mailto:help@inaturalist.org">Kontakt Support</a>]]></string>
+    <string name="content">Indhold</string>
+    <string name="has_photos">Har fotos</string>
+    <string name="has_sounds">Har lyde</string>
+    <string name="could_not_play_sound">Kunne ikke afspille lyd - sandsynligvis et netværksproblem</string>
+    <string name="cant_play_soundcloud"><![CDATA[For at lytte til Soundcloud-lyde, tjek <a href="%1$s">webstedet</a>.]]></string>
+    <string name="soundcloud">Soundcloud</string>
+    <!-- Label for a button to open a sound recorder to record a new sound for an observation -->
+    <string name="record_sound">Optag lyd</string>
+    <string name="couldnt_retrieve_sound">Kunne ikke hente lyd fra standardlydoptager - prøv i stedet at importere lyden</string>
+    <!-- Label for a button to import an existing sound for an observation -->
+    <string name="upload_sound">Vælg lyd</string>
+    <string name="multi_select_sound_description">Importér multiple lyde med et lang tryk på én enkelt lyd</string>
+    <string name="alert_unsupported_audio_type">Beklager, der var et problem med at indlæse lyden fra denne kilde</string>
+    <string name="invalid_audio_extension">Lydimportfejl: Kun filtyperne WAV/MP3/AMR kan importeres</string>
+    <string name="importing_sounds">Importerer lyd(e)...</string>
+    <string name="observation_sound">Observationslyd</string>
+    <string name="deleted_sounds_from_cache_error">Det ser ud til, at du slettede en lyd ved at tømme app-cachen før upload. Du er nødt til igen at føje lyden til din observation fra galleriet. Sørg fremadrettet for at have uploadet alle dine lyde, inden app-cachen tømmes.</string>
+    <!-- Used when recording a sound - it's a counter, counting the number of seconds that have passed. e.g. 3.2 sec = 3.2. seconds -->
+    <string name="seconds">%1$.1f sek</string>
+    <string name="clear_all_debug_logs">Ryd alle fejlfindingslogger</string>
+    <string name="clears_up_storage_room_on_your_phone">Frigiver lagerplads på din mobil</string>
+    <string name="number_of_days_to_store_logs">Antal dage, logger skal gemmes</string>
+    <string name="send_debug_logs_from_start_date">Send Fejlfindingslogger fra Startdato</string>
+    <string name="send_debug_logs_by_email">Send fejlfindingslogger via e-mail (fra angivne startdato)</string>
+    <string name="debug_settings">Fejlfindingsindstillinger</string>
+    <string name="are_you_sure_you_want_to_delete_logs">Sikker på, at du vil slette alle fejlfindingslogger? Tryk kun \"Ja\", hvis du vil frigive lagerplads på din mobil</string>
+    <string name="no_log_files_found">Ingen logfiler fundet for dette område - prøv en tidligere dato?</string>
+    <string name="choose_pinned_location">Vælg fastgjort placering</string>
+    <string name="pin_current_location">Fastgør nuværende placering</string>
+    <string name="location_pinned_successfully">Nuværende placering fastgjort</string>
+    <string name="delete_this_pinned_location">Slet denne fasgjorte placering?</string>
+    <!-- Verb, as in "Duplicate this photo" - Second person imperative -->
+    <string name="duplicate">Dublér</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the photo for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_photo">Kunne ikke dublere foto!</string>
+    <string name="couldnt_edit_photo">Kunne ikke redigere foto!</string>
+    <!-- Verb, as in "Rotate this photo" -->
+    <string name="ucrop_rotate">Rotér</string>
+    <!-- Verb, as in "Scale (resize) this photo" -->
+    <string name="ucrop_scale">Skalerér</string>
+    <!-- Verb, as in "Crop this photo" -->
+    <string name="ucrop_crop">Beskær</string>
+    <!-- Label for adjusting the brightness of an image -->
+    <string name="ucrop_brightness">Lysstyrke</string>
+    <!-- Label for adjusting the contrast of an image -->
+    <string name="ucrop_contrast">Kontrast</string>
+    <!-- Label for adjusting the saturation of an image -->
+    <string name="ucrop_saturation">Farvemætning</string>
+    <!-- Label for adjusting the sharpness of an image -->
+    <string name="ucrop_sharpness">Skarphed</string>
+    <!-- Label for image cropping mode that maintains the original aspect ratio -->
+    <string name="ucrop_label_original">Originalt</string>
+    <!-- Label for image cropping mode that has no limits on the aspect ratio -->
+    <string name="ucrop_label_free">Gratis</string>
+    <!-- Verb phrase, button label to edit an observation photo -->
+    <string name="ucrop_label_edit_photo">Redigér foto</string>
+    <string name="service_temporarily_unavailable">Tjeneste midlertidigt utilgængelig.</string>
+    <string name="please_try_again_in_a_few_hours">Forsøg igen om et par timer.</string>
+    <!-- e.g. "Please try again in 3 hours", or "Please try again in 15 minutes" -->
+    <string name="please_try_again_in_x">Forsøg igen om %1$d %2$s.</string>
+    <string name="hours">timer</string>
+    <string name="minutes">minutter</string>
+    <string name="seconds_value">sekunder</string>
+    <string name="shop_the_inat_store">Handl i iNat-butikken</string>
+    <string name="delete_your_account">Slet din konto</string>
+    <string name="delete_account_message"><![CDATA[Sletter du din konto, fjerner du:<br/><br/><ul><li> Alle dine observationer, inklusiv det arbejde folk har lagt i at hjælpe dig med identifikationer.</li><li> Alle de identifikationer du har tilføjet til andre folks observationer, hvilket potentielt kan påvirke datakvaliteten af disse observationer. </li><li> Alle de kommentarer du har tilføjet.</li></ul><br/>Derudover, denne handling kan ikke fortrydes. Hvis du skifter mening senere, vil du ikke kunne få noget af dette indhold tilbage.<br/><br/>Hvis denne service genererer for mange underretninger, så overvej at <a href="https://www.inaturalist.org/users/edit">redigere dine indstillinger på hjemmesiden</a> for at fravælge visse underretninger eller stoppe med at modtage email fra os. Hvis du har problemer med en bestemt person, så overvej at <a href="https://www.inaturalist.org/users/edit">mute dem</a> i stedet for at slette din konto.<br/><br/>Hvis du stadig er sikker på, at du ønsker at slette din konto, så indtast <b>\"%1$s\"</b> i formularen nedenfor og klik på knappen for at slette din konto og alle dine data.]]></string>
+    <string name="your_account_has_been_deleted">Din konto er blevet slettet</string>
+    <string name="you_must_enter_username_in_the_form_to_delete_account">Du skal indtaste \'%1$s\' i formularen for at slette din konto</string>
+    <!-- Second person hint text asking the user to enter their username -->
+    <string name="type_your_username">Skriv dit brugernavn</string>
+    <string name="error_deleting_account">Der opstod en fejl under sletning af din konto - tjek venligst din internetforbindelse</string>
+    <string name="verify_your_password">Bekræft din adgangskode</string>
+    <string name="third_party_data_sharing">Tredjepartsdatadeling</string>
+    <string name="disable_third_party_data_sharing">Deaktivér Tredjepartsdatadeling</string>
+    <string name="do_not_collect_third_party_data">Indsaml ikke stabilitets- og brugsdata vha. tredjepartstjenester</string>
+    <string name="enabled">Aktiveret</string>
+    <string name="disabled">Deaktiveret</string>
+    <string name="third_party_data_sharing_notes1"><![CDATA[I softwaren benyttes en række tredjepartstjenester til stabilitetsmonitorering samt fejl- og problemdiagnosticeringer. Disse tredjeparter inkluderer:<br/><ul><li>Google (<a href="https://analytics.google.com/">Google Analytics</a>, <a href="https://firebase.google.com/products/crashlytics/">Firebase Crashlytics</a>)</li><li><a href="https://newrelic.com/">New Relic</a></li></ul>]]></string>
+    <string name="third_party_data_sharing_notes2"><![CDATA[Oplysninger, som deler med disse tredjeparter, omfatter:<br/><ul><li> IP-adresser (som kan bruges til at udlede placering til opløsning på byniveau samt til at spore dig på tværs af forskellige websteder og tjenester. Bemærk, at vi har aktiveret <a href="https://support.google.com/analytics/answer/2763052">IP-anonymisering</a> i Google Analytics, og <a href="https://firebase.google.com/support/privacy">Firebase Crashlytics</a> registrerer os bekendt ikke IP-adresse)</li><li>Browseroplysninger, såsom mærke, model og version</li><li>Nedbrudsoplysninger, såsom præcist dén kodelinje, der forårsagede et nedbrud</li><li>Enhedsoplysninger, såsom mærke og model af en mobilenhed</li></ul>]]></string>
+    <string name="third_party_data_sharing_notes3"><![CDATA[<b>Disse tjenester fra tredjeparter giver os enorm værdi</b> mht. at bevare iNaturalists stabilitet og anvendelighed med vores relativt lille personale. På mobile enheder er der næsten ingen anden måde, hvorpå vi kan få indsigt i problemer, som opstår, da softwaren kører på enheder, vi ikke kontrollerer. Nogle gange er vi ikke engang klar over, at sådanne problemer opstår, før vi ser dem i de data, disse tjenester leverer. <b>Ved at dele disse oplysninger hjælper du os med at tjene dig og hele iNaturalist-fællesskabet.</b>]]></string>
+    <string name="third_party_data_sharing_notes4"><![CDATA[Bemærk, at denne mulighed kun gælder for analyse- og nedbrudsdata, som vi eksplicit sender til disse virksomheder. Alle iNaturalist-servere leveres og driftes af Microsoft, alle iNaturalist-billeder er lagres hos Amazon, og næsten alle iNaturalist-kort leveres af Google, hvilket betyder, at hver gang du ser på en observation på iNaturalist, opretter du forbindelse til tjenester leveret af disse virksomheder, og afslører som et minimum din IP-adresse for dem (i iPhone-appen benyttes Apples kort). iNaturalist ville sandsynligvis ikke eksistere uden de tjenester, disse virksomheder leverer, og selv om vi kan begrænse den mængde og de datatyper, du deler med dem under brugen af iNat, kan vi ikke fuldstændigt stoppe datastrømmen.]]></string>
+    <string name="common_names_place"><![CDATA[Almindelig stedbetegnelse: <b>%1$s</b>]]></string>
+    <string name="tap_to_prioritize_common_names">Tryk for at prioritere almindelige stedbetegnelse fra et bestemt sted.</string>
+    <string name="search_places">Søg steder</string>
+    <string name="restart_app">Genstart app</string>
+    <string name="disable_third_party_sharing_restart">For straks at deaktivere tredjeparts datadeling, skal appen genstartes.</string>
+    <plurals name="are_you_sure_you_want_to_delete_observations">
+        <item quantity="one">Sikker på, at du vil slette denne %1$d observation?</item>
+        <item quantity="other">Sikker på, at du vil slette disse %1$d observationer?</item>
+    </plurals>
+    <string name="future_observed_on_date_error">Din observation blev oprettet (og indsendt) %1$s, men du prøver at angive en observationsdato, der er senere end: %2$s</string>
+    <string name="no_more_photos_allowed">Observationer kan kun have %1$d fotos. For at tilføje flere, skal nogle fjernes.</string>
+    <string name="warning_multiple_photos">Føjer du fotos af forskellige slags organismer til denne observation eller den samme art på forskellige steder eller tidspunkter, skal du fjerne disse fotos og tilføje dem som separate observationer. En observation kan kun have %1$d fotos.</string>
+    <string name="choosing_specific_language_warning">Valg af et specifikt sprog til din konto kræver Internetforbindelse</string>
+    <string name="running_in_background_notfication">Kører i baggrunden, så afbrydelse undgås</string>
+    <string name="opt_out_of_community_taxon">Fravælg Fællesskabstakson</string>
+    <string name="opt_in_to_community_taxon">Tilvælg Fællesskabstakson</string>
+    <string name="opt_out_message">Fravalg af Fællesskabetstakson tvinger denne observation til at være forbundet med den pågældende takson fra den nuværende identifikation, ikke en takson, der stammer fra alle de identifikationer, som er føjet til denne observation. Hvis nok identifikatorer er uenige, bliver observationen Uformel. Man bør derfor kun fravælge, hvis man er sikker på, at ens identifikation er korrekt, og andre identifikationer er forkerte.</string>
+    <!-- Dialog title when notifying the user that the action they tried to perform requires them to grant location permission to the app -->
+    <string name="permission_required">Tilladelse kræves</string>
+    <!-- Message displayed when the user tries to perform an action that requires location permission -->
+    <string name="to_access_your_location">For at appen kan tilgå din placering, skal du først tildele den adgangstilladelse.</string>
+    <!-- Dialog title when displaying a message that an action is not permitted -->
+    <string name="forbidden">Ikke tilladt</string>
+    <!-- Message displayed when the user tries to share media with the iNat app from another app that from which iNat does not accept media -->
+    <string name="app_you_shared_blocked">Appen, hvorfra du delte, opretter fotos, som ikke er egnede til observationer, da dísse ikke udgør bevis for din oplevelse med en anden organisme, idet de inkluderer upassende branding eller kommercielt indhold, eller fordi de på anden vis overtræder vores tjenestevilkår.</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="list_observation_checkbox_description">Afkrydsningsfelt til valg af observation ved valg af flere emner</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="observation_list_item_iconic_pic_description">Eksempelbillede til observationstaksonomi</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="observation_list_item_obs_pic_description">Eksempelbillede til observation</string>
+    <string name="messages">Beskeder</string>
+    <string name="all_messages">Alle beskeder</string>
+    <string name="search_messages">Søg i beskeder</string>
+    <string name="no_messages">Du har ingen beskeder. Du kan sende en ny besked med den grønne knap eller sende en besked fra folks profilside.</string>
+    <string name="no_messages_found">Ingen beskeder fundet.</string>
+    <string name="send_a_message">Send en besked</string>
+    <string name="sending_message">Sender besked...</string>
+    <string name="could_not_send_message">Kunne ikke sende besked: %1$s</string>
+    <string name="subject">Emne</string>
+    <string name="body">Brødtekst</string>
+    <string name="type_your_message_here">Skriv din besked her</string>
+    <string name="new_message_to">Ny besked til %1$s</string>
+    <string name="who_would_you_like_to_send_a_message_to">Hvem ønsker du at sende beskeden til?</string>
+    <string name="new_message">Ny besked</string>
+    <string name="search_for_inaturalist_users">Søg efter iNaturalist-brugere</string>
+    <string name="please_sign_in_for_messages">Du skal være logget ind for at kunne se dine beskeder.</string>
+    <string name="sorry">Beklager</string>
+    <string name="you_must_have_three_observations">Du skal have tre verificerbare observationer eller tre identifikationer for at kunne gøre det. </string>
+    <string name="mute_this_user">Gør denne bruger lydløs</string>
+    <string name="unmute_this_user">Sæt lyd på denne bruger igen</string>
+    <string name="flag_this_conversation">Sæt flag ved denne samtale</string>
+    <string name="mute_this_user_question">Gør denne bruger lydløs?</string>
+    <string name="you_will_no_longer_receive_messages">Du vil ikke længere modtage nogen notifikationer om denne brugers aktivitet, hverken beskeder, kommentarer, identifikationer eller omtaler.</string>
+    <string name="mute">Gør lydløs</string>
+    <string name="muting_user">Gør bruger lydløs...</string>
+    <string name="unmuting_user">Sætter lyd på bruger igen...</string>
+    <string name="failed_muting_user">Kunne ikke gøre bruger lydløs!</string>
+    <string name="failed_unmuting_user">Kunne ikke sætte lyd på bruger igen!</string>
+    <string name="flag_conversation">Sæt flag ved samtale</string>
+    <string name="spam">Reklamepost</string>
+    <string name="commercial_solicitation">Kommercielle henvendelser, ugyldige henvisninger osv.</string>
+    <string name="offensive_inappropriate">Stødende/upassende</string>
+    <string name="misleading_or_illegal_content">Vildledende eller ulovligt indhold, racistiske eller på anden måden nedsættende bemærkninger, osv. Vores definition af “passende” indhold finder du i FAQ.</string>
+    <string name="other">Andet</string>
+    <string name="some_other_reason">En anden årsag som du kan forklare.</string>
+    <string name="continue_text">Fortsæt</string>
+    <string name="why_are_you_flagging_this_item">Hvorfor sætter du flag ved dette emne?</string>
+    <string name="thank_you_for_submitting_the_flag">Tak for din indsendelse af flaget!</string>
+    <string name="flagging_conversation">Sætter flag ved samtale...</string>
+    <string name="failed_flagging_conversation">Kunne ikke sætte flag ved samtale!</string>
+    <string name="no_subject">Intet emne</string>
+    <!-- As in "matter and energy", or "life is a self-replicating pattern of matter subject to evolutionary processes" -->
+    <string name="rank_state_of_matter">Materietilstand</string>
+    <string name="rank_kingdom">Rige</string>
+    <string name="rank_subkingdom">Underrige</string>
+    <string name="rank_phylum">Række</string>
+    <string name="rank_subphylum">Underrække</string>
+    <string name="rank_superclass">Superklasse</string>
+    <string name="rank_class">Klasse</string>
+    <string name="rank_subclass">Underklasse</string>
+    <string name="rank_infraclass">Infraklasse</string>
+    <string name="rank_superorder">Superrangering</string>
+    <string name="rank_order">Rangering</string>
+    <string name="rank_suborder">Underrangering</string>
+    <string name="rank_infraorder">Infrarangering</string>
+    <string name="rank_subterclass">Subterklasse</string>
+    <string name="rank_parvorder">Parvrangering</string>
+    <string name="rank_zoosection">Zoosektion</string>
+    <string name="rank_zoosubsection">Zooundersektion</string>
+    <string name="rank_superfamily">Superfamilie</string>
+    <string name="rank_epifamily">Epifamilie</string>
+    <string name="rank_family">Familie</string>
+    <string name="rank_subfamily">Underfamilie</string>
+    <string name="rank_supertribe">Superstamme</string>
+    <string name="rank_tribe">Stamme</string>
+    <string name="rank_subtribe">Understamme</string>
+    <string name="rank_genus">Slægt</string>
+    <string name="rank_genushybrid">Slægtshybrid</string>
+    <string name="rank_subgenus">Underslægt</string>
+    <string name="rank_section">Sektion</string>
+    <string name="rank_subsection">undersektion</string>
+    <string name="rank_complex">Kompleks</string>
+    <!-- Singular -->
+    <string name="rank_species">Art</string>
+    <string name="rank_hybrid">Hybrid</string>
+    <!-- Singular -->
+    <string name="rank_subspecies">Underart</string>
+    <string name="rank_variety">Varietet</string>
+    <string name="rank_form">Form</string>
+    <string name="rank_infrahybrid">Infrahybrid</string>
+    <string name="rank_leaves">Blade</string>
+    <string name="location_lat_lng">Placering: %1$f, %2$f</string>
+    <string name="i_consent_process_personal_info"><![CDATA[Jeg accepterer, at iNaturalist får tilladelse til at gemme og behandle begrænsede former for personlig information om mig mhp. at håndtere min konto.]]></string>
+    <string name="about_personal_information">Om personlig information</string>
+    <string name="personal_information_notes"><![CDATA[Vi opbevarer personlig information såsom brugernavne og e-mailadresser mhp. kontihåndtering på dette websted, og for at overholde persondataloven beder vi dig afkrydse dette felt for at indikere, at du accepterer denne brug af
+personlig information. Se mere om, hvilken information vi indsamler, samt hvorledes vi anvender den i vores <a href="https://www.inaturalist.org/privacy">Fortrolighedspolitik</a>
+og <a href="https://www.inaturalist.org/terms">Tjenestevilkår</a>.]]></string>
+    <string name="i_agree_to_tos_and_privacy"><![CDATA[Jeg accepterer <a href="https://www.inaturalist.org/terms">Tjenestevilkår</a> og
+<a href="https://www.inaturalist.org/privacy">Fortrolighedspolitik</a>, og jeg har gennemset
+<a href="https://www.inaturalist.org/pages/community+guidelines">Fællesskabsretningslinjer</a>.]]></string>
+    <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="terms_of_service">Tjenestevilkår</string>
+    <!-- Placeholder text shown in place of a username when the user has been deleted -->
+    <string name="deleted_user">Slettet bruger</string>
+    <!-- Short date formatting template for dates in the current year. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_short_this_year">d MMM</string>
+    <!-- Short date formatting template for any date. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_short">dd/MMM/yy</string>
+    <!-- Short time formatting template for 24-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="time_short_24_hour">HH:mm</string>
+    <!-- Short time formatting template for 12-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="time_short_12_hour">hh:mma</string>
+    <!-- Long date formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_long">dd. MMM yyyy</string>
+    <!-- Obscured observations date formatting template (only month+year). Note that non-formatting letters should be surrounded by single quotes, and to include an actual single quote you need to double it, so "MMM ''yy" will render as "Oct '24", and "'Month:' MMM, ''yy" will render as "Month: Oct '24" Odd numbers of single quotes are not allowed. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_obscured">Mmm \'\'yy</string>
+    <!-- Long date with time formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_long_with_time">dd. MMMM yyyy HH:mm</string>
+    <string name="show_common_names">Vis almindelige navne</string>
+    <string name="show_common_names_description">Deaktivér, hvis du kun ønsker de videnskabelige navne vist.</string>
+    <string name="email_must_look_like_email_address">E-mail skal ligne en e-mailadresse</string>
+    <string name="username_must_begin_with">Brugernavn skal starte med et bogstav, kun indeholde bogstaver, cifre, bindestreger, understregninger og ingen mellemrum </string>
+    <string name="password_too_short">Adgangskode skal udgøre mindst 6 tegn</string>
+    <string name="switch_to_grid_view">Skift til gittervisning</string>
+    <string name="switch_to_list_view">Skift til listevisning</string>
+    <string name="remove_project_filter">Fjern projektfilter</string>
+    <string name="remove_observer_filter">Fjern observatørfilter</string>
+    <string name="filter_observations_by_an_exact_date">Filtrér observationer efter en specifik dato</string>
+    <string name="filter_observations_by_a_date_range">Filtrér observationer efter et datointerval</string>
+    <string name="filter_observations_by_months">Filtrér observationer efter måneder</string>
+    <!-- Used to demonstrate annotation filters, e.g. Life Stage = Egg -->
+    <string name="equals_sign">=</string>
+    <string name="include_suggestions_not_seen_nearby">Medtag forslag for ikke set i nærheden</string>
+    <string name="only_view_nearby_suggestions">Vis kun forslag set i nærheden</string>
+    <string name="suggestions_source">Forslagskilde</string>
+    <string name="research_grade_observations">Forskningkvalitetsobservationer</string>
+    <string name="visually_similar_description">iNaturalist vil leverer forslag baseret på, hvordan visuelt lignende billederne er ift. de arter, som er observeret nær dette sted på denne tid af året.</string>
+    <string name="research_grade_observations_description">I stedet for visuelt lignende forslag, vil iNaturalist foreslå arter observeret på et bestemt sted og inden for en bestemt taksonomisk gruppe.</string>
+    <string name="taxon">Takson</string>
+    <string name="place">Sted</string>
+    <string name="pretty_sure_kingdom">Vi er ret sikre på, at den er i dette rige:</string>
+    <string name="pretty_sure_subkingdom">Vi er ret sikre på, at den er i dette underrige:</string>
+    <string name="pretty_sure_phylum">Vi er ret sikre på, at den er i denne slægt:</string>
+    <string name="pretty_sure_subphylum">Vi er ret sikre på, at den er i denne underslægt:</string>
+    <string name="pretty_sure_superclass">Vi er ret sikre på, at den er i denne superklasse:</string>
+    <string name="pretty_sure_class">Vi er ret sikre på, at den er i denne klasse:</string>
+    <string name="pretty_sure_subclass">Vi er ret sikre på, at den er i denne underklasse:</string>
+    <string name="pretty_sure_infraclass">Vi er ret sikre på, at den er i denne infraklasse:</string>
+    <string name="pretty_sure_superorder">Vi er ret sikre på, at den er i denne superorden:</string>
+    <string name="pretty_sure_order">Vi er ret sikre på, at den er i denne orden:</string>
+    <string name="pretty_sure_suborder">Vi er ret sikre på, at den er i denne underorden:</string>
+    <string name="pretty_sure_infraorder">Vi er ret sikre på, at den er i denne infraorden:</string>
+    <string name="pretty_sure_subterclass">Vi er ret sikre på, at den er i denne subterklasse:</string>
+    <string name="pretty_sure_parvorder">Vi er ret sikre på, at den er i denne parvorden:</string>
+    <string name="pretty_sure_zoosection">Vi er ret sikre på, at den er i denne zoosektion:</string>
+    <string name="pretty_sure_zoosubsection">Vi er ret sikre på, at den er i denne zooundersektion:</string>
+    <string name="pretty_sure_superfamily">Vi er ret sikre på, at den er i denne superfamilie:</string>
+    <string name="pretty_sure_epifamily">Vi er ret sikre på, at den er i denne epifamilie:</string>
+    <string name="pretty_sure_family">Vi er ret sikre på, at den er i denne familie:</string>
+    <string name="pretty_sure_subfamily">Vi er ret sikre på, at den er i denne underfamilie:</string>
+    <string name="pretty_sure_supertribe">Vi er ret sikre på, at den er i denne superstamme:</string>
+    <string name="pretty_sure_tribe">Vi er ret sikre på, at den er i denne stamme:</string>
+    <string name="pretty_sure_subtribe">Vi er ret sikre på, at den er i denne understamme:</string>
+    <string name="pretty_sure_genus">Vi er ret sikre på, at den er i denne slægt:</string>
+    <string name="pretty_sure_genushybrid">Vi er ret sikre på, at den er i denne slægtshybrid:</string>
+    <string name="pretty_sure_subgenus">Vi er ret sikre på, at den er i denne underslægt:</string>
+    <string name="pretty_sure_section">Vi er ret sikre på, at den er i denne sektion:</string>
+    <string name="pretty_sure_subsection">Vi er ret sikre på, at den er i denne undersektion:</string>
+    <string name="pretty_sure_complex">Vi er ret sikre på, at den er i dette kompleks:</string>
+    <!-- Singular -->
+    <string name="pretty_sure_species">Vi er ret sikre på, at den er i denne art:</string>
+    <string name="pretty_sure_hybrid">Vi er ret sikre på, at den er i denne hybrid:</string>
+    <!-- Singular -->
+    <string name="pretty_sure_subspecies">Vi er ret sikre på, at den er i denne underart:</string>
+    <string name="pretty_sure_variety">Vi er ret sikre på, at den er i denne afart:</string>
+    <string name="pretty_sure_form">Vi er ret sikre på, at den er i denne form:</string>
+    <string name="pretty_sure_infrahybrid">Vi er ret sikre på, at den er i denne infrahybrid:</string>
+    <string name="remove_date_observed">Fjern observationsdato og -tidspunkt</string>
+    <string name="remove_time_observed">Fjern observationstidspunkt</string>
+    <string name="remove_location">Fjern placering</string>
+    <string name="are_you_sure_you_want_to_remove_date">Sikker på, at du vil fjerne observationsdatoen og -tidspunktet?</string>
+    <string name="are_you_sure_you_want_to_remove_time">Sikker på, at du vil fjerne observationstidspunktet?</string>
+    <string name="are_you_sure_you_want_to_remove_location">Sikker på, at du vil fjerne placeringen?</string>
+    <string name="share_location">Del placering</string>
+    <string name="share_hidden_location">Del skjult placering</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the sound for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_sound">Kunne ikke dublere lyd!</string>
+    <string name="sound_format_not_supported">Den lydkodning understøttes ikke af Android.</string>
+    <string name="view_observations">Vis observationer</string>
+    <string name="choose_this_option">Vælg denne mulighed</string>
+    <string name="compare_observation_with_this_option">Sammenlign observation med denne mulighed</string>
+    <string name="go_back">Gå tilbage</string>
+    <string name="change_the_source_of_the_suggestions">Ændre kilden til forslagene</string>
+    <string name="thumbnail_photo_for_suggested_taxon">Eksempelfoto til observationstaksonomi</string>
+    <!-- Accessibility text for the comments and IDs tab on the observation detail view -->
+    <string name="comments_ids_title">Kommentarer og identifikationer</string>
+    <!-- Accessibility text for the faves tab on the observation detail view -->
+    <string name="faves">Favoritter</string>
+    <!-- Accessibility text for a button that navigates to the previous option in a list of options -->
+    <string name="previous_option">Foregående mulighed</string>
+    <!-- Accessibility text for a button that navigates to the next option in a list of options -->
+    <string name="next_option">Næste mulighed</string>
+    <string name="no_observations_yet2">Ingen observationer endnu.</string>
+    <string name="no_species_yet">Ingen arter endnu.</string>
+    <string name="no_identifications_yet">Ingen identifikationer endnu</string>
+    <string name="sort_by">Sortér efter</string>
+    <string-array name="explore_order_by_items">
+        <item>Tilføjelsesdato</item>
+        <item>Observationsdato</item>
+        <item>Opdateringsdato</item>
+        <!--<item>Faves</item>-->
+        <item>Tilfældig</item>
+    </string-array>
+    <string-array name="explore_order_items">
+        <item>Faldende</item>
+        <item>Stigende</item>
+    </string-array>
+    <!-- Full sentence will look something like: "Sorted by Date Observed (Descending)" -
+    See explore_order_by_items and explore_order_items keys !-->
+    <string name="sorted_by_full">Sorteret efter %1$s (%2$s)</string>
+    <!-- Label for an observation search filter to exclude your own observations -->
+    <string name="hide_my_observations">Skjul Mine observationer</string>
+    <!-- Label for an option to follow an observation, i.e. subscribe to future updates -->
+    <string name="follow_this_observation">Følg denne observation</string>
+    <!-- Label for an option to unfollow an observation, i.e. unsubscribe to future updates -->
+    <string name="unfollow_this_observation">Følg ikke denne observation</string>
+    <!-- Error message shown when an attempt to follow an observation fails -->
+    <string name="could_not_follow_observation">Kunne ikke følge denne observation</string>
+    <!-- Error message shown when an attempt to unfollow an observation fails -->
+    <string name="could_not_unfollow_observation">Følg ikke denne observation mislykkedes</string>
+    <!-- Label for a button to copy the coordinates of an observation -->
+    <string name="copy_coordinates">Kopiér koordinater</string>
+    <string name="coordinates_copied_to_clipboard">Koordinater kopieret til udklipsholder</string>
+    <!--  Title of a section on the observation detail view that displays minor metadata  -->
+    <string name="metadata">Metadata</string>
+    <!--  iNat observation identifier  -->
+    <string name="id">ID</string>
+    <!--  iNat observation Universally Unique Identifier  -->
+    <string name="uuid">UUID</string>
+    <!--  Universal Resource Locator  -->
+    <string name="url">URL</string>
+    <string name="default_licenses">Standardlicenser</string>
+    <string name="default_observation_license">Standard observationslicens</string>
+    <string name="default_photo_license">Standard fotolicens</string>
+    <string name="default_sound_license">Standard lydlicens</string>
+    <string name="change_existing_licenses">Skift eksisterende licenser</string>
+    <string name="change_licenses_for_existing_observations">Skift licenser for eksisterende observationer, fotos og lyde</string>
+    <string name="change_licenses_for_all_existing_observations">Skift licenser for alle eksisterende observationer</string>
+    <string name="change_licenses_for_all_existing_photos">Skift licenser for alle eksisterende fotos</string>
+    <string name="change_licenses_for_all_existing_sounds">skift licenser for alle eksisterende lyde</string>
+    <string name="change_observation_licenses">Skift observationslicenser</string>
+    <string name="change_photo_licenses">Skift fotolicenser</string>
+    <string name="change_sound_licenses">Skift lydlicenser</string>
+    <string name="change_licenses_for_observations_confirmation"><![CDATA[Skift licenser for  <b>%1$d</b> eksisterende observationer til <b>%2$s</b>?]]></string>
+    <string name="change_licenses_for_photos_confirmation"><![CDATA[Skift licenserne for eksisterende fotos til <b>%1$s</b>?]]></string>
+    <string name="change_licenses_for_sounds_confirmation"><![CDATA[Skift licenserne for eksisterende lyde til <b>%1$s</b>?]]></string>
+    <string name="observation_licenses_updated">Observationslicenser ajourført</string>
+    <string name="photo_licenses_updated">Fotolicenser ajourført</string>
+    <string name="sound_licenses_updated">Lydlicenser ajourført</string>
+    <string name="existing_observation_licenses_have_been_updated">Alle eksisterende observationslicenser er skiftet til %1$s.</string>
+    <string name="existing_photo_licenses_have_been_updated">Alle eksisterende fotolicenser er skiftet til %1$s.</string>
+    <string name="existing_sound_licenses_have_been_updated">Alle eksisterende lydlicenser er skiftet til %1$s.</string>
+    <string name="default_licenses_description"><![CDATA[Licensering af dit indhold giver enhver lovlig ret til at bruge det uden at bede om din tilladelse, såfremt de overholder licensvilkårene. Derudover inkluderer iNat dit Creative Commons-licenserede indhold i regelmæssigt opdaterede arkiver produceret til udvalgte partnerorganisationer, som er interesseret i vores data. Vi inkluderer f.eks. posterne Ingen Ophavsret (CC0), Tilskrivning (CC BY) og Tilskrivning-Ikke-Kommerciel (CC BY-NC) i arkivet, vi genererer til <a href="https://www.gbif.org/ "> Global Biodiversity Information Facility (GBIF) </a>, en international, mellemstatslig organisation, der samler og distribuerer  biodiversitetsinformation fra hele verden.]]></string>
+    <string name="photo_license">Fotolicens</string>
+    <string name="sound_license">Lydlicens</string>
+    <string name="edit_photo_license">Redigér Fotolicens</string>
+    <string name="observation_license">Observationslicens</string>
+    <string name="edit_observation_license">Redigér Observationslicens</string>
+    <string name="about_licenses">Om licenser</string>
+    <string name="view_license">Vis licens</string>
+    <!-- License Names -->
+    <string name="license_name_cc0">Offentligt domæne</string>
+    <string name="license_name_cc_by">Tilskrivning</string>
+    <string name="license_name_cc_by_nc">Tilskrivning-Ikke-Kommerciel</string>
+    <string name="license_name_cc_by_nc_sa">Tilskrivning-Ikke-Kommerciel-Del På Samme Vilkår</string>
+    <string name="license_name_cc_by_nc_nd">Tilskrivning-Ikke-Kommerciel-Ingen Bearbejdning</string>
+    <string name="license_name_cc_by_nd">Tilskrivning-Ingen Bearbejdning</string>
+    <string name="license_name_cc_by_sa">Tilskrivning-Del På Samme Vilkår</string>
+    <string name="license_name_no_license">Alle rettigheder forbeholdt</string>
+    <!-- License Descriptions -->
+    <string name="license_description_cc0">Denne licens frigiver dit arbejde til det offentlige domæne, så andre kan kopiere, ændre, distribuere og bruge dit arbejde, også til kommercielle formål, uden at anmode om tilladelse eller uden at du krediteres. Dette er den mest åbne licens, der tilbydes. Anbefales til maksimal spredning og brug af licenserede materialer.</string>
+    <string name="license_description_cc_by">Denne licens tillader andre at dele, bearbejde, justere og viderebygge dit værk, også kommercielt, så længe de krediterer dig for det oprindelige værk.</string>
+    <string name="license_description_cc_by_nc">Denne licens tillader andre at bearbejde, justere og viderebygge dit værk ikke-kommercielt, og selv om deres nye værker også skal kreditere dig og være ikke-kommercielle, behøver de ikke at licensere deres afledte værker på samme vilkår.</string>
+    <string name="license_description_cc_by_nc_sa">Denne licens tillader andre at bearbejde, justere og viderebygge dit værk ikke-kommercielt, så længe de krediterer dig og licenserer deres nye værker på identiske vilkår.</string>
+    <string name="license_description_cc_by_nc_nd">Denne licens er den mest restriktive af de 6 licenser, og tillader kun andre at downloade og dele dine værker med andre, så længe de krediterer dig, men de må på ingen måde ændre dem eller bruge dem kommercielt.</string>
+    <string name="license_description_cc_by_nd">Denne licens tillader omfordeling, kommercielt og ikke-kommercielt, forudsat at dette sker i uændret form og i sin helhed med kreditering af dig.</string>
+    <string name="license_description_cc_by_sa">Denne licens lader andre renmixe, tilpasse og bygge videre på dit arbejde, selv til kommercielle formål, så længe de krediterer dig og licenserer deres nye kreationer under de samme vilkår. Denne licens er ofte sammenlignet med “copyleft”, gratis og open-source softwarelicenser. Alle nye værker baseret på dit vil bære den samme licens, så alle derivater vil også tillade kommerciel brug. Dette er den licens, der anvendes af Wikipedia, og anbefales til materialer, der ville drage fordel af at inkorporere indhold fra Wikipedia o.lign. licenserede projekter.</string>
+    <string name="license_description_no_license">Du beholder fuld ophavsret til dit indhold fraset de rettigheder, som er tildelt iNaturalist i vores Tjenestevilkår.</string>
+    <string name="invalid_photo">Fotoformat ikke understøttet</string>
+    <!-- Text attributing observers and identifiers alongside automated identification suggestions -->
+    <string name="suggestions_based_on">Forslag baseret på observationer og identifikationer leveret af iNaturalist-fællesskabet, herunder %1$s, %2$s, %3$s og mange andre.</string>
+    <!-- Preference to control what tapping on the action button does on My Observations -->
+    <string name="default_observation_action">Standard observationshandling</string>
+    <!-- Option for the "Default Observation Action" preference that performs the default action of showing a slide-up menu of options -->
+    <string name="show_options">Vis valgmuligheder</string>
+    <!-- Placeholder text for an observation field value -->
+    <string name="field_value">Feltværdi</string>
+    <string name="expand_annotation_to_agree_or_disagree">Udvid annotation for at udtrykke enighed eller uenighed</string>
+    <string name="delete_attribute_value">Slet attributværdi</string>
+    <string name="open_menu_for_more_options">Åbn menu for flere valgmuligheder</string>
+    <string name="change_user_profile_photo">Skift brugerprofilfoto</string>
+    <string name="expand_list">Udvid liste</string>
+    <string name="change_map_layers">Skift kortlag (terræn kontra satellit)</string>
+    <string name="redo_observation_search">Gentag observationssøgning i dette kortområde</string>
+    <string name="view_observations_on_map">Vis observationer på kort</string>
+    <string name="view_observations_on_grid">Vis observations på gitter</string>
+    <string name="clear_text">Ryd tekst</string>
+    <string name="observation_has_sounds">Observation har lyde</string>
+    <string name="go_to_my_location">Gå til min aktuelle placering</string>
+    <string name="change_geoprivacy">Ændre geofortrolighed</string>
+    <string name="active_filters">Aktive filtre</string>
+    <string name="message_is_flagged">Besked har anmærkning</string>
+    <string name="user_is_muted">Bruger er tavsgjort</string>
+    <string name="cancel_multiple_obs_selection">Annullér flere observationsvalg</string>
+    <string name="delete_observations">Slet observationer</string>
+    <string name="comment_count">Antal kommentarer</string>
+    <string name="id_count">Antal identifikationer</string>
+    <string name="observation_selected">Observation valgt</string>
+    <string name="share_observation">Del observation</string>
+    <string name="unknown_location">Ukendt placering</string>
+    <!-- Verb, used as an accessibility label for closing a view, e.g. a popup -->
+    <string name="close">Luk</string>
+    <string name="set_date2">Indstil dato</string>
+    <string name="project_selected">Projekt valgt</string>
+    <string name="project_unselected">Projekt fravalgt</string>
+    <string name="show_my_observations">Find mine observationer</string>
+    <string name="play_pause_sound">Afspil eller sæt lyd på pause</string>
+    <string name="view_image">Vis billede</string>
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a green check mark and a thumbs-up icon -->
+    <string name="assessment_passes">Bestået bedømmelser</string>
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote in favor of a specific assessment -->
+    <string name="agree_assessment_passes">Bestået enighedsbedømmelser</string>
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a red X and a thumbs-down icon -->
+    <string name="does_not_pass_assessment">Består ikke bedømmelse</string>
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote against a specific assessment -->
+    <string name="disagree_assessment_passes">Bestået uenighedsbedømmelser</string>
+    <plurals name="delete_x_selected_observations">
+        <item quantity="one">Slet %1$d valgt observation</item>
+        <item quantity="other">Slet %1$d valgte observationer</item>
+    </plurals>
+    <plurals name="sync_x_selected_observations">
+        <item quantity="one">Synk %1$d valgt observation</item>
+        <item quantity="other">Synk %1$d valgte observationer</item>
+    </plurals>
+    <string name="add_media_evidence">Tilføj mediedokumentation</string>
+    <string name="remove_identification">Fjern identifikation</string>
+    <string name="issue_with_updating_photos">Problemet med at opdatere fotos i denne observation er for nylig er blevet rettet. Log ud og ind igen, og problemet burde være forsvundet.</string>
+    <string name="app_version_copied_to_clipboard">App-version kopieret til udklipsholder</string>
+    <string name="authentication_failed">Godkendelse mislykkedes</string>
+    <string name="please_try_again_soon">Forsøg igen senere</string>
+    <string name="verify_your_email">Bekræft din e-mailadresse</string>
+    <string name="after_you_change_your_password">Efter skift af adgangskoden, logget man ud og vil skulle logge ind igen med den nye adgangskode. Man logges også ud af iNaturalist mobil-apps samt alle øvrige apps eller websteder, som poster til iNaturalist på vegne af kontoen/brugeren, så sørg for at have uploadet alle udestående observationer, før dette gøres. Evt. ikke-uploadede observationer går tabt.</string>
+    <!-- Error message when a user tries to add upload a photo or a sound that is larger than the allowed 20 MB -->
+    <string name="couldnt_upload_file_too_large">Kunne ikke uploade fil — overstiger 20MB</string>
+    <string name="you_have_been_signed_out_please_sign_in_again">Du er blevet logget ud. Log ind igen. </string>
+    <!-- Accessibility label for a button that closes an announcement -->
+    <string name="close_announcement">Luk meddelelse</string>
+    <string name="import_photos_from">Importere fotos fra...</string>
+    <string name="cannot_find_default_camera">Standardkamera til at tage fotos med ikke fundet — kontakt supporten</string>
+    <string name="please_click_link_to_confirm_email">Klik på linket i e-mailen for at bekræfte din e-mailadresse på iNaturalist.</string>
+    <string name="click_to_resend_confirmation_email">Klik hér for at sende en bekræftelsesmail.</string>
+</resources>

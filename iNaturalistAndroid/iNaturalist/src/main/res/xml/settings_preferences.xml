@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Preference
+        android:layout="@layout/custom_preference"
+        android:key="sign_in"
+        android:title="@string/login_or_sign_up"
+        android:summary="@string/not_logged_in" />
+
+    <CheckBoxPreference
+        android:layout="@layout/custom_preference"
+        android:defaultValue="true"
+        android:widgetLayout="@layout/custom_checkbox_preference"
+        android:key="auto_sync"
+        android:summary="@string/auto_upload_description"
+        android:title="@string/automatic_upload" />
+
+    <CheckBoxPreference
+        android:layout="@layout/custom_preference"
+        android:defaultValue="true"
+        android:widgetLayout="@layout/custom_checkbox_preference"
+        android:key="suggest_species"
+        android:summary="@string/suggest_species_description"
+        android:title="@string/suggest_species" />
+
+    <ListPreference
+        android:layout="@layout/custom_preference"
+        android:key="default_obs_action"
+        android:title="@string/default_observation_action"
+        android:summary="@string/show_options"
+        android:entries="@array/default_obs_action_values"
+        android:entryValues="@array/default_obs_action_values"
+        />
+
+    <CheckBoxPreference
+        android:layout="@layout/custom_preference"
+        android:defaultValue="false"
+        android:widgetLayout="@layout/custom_checkbox_preference"
+        android:key="prefers_scientific_name_first"
+        android:summary="@string/prefers_scientific_name_first_description"
+        android:title="@string/prefers_scientific_name_first" />
+
+    <CheckBoxPreference
+        android:layout="@layout/custom_preference"
+        android:defaultValue="true"
+        android:widgetLayout="@layout/custom_checkbox_preference"
+        android:key="prefers_common_names"
+        android:summary="@string/show_common_names_description"
+        android:title="@string/show_common_names" />
+
+    <Preference
+        android:layout="@layout/custom_preference"
+        android:key="name_place"
+        android:title="@string/common_names_place"
+        android:summary="@string/tap_to_prioritize_common_names" />
+
+    <Preference
+        android:layout="@layout/custom_preference"
+        android:key="default_licenses"
+        android:title="@string/default_licenses"
+        android:summary="CC-BY-NC"
+        />
+
+    <Preference
+        android:layout="@layout/custom_preference"
+        android:key="third_party_data_sharing"
+        android:title="@string/third_party_data_sharing"
+        android:summary="@string/enabled"
+        />
+
+    <org.inaturalist.android.LanguageListPreference
+        android:layout="@layout/custom_preference"
+        android:key="language"
+        android:title="@string/language"
+        android:summary="@string/use_device_language_settings"
+        android:entries="@array/language_names"
+        android:entryValues="@array/language_values"
+        />
+
+    <Preference
+        android:layout="@layout/custom_preference"
+        android:key="inat_network"
+        android:title="@string/inat_network"
+        android:summary="Network Name" />
+
+    <Preference
+        android:layout="@layout/red_preference"
+        android:key="delete_account"
+        android:title="@string/delete_your_account" />
+
+    <Preference
+        android:layout="@layout/custom_preference"
+        android:key="sign_out"
+        android:title="@string/log_out"
+        android:summary="@string/currently_logged_in_as_html" />
+
+
+</androidx.preference.PreferenceScreen>

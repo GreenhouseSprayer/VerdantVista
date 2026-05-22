@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_address">E-mail адреса</string>
+    <string name="delete_observation">Избриши набљудување</string>
+    <string name="observation_deleted">Набљудувањето е избришано</string>
+    <string name="species_guess_hint">Име на видот</string>
+    <string name="ok">ОК</string>
+    <string name="cancel">Одбиј</string>
+    <string name="loading">Вчитување...</string>
+    <string name="street">Улица</string>
+    <!-- As in map tiles using satellite imagery, generally used as an option when choosing a base map type -->
+    <string name="satellite">Сателит</string>
+    <string name="couldnt_load_nearby_observations">Не може да ги вчита околните набљудувања: %1$s</string>
+    <string name="username_invalid">Корисничкото име или лозинката не се валидни, ве молиме логирајте се повторно.</string>
+    <string name="signing_in">Се логира...</string>
+    <string name="signed_in">Најавени сте!</string>
+    <string name="please_sign_in"> Молиме најавете се.</string>
+    <string name="please_sign_in_description">Ве молиме логирајте се на вашиот иНатуралист профил или отворете нов. </string>
+    <string name="please_enable_location_services">Ве молиме овозможете ја услугата за лоцирање за да можеме да ја откриеме вашата локација...</string>
+    <string name="go_to_settings">Оди на нагодувања</string>
+    <string name="photo_not_specified">Не е одредена фотографија</string>
+    <string name="set_date">Датум</string>
+    <string name="set_time">Време</string>
+    <!-- "Blast" is meant to be a jocular, intentionally archaic curse. It should not be translated as a word that might offend anyone. If that's impossible, please just leave it out. We occasionally use language like this add a little personality, but that doesn't always translate very well. -->
+    <string name="something_went_wrong">Проклестство, нешто не е во ред: %1$s</string>
+    <string name="edit">Промени</string>
+    <string name="oh_no">О не! %1$s</string>
+    <string name="observations">Моите набљудувања</string>
+    <string name="map">Мапа</string>
+    <string name="settings">Подесувања</string>
+    <string name="projects">Проекти</string>
+    <string name="delete_photo">Избриши слика</string>
+    <string name="my_location">Мојата локација</string>
+    <string name="nearby_observations">Набљудувања во близина</string>
+    <string name="add">Додај</string>
+    <string name="view_on_inat">Погледни на iNaturalist.org</string>
+    <string name="reload">Освежи</string>
+    <string name="view_in_browser">Види во пребарувач</string>
+    <string name="add_observation">Додајте набљудување</string>
+    <string name="take_picture">Сликај</string>
+    <string name="save">Зачувај</string>
+    <string name="no_observations_yet">Засега нема набљудувања</string>
+    <string name="or">или</string>
+    <string name="signed_out">Одјави се</string>
+    <string name="username">Корисничко име</string>
+    <string name="password">Лозинка</string>
+    <string name="unknown">Непознат</string>
+    <string name="unknown_species">непознат вид</string>
+    <string name="edit_observation">Измени го набљудувањето</string>
+    <string name="discard_changes">Дали сте сигурни дека сакате да ги избришете незачуваните промени?</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <!-- Label for a button that adds an identification that is the same as another identification, as in "Do you agree this is correct?" Should be short. -->
+    <string name="agree">Се согласувате?</string>
+    <string name="no_comments">Сеуште нема коментари/препознавања</string>
+    <string name="add_comment">Додадете коментар</string>
+    <string name="add_id">Додете препознавање</string>
+    <string name="remarks">Забелешки...</string>
+    <string name="enter_taxon_name">Име на видот</string>
+    <string name="no_projects">Не е најден проект!</string>
+    <string name="no_guides">Не се најдени водичи!</string>
+    <string name="loading_projects">Вчитува проекти...</string>
+    <string name="joined_projects">Приклучени сте!</string>
+    <string name="nearby_projects">Во близина</string>
+    <!-- Tab title for the list of featured projects in the Projects screen -->
+    <string name="featured_projects">Истакнати</string>
+    <!-- Verb, used as a label for actions like leaving a project -->
+    <string name="leave">Напуштете</string>
+    <string name="join">Приклучете се</string>
+    <string name="no_check_list">Нема таксон во прегледната листа!</string>
+    <string name="failed_to_add_obs_to_project">Неуспеа да го додаде набљудувањето ’%1$s’ во проектот ’%2$s’: %3$s</string>
+    <string name="invalid_project_field">Ве молиме внесете соодветна вредност за полето \'%1s\'</string>
+    <!-- Title of interface used to add an observation to a project. This should be relatively short, not much more than a few characters longer than the English translation. -->
+    <string name="select_projects">Одберете од влучените проекти</string>
+    <string name="not_connected">Мора да сте приклучени на интернет за да го направите тоа!</string>
+    <string name="search_projects">Пребарај проекти...</string>
+    <string name="search_guides">Пребарајте ги водичите...</string>
+    <string name="save_observation">Снимете го набљудувањето</string>
+    <!-- Header for a description an individual guide -->
+    <string name="about_guide">За водичот</string>
+    <string name="about_guide_all_caps">ЗА ВОДИЧОТ</string>
+    <!-- Header for a description an individual project -->
+    <string name="about_project">За проектот</string>
+    <string name="about_project_all_caps">ЗА ПРОЕКТОТ</string>
+    <string name="about_this_app">За оваа апликација</string>
+    <string name="about_taxon_short">За таксонот</string>
+    <!-- Noun describing the ability to obscure or hide the coordinates of an observation. Should be a short noun or noun-phrase suitable for use on a button or popup header -->
+    <string name="geoprivacy">Геоприватност</string>
+    <!-- Generally used when we need to display both the label and the value on one line. Specifically used in the toolbar at the top of the location chooser -->
+    <string name="geoprivacy_with_value">Геоприватност: %1$s</string>
+    <string name="delete_confirmation">Дали сте сигурни дека сакате да го избришете набљудувањето?</string>
+    <!-- This refers to field guide-like content within the app, i.e. user-created lists of species that help other people identify organisms. It does not refer to tutorials or other instructional content. -->
+    <string name="guides">Водичи</string>
+    <string name="my_guides">Ваши</string>
+    <string name="nearby_guides">Во близина</string>
+    <string name="all_guides">Сите</string>
+    <string name="no_taxa">Не е најден таксон за овој водич!</string>
+    <string name="search_taxa">Пребарај таксони...</string>
+    <string name="no_internet_guides">За водичите потребна е интернет поврзаност</string>
+    <string name="no_internet_projects">За проектите потребна е интернет поврзаност</string>
+    <string name="locale_gl">галициски</string>
+    <string name="locale_eu">баскиски</string>
+    <string name="use_device_language_settings">Употребете ги нагодувањата за јазикот на апаратот</string>
+    <string name="choose_location">Изберете локација</string>
+    <string name="done">Направено</string>
+    <string name="please_sign_in_via_settings">Мора да сте најавени за да ги видите проектите во кои сте вклучени</string>
+    <string name="contact_support">Контактирајте ја поддршката</string>
+    <string name="leave_project">Напуштете го проектот</string>
+    <string name="leave_project_confirmation">Дали сте сигурни дека сакате да го напуштите овој проект?</string>
+    <string name="discard_location_changes">Дали сте сигурни дека сакате да ги избришете незачуваните промени?</string>
+    <string name="edit_location">Уредете ја локалцијата</string>
+    <string name="edit_locality_notes">Измени белешки за локацијата</string>
+    <string name="get_current_location">Превземи сегашна локација</string>
+    <string name="pull_to_refresh">Повлечете за да се освежи…</string>
+    <string name="release_to_refresh">Ослободете за да се освежи...</string>
+    <string name="refreshing">Освежува…</string>
+    <plurals name="sync_x_observations">
+        <item quantity="one">Ускладете го  %1$d набљудувањето </item>
+        <item quantity="other">Синхронизирај %1$d набљудувања</item>
+    </plurals>
+    <string name="sync_observations">Усклади ги набљудувањата</string>
+    <string name="lets_get_started">Ајде да започнеме!</string>
+    <string name="view_nearby_observations">Погледнете ги набљудувањата во близина</string>
+    <string name="skip_for_now">Прескокнете за сега</string>
+    <string-array name="tutorial_titles">
+        <item></item>
+        <item>Набљудувајте</item>
+        <item>Споделете</item>
+        <item>Научете</item>
+        <item>Придонесете</item>
+    </string-array>
+    <string-array name="tutorial_descriptions">
+        <item>Истражете и поврзете се со природата</item>
+        <item>Излезете! Најдете нешто диво и направете јасна фотографија во крупен план.</item>
+        <item>Споделте го набљудувањето со заедницата на iNaturalist.</item>
+        <item>Проверете за коментари и препознавања на вашето набљудување!</item>
+        <item><![CDATA[<b>Истражувачко ниво</b> набљудувањата се споделуваат со научници кои работат за подобро да ја разберат и заштитат природата.]]></item>
+    </string-array>
+    <string-array name="geoprivacy_items">
+        <item>отворена</item>
+        <item>Прикриенo</item>
+        <item>Приватно</item>
+    </string-array>
+    <string name="alert_sign_out">Дали сте стигурни дека сакате да се одјавите? Тоа ќе ги избрише сите ваши набљудувања на овој уред. Тоа нема да влијае на набљудувањата кои се прикачени на иНатуралист.</string>
+    <string name="alert_unsupported_media_type">Се извинуваме, но имаше проблем при прикачувањето на сликите од овој извор</string>
+    <!-- Second person verb, used as a section title as in the "Explore" screen where you explore observations made by other people -->
+    <string name="explore">Истражи</string>
+    <string name="restricted_to_current_map_area">Ограничи на моменталната област на мапата</string>
+    <string name="search">Пребарувај</string>
+    <string name="details">Детали</string>
+    <string name="observation_photos">Фотографии од набљудување</string>
+    <string name="no_observations_found">Не се најдени набљудувања</string>
+    <string name="license_none">Нема, сите права се задржани</string>
+    <string name="sources_and_attribution">Извори и заслуги</string>
+    <string name="photos"><![CDATA[<b>Фотографии:</b>%1$s]]></string>
+    <string name="text"><![CDATA[<b>Текст:</b>%1$s]]></string>
+    <!-- The dialog content asking the user to switch to another iNat network -->
+    <string name="alert_message_use_inaturalist">Главна иНатуралист мрежа. Со притискање ОК ќе ја подеси вашата апликација да биде дел од глобалната иНатуралист мрежа.</string>
+    <string name="editor">Уредник</string>
+    <string name="license">Лиценца</string>
+    <string name="download_for_offline_use">Преземање за употреба без интернет.</string>
+    <string name="download_not_available">Преземањето не е достапно</string>
+    <string name="guide_editor_must_enable_this_feature">Уредникот на водичот мора да го овозможи тоа.</string>
+    <string name="are_you_sure">Дали сте сигурни?</string>
+    <string name="download_guide_alert">Ова ќе преземе %1$s на податоци за да можете да го користите водичот дури и кога немате интернет пристап.</string>
+    <string name="failed_to_download_guide">Неуспешно преземање на водичот</string>
+    <string name="internet_connection_seems_to_be_offline">Изгледа не те поврзани со интернет.</string>
+    <string name="downloading">Преземање...</string>
+    <string name="extracting">Екстракција…</string>
+    <string name="downloaded">Преземено</string>
+    <string name="delete_download">Избриши ги преземањата</string>
+    <string name="re_download">Повторно превземање</string>
+    <string name="error">Грешка</string>
+    <string name="could_not_retrieve_guide">Не може да се повлечат деталите за водичот - најверојатно е грешка во мрежата.</string>
+    <string name="inat_support_email_subject">Помош со иНатуралист (верзија %1$s - %2$s; корисник - %3$s)</string>
+    <string name="send_email">Испрати е-пошта...</string>
+    <string name="login_with">Најави се преку</string>
+    <string name="gplus">Google</string>
+    <string name="email">е-пошта</string>
+    <string name="skip">Прескокни</string>
+    <string name="log_in">Најави се</string>
+    <!-- Second person imperative, usually a label on a button to sign up for a new account -->
+    <string name="sign_up">Пријави се</string>
+    <!-- Title of the view used to sign up for a new account -->
+    <string name="sign_up_title">Пријавете се</string>
+    <string name="min_6_chars">Мин. 6 карактери</string>
+    <string name="use_my_license"><![CDATA[Да, лиценцирај ја мојата содржина за научници да може да ја користат (препорачано). <b>Научи повеќе</b>]]></string>
+    <string name="content_licensing">Лиценца на содржината</string>
+    <string name="content_licensing_description">Штиклирајте го ова поле доколку сакате да поставите лиценца Creative Commons НаведиИзвор-НеКомерцијално на вашите фотографии. Може да одберете различна лиценца или да ја отстраните лиценцата подоцна, но ова е најдобрата лиценца за споделување со истражувачи.</string>
+    <!-- Try to keep this about the length of the English text -->
+    <string name="username_or_email">Корисничко име или е-пошта</string>
+    <string name="forgot">Ја заборавте лозинката?</string>
+    <string name="or_login_with">Или логирајте се со:</string>
+    <string name="registering">Регистрирање…</string>
+    <string name="recommended_next_step">Препорачан следен чекор</string>
+    <string name="could_not_register_user">Не може да се регистрира корисникот</string>
+    <!-- Short label for a button in the side bar, not much more than 16 characters -->
+    <string name="login_signup">Најавете се / Пријавете се</string>
+    <string name="please_sign_in_via_settings_for_guides">Мора да сте најавени за да ги видите вашите водичи.</string>
+    <string name="please_sign_in_for_updates">Мора да сте најавени за да ги видите вашите новини.</string>
+    <string name="by_using_inat_terms"><![CDATA[Со користење на иНатуралист се согласуваш на <b><a href="https://www.inaturalist.org/pages/terms">Условите за користење</a></b> и <b><a href="https://www.inaturalist.org/pages/privacy"> Политиката за приватност</a></b>]]></string>
+    <string name="activity">Активност</string>
+    <!-- Label for a button to open the camera to take a new photo for an observation -->
+    <string name="camera">Сликај</string>
+    <!-- Label for a button to import an existing photo for an observation -->
+    <string name="upload_photo">Избери слика</string>
+    <string name="first">Прв</string>
+    <string name="make_first">Направи го прв</string>
+    <string name="notes">Белешки</string>
+    <string name="is_captive">Дали е во заробеништво или е одгледувано</string>
+    <string name="location_visibility">Видливост на местоположбата:</string>
+    <string name="set_location">Местоположба</string>
+    <string name="coordinates_lat">Г.Ш.</string>
+    <string name="coordinates_lon">Г.Д.</string>
+    <string name="coordinates_acc">Точност</string>
+    <string name="required">* Задолжително</string>
+    <string name="downloading_observations">Презема набљудувања...</string>
+    <string name="no_thanks">Не благодарам</string>
+    <string name="turn_on">Вклучи</string>
+    <string name="introducing_auto_sync">Претставуваме Автосинхронизирање!</string>
+    <string name="turn_on_auto_sync">Вклучете автосинхронизација во Подесувања и вашето набљудување ќе биде автоматски прикачено на иНатуралист.</string>
+    <string name="automatic_upload">Автоматско прикачување (Автосинхронизација)</string>
+    <string name="waiting_to_upload">Чека да го прикачи...</string>
+    <string name="uploading">Прикачува...</string>
+    <string name="failed_to_add_to_project">Неуспешно додавање на проектот \'%1$s\': %2$s</string>
+    <string name="needs_your_attention">Потребно е ваше внимание...</string>
+    <string name="observation">Набљудување</string>
+    <string name="share">Сподели</string>
+    <string name="unable_to_acquire_location">Локацијата не може да се добие</string>
+    <string name="casual_grade">Површно ниво</string>
+    <string name="needs_id">Потребно е препознавање</string>
+    <string name="research_grade">Истражувачко ниво</string>
+    <string name="data_quality">Квалитет на податоците</string>
+    <string name="casual_grade_add_location"><![CDATA[Додади <b>местоположба</b> за да го унапредиш статусот на набљудувањето на „Треба препознавање“]]></string>
+    <string name="casual_grade_add_date"><![CDATA[Додади <b>датум</b> за да го унапредиш статусот на набљудувањето на „Треба препознавање“]]></string>
+    <string name="casual_grade_add_photo"><![CDATA[Додади <b>слика</b> за да го унапредиш статусот на набљудувањето на „Треба препознавање“]]></string>
+    <string name="casual_grade_captive"><![CDATA[Набљудувањето е на површно ниво бидејќи е <b>во заробеништво/одгледувано</b>.]]></string>
+    <string name="needs_id_more_ids"><![CDATA[Набљудувањето има потреба од <b>повеќе препознавања</b> од заедницата за да добие статус на „истражувачко ниво“.]]></string>
+    <plurals name="included_in_projects">
+        <item quantity="one">Вклучено во %1$d проект</item>
+        <item quantity="other">Вклучено во %1$d проекти</item>
+    </plurals>
+    <string name="geoprivacy_explanation"><![CDATA[Геоприватност е подесување кои може да го направите на вашите набљудувања и кое контролира како географските координати (ширина и должина) се прикажани. Ова се опциите:<br/><b>отворено</b> - Секој може да ги види координатите освен доколку таксонот е загрозен. <br/><b>прикриено</b> - Јавните координати се прикажани како случајна точка во рамки на простор од 0,2 со 0,2 степени кој ги содржи вистинските координати, коешто соодветствува на квадратна површина на несигурност на екватерот од околу 22 со 22 км, а се намалува како што се приближува кон половите. Вистинските координати се видливи само за вас и кураторите на проекти во кое ќе го додадете набљудувањето. <br/><b>приватно</b> - Координатите се целосно скриени од јавните мапи, вистинските координати се видливи за вас и за кураторите на проектите во кои го додавате набљудувањето. <br/><br/>Знајте дека кураторите на некои проекти може да ги видат координатите без разлика на подесувањата на геоприватноста. Така што ако сте загрижени за тоа кој има пристап до координатите, треба да сте сигурни дека им верувате на кураторите на проектите во кои учествувате.]]></string>
+    <string name="id_title">препознавање на %1$s • %2$s</string>
+    <string name="comment_title">%1$s • %2$s</string>
+    <string name="delete">Избриши</string>
+    <string name="delete_id">Повлечи препознавање</string>
+    <string name="delete_comment">Избриши коментар</string>
+    <string name="delete_id_message">Дали сте сигурни дека сакате да го повлечете препознавањето?</string>
+    <string name="delete_comment_message">Дали сте сигурни дека сакате да го избришете коментарот?</string>
+    <string name="suggest_id">Предложете што е</string>
+    <string name="update_comment">Поднови коментар</string>
+    <string name="fave_this_observation">Додај го во омилени ова набљудување</string>
+    <string name="faved">Омилени</string>
+    <string name="be_the_first_to_fave_this_obs">Бидете првиот кој ќе го додаде во омилени ова набљудување...</string>
+    <string name="leave_a_comment">Оставете коментар или предложете препознавање...</string>
+    <string name="location_coords">г.шир:%1$s г.дол: %2$s м.н.в. %3$s</string>
+    <string name="location_coords_no_acc">г.шир: %1$s г.дол: %2$s</string>
+    <string name="location">Местоположба</string>
+    <string name="login_in_to_add_comments_ids">Најавете се или пријавете се за да оставите коментар или предлог за препознавање...</string>
+    <string name="login_in_to_fav">Најавете се или пријавете се за да ги видите допаѓањата или за да го додадете ова набљудување во омилените...</string>
+    <string name="sync_obs_to_see_favs">Синхронизирајте го ова набљудување за да ги видите допаѓањата...</string>
+    <!-- Message when you try to view faves on an observation you haven't uploaded yet -->
+    <string name="sync_obs_to_add_comments_ids">Синхронизирајте го ова набљудување за да оставите коментар или предлог за препознавање...</string>
+    <!--  Label for a button to add an observation without a photo or a sound  -->
+    <string name="no_photo">Без запис</string>
+    <string name="about_this_species">За овој вид</string>
+    <string name="view_on_wikipedia">Напис на Википедија</string>
+    <string name="photo"><![CDATA[Фотографија: <b><a href="%1$s">%2$s</a></b>]]></string>
+    <string name="photo_attr"><![CDATA[Фотографија: <b>%1$s</b>]]></string>
+    <string name="finding_current_location">Ја бара моменталната местоположба...</string>
+    <string name="flag_as_captive">Обележете го како во заробеништво/одгледувано</string>
+    <string name="observation_flagged_as_captive">Набљудувањето беше обележано како во заробеништво/одгледувано</string>
+    <string name="are_you_sure_you_want_to_flag_as_captive_no_close">Дали сте сигурни дека сакате да го обележите ова набљудување како во заробеништво/одгледувано?</string>
+    <string name="do_you_agree_to_the_following">Дали се сложувате со следното?</string>
+    <string name="terms">Услови</string>
+    <string name="observation_rules">Правила за набљудување</string>
+    <string name="couldnt_load_project_details">Не може да се вчитаат деталите на проектот: %1$s</string>
+    <string name="no_people_found">Не се пронајдени луѓе</string>
+    <string name="rank">Ранг</string>
+    <string name="identifications">Препознавања</string>
+    <string name="no_news_found">Не се пронајдени новости</string>
+    <string name="news">Новости</string>
+    <string name="article">Статија</string>
+    <string name="couldnt_load_project_news">Не може да се вчитаат новости од проектот: %1$s</string>
+    <string name="couldnt_load_user_details">Не може да се вчитаат детали за корисникот: %1$s</string>
+    <string name="more_bio"><![CDATA[<b><font color="#ffffff">Повеќе »</font></b>]]></string>
+    <string name="no_location">Нема локација</string>
+    <string name="add_to_projects">Додај го во проект(и)</string>
+    <string name="are_you_sure_you_want_to_save_obs_without_coords">Дали сте сигурни дека сакате да го зачувате набљудувањето без координати?</string>
+    <string name="users_identification">Препознавање на %1$s: %2$s</string>
+    <string name="edit_profile">Уредете го профилот</string>
+    <string name="remove_photo">Отстрани слика</string>
+    <string name="name">Име</string>
+    <string name="tell_us_about_yourself">Кажете ни нешто за себе...</string>
+    <string name="view_profile">Погледни го профилот</string>
+    <string name="are_you_sure_you_want_to_remove_photo">Дали сте сигурни дека сакате да ја отстраните вашата слика?</string>
+    <string name="updating_profile">Ажурирање на профилот...</string>
+    <string name="there_was_a_problem_updating_profile">Имаше проблем при ажурирањето на вашиот профил!</string>
+    <string name="there_was_a_problem_updating_profile_params">Имаше проблем при ажурирањето на вашиот профил: %1$s</string>
+    <!-- Notice of which user is currently logged in, e.g. "Currently logged in as kueda" -->
+    <string name="currently_logged_in_as_html"><![CDATA[Моментално сте логиран како <b>%1$s</b>]]></string>
+    <string name="log_out">Одјави се</string>
+    <string name="not_logged_in">Не сте најавени</string>
+    <!-- Prompt to log in to your account or sign up for a new account -->
+    <string name="login_or_sign_up">Најавете се или пријавете се</string>
+    <string name="auto_upload_description">Автоматско прикачување на новите набљудувања и уредувањата на набљудувањата</string>
+    <string name="language">Јазик</string>
+    <string name="version">Верзија</string>
+    <string name="inat_network">Мрежата на иНатуралист</string>
+    <string name="inat_network_description">Мрежата на iNaturalist е рамка за локализирање на iNaturalist заедницата. Интернет страниците се поддржани од локални институции кои потпишале договор со iNaturalist за да се поттикне локална употреба во корист на локалниот биодиверзитет.</string>
+    <string name="more_info">Повеќе инфо</string>
+    <string name="select_network">Одбери припадност на мрежа</string>
+    <string name="help">Помош</string>
+    <string name="stop">Стој</string>
+    <string name="resume">Продолжи</string>
+    <string name="cleaning_up">Чистење...</string>
+    <string name="syncing">Синхронизирање…</string>
+    <string name="syncing_observation_fields">Синхронизација на полињата од набљудувањето...</string>
+    <string name="syncing_observations">Синхронизирање на набљудувањата...</string>
+    <string name="syncing_paused">Паузирано</string>
+    <string name="upload">Прикачи</string>
+    <string name="search_observations">Пребарај набљудувања...</string>
+    <string name="withdraw">Повлечи</string>
+    <!-- Dialog title for when you are updating the description of an identification -->
+    <string name="update_id_description">Ажурирање на описот на препознавањето</string>
+    <string name="your_identification">Ваше препознавање: %1$s</string>
+    <string name="onboarding_species_name">Именувај го тоа што го виде доколку можеш, дури и ако тое само „инсект“ или „птица“, или едноставно оставете го празно. Други може да ви помогнат во препознавањето!</string>
+    <string name="upload_complete">Прикачувањето заврши!</string>
+    <string name="onboarding_upload_description">Проверете набрзо за препознавања и коментари на вашите набљудувања.</string>
+    <string name="importing_photos">Увезување на слика(и)...</string>
+    <string name="multi_select_description">Увези повеќе слики со долго притискање на една слика</string>
+    <string name="preparing_photo">Подтовка на слика...</string>
+    <string name="recommended_for_you">Препорачано за Вас</string>
+    <string name="missions">Мисии</string>
+    <string name="browse_by_category">Пребарувајте по категорија</string>
+    <string name="couldnt_load_recommended_missions">Не може да се вчитаат препорачаните мисии: %1$s</string>
+    <string name="plants">Растенија</string>
+    <string name="mammals">Цицачи</string>
+    <string name="insects">Инсекти</string>
+    <string name="reptiles">Влекачи</string>
+    <string name="animals">Животни</string>
+    <string name="fish">Риби</string>
+    <string name="mollusks">Мекотелци</string>
+    <string name="protozoans">Праживотни</string>
+    <string name="chromista">келп, силикатни алги и сојузници</string>
+    <string name="amphibians">Водоземци</string>
+    <string name="fungi">Габи</string>
+    <string name="birds">Птици</string>
+    <string name="arachnids">Пајаковидни</string>
+    <string name="no_connectivity">Нема поврзаност</string>
+    <string name="no_recommended_missions">Изгледа нема препораки во оваа област. Обидете се на нова локација.</string>
+    <string name="what_to_look_for">На што треба да внимавате</string>
+    <string name="have_been_seen_here">Видено е тука</string>
+    <string name="observe">Набљудувајте</string>
+    <string name="nearby_missions">Мисии во близина</string>
+    <string name="searching_your_area">Пребарување на вашата област...</string>
+    <string name="expanding_your_search_area">Проширување на вашата област на пребарување...</string>
+    <string name="introducing_missions">Преставуваме мисии!</string>
+    <string name="missions_onboarding_description">Мисиите се препораки во живо за тоа што да барата околу вас. На овој начин може да откриете видови кои се нови за вас! (Бара интернет поврзаност)</string>
+    <string name="ok_got_it">Во ред, разбирам!</string>
+    <string name="could_not_download_observations">Не може да се превземе последното набљудување - проблеми со поврзувањето. Обидете се повторно.</string>
+    <string name="no_news_yet">Сеуште нема новости. Останете со нас!</string>
+    <string name="my_content">Моја содржина</string>
+    <string name="following">Следење</string>
+    <string name="no_updates_yet">Сеуште нема ажурирање. Останете со нас!</string>
+    <string name="you_will_only_receive_updates_when_creating">(Ќе добиете ажурирани информации штом ќе креирате набљудување)</string>
+    <string name="you_will_only_receive_updates_when_following">(Ќе добиете ажурирани информации штом ќе заследите набљудувања)</string>
+    <string name="user_activity_id"><![CDATA[<b>%1$s</b> предложи препознавање: %2$s <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_activity_comment"><![CDATA[<b>%1$s</b> коментираше: &ldquo;%2$s&rdquo;<font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_activity_mention"><![CDATA[<b>%1$s</b> ве спомна: &ldquo;%2$s&rdquo; <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="deleted_photos_from_cache_error">Изгледа избришавте слика со бришење на кешот на апликацијата пред да биде прикачена. Ќе биде потребно да ја поставите сликата од вашата галерија. Во иднина, осигурајте се дека сте ги прикачиле сите слики пред да го избришете кешот на апликацијата.</string>
+    <!--
+        Label for the number of new notifications you might have. This specific string is used in
+        the side drawer next to the Activity menu item when you have new activity on your own
+        content.
+    -->
+    <plurals name="new_activities">
+        <item quantity="one">%1s нови</item>
+        <item quantity="other">%1s нови</item>
+    </plurals>
+    <string name="no_results_found">Не се пронајдени резултати...</string>
+    <plurals name="syncing_x_out_of_y_observations">
+        <item quantity="one">Синхронизирање на %1$d од %2$d набљудување...</item>
+        <item quantity="other">Синхронизирање на %1$d од %2$d набљудувања...</item>
+    </plurals>
+    <string name="deleting_observations">Бришење на набљудувања...</string>
+    <string name="preparing">Подготовка…</string>
+    <string name="add_edit_remark">Додади/уреди забелешка</string>
+    <string name="restore">Обнови</string>
+    <string name="compare">Спореди</string>
+    <string name="select">Избери</string>
+    <string name="source_wikipedia">(Извор: Википедија)</string>
+    <string name="conservation_source"><![CDATA[<b>Извор:</b> <i>%1$s</i>]]></string>
+    <string name="conservation_status_least_concern">Најмалку засегнат</string>
+    <string name="conservation_status_near_threatened">Близу засегнат</string>
+    <string name="conservation_status_vulnerable">Ранлив</string>
+    <string name="conservation_status_endangered">Загрозен</string>
+    <string name="conservation_status_critically_endangered">Критично загрозен</string>
+    <string name="conservation_status_extinct_in_the_wild">Истребен во природата</string>
+    <string name="conservation_status_extinct">Истребен</string>
+    <string name="map_of_observations">Мапа на набљудувања</string>
+    <string name="taxonomy">Таксономија</string>
+    <string name="about_this_section">За овој дел</string>
+    <!-- Explanation of the taxonomy displayed on the taxon detail screen. -->
+    <string name="taxonomy_info">Овие се врски на предци на овој таксон. Тие се во редослед од погруби кон по специфични. Употребете ги овие врски за да се движите нагоре и надоле по Дрвото на животот. На пример, доколку не знаете каков организам е, но знаете во која група потпаѓа, допрете на таксон од листата за да видите повеќе информации за него.</string>
+    <string name="more_info_on_inat">Повеќе информации на iNaturalist.org</string>
+    <string name="view_suggestions">Погледнете ги предлозите</string>
+    <string name="species_search">Пребарување на видови</string>
+    <string name="were_not_confident_enough">Не сме доволно сигурни за да направиме препорака, но ова се нашите први предлози:</string>
+    <string name="were_not_confident_enough_no_suggestions">Не сме доволно сигурни за да направиме препорака.</string>
+    <!-- Header for a list of suggested taxa based on observation frequency (i.e. not incorporating visual similarity) -->
+    <string name="most_observed_options_matching_filters">Најчесто-набљудувани во согласност одбраните филтри:</string>
+    <!-- Header for a list of suggested taxa -->
+    <string name="top_suggestions">Први предлози</string>
+    <string name="pretty_sure_rank">Прилично сме сигурни дека е во %1$s:</string>
+    <string name="what_did_you_see">Што видовте?</string>
+    <string name="suggest_species">Предложување на вид</string>
+    <string name="suggest_species_description">Предложување на видови врз база на визуелната сличност со сликата.</string>
+    <string name="visually_similar">Визуелна сличност</string>
+    <string name="visually_similar_seen_nearby">Визуелна сличност / виден во близина</string>
+    <string name="seen_nearby">Виден во близина</string>
+    <string name="enlarge">Зголеми</string>
+    <!-- Label for a button that shows children of the current taxon, e.g. species within a genus or families within an order -->
+    <string name="view_children">Погледни подредени</string>
+    <string name="taxon_has_no_photos">Таксонот нема слики</string>
+    <string name="terrain">Терен</string>
+    <string name="filters">Филтри</string>
+    <string name="exploring_all">Истражи ги сите</string>
+    <string name="nearby">Во близина</string>
+    <string name="couldnt_load_results">Не може да се вчитаат резултатите: %1$s</string>
+    <!-- This should match the way Research Grade has been transalted, so if that's been translated as "grado de investigación" this should be "GI" -->
+    <string name="research_grade_initials">И.Н.</string>
+    <string name="taxon_search_hint">на пр. птици, богомолка</string>
+    <string name="location_search_hint">на пр. град, држава, парк, земја...</string>
+    <string name="no_taxon">Се извинуваме, но таксонот не е пронајден</string>
+    <string name="please_select_taxon">Ве молиме одберете соодветен таксон од листата (или испразнете го полето за таксон).</string>
+    <string name="sorry_no_location">Се извинуваме, но локацијата не е пронајдена</string>
+    <string name="location_not_found">Локацијата или местото кое го баравте не е во нашата база на податоци. Ве молиме одберете место од листата на опции под полето за пребарување на локација или испразнете го полето за пребарување.</string>
+    <string name="undefined">Неодредено</string>
+    <string name="street_segment">Потег од улица</string>
+    <string name="intersection">Раскрсница</string>
+    <string name="town">Град</string>
+    <!-- As in a political administrative area, e.g. Hawaii in the United States -->
+    <string name="state">Држава</string>
+    <string name="county">Округ</string>
+    <string name="local_administrative_area">Месно управно подрачје</string>
+    <string name="country">Земја</string>
+    <string name="island">Остров</string>
+    <string name="airport">Аеродром</string>
+    <string name="drainage">Слив</string>
+    <string name="land_feature">Географска карактеристика</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="miscellaneous">Разно</string>
+    <string name="nationality">Националност</string>
+    <!-- Place type describing an area spanning multiple countries, e.g. Western Europe or Hispaniola -->
+    <string name="supername">Надиме</string>
+    <string name="point_of_interest">Точка од интерес</string>
+    <!-- Place type for a place like https://en.wikipedia.org/wiki/Region -->
+    <string name="region">Регион</string>
+    <!-- Place type for a place without much of a formal definition, e.g. the San Francisco Bay Area -->
+    <string name="colloquial">Разговорно</string>
+    <string name="zone">Зона</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="historical_state">Историска покраина/држава</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="historical_county">Историски округ</string>
+    <string name="continent">Континент</string>
+    <string name="estate">Посед</string>
+    <string name="historical_town">Историски град</string>
+    <string name="aggregate">Збир</string>
+    <string name="open_space">Отворен простор</string>
+    <string name="territory">Територија</string>
+    <string name="district">Четврт</string>
+    <string name="province">Провинција</string>
+    <string name="municipality">Општина</string>
+    <string name="parish">Парохија</string>
+    <!-- Added by mistake with some GADM place types, but subsequently used by some of our users. Assume it's a type of place contained within a "department" -->
+    <string name="department_segment">Дел од оддел</string>
+    <string name="city_building">Градска зграда</string>
+    <string name="commune">Комуна</string>
+    <string name="governorate">Гувернат</string>
+    <string name="prefecture">Префектура</string>
+    <string name="canton">Кантон</string>
+    <string name="republic">Рпублика</string>
+    <string name="division">Дивизија</string>
+    <string name="subdivision">Под дивизија</string>
+    <!-- https://gadm.org place type, presumably describing an area larger than an individual property but smaller than a neighborhood -->
+    <string name="village_block">Селски блок</string>
+    <!-- Mongolian sub-sub-national place type: https://en.wikipedia.org/wiki/Districts_of_Mongolia -->
+    <string name="sum">Сум</string>
+    <string name="shire">Округ</string>
+    <string name="prefecture_city">Град на префектурата</string>
+    <!-- Indonesian sub-sub-national place type -->
+    <string name="regency">Регентство</string>
+    <string name="constituency">Изборна единица</string>
+    <string name="local_authority">Локална управа</string>
+    <!-- https://en.wikipedia.org/wiki/Poblacion -->
+    <string name="poblacion">Поблација (населба)</string>
+    <!-- https://en.wikipedia.org/wiki/Delegations_of_Tunisia -->
+    <string name="delegation">Делегација</string>
+    <string name="apply_filters">Примени Филтри</string>
+    <string name="remove_filters">Отстрани филтри</string>
+    <string name="reset">Ресетирај</string>
+    <string name="show_only_my_observations">Покажи ги само моите набљудувања</string>
+    <string name="project">Проект</string>
+    <string name="user">Корисник</string>
+    <string name="search_users">Пребарување корисници...</string>
+    <string name="quality_grade">Ниво на квалитет</string>
+    <!-- Label for observation filters specifying when the observations were made in the field (not necessarily when they were added to iNaturalist) -->
+    <string name="date_observed">Датум на набљудување</string>
+    <!-- Generally used as a menu option to indicate no preference, e.g. Date of Observation: Any / Exact / Range / Month -->
+    <string name="any">Било кој</string>
+    <!-- Used to separate a date range, e.g. "2018-01-04 to 2018-05-02" -->
+    <string name="to">до</string>
+    <string name="exact_date">Прецизен датум</string>
+    <string name="start">Почеток</string>
+    <string name="end">Крај</string>
+    <string name="months">Месеци</string>
+    <string name="choose_months">Избери месец(и)</string>
+    <string name="map_area">Област на мапата</string>
+    <string name="global">Глобално</string>
+    <!-- As in redo search in the current map area -->
+    <string name="search_map_area">Пребарај ја областа на мапата</string>
+    <!-- Compact form of "X minutes ago", so "3 minutes ago" would be "3m" -->
+    <string name="date_minute">%dм</string>
+    <!-- Compact form of "X hours ago", so "3 hours ago" would be "3h" -->
+    <string name="date_hour">%dч</string>
+    <!-- Compact form of "X days ago", so "3 days ago" would be "3d" -->
+    <string name="date_day">%dд</string>
+    <!-- Compact form of "X weeks ago", so "3 weeks ago" would be "3w" -->
+    <string name="date_week">%dн</string>
+    <string name="new_observation">Ново набљудување</string>
+    <string name="inactive_taxon">Неактивен таксон</string>
+    <string name="no_identifications_found">Следи ги тука препознавањата кои вие ги предложивте за набљудувања направени од други луѓе.</string>
+    <string name="no_species_found">Ова е листа на видовите кои вие најмногу ги набљудувавте. \n\nЗВИ: Постојат околу 9 милиони видови на планетата, затоа излези надвор и набљудувај ги!</string>
+    <string name="make_an_observation">Направи набљудување</string>
+    <string name="no_observations_found_new">Набљудувањата се записи на вашата средба со индивидуални организми на одредени локации и во одредено време.</string>
+    <string name="discard_comment">Дали сте сигурни дека сакате да го отфрлите овој коментар?</string>
+    <string name="leave_comment">Оставeте коментар...</string>
+    <string name="swipe">Повлечи</string>
+    <string name="swipe_indicator">></string>
+    <string name="potential_disagreement">Потенцијално несогласување</string>
+    <string name="do_you_think_this_could_be"><![CDATA[Дали приложените докази се доволни за да се потврди дека ова е <b>%1$s</b>?]]></string>
+    <!-- This sentence expresses uncertainty at a fine taxonomic level but certainty at a higher taxonomic level, e.g. "I don't know if this is a dog but I'm sure it is a mammal." -->
+    <string name="i_dont_know_but"><![CDATA[Не знам, но јас сум сигурен дека ова е <b>%1$s</b>.]]></string>
+    <string name="no_but_it_is_a_member_of_taxon"><![CDATA[Не, но ова е член на <b>%1$s</b>.]]></string>
+    <string name="submit">Поднеси</string>
+    <string name="change_password">Промени лозинка</string>
+    <string name="search_projects_youve_joined">Пребарајте по проектите во кои сте приклучени...</string>
+    <string name="must_be_connected_to_load_more_obs">Мора да сте приклучени на интернет за да вчитате уште набљудувања</string>
+    <!--
+        Pronunciation of people's names (as approved by the people in question):
+
+        Abhas Misraraj: ɑbhɑs mɪʃrɑrɑdʒ (http://ipa-reader.xyz/?text=%C9%91bh%C9%91s%20m%C9%AA%CA%83r%C9%91r%C9%91d%CA%92)
+        Alex Shepard: ˈæ.lɪks ˈʃɛpɚd (http://ipa-reader.xyz/?text=%CB%88%C3%A6.l%C9%AAks%20%CB%88%CA%83%C9%9Bp%C9%9Ad)
+        Ken-ichi Ueda: ˌkɛˈniʧi weɪdɑ (http://ipa-reader.xyz/?text=%CB%8Ck%C9%9B%CB%88ni%CA%A7i%20we%C9%AAd%C9%91)
+        Tony Iwane: ˈtoʊni ɪˈwɑneɪ (http://ipa-reader.xyz/?text=%CB%88to%CA%8Ani%20%C9%AA%CB%88w%C9%91ne%C9%AA)
+    -->
+    <string name="credits_title">Заслуги</string>
+    <string name="password_changed">Лозинката за апликацијата повеќе не работи - дали ја променивте вашата лозинка на интернет страницата? Ве молиме внесете ја новата тука</string>
+    <string name="just_so_you_know">Само да знаете...</string>
+    <string name="ask_for_g_plus_permissions">Google бара од нас дозвола да пристапиме до вашите контакти за да може да ја користите вашата Google сметка, иако ние немаме причина за да пристапиме до вашите контакти. Доколку ја одбиете оваа дозвола, ќе треба да се пријавите или да се најавите со корисничко име и лозинка.</string>
+    <string name="new_to_inat_sign_up_now"><![CDATA[Нов на %1$s? <b>Пријави се веднаш!</b>]]></string>
+    <string name="see_more_observations">Погледни повеќе набљудувања</string>
+    <string name="see_more_species">Погледни повеќе видови</string>
+    <string name="see_more_identifications">Погледни повеќи препознавања</string>
+    <string name="collection_and_umbrella_projects">Збирки и чадор проекти</string>
+    <string name="description">Опис</string>
+    <string name="quantity">Кол.</string>
+    <string name="agree2">Се согласувам</string>
+    <string name="project_observations">Набљудувања</string>
+    <string name="project_species">Видови</string>
+    <string name="project_people">Луѓе</string>
+    <!-- People who added identifications to observations in a project -->
+    <string name="project_identifiers">Идентификатори</string>
+    <string name="got_it">Разбрав!</string>
+    <string name="view_all">Видете ги сите</string>
+    <string name="observers">Набљудувачи</string>
+    <!-- Describes the attribute being annotated, e.g. if the annotation is for life stage, "Life Stage" is the attribute. -->
+    <string name="attribute">Карактеристика</string>
+    <!-- Value of an annotation, e.g. if the annotation is for life stage and the value chosen is "Adult" then "Adult" is the value -->
+    <string name="value">Вредност</string>
+    <!-- Label for a button allowing users to state that they think an annotation is incorrect -->
+    <string name="disagree">Не се согласувам</string>
+    <!-- Annotations are key/value pairs applied to observations with a controlled vocabulary -->
+    <string name="annotations">Објаснување</string>
+    <!-- Used when filtering observations with annotations -->
+    <string name="with_annotation">Со објаснувања</string>
+    <!-- Attribute of an annotation. Synonymous with "Attribute" but slightly more explanatory for use in a popup header -->
+    <string name="annotation_name">Назив на објаснувањето</string>
+    <!-- Annotation value for when no annotation has been chosen -->
+    <string name="none">Нема</string>
+    <!-- Phenological state of flowers on a plant -->
+    <!-- Describes life stage at the time of observation, e.g. juvenile, adult -->
+    <string name="annotation_name_life_stage">Животен стадиум</string>
+    <!-- Noun, describes sex of the organism -->
+    <string name="annotation_name_sex">Пол</string>
+    <!-- Attribute that describes whether the organism is alive or dead -->
+    <string name="annotation_name_alive_or_dead">Живо или мртво</string>
+    <!-- Attribute that describes what kind of evidence of an organism's presence was recorded in this observation -->
+    <string name="annotation_name_evidence_of_presence">Доказ за присуство</string>
+    <!-- Attribute that describes the phenological state of the leaves on a plant -->
+    <!-- Attribute that describes whether the observed organism is part of an established population or something more like a waif or escaped pet -->
+    <!-- Adjective, having open flowers -->
+    <!-- Adjective, having fruit or seeds -->
+    <!-- Adjective, having unopened flowers -->
+    <!-- Observation presents no evidence of flowering phenology -->
+    <!-- Adjective describing the life stage where an individual can reproduce -->
+    <string name="annotation_value_adult">Возрасен (имаго)</string>
+    <!-- Adjective describing the odonate life stage between nymph and adult -->
+    <!-- Noun for a dormant phase of holometabolous insects between larva and adult -->
+    <string name="annotation_value_pupa">Пупа</string>
+    <!-- Noun for larval stage of some aquatic insects and most hemimetabolous insects -->
+    <string name="annotation_value_nymph">Нимфа</string>
+    <!-- Noun for the arthropod life stage between egg and adult -->
+    <string name="annotation_value_larva">Ларва</string>
+    <string name="annotation_value_egg">Јајце</string>
+    <!-- Life stage before adulthood, could work as a noun or an adjective -->
+    <string name="annotation_value_juvenile">Јувенилно</string>
+    <!-- Life stage between pupa and adult, generally used for mayflies (Ephemeroptera) -->
+    <string name="annotation_value_subimago">Суб имаго</string>
+    <string name="annotation_value_female">Женско</string>
+    <string name="annotation_value_male">Машко</string>
+    <!-- Adjective, alive and shows no signs of imminent death -->
+    <string name="annotation_value_alive">Живо</string>
+    <!-- Adjective, dead or shows signs of imminent death -->
+    <string name="annotation_value_dead">Мртво</string>
+    <!-- Value for when the value of the attribute cannot be determined -->
+    <string name="annotation_value_cannot_be_determined">Не може да се одреди</string>
+    <!-- "Evidence of Presence" value when the observation depicts the organism itself and not some kind of sign the organism left behind -->
+    <string name="annotation_value_organism">Организам</string>
+    <!-- "Evidence of Presence" value when for bird feathers -->
+    <string name="annotation_value_feather">Пердув</string>
+    <!-- "Evidence of Presence" value when for fecal remains -->
+    <string name="annotation_value_scat">Измет</string>
+    <!-- "Evidence of Presence" value for impressions in the ground or snow -->
+    <string name="annotation_value_track">Трага</string>
+    <!-- "Evidence of Presence" value when for bones -->
+    <string name="annotation_value_bone">Коска</string>
+    <!-- "Evidence of Presence" value when for discarded reptile skins and arthropod exoskeletons -->
+    <!-- "Evidence of Presence" value when for something created by an animal, made with or excavated from other materials -->
+    <!-- "Evidence of Presence" value when for deformed plant tissue outgrowth caused by a parasitic organism -->
+    <!-- "Evidence of Presence" value when for hair that is no longer attached to the organism from which it originated -->
+    <!-- "Evidence of Presence" value when for evidence of feeding between the dermal layers of a leaf -->
+    <!-- "Leaves" value when for leaf buds that are opening -->
+    <!-- "Leaves" value when for green leaves -->
+    <!-- "Leaves" value when for leaves with colors other than green, e.g. dying leaves in autumn -->
+    <!-- "Leaves" value when there are no living leaves -->
+    <!-- "Established" value when the organism is not established, e.g. an escaped pet. See https://www.inaturalist.org/blog/91460-piloting-an-establishment-annotation-with-amphibians-and-reptiles -->
+    <!-- Text for a label for a list of projects the viewer has joined -->
+    <string name="joined_projects_all_caps">ВКЛУЧЕНИ</string>
+    <string name="nearby_projects_all_caps">ВО БЛИЗИНА</string>
+    <string name="featured_projects_all_caps">ИСТАКНАТИ</string>
+    <!-- Text for a button or label that allows someone to join a project -->
+    <string name="join_all_caps">ВКЛУЧИ СЕ</string>
+    <string name="my_guides_all_caps">ВАШИ</string>
+    <string name="nearby_guides_all_caps">ВО БЛИЗИНА</string>
+    <string name="all_guides_all_caps">СИТЕ</string>
+    <string name="description_all_caps">ОПИС</string>
+    <string name="quantity_all_caps">КОЛИЧИНА</string>
+    <plurals name="observation_count_all_caps">
+        <item quantity="one">%1$s НАБЉУДУВАЊЕ</item>
+        <item quantity="other">%1$s НАБЉУДУВАЊА</item>
+    </plurals>
+    <string name="agree_all_caps">СЕ СЛОЖУВАМ</string>
+    <string name="observations_all_caps">НАБЉУДУВАЊА</string>
+    <string name="species_all_caps">ВИДОВИ</string>
+    <string name="people_all_caps">ЛУЃЕ</string>
+    <string name="identifiers_all_caps">ИДЕНТИФИКАТОРИ</string>
+    <string name="identifications_all_caps">ПРЕПОЗНАВАЊА</string>
+    <string name="news_all_caps">НОВОСТИ</string>
+    <string name="got_it_all_caps">Разбирам!</string>
+    <string name="view_all_all_caps">ПОГЛЕДНИ ГИ СИТЕ</string>
+    <string name="observers_all_caps">НАБЉУДУВАЧИ</string>
+    <string name="observations_regular">Набљудувања</string>
+    <string name="data_quality_assessment">Оценка на квалитетот на податоците</string>
+    <string name="research_grade_qualification">Квалификација за истражувачко ниво</string>
+    <string name="date_specified">Наведен датум</string>
+    <string name="location_specified">Наведена локација</string>
+    <string name="has_photos_or_sounds">Има слика или звук</string>
+    <string name="has_id_supported_by_two_or_more">Има препознавање поддржано од двајца или повеќе</string>
+    <string name="date_is_accurate">Датумот е прецизен</string>
+    <string name="location_is_accurate">Локацијата е прецизна</string>
+    <string name="organism_is_wild">Организмот е див</string>
+    <string name="evidence_of_organism">Доказ за организам</string>
+    <string name="recent_evidence_of_an_organism">Скорешен доказ за организам</string>
+    <string name="community_id_at_species_level_or_lower">Препознавање од заедницата на ниво на вид или пониско</string>
+    <string name="based_on_evidence_can_community_id_be_confirmed">Дали препознавањето од заедницата може да се потврди или подобри врз основа на доказите?</string>
+    <string name="no_as_good_as_it_can_be">Не, добро е колку што може да биде.</string>
+    <string name="seasonality">ПО СЕЗОНИ</string>
+    <string name="verifiable">Може да се потврди</string>
+    <string name="no_annotation">Без објаснување</string>
+    <string name="donate_to_inaturalist">Донирајте на iNaturalist</string>
+    <string name="prefers_scientific_name_first">Најпрво прикажи ги научните имиња</string>
+    <string name="prefers_scientific_name_first_description">Прикажи ги научните имиња пред народните имиња.</string>
+    <string name="mark_all_as_viewed">Означи ги сите како видени</string>
+    <string name="content_hidden">Скриена содржина</string>
+    <string name="show_hidden_content">Покажи скриена содржина</string>
+    <string name="content_hidden_because">Содржината е скриена од @%1$s на %2$s бидејќи „%3$s“</string>
+    <string name="contact_support_with_link"><![CDATA[<a href="mailto:help@inaturalist.org">Контактирајте поддршка</a>]]></string>
+    <string name="content">Содржина</string>
+    <string name="has_photos">Има слики</string>
+    <string name="has_sounds">Има звук</string>
+    <string name="could_not_play_sound">Не може да го пушти звукот - најверојатно проблем со мрежата</string>
+    <string name="cant_play_soundcloud"><![CDATA[За да слушате звуци на Soundcloud, погледнете на <a href="%1$s">интернет страницата</a>.]]></string>
+    <string name="soundcloud">Soundcloud</string>
+    <!-- Label for a button to open a sound recorder to record a new sound for an observation -->
+    <string name="record_sound">Сними звук</string>
+    <string name="couldnt_retrieve_sound">Не може да се превземе звукот од стандардниот снимач - обидете се да го увезете звукот</string>
+    <!-- Label for a button to import an existing sound for an observation -->
+    <string name="upload_sound">Одбери звук</string>
+    <string name="multi_select_sound_description">Увези повеќе звуци преку долго притискање на еден звук</string>
+    <string name="alert_unsupported_audio_type">Се извинуваме, но имаше проблем при прикачувањето на звукот од овој извор</string>
+    <string name="invalid_audio_extension">Грешка во увезување на звукот: Може да се увезат датотеки на звуци со WAV/MP3/AMR екстензии</string>
+    <string name="importing_sounds">Увезување на звук(ци)...</string>
+    <string name="observation_sound">Звук на набљудувањето</string>
+    <string name="deleted_sounds_from_cache_error">Изгледа избришавте звук со бришење на кешот на апликацијата пред да биде прикачен. Потребно е да го поставите звукот од вашата галерија. Во иднина, осигурајте се дека сте ги прикачиле сите звуци пред да го избришете кешот на апликацијата.</string>
+    <!-- Used when recording a sound - it's a counter, counting the number of seconds that have passed. e.g. 3.2 sec = 3.2. seconds -->
+    <string name="seconds">%1$.1f сек.</string>
+    <string name="clear_all_debug_logs">Исчистете ги сите евиденции за отстранување багови</string>
+    <string name="clears_up_storage_room_on_your_phone">Чисти простор на вашиот телефон</string>
+    <string name="number_of_days_to_store_logs">Број на денови за чување на евиденцијата</string>
+    <string name="send_debug_logs_from_start_date">Испрати евиденција за отстрнување багови од почетниот датум</string>
+    <string name="send_debug_logs_by_email">Испрати евиденција за отстранување багови по е-пошта (од одредениот почетен датум)</string>
+    <string name="debug_settings">Подесувања за отстранување багови</string>
+    <string name="are_you_sure_you_want_to_delete_logs">Дали сте сигурни дека сакате да ги избришете сите записи за отстранување на багови? Само притиснете ’Да’ доколку сакате да ослободите простор во вашиот телефон</string>
+    <string name="no_log_files_found">Не се пронајдени записи за тие датуми - пробајте со поран датум?</string>
+    <string name="choose_pinned_location">Ибери ја назначената локација</string>
+    <string name="pin_current_location">Назначи ја сегашната локација</string>
+    <string name="location_pinned_successfully">Сегашната локација е успешно назначена</string>
+    <string name="delete_this_pinned_location">Дали да се избрише оваа назначена локација?</string>
+    <!-- Verb, as in "Duplicate this photo" - Second person imperative -->
+    <string name="duplicate">Дуплицирај</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the photo for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_photo">Не може да се размножи сликата!</string>
+    <string name="couldnt_edit_photo">Не може да се измени сликата!</string>
+    <!-- Verb, as in "Rotate this photo" -->
+    <string name="ucrop_rotate">Ротирај</string>
+    <!-- Verb, as in "Scale (resize) this photo" -->
+    <string name="ucrop_scale">Измени големина</string>
+    <!-- Verb, as in "Crop this photo" -->
+    <string name="ucrop_crop">Исечи</string>
+    <!-- Label for adjusting the brightness of an image -->
+    <string name="ucrop_brightness">Светлина</string>
+    <!-- Label for adjusting the contrast of an image -->
+    <string name="ucrop_contrast">Контраст</string>
+    <!-- Label for adjusting the saturation of an image -->
+    <string name="ucrop_saturation">Сатурација</string>
+    <!-- Label for adjusting the sharpness of an image -->
+    <string name="ucrop_sharpness">Оштрина</string>
+    <!-- Label for image cropping mode that maintains the original aspect ratio -->
+    <string name="ucrop_label_original">Оригинал</string>
+    <!-- Label for image cropping mode that has no limits on the aspect ratio -->
+    <string name="ucrop_label_free">Слободно</string>
+    <!-- Verb phrase, button label to edit an observation photo -->
+    <string name="ucrop_label_edit_photo">Измени слика</string>
+    <string name="service_temporarily_unavailable">Услогата привремено е недостапна</string>
+    <string name="please_try_again_in_a_few_hours">Ве молиме обидете се повторно за неколку часа.</string>
+    <!-- e.g. "Please try again in 3 hours", or "Please try again in 15 minutes" -->
+    <string name="please_try_again_in_x">Ве молиме обидете се повторно за %1$d %2$s.</string>
+    <string name="hours">Часови</string>
+    <string name="minutes">минути</string>
+    <string name="seconds_value">секунди</string>
+    <string name="shop_the_inat_store">Купувајте во iNat продавницата</string>
+    <string name="delete_your_account">Избришете ја вашата сметка</string>
+    <string name="delete_account_message"><![CDATA[Со бришење на вашата сметка вие ќе ги отстраните:<br/><br/><ul><li> Сите ваши набљудувања, вклучувајќи ја и работата на сите луѓе кои ви помогнале со препознавањето.</li><li> Сите препознавања кои сте ги направиле на набљудувањата на други луѓе, со што потенцијално ќе се измени квалитетот на податоците на тие набљудувања.</li><li> Сите коментари кои сте ги ставиле.</li></ul><br/> Понатаму, ова дејство не може да се врати назад. Ако се премислите подоцна, нема да ја добиете содржината назад.<br/><br/>Доколку оваа услуга ви создава премногу известувања, размислете <a href="https://www.inaturalist.org/users/edit">уредување на вашите поставки на страницата</a> да исклучите некои известувања или да престанете да добивате е-пошта од нас. Доколку имате проблем со одредена личност, размислете <a href="https://www.inaturalist.org/users/edit">да го занемите</a> наместо да ја избришете вашата сметка.<br/><br/>Доколку сеуште сте сигурни дека саката да ја избришете сметката, внесете <b>\"%1$s\"</b> во полето подоле и притиснете на копчето за да ја избришете вашата сметка и сите ваши податоци.]]></string>
+    <string name="your_account_has_been_deleted">Вашата сметка е избришана</string>
+    <string name="you_must_enter_username_in_the_form_to_delete_account">Мора да внесете ’%1$s’ во полето за да ја избришете сметката</string>
+    <!-- Second person hint text asking the user to enter their username -->
+    <string name="type_your_username">Внесете го вашето корисничко име</string>
+    <string name="error_deleting_account">Имаше грешка при бришењето на вашата сметка - ве молиме проверете ја вашата поврзаност со интернет</string>
+    <string name="verify_your_password">Потврдете ја вашата лозинка</string>
+    <string name="third_party_data_sharing">Споделување на податоците со трети страни</string>
+    <string name="disable_third_party_data_sharing">Оневозможи споделување на податоците со трети страни</string>
+    <string name="do_not_collect_third_party_data">Не прибирај податоци за стабилност и употреба преку услуги од трети страни</string>
+    <string name="enabled">Овозможено</string>
+    <string name="disabled">Оневозможено</string>
+    <string name="third_party_data_sharing_notes1"><![CDATA[Ние користиме мноштво на услуги од трети страни за да ја следиме стабилноста и да дијагностицираме багови и проблеми во нашиот софтвер. Меѓу третите страни се вклучуваат: <br/><ul><li>Google(<a href="https://analytics.google.com/">Google Analytics</a>, <a href="https://firebase.google.com/products/crashlytics/">Firebase Crashlytics</a>)</li><li><a href="https://newrelic.com/">New Relic</a></li></ul>]]></string>
+    <string name="third_party_data_sharing_notes2"><![CDATA[Информациите кои ги споделуваме со овие трети страни вклучуваат:<br/><ul><li> IP адреси (кои може да се користат да се одреди локацијата на ниво на град и да се бидете следени на различни интернет страници и услуги; знајте дека имаме вклучено <a href="https://support.google.com/analytics/answer/2763052">анонимизирање на IP адресите</a> во Google Analytics, а <a href="https://firebase.google.com/support/privacy">Firebase Crashlytics</a> не ги чува IP адресите колку што знаеме)</li><li>Деталите за пребарувачот, како производител, модел и верзија</li><li>Детали за крах, како што е точно каква линија на код предизвикала крах</li><li>Детали за направите, како производител и модел на мобилен телефон</li></ul>]]></string>
+    <string name="common_names_place"><![CDATA[Народни имиња според местото: <b>%1$s</b>]]></string>
+    <string name="tap_to_prioritize_common_names">Притисни за да ги приоретизирата народните имиња од одредено место.</string>
+    <string name="search_places">Пребарај ги местата</string>
+    <string name="restart_app">Рестартирајте ја апликацијата</string>
+    <plurals name="are_you_sure_you_want_to_delete_observations">
+        <item quantity="one">Дали сте сигурни дека сакате да избришете %1$d набљудување?</item>
+        <item quantity="other">Дали сте сигурни дека сакате да избришете %1$d набљудувања?</item>
+    </plurals>
+    <string name="future_observed_on_date_error">Вашето набљудување беше создадено (и поднесено) на %1$s, но вие се обидувате да поставите датум на набљудувањето подоцна од тоа: %2$s</string>
+    <string name="no_more_photos_allowed">Набљудувањата може да имаат до %1$d слики. За да додадете повеќе потребно е да остраните некоја слика.</string>
+    <string name="warning_multiple_photos">Доколку додадавате слики од различни организми на ова набљудување, или од истиот вид на различно место или време, потребно е да ги отстраните сликите и да ги додадете како посебни набљудувања. Едно набљудување може да има само %1$d слики.</string>
+    <string name="choosing_specific_language_warning">Изборот на конкретен јазик за вашата сметка бара поврзаност со интернет</string>
+    <string name="running_in_background_notfication">Работи во позадина за да може апликацијата да работи без прекини</string>
+    <string name="opt_out_of_community_taxon">Исклучи го таксонот од заедницата</string>
+    <string name="opt_in_to_community_taxon">Приклучи се на таксонот од заедницата</string>
+    <!-- Dialog title when notifying the user that the action they tried to perform requires them to grant location permission to the app -->
+    <string name="permission_required">Потребна е дозвола</string>
+    <!-- Message displayed when the user tries to perform an action that requires location permission -->
+    <string name="to_access_your_location">За да пристапиме до вашата локација мора да дозволите пристап до локацијата на оваа апликација.</string>
+    <!-- Dialog title when displaying a message that an action is not permitted -->
+    <string name="forbidden">Забрането</string>
+    <!-- Message displayed when the user tries to share media with the iNat app from another app that from which iNat does not accept media -->
+    <string name="app_you_shared_blocked">Апликацијата од која ја споделувате создава слики кои не се соодветни за набљудувањата, бидејќи тие не претставуваат доказ дека Вие сте имале искуство со друг организам, бидејќи ти вклучуваат нессодветни реклами или комерцијална содржина, или бидејќи тие ги нарушуваат нашите Услови за користење на некој друг начин.</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="list_observation_checkbox_description">Штиклирање за одбирање на повеќе набљудувања.</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="observation_list_item_iconic_pic_description">Сликичка за набљудуваниот таксон</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="observation_list_item_obs_pic_description">Сликичка за набљудувањето</string>
+    <string name="messages">Пораки</string>
+    <string name="all_messages">Сите пораки</string>
+    <string name="search_messages">Барај пораки</string>
+    <string name="no_messages">Моментално немате пораки. Можете да испратите нова порака со зеленото копче, или испратете порака од нивниот профил.</string>
+    <string name="no_messages_found">Не се најдени пораки.</string>
+    <string name="send_a_message">Испрати порака</string>
+    <string name="sending_message">Пораката се испраќа...</string>
+    <string name="could_not_send_message">Не може да се прати пораката: %1$s</string>
+    <string name="subject">Предмет</string>
+    <string name="body">Содржина</string>
+    <string name="type_your_message_here">Напишете ја вашата порака тука</string>
+    <string name="new_message_to">Нова порака до %1$s</string>
+    <string name="who_would_you_like_to_send_a_message_to">Дали би сакале да испратите и порака?</string>
+    <string name="new_message">Нова порака</string>
+    <string name="search_for_inaturalist_users">Пребарувај корисници на iNaturalist</string>
+    <string name="please_sign_in_for_messages">Мора да сте најавени за да ги видите вашите пораки.</string>
+    <string name="sorry">Извини</string>
+    <string name="you_must_have_three_observations">Потребно е да имате три набљудувања кои може да се потврдат или три препознавања за да можете да го направите тоа.</string>
+    <string name="mute_this_user">Занеми го овој корисник</string>
+    <string name="unmute_this_user">Отстрани занеменост на овој корисник</string>
+    <string name="flag_this_conversation">Означи го овој разговор</string>
+    <string name="mute_this_user_question">Да се занеми овој корисник?</string>
+    <string name="you_will_no_longer_receive_messages">Повеќе нема да добивате известувања за активностите од овој корисник, вклучително и пораки, коментари, препознавања и спомнувања.</string>
+    <string name="mute">Занеми</string>
+    <string name="muting_user">Занемување на корисник...</string>
+    <string name="unmuting_user">Отстранување занеменост...</string>
+    <string name="failed_muting_user">Неуспеа занемувањето на корисникот!</string>
+    <string name="failed_unmuting_user">Неуспешно отстранување занеменост на корисникот!</string>
+    <string name="flag_conversation">Означи го разговорот</string>
+    <string name="spam">Спам</string>
+    <string name="commercial_solicitation">Рекламирање, не води никаде и тн.</string>
+    <string name="offensive_inappropriate">Навредливо / Непригодно</string>
+    <string name="misleading_or_illegal_content">Заблудна или противзаконска содржина, расни или етнички навреди и тн. Погледни ги ЧПП за повеќе информации за нашата дефиниција на „соодветно“.</string>
+    <string name="other">Друго</string>
+    <string name="some_other_reason">Некоја друга причина што можете да ја објасните.</string>
+    <string name="continue_text">Продолжи</string>
+    <string name="why_are_you_flagging_this_item">Зошто го означувате ова?</string>
+    <string name="thank_you_for_submitting_the_flag">Ви благодариме за поднесување на ознаката!</string>
+    <string name="flagging_conversation">Означување на разговор...</string>
+    <string name="failed_flagging_conversation">Неуспешно означување на разговорот!</string>
+    <string name="no_subject">Нема предмет</string>
+    <!-- As in "matter and energy", or "life is a self-replicating pattern of matter subject to evolutionary processes" -->
+    <string name="rank_state_of_matter">Состојба на материја</string>
+    <string name="rank_kingdom">Царство</string>
+    <string name="rank_subkingdom">Подцарство</string>
+    <string name="rank_phylum">Колено</string>
+    <string name="rank_subphylum">Потколено</string>
+    <string name="rank_superclass">Наткласа</string>
+    <string name="rank_class">Класа</string>
+    <string name="rank_subclass">Поткласа</string>
+    <string name="rank_infraclass">Инфракласа</string>
+    <string name="rank_superorder">Надред</string>
+    <string name="rank_order">Ред</string>
+    <string name="rank_suborder">Подред</string>
+    <string name="rank_infraorder">Инфраред</string>
+    <string name="rank_subterclass">Субтер-класа</string>
+    <string name="rank_parvorder">Парв-ред</string>
+    <string name="rank_zoosection">Зоолошка секција</string>
+    <string name="rank_zoosubsection">Зоолошка подсекција</string>
+    <string name="rank_superfamily">Натсемејство</string>
+    <string name="rank_epifamily">Епи-фамилија</string>
+    <string name="rank_family">Семејство</string>
+    <string name="rank_subfamily">Потсемејство</string>
+    <string name="rank_supertribe">Натплеме</string>
+    <string name="rank_tribe">Племе</string>
+    <string name="rank_subtribe">Потплеме</string>
+    <string name="rank_genus">Род</string>
+    <string name="rank_genushybrid">Родов хибрид</string>
+    <string name="rank_subgenus">Подрод</string>
+    <string name="rank_section">Секција</string>
+    <string name="rank_subsection">подсекција</string>
+    <string name="rank_complex">Комплекс</string>
+    <!-- Singular -->
+    <string name="rank_species">Вид</string>
+    <string name="rank_hybrid">Хибрид</string>
+    <!-- Singular -->
+    <string name="rank_subspecies">Подвид</string>
+    <string name="rank_variety">Вариетет</string>
+    <string name="rank_form">Форма</string>
+    <string name="rank_infrahybrid">Инфра-хибрид</string>
+    <string name="rank_leaves">Листови</string>
+    <string name="location_lat_lng">Локација: %1$f, %2$f</string>
+    <string name="i_consent_process_personal_info"><![CDATA[Се согласувам да дозволам iNaturalist да чува и да обработува ограничен вид на лични информации поврзани со мене со цел да ја управува сметката. <b>Научи повеќе</b>]]></string>
+    <string name="about_personal_information">За личните информации</string>
+    <string name="i_agree_to_tos_and_privacy"><![CDATA[Се согласувам со <a href="https://www.inaturalist.org/terms">Условите за користење</a> и <a href="https://www.inaturalist.org/privacy">Политика на приватност</a>, и ги прегледав <a href="https://www.inaturalist.org/pages/community+guidelines">Напатствијата на заедницата</a>.]]></string>
+    <string name="privacy_policy">Политика на приватност</string>
+    <string name="terms_of_service">Услови за користење</string>
+    <!-- Placeholder text shown in place of a username when the user has been deleted -->
+    <string name="deleted_user">Избришан корисник</string>
+    <!-- Short date formatting template for dates in the current year. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_short_this_year">d MMM</string>
+    <!-- Short date formatting template for any date. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_short">dd.MM.yyyy</string>
+    <!-- Short time formatting template for 24-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="time_short_24_hour">HH:mm</string>
+    <!-- Short time formatting template for 12-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="time_short_12_hour">hh:mma</string>
+    <!-- Long date formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_long">d MMM yyyy</string>
+    <!-- Obscured observations date formatting template (only month+year). Note that non-formatting letters should be surrounded by single quotes, and to include an actual single quote you need to double it, so "MMM ''yy" will render as "Oct '24", and "'Month:' MMM, ''yy" will render as "Month: Oct '24" Odd numbers of single quotes are not allowed. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <!-- Long date with time formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_long_with_time">d MMMM yyyy hh:mma</string>
+    <string name="show_common_names">Покажи народни имиња</string>
+    <string name="show_common_names_description">Исклучете доколку сакате да ги гледате само научните имиња.</string>
+    <string name="email_must_look_like_email_address">Е-поштата мора да изгледа како адреса за е-пошта</string>
+    <string name="username_must_begin_with">Корисничкото име мора да започне со буква, не може да содржи празни места и има само букви, бројки, цртички и долни цртички</string>
+    <string name="password_too_short">Лозинката мора да содржи најмалку шест карактери</string>
+    <string name="switch_to_grid_view">Префрли во поглед на табела</string>
+    <string name="switch_to_list_view">Префрли во поглед на листа</string>
+    <string name="remove_project_filter">Отстрани го филтерот за проекти</string>
+    <string name="remove_observer_filter">Острани го филтерот за набљудувачи</string>
+    <string name="filter_observations_by_an_exact_date">Филтрирај набљудувања по точен датум</string>
+    <string name="filter_observations_by_a_date_range">Филтрирај набљудувања по временски период</string>
+    <string name="filter_observations_by_months">Филтрирај набљудувања по месеци</string>
+    <!-- Used to demonstrate annotation filters, e.g. Life Stage = Egg -->
+    <string name="equals_sign">=</string>
+    <string name="include_suggestions_not_seen_nearby">Вклучи предлози кои не се видени наоколу</string>
+    <string name="only_view_nearby_suggestions">Погледнете ги само околните предлози</string>
+    <string name="suggestions_source">Извор на предлозите</string>
+    <string name="research_grade_observations">Набљудувања на истражувачко ниво</string>
+    <string name="visually_similar_description">iNaturalist ќе даде предлози врз база на тоа колку визуелно слични се сликите со тие на видовите забележани во близината на оваа локација во ова време од годината.</string>
+    <string name="research_grade_observations_description">Наместо визуелно слични предлози, iNaturalist ќе предложува видови кои се набљудувани на одредената локација и во рамките на одредена таксономска група.</string>
+    <string name="taxon">Таксон:</string>
+    <string name="place">Место:</string>
+    <string name="pretty_sure_kingdom">Прилично сме сигурни дека е во ова царство:</string>
+    <string name="pretty_sure_subkingdom">Прилично сме сигурни дека е во ова подцарство:</string>
+    <string name="pretty_sure_phylum">Прилично сме сигурни дека е во ова колено:</string>
+    <string name="pretty_sure_subphylum">Прилично сме сигурни дека е во ова подколено:</string>
+    <string name="pretty_sure_superclass">Прилично сме сигурни дека е во оваа надкласа:</string>
+    <string name="pretty_sure_class">Прилично сме сигурни дека е во оваа класа:</string>
+    <string name="pretty_sure_subclass">Прилично сме сигурни дека е во оваа подкласа:</string>
+    <string name="pretty_sure_infraclass">Прилично сме сигурни дека е во оваа инфракласа:</string>
+    <string name="pretty_sure_superorder">Прилично сме сигурни дека е во овој надред:</string>
+    <string name="pretty_sure_order">Прилично сме сигурни дека е во овој ред:</string>
+    <string name="pretty_sure_suborder">Прилично сме сигурни дека е во овој подред:</string>
+    <string name="pretty_sure_infraorder">Прилично сме сигурни дека е во овој инфраред:</string>
+    <string name="pretty_sure_subterclass">Прилично сме сигурни дека е во оваа субтеркласа:</string>
+    <string name="pretty_sure_parvorder">Прилично сме сигурни дека е во овој парвред:</string>
+    <string name="pretty_sure_zoosection">Прилично сме сигурни дека е во оваа зоолошка секција:</string>
+    <string name="pretty_sure_zoosubsection">Прилично сме сигурни дека е во оваа зоолошка подсекција:</string>
+    <string name="pretty_sure_superfamily">Прилично сме сигурни дека е во ова надсемејство:</string>
+    <string name="pretty_sure_epifamily">Прилично сме сигурни дека е во ова еписемејство:</string>
+    <string name="pretty_sure_family">Прилично сме сигурни дека е во ова семејство:</string>
+    <string name="pretty_sure_subfamily">Прилично сме сигурни дека е во ова подсемејство:</string>
+    <string name="pretty_sure_supertribe">Прилично сме сигурни дека е во ова надплеме:</string>
+    <string name="pretty_sure_tribe">Прилично сме сигурни дека е во ова племе:</string>
+    <string name="pretty_sure_subtribe">Прилично сме сигурни дека е во ова подплеме:</string>
+    <string name="pretty_sure_genus">Прилично сме сигурни дека е во овој род:</string>
+    <string name="pretty_sure_genushybrid">Прилично сме сигурни дека е во овој род хибрид:</string>
+    <string name="pretty_sure_subgenus">Прилично сме сигурни дека е во овој подрод:</string>
+    <string name="pretty_sure_section">Прилично сме сигурни дека е во оваа секција:</string>
+    <string name="pretty_sure_subsection">Прилично сме сигурни дека е во оваа подсекција:</string>
+    <string name="pretty_sure_complex">Прилично сме сигурни дека е во овој комплекс:</string>
+    <!-- Singular -->
+    <string name="pretty_sure_species">Прилично сме сигурни дека е во овој вид:</string>
+    <string name="pretty_sure_hybrid">Прилично сме сигурни дека е во овој хибрид:</string>
+    <!-- Singular -->
+    <string name="pretty_sure_subspecies">Прилично сме сигурни дека е во овој подвид:</string>
+    <string name="pretty_sure_variety">Прилично сме сигурни дека е во овој вариетет:</string>
+    <string name="pretty_sure_form">Прилично сме сигурни дека е во оваа форма:</string>
+    <string name="pretty_sure_infrahybrid">Прилично сме сигурни дека е во овој инфрахибрид:</string>
+    <string name="remove_date_observed">Отстрани датум и време на набљудување</string>
+    <string name="remove_time_observed">Отстрани го времето на набљудување</string>
+    <string name="remove_location">Отстрани локација</string>
+    <string name="are_you_sure_you_want_to_remove_date">Дали сте сигурни дека сакате да ги отстраните датумот и времето на набљудувањето?</string>
+    <string name="are_you_sure_you_want_to_remove_time">Дали сте сигурни дека сакте да го отстраните времето на набљудувањето?</string>
+    <string name="are_you_sure_you_want_to_remove_location">Дали сте сигурни дека сакате да ја отстраните локацијата?</string>
+    <string name="share_location">Сподели локација</string>
+    <string name="share_hidden_location">Сподели прикриена локација</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the sound for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_sound">Не може да се размножи звукот!</string>
+    <string name="sound_format_not_supported">Овој аудио запис не е поддржан од Андроид.</string>
+    <string name="view_observations">Погледни набљудувања</string>
+    <string name="choose_this_option">Одберете ја оваа опција</string>
+    <string name="compare_observation_with_this_option">Споредете го набљудувањето со оваа опција</string>
+    <string name="go_back">Оди назад</string>
+    <string name="change_the_source_of_the_suggestions">Промени го изворот на предлозите</string>
+    <string name="thumbnail_photo_for_suggested_taxon">Сликичка за предложениот таксон</string>
+    <!-- Accessibility text for the comments and IDs tab on the observation detail view -->
+    <string name="comments_ids_title">Коментари и препознавања</string>
+    <!-- Accessibility text for the faves tab on the observation detail view -->
+    <string name="faves">Омилени</string>
+    <!-- Accessibility text for a button that navigates to the previous option in a list of options -->
+    <string name="previous_option">Претходна опција</string>
+    <!-- Accessibility text for a button that navigates to the next option in a list of options -->
+    <string name="next_option">Следна опција</string>
+    <string name="no_observations_yet2">Сеуште нема набљудувања</string>
+    <string name="no_species_yet">Сеуште нема видови.</string>
+    <string name="no_identifications_yet">Сеуште нема препознавања.</string>
+    <string name="sort_by">Подреди по</string>
+    <string-array name="explore_order_by_items">
+        <item>Датум на поставување</item>
+        <item>Датум на набљудување</item>
+        <item>Датум на ажурирање</item>
+        <!--<item>Faves</item>-->
+        <item>Случајно</item>
+    </string-array>
+    <string-array name="explore_order_items">
+        <item>Опаѓачки</item>
+        <item>Растечки</item>
+    </string-array>
+    <!-- Full sentence will look something like: "Sorted by Date Observed (Descending)" -
+    See explore_order_by_items and explore_order_items keys !-->
+    <string name="sorted_by_full">Подредено по %1$s (%2$s)</string>
+    <!-- Label for an observation search filter to exclude your own observations -->
+    <string name="hide_my_observations">Скриј ги моите набљудувања</string>
+    <!-- Label for an option to follow an observation, i.e. subscribe to future updates -->
+    <string name="follow_this_observation">Заследи го ова набљудување</string>
+    <!-- Label for an option to unfollow an observation, i.e. unsubscribe to future updates -->
+    <string name="unfollow_this_observation">Престани да го следиш ова набљудување</string>
+    <!-- Error message shown when an attempt to follow an observation fails -->
+    <string name="could_not_follow_observation">Не може да се следи ова набљудување</string>
+    <!-- Error message shown when an attempt to unfollow an observation fails -->
+    <string name="could_not_unfollow_observation">Не може да престане да се следи ова набљудување</string>
+    <!-- Label for a button to copy the coordinates of an observation -->
+    <string name="copy_coordinates">Копирај координати</string>
+    <string name="coordinates_copied_to_clipboard">Координатите се копирани</string>
+    <!--  Title of a section on the observation detail view that displays minor metadata  -->
+    <string name="metadata">Мета податоци</string>
+    <!--  iNat observation identifier  -->
+    <string name="id">ID</string>
+    <!--  iNat observation Universally Unique Identifier  -->
+    <string name="uuid">UUID</string>
+    <!--  Universal Resource Locator  -->
+    <string name="url">URL</string>
+    <string name="default_licenses">Стандардни лиценци</string>
+    <string name="default_observation_license">Стандардна лиценца за набљудувањето</string>
+    <string name="default_photo_license">Стандардна лиценца за сликата</string>
+    <string name="default_sound_license">Стандардна лиценца за звукот</string>
+    <string name="change_existing_licenses">Промени ја постоечката лиценца</string>
+    <string name="change_licenses_for_existing_observations">Помени ја лиценцата за постоечките набљудувања, слики и звуци</string>
+    <string name="change_licenses_for_all_existing_observations">Промени ја лиценцата за сите постоечки набљудувања</string>
+    <string name="change_licenses_for_all_existing_photos">Промени ја лиценцата за сите постоечки слики</string>
+    <string name="change_licenses_for_all_existing_sounds">Промени ја лиценцата за сите постоечки звуци</string>
+    <string name="change_observation_licenses">Промени ја лиценцата на набљудувањето</string>
+    <string name="change_photo_licenses">Промени ја лиценцата за сликата</string>
+    <string name="change_sound_licenses">Промени ја лиценцата за звукот</string>
+    <string name="change_licenses_for_observations_confirmation"><![CDATA[Промени ја лиценцата за <b>%1$d</b> постоечки набљудувања во <b>%2$s</b>?]]></string>
+    <string name="change_licenses_for_photos_confirmation"><![CDATA[Промени ја лиценцата за постоечките слики во <b>%1$s</b>?]]></string>
+    <string name="change_licenses_for_sounds_confirmation"><![CDATA[Промени ја лиценцата за постоечките звуци во <b>%1$s</b>?]]></string>
+    <string name="observation_licenses_updated">Лиценцата на набљудувањето е ажурирана</string>
+    <string name="photo_licenses_updated">Лиценцата на сликата е ажурирана</string>
+    <string name="sound_licenses_updated">Лиценцата на звукот е ажурирана</string>
+    <string name="existing_observation_licenses_have_been_updated">Сите постоечки лиценци за набљудувањата се променети во %1$s.</string>
+    <string name="existing_photo_licenses_have_been_updated">Сите постоечки лиценци за сликите се променети во %1$s.</string>
+    <string name="existing_sound_licenses_have_been_updated">Сите постоечки лиценци за звукот се променети во %1$s.</string>
+    <string name="default_licenses_description"><![CDATA[Со лиценцирање на вашата содржина давате право на било кој да ја користи без да ве праша за дозвола доколку се придржуваат до условите на лиценцата. Дополнително, иНатуралист ги вклучува вашите Creative Commons лиценцирани содржини во регуларно ажурираните архиви подготвени за избрани организации партнери заинтересирани во нашите податоци. На пример, вклучуваме записи Без авторски права (CC0), Наведи извор (CC BY), и Наведи извор-Не комерцијално (CC BY-NC) во архивите кои ги подготвуваме за <a href="https://www.gbif.org/">Глобалната установа за информации за биодиверзитетот (GBIF)</a>, меѓународна, меѓувладина организација која прибира и дистрибуира информации за биолошката разновидност од целиот свет.]]></string>
+    <string name="photo_license">Лиценца на сликата</string>
+    <string name="sound_license">Лиценца на звукот</string>
+    <string name="edit_photo_license">Уреди ја лиценцате на сликата</string>
+    <string name="observation_license">Лиценца на набљудувањето</string>
+    <string name="edit_observation_license">Уреди ја лиценцата на набљудувањето</string>
+    <string name="about_licenses">За лиценците</string>
+    <string name="view_license">Погледни лиценца</string>
+    <!-- License Names -->
+    <string name="license_name_cc0">Јавна сопственост</string>
+    <string name="license_name_cc_by">Наведи извор</string>
+    <string name="license_name_cc_by_nc">Наведи извор - Не комерцијално</string>
+    <string name="license_name_cc_by_nc_sa">Наведи извор - Не комерцијално - Сподели под исти услови</string>
+    <string name="license_name_cc_by_nc_nd">Наведи извор - Не комерцијално - Без адаптирани дела</string>
+    <string name="license_name_cc_by_nd">Наведи извор - Без адаптирани дела</string>
+    <string name="license_name_cc_by_sa">Наведи извор - Сподели под исти услови</string>
+    <string name="license_name_no_license">Сите права се задржани</string>
+    <!-- License Descriptions -->
+    <string name="license_description_cc0">Оваа лиценца го прави вашето дело да биде во јавниот домен, поради што други лица ќе може да го копираат, изменуваат, дистрибуираат и претставуваат вашето дело, дури и за комерцијални цели, без да ви бараат дозвола или да ве спомнат како автор. Оваа лиценца најмногу дава дозвола од сите лиценци понудени тука. Препорачана за максимално проширување и употреба на лиценцираниот материјал.</string>
+    <string name="license_description_cc_by">Оваа лиценца им дозволува на други да го пренесуваат, комбинираат, изменуваат и користат како основа за свое дело, дури и комерцијално, се додека ве посочуваат како автор на оригиналното дело.</string>
+    <string name="license_description_cc_by_nc">Оваа лиценца им дозволува на други да го пренесуваат, комбинираат, изменуваат и користат како основа за свое дело, некомерцијално и иако нивните нови дела мора да ве посочат како оргинален автор и да се од некомерцијален карактер, тие не мора да го лиценцираат нивното изведено дело под истите услови.</string>
+    <string name="license_description_cc_by_nc_sa">Оваа лиценца им дозволува на други да го пренесуваат, комбинираат, изменуваат и користат како основа за свое дело, некомерцијално, се додека  ве посочуваат како оргинален автор и ги лиценцираат нивните креации под истите, идентични услови.</string>
+    <string name="license_description_cc_by_nc_nd">Оваа лиценца е нај рестриктивна од шесте лиценци и дозволува само на другите само да го превземаат вашето дело и да го споделуваат со други се додека ве посочуваат како автор, но тие не можат да го менуваат на било кој начин или да го користат комерцијално.</string>
+    <string name="license_description_cc_by_nd">Оваа лиценца дозволува за пренесување, комерцијално и некомерцијално, се додека се пренесува неизменето и во целина, со посочување дека вие сте авторот.</string>
+    <string name="license_description_cc_by_sa">Оваа лиценца дозволува вашето дело други да го изменуваат, адаптираат и користат како основа за свое дело, дури и за комерцијални цели, се додека ве посочуваат како автор на оригиналот и ги лиценцираат нивните нови дела под истите услови. Оваа лиценца се посочува како „авторските права оставени“ слободни и лиценци за отворен софтвер. Сите нови дела базирани на вашето дело ќе ја носат истата лиценца, така да сите изведени дела ќе може да се користат и комерцијално. Оваа лиценца е користена од Википедија, и е препорачана за материјали кои би користеле од нивно вклучување во Википедија и други проекти со слична лиценца.</string>
+    <string name="license_description_no_license">Вие ги задржувате сите автоски права за вашата содржина, покрај правата кои ги доделувате на iNaturalist согласно нашите Услови за користење.</string>
+    <string name="invalid_photo">Форматот на сликата не е поддржан.</string>
+    <!-- Text attributing observers and identifiers alongside automated identification suggestions -->
+    <string name="suggestions_based_on">Предлози кои се засновани на набљудувања и препознавање на заедницата на iNaturalist, вклучувајќи %1$s, %2$s, %3$s и многу други.</string>
+    <!-- Preference to control what tapping on the action button does on My Observations -->
+    <string name="default_observation_action">Стандардна акција за набљудувањата</string>
+    <!-- Option for the "Default Observation Action" preference that performs the default action of showing a slide-up menu of options -->
+    <string name="show_options">Прикажи опции</string>
+    <!-- Placeholder text for an observation field value -->
+    <string name="field_value">Поле за вредност</string>
+    <string name="expand_annotation_to_agree_or_disagree">Прошири ја забелешката за сложување или противење</string>
+    <string name="delete_attribute_value">Избриши ја вредноста на карактеристиката</string>
+    <string name="open_menu_for_more_options">Отворете го менито за повеќе опции</string>
+    <string name="change_user_profile_photo">Променете ја сликата на корисничкиот профил</string>
+    <string name="expand_list">Прошири ја листата</string>
+    <string name="change_map_layers">Промени ги слоевите на мапата (теренски наспроти сателитски)</string>
+    <string name="redo_observation_search">Повтори го пребарувањето на набљудувања во овој предел на мапата</string>
+    <string name="view_observations_on_map">Погледни ги набљудувањата на мапа</string>
+    <string name="view_observations_on_grid">Погледни ги набљудувањата во табела</string>
+    <string name="clear_text">Избриши текст</string>
+    <string name="observation_has_sounds">Набљудувањето има звуци</string>
+    <string name="go_to_my_location">Оди до мојата сегашна местоположба</string>
+    <string name="change_geoprivacy">Измени геоприватност</string>
+    <string name="active_filters">Активни филтри</string>
+    <string name="message_is_flagged">Пораката е обележана</string>
+    <string name="user_is_muted">Корисникот е занемен</string>
+    <string name="cancel_multiple_obs_selection">Откажи го изборот на повеќе набљудувања</string>
+    <string name="delete_observations">Избриши набљудувања</string>
+    <string name="comment_count">Број на коментари</string>
+    <string name="id_count">Број на препознавања</string>
+    <string name="observation_selected">Набљудувањето е избрано</string>
+    <string name="share_observation">Сподели набљудување</string>
+    <string name="unknown_location">Непозната Локација</string>
+    <!-- Verb, used as an accessibility label for closing a view, e.g. a popup -->
+    <string name="close">Затвори</string>
+    <string name="set_date2">Поставете датум</string>
+    <string name="project_selected">Избран проект</string>
+    <string name="project_unselected">Проект отселектиран</string>
+    <string name="show_my_observations">Покажи ги моите набљудувања</string>
+    <string name="play_pause_sound">Пушти или паузирај звук</string>
+    <string name="view_image">Прикажи слика</string>
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a green check mark and a thumbs-up icon -->
+    <string name="assessment_passes">Извршена проценка</string>
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote in favor of a specific assessment -->
+    <string name="agree_assessment_passes">Согласност со проценката</string>
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a red X and a thumbs-down icon -->
+    <string name="does_not_pass_assessment">Не поминува проценка</string>
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote against a specific assessment -->
+    <string name="disagree_assessment_passes">Притиви се на проценката</string>
+    <plurals name="delete_x_selected_observations">
+        <item quantity="one">Избриши %1$d избрано набљудување</item>
+        <item quantity="other">Избриши %1$d избрани набљудувања</item>
+    </plurals>
+    <plurals name="sync_x_selected_observations">
+        <item quantity="one">Синхронизирај %1$d избрано набљудување</item>
+        <item quantity="other">Синхронизирај %1$d избрани набљудувања</item>
+    </plurals>
+    <string name="add_media_evidence">Додади доказ</string>
+    <string name="remove_identification">Отстрани препознавање</string>
+    <string name="issue_with_updating_photos">Имаше проблем при ажурирање на сликите за ова набљудување кое беше неодамна поправено. Ве молиме одјавете се и најавете се повторно за да се реши овој проблем.</string>
+    <string name="app_version_copied_to_clipboard">Верзијата на апликацијата е ископирана</string>
+    <!-- Error message when a user tries to add upload a photo or a sound that is larger than the allowed 20 MB -->
+    <!-- Accessibility label for a button that closes an announcement -->
+</resources>

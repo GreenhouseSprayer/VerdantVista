@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.6.1'
+        classpath 'com.google.gms:google-services:4.3.14'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.5.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    }
+    configurations.all {
+        resolutionStrategy.force 'com.android.support:support-annotations:25.0.1'
+    }
+}
+
+// Global properties used in all build.gradle files
+ext {
+    minSdkVersion = 23
+    targetSdkVersion = 35
+    compileSdkVersion = 35
+}
+

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp">
+
+     <ImageView
+        android:id="@+id/observation_iconic_pic"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/iconic_taxon_unknown"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="9dp"
+        android:background="#DDDDDD"
+        android:padding="5dp"
+        android:tint="#8c8c8c"
+        android:visibility="gone"
+         android:importantForAccessibility="no"
+         />
+
+
+    <ImageView
+        android:id="@+id/observation_pic"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/iconic_taxon_unknown"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="9dp"
+        android:importantForAccessibility="no"
+        />
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3w"
+        android:textColor="#979797" />
+
+
+    <LinearLayout
+        android:layout_alignParentEnd="true"
+        android:id="@+id/comment_id_container"
+        android:paddingStart="10dp"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/comment_pic"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_chat_bubble_black_24dp"
+            android:tint="#707070"
+            android:layout_marginEnd="2dp"
+            android:layout_marginTop="2dp"
+            android:contentDescription="@string/comment_count"
+            />
+
+        <TextView
+            android:id="@+id/comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="31"
+            android:layout_marginEnd="8dp"
+            />
+
+        <ImageView
+            android:id="@+id/id_pic"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_id"
+            android:tint="#707070"
+            android:layout_marginEnd="2dp"
+            android:layout_marginTop="2dp"
+            android:contentDescription="@string/id_count"
+            />
+
+        <TextView
+            android:id="@+id/id_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/observation_pic"
+        android:layout_toStartOf="@id/comment_id_container"
+        android:layout_centerVertical="true"
+        >
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/species_guess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            style="@android:style/TextAppearance.Medium"
+            android:text="Species Guess" />
+
+
+        <ImageView
+            android:id="@+id/location_icon"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:tint="#6F6F6F"
+            android:layout_below="@id/species_guess"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/location"
+            />
+        <TextView
+            android:id="@+id/place_guess"
+            android:layout_toEndOf="@id/location_icon"
+            android:layout_alignBottom="@id/location_icon"
+            android:layout_alignTop="@id/location_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="San Francisco" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/edit_observation"
+        android:icon="@drawable/ic_mode_edit_gray_24dp"
+        app:showAsAction="always"
+        android:title="@string/edit"
+        android:orderInCategory="0"/>
+    <item
+        android:id="@+id/flag_captive"
+        app:showAsAction="never"
+        android:title="@string/flag_as_captive"
+        android:checkable="true"
+        android:orderInCategory="0"/>
+    <item
+        android:id="@+id/follow_observation"
+        app:showAsAction="never"
+        android:title="@string/follow_this_observation"
+        android:enabled="false"
+        android:orderInCategory="0"/>
+
+    <item
+        android:id="@+id/duplicate"
+        app:showAsAction="never"
+        android:title="@string/duplicate"
+        android:orderInCategory="0"/>
+</menu>

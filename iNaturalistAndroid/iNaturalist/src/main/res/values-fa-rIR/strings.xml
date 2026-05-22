@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_address">آدرس ایمیل</string>
+    <string name="delete_observation">حذف مشاهده</string>
+    <string name="observation_deleted">مشاهده حذف شد</string>
+    <string name="species_guess_hint">نام گونه</string>
+    <string name="ok">تأیید</string>
+    <string name="cancel">لغو</string>
+    <string name="loading">درحال بارگذاری...</string>
+    <string name="street">خيابان</string>
+    <!-- As in map tiles using satellite imagery, generally used as an option when choosing a base map type -->
+    <string name="satellite">ماهواره</string>
+    <string name="couldnt_load_nearby_observations">مشاهدات اطراف بارگیری نشد: %1$s</string>
+    <string name="username_invalid">نام کاربری یا رمز عبور نامعتبر بود، لطفاً دوباره وارد شوید.</string>
+    <string name="signing_in">درحال ورود...</string>
+    <string name="signed_in">ورود</string>
+    <string name="please_sign_in">لطفا وارد شوید</string>
+    <string name="please_sign_in_description">لطفاً به حساب iNaturalist خود وارد شوید یا برای یک حساب جدید ثبت نام کنید.</string>
+    <string name="please_enable_location_services">لطفاً خدمات موقعیت مکانی را فعال کنید تا مکان فعلی خود را پیدا کنید...</string>
+    <string name="go_to_settings">رفتن به تنظیمات</string>
+    <string name="photo_not_specified">عکس مشخص نشده است</string>
+    <string name="set_date">تاریخ</string>
+    <string name="set_time">زمان</string>
+    <!-- "Blast" is meant to be a jocular, intentionally archaic curse. It should not be translated as a word that might offend anyone. If that's impossible, please just leave it out. We occasionally use language like this add a little personality, but that doesn't always translate very well. -->
+    <string name="something_went_wrong">جریان ناگهانی، مشکلی پیش آمد: %1$s</string>
+    <string name="edit">ویرایش</string>
+    <string name="oh_no">وای نه! %1$s</string>
+    <string name="observations">مشاهدات من</string>
+    <string name="map">نقشه</string>
+    <string name="settings">تنظیمات</string>
+    <string name="projects">پروژه ها</string>
+    <string name="delete_photo">حذف عکس‌</string>
+    <string name="my_location">موقعیت مکانی من</string>
+    <string name="nearby_observations">مشاهدات نزدیک</string>
+    <string name="add">افزودن</string>
+    <string name="view_on_inat">مشاهده در iNaturalist.org</string>
+    <string name="reload">بارگیری مجدد</string>
+    <string name="view_in_browser">مشاهده در مرورگر</string>
+    <string name="add_observation">افزودن مشاهده</string>
+    <string name="take_picture">عکس گرفتن</string>
+    <string name="save">ذخیره</string>
+    <string name="no_observations_yet">هنوز مشاهداتی وجود ندارد!</string>
+    <string name="or">یا</string>
+    <string name="signed_out">خروج از حساب</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز عبور</string>
+    <string name="unknown">ناشناخته</string>
+    <string name="unknown_species">گونه های ناشناخته</string>
+    <string name="edit_observation">ویرایش مشاهده</string>
+    <string name="discard_changes">آیا مطمئن هستید که می خواهید تغییرات ذخیره نشده را رد کنید؟</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <!-- Label for a button that adds an identification that is the same as another identification, as in "Do you agree this is correct?" Should be short. -->
+    <string name="agree">موافق؟</string>
+    <string name="no_comments">هنوز هیچ نظر/شناسایی وجود ندارد</string>
+    <string name="add_comment">افزودن نظر</string>
+    <string name="add_id">افزودن شناسایی</string>
+    <string name="remarks">اظهارات...</string>
+    <string name="enter_taxon_name">نام گونه</string>
+    <string name="no_projects">هیچ پروژه ای یافت نشد!</string>
+    <string name="no_guides">هیچ راهنمایی پیدا نشد!</string>
+    <string name="loading_projects">در حال بارگیری پروژه ها...</string>
+    <string name="joined_projects">عضو شد</string>
+    <string name="nearby_projects">همین نزدیکی</string>
+    <!-- Tab title for the list of featured projects in the Projects screen -->
+    <string name="featured_projects">ویژه</string>
+    <!-- Verb, used as a label for actions like leaving a project -->
+    <string name="leave">ترک کردن</string>
+    <string name="join">پیوستن</string>
+    <string name="no_check_list">گونه ای در چک لیست نیست!</string>
+    <string name="failed_to_add_obs_to_project">مشاهده \"%1$s\" به پروژه \"%2$s\" اضافه نشد: %3$s</string>
+    <string name="invalid_project_field">لطفاً یک مقدار معتبر برای فیلد وارد کنید \'%1s\'</string>
+    <!-- Title of interface used to add an observation to a project. This should be relatively short, not much more than a few characters longer than the English translation. -->
+    <string name="select_projects">از پروژه هایی که به آن پیوسته اید انتخاب کنید</string>
+    <string name="not_connected">برای انجام این کار باید به اینترنت متصل باشید!</string>
+    <string name="search_projects">جستجوی پروژه ها...</string>
+    <string name="search_guides">راهنماهای جستجو...</string>
+    <string name="save_observation">ذخیره مشاهده</string>
+    <!-- Header for a description an individual guide -->
+    <string name="about_guide">درباره ما</string>
+    <string name="about_guide_all_caps">درباره</string>
+    <!-- Header for a description an individual project -->
+    <string name="about_project">درباره ما</string>
+    <string name="about_project_all_caps">درباره</string>
+    <string name="about_this_app">درباره</string>
+    <string name="about_taxon_short">درباره</string>
+    <!-- Noun describing the ability to obscure or hide the coordinates of an observation. Should be a short noun or noun-phrase suitable for use on a button or popup header -->
+    <string name="geoprivacy">حریم خصوصی جغرافیایی</string>
+    <!-- Generally used when we need to display both the label and the value on one line. Specifically used in the toolbar at the top of the location chooser -->
+    <string name="geoprivacy_with_value">حریم خصوصی جغرافیایی: %1$s</string>
+    <string name="delete_confirmation">آیا مطمئنید که می خواهید این مشاهده را حذف کنید؟</string>
+    <!-- This refers to field guide-like content within the app, i.e. user-created lists of species that help other people identify organisms. It does not refer to tutorials or other instructional content. -->
+    <string name="guides">راهنماها</string>
+    <string name="my_guides">مال شما</string>
+    <string name="nearby_guides">همین نزدیکی</string>
+    <string name="all_guides">همه</string>
+    <string name="no_taxa">هیچ گونه ای برای این راهنما یافت نشد!</string>
+    <string name="search_taxa">جستجوی گونه...</string>
+    <string name="no_internet_guides">راهنماها نیاز به اتصال به اینترنت دارند</string>
+    <string name="no_internet_projects">پروژه ها نیاز به اتصال به اینترنت دارند</string>
+    <string name="locale_gl">گالیسیایی</string>
+    <string name="locale_eu">باسکی</string>
+    <string name="use_device_language_settings">از تنظیمات زبان دستگاه استفاده کنید</string>
+    <string name="choose_location">مکان را انتخاب کنید</string>
+    <string name="done">انجام شده</string>
+    <string name="please_sign_in_via_settings">برای مشاهده پروژه هایی که به آنها ملحق شده اید باید وارد سیستم شوید.</string>
+    <string name="contact_support">با پشتیبانی تماس بگیرید</string>
+    <string name="leave_project">پروژه را ترک کنید</string>
+    <string name="leave_project_confirmation">آیا مطمئنید که می خواهید این پروژه را ترک کنید؟</string>
+    <string name="discard_location_changes">آیا مطمئن هستید که می خواهید تغییرات ذخیره نشده را رد کنید؟</string>
+    <string name="edit_location">ویرایش مکان</string>
+    <string name="edit_locality_notes">یادداشت های محلی را ویرایش کنید</string>
+    <string name="get_current_location">مکان فعلی را دریافت کنید</string>
+    <string name="pull_to_refresh">برای تازه کردن بکشید...</string>
+    <string name="release_to_refresh">برای بازخوانی رها کنید...</string>
+    <string name="refreshing">تازه کردن...</string>
+    <plurals name="sync_x_observations">
+        <item quantity="one">همگام سازی %1$d مشاهده</item>
+        <item quantity="other">همگام سازی %1$d مشاهدات</item>
+    </plurals>
+    <string name="sync_observations">همگام سازی مشاهدات</string>
+    <string name="lets_get_started">بیا شروع کنیم!</string>
+    <string name="view_nearby_observations">دیدن مشاهدات نزدیک</string>
+    <string name="skip_for_now">فعلاً پرش کنید</string>
+    <string-array name="tutorial_titles">
+        <item></item>
+        <item>مشاهده کردن</item>
+        <item>اشتراک گذاری</item>
+        <item>یادگیری</item>
+        <item>مشارکت</item>
+    </string-array>
+    <string-array name="tutorial_descriptions">
+        <item>کاوش و ارتباط با طبیعت</item>
+        <item>برو بیرون! چیزی وحشی پیدا کنید و یک عکس واضح و فول فریم بگیرید.</item>
+        <item>مشاهدات خود را با جامعه iNaturalist به اشتراک بگذارید.</item>
+        <item>برای نظرات و شناسایی در مورد مشاهده خود دوباره بررسی کنید!</item>
+        <item><![CDATA[<b>درجه تحقیق</b> مشاهدات با دانشمندانی که برای درک بهتر و حفاظت از طبیعت کار می کنند به اشتراک گذاشته می شود.]]></item>
+    </string-array>
+    <string-array name="geoprivacy_items">
+        <item>باز کن</item>
+        <item>مبهم</item>
+        <item>خصوصی</item>
+    </string-array>
+    <string name="alert_sign_out">آیا مطمئن هستید که می خواهید از سیستم خارج شوید؟  با این کار تمام مشاهدات شما در این دستگاه حذف می شود.  بر روی مشاهداتی که در iNaturalist آپلود کرده اید، تأثیری نخواهد داشت.</string>
+    <string name="alert_unsupported_media_type">متأسفیم، اما مشکلی در بارگیری عکس از این منبع وجود داشت</string>
+    <!-- Second person verb, used as a section title as in the "Explore" screen where you explore observations made by other people -->
+    <string name="explore">کاوش کنید</string>
+    <string name="restricted_to_current_map_area">محدود به منطقه نقشه فعلی</string>
+    <string name="search">جستجو کردن</string>
+    <string name="details">جزئیات</string>
+    <string name="observation_photos">عکس های مشاهده شده</string>
+    <string name="no_observations_found">هیچ مشاهداتی یافت نشد</string>
+    <string name="license_none">تمامی حقوق محفوظ است</string>
+    <string name="sources_and_attribution">منابع و اسناد</string>
+    <string name="photos"><![CDATA[<b>عکس ها:</b> %1$s]]></string>
+    <string name="text"><![CDATA[<b>متن:</b> %1$s]]></string>
+    <!-- The dialog content asking the user to switch to another iNat network -->
+    <string name="alert_message_use_inaturalist">شبکه اصلی iNaturalist.  با کلیک بر روی تأیید، برنامه شما به عنوان بخشی از شبکه جهانی iNaturalist تنظیم می شود.</string>
+    <string name="alert_message_use_naturalista">NaturaLista یکی از اعضای شبکه iNaturalist در مکزیک است.  مؤسسات محلی حامی NaturaLista به آدرس ایمیل شما دسترسی خواهند داشت و به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_naturewatchnz">iNaturalist NZ یکی از اعضای شبکه iNaturalist در نیوزیلند است.  مؤسسات محلی حامی iNaturalist NZ به آدرس ایمیل شما و به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistcanada">iNaturalist Canada یکی از اعضای شبکه iNaturalist در کانادا است.  مؤسسات محلی حامی iNaturalist Canada به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_naturalistacolombia">Naturalista یکی از اعضای شبکه iNaturalist در کلمبیا است.  مؤسسات محلی حامی ناتورالیستا به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_biodiversity4all">Biodiversity4All یکی از اعضای شبکه iNaturalist در پرتغال است.  مؤسسات محلی حامی Biodiversity4All به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistpanama">iNaturalist Panamá عضو شبکه iNaturalist در پاناما است.  مؤسسات محلی حامی iNaturalist Panama به آدرس ایمیل شما و دسترسی به مختصات واقعی برای مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید. آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistecuador">iNaturalist Ecuador یکی از اعضای شبکه iNaturalist در اکوادور است.  مؤسسات محلی حامی iNaturalist اکوادور به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistaustralia"> Australia iNaturalist عضو شبکه iNaturalist در استرالیا است.  مؤسسات محلی حامی Australia iNaturalistبه آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_argentinat">ArgentiNat یکی از اعضای شبکه iNaturalist در آرژانتین است.  مؤسسات محلی حامی ArgentiNat به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistil">iNaturalist Israel یکی از اعضای شبکه iNaturalist در اسرائیل است.  مؤسسات محلی حامی iNaturalist Israel به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistfi">iNaturalist فنلاند یکی از اعضای شبکه iNaturalist در فنلاند است.  مؤسسات محلی حامی iNaturalist فنلاند به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistcl">iNaturalist Chile یکی از اعضای شبکه iNaturalist در شیلی است.  مؤسسات محلی حامی iNaturalist Chile به آدرس ایمیل شما و به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistgr">iNaturalist Greece یکی از اعضای شبکه iNaturalist در یونان است.  موسسات محلی حامی iNaturalist یونان به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistlu">iNaturalist Luxembourg عضو شبکه iNaturalist در لوکزامبورگ است.  مؤسسات محلی حامی iNaturalist لوکزامبورگ به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistuk">iNaturalist United Kingdom عضو شبکه iNaturalist در انگلستان است.  مؤسسات محلی حامی iNaturalist انگلستان به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistcr">نچرالیست کاستاریکا یکی از اعضای شبکه iNaturalist در کاستاریکا است.  مؤسسات محلی حامی نچرالیست کاستاریکا به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistgt">iNaturalist Guatemala یکی از اعضای شبکه iNaturalist در گواتمالا است.  مؤسسات محلی حامی iNaturalist Guatemala به آدرس ایمیل شما و به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalistse">iNaturalist Sweden یکی از اعضای شبکه iNaturalist در سوئد است.  مؤسسات محلی حامی iNaturalist سوئد به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_naturalistauy">Naturalista Uruguay عضو شبکه iNaturalist در اروگوئه است.  مؤسسات محلی حامی ناتورالیستا اروگوئه به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="alert_message_use_inaturalisttw">iNaturalist Taiwan یکی از اعضای شبکه iNaturalist در تایوان است.  موسسات محلی حامی iNaturalist تایوان به آدرس ایمیل شما و دسترسی به مختصات واقعی مشاهداتی که به طور عمومی مبهم یا خصوصی هستند دسترسی خواهند داشت.  لطفاً اگر بیش از 1000 مشاهده دارید، وابستگی خود را به طور آزمایشی تغییر ندهید.  آیا می خواهید وابستگی خود را تغییر دهید؟</string>
+    <string name="editor">ویرایشگر</string>
+    <string name="license">مجوز</string>
+    <string name="download_for_offline_use">دانلود برای استفاده آفلاین</string>
+    <string name="download_not_available">دانلود در دسترس نیست</string>
+    <string name="guide_editor_must_enable_this_feature">ویرایشگر راهنما باید این ویژگی را فعال کند.</string>
+    <string name="are_you_sure">مطمئنی؟</string>
+    <string name="download_guide_alert">با این کار %1$s داده دانلود می‌شود تا بتوانید از این راهنما حتی زمانی که به اینترنت دسترسی ندارید استفاده کنید.</string>
+    <string name="failed_to_download_guide">راهنما دانلود نشد</string>
+    <string name="internet_connection_seems_to_be_offline">به نظر می رسد اتصال اینترنت آفلاین است.</string>
+    <string name="downloading">در حال بارگیری...</string>
+    <string name="extracting">استخراج ...</string>
+    <string name="downloaded">دانلود شد</string>
+    <string name="delete_download">حذف دانلود</string>
+    <string name="re_download">دوباره دانلود کنید</string>
+    <string name="error">خطا</string>
+    <string name="could_not_retrieve_guide">نمی توان جزئیات راهنما را بازیابی کرد - احتمالاً یک خطای شبکه است.</string>
+    <string name="inat_support_email_subject">راهنما با iNaturalist (نسخه %1$s - %2$s؛ شناسه کاربر - %3$s)</string>
+    <string name="send_email">ایمیل بفرست...</string>
+    <string name="login_with">وارد شوید با</string>
+    <string name="gplus">گوگل</string>
+    <string name="email">پست الکترونیک</string>
+    <string name="skip">رد شدن ›</string>
+    <string name="log_in">وارد شدن</string>
+    <!-- Second person imperative, usually a label on a button to sign up for a new account -->
+    <string name="sign_up">ثبت نام</string>
+    <!-- Title of the view used to sign up for a new account -->
+    <string name="sign_up_title">ثبت نام</string>
+    <string name="min_6_chars">حداقل  6 کاراکتر</string>
+    <string name="use_my_license"><![CDATA[بله، به محتوای من مجوز بدهید تا دانشمندان بتوانند از داده‌های من استفاده کنند (توصیه می‌شود).  <b>بیشتر بیاموزید</b>]]></string>
+    <string name="content_licensing">مجوز محتوا</string>
+    <string name="content_licensing_description">اگر می‌خواهید مجوز Creative Commons Attribution-NonCommercial را برای عکس‌های خود اعمال کنید، این کادر را علامت بزنید.  می‌توانید مجوز دیگری را انتخاب کنید یا بعداً مجوز را حذف کنید، اما این بهترین مجوز برای اشتراک‌گذاری با محققان است.</string>
+    <!-- Try to keep this about the length of the English text -->
+    <string name="username_or_email">نام کاربری یا پست الکترونیک</string>
+    <string name="forgot">فراموش کردم</string>
+    <string name="or_login_with">یا وارد شوید با:</string>
+    <string name="registering">در حال ثبت نام...</string>
+    <string name="recommended_next_step">مرحله بعدی توصیه می شود</string>
+    <string name="could_not_register_user">ثبت حساب ناموفق بود</string>
+    <!-- Short label for a button in the side bar, not much more than 16 characters -->
+    <string name="login_signup">ورود / ثبت نام</string>
+    <string name="please_sign_in_via_settings_for_guides">برای مشاهده راهنماهای خود باید وارد سیستم شوید.</string>
+    <string name="please_sign_in_for_updates">برای مشاهده به روز رسانی های خود باید وارد سیستم شوید.</string>
+    <string name="by_using_inat_terms"><![CDATA[با استفاده از iNaturalist با <b><a href="https://www.inaturalist.org/pages/terms">شرایط خدمات</a></b> و <b><a href=" موافقت می‌کنید.  https://www.inaturalist.org/pages/privacy">خط مشی رازداری</a></b>]]></string>
+    <string name="activity">فعالیت</string>
+    <!-- Label for a button to open the camera to take a new photo for an observation -->
+    <string name="camera">عکس گرفتن</string>
+    <!-- Label for a button to import an existing photo for an observation -->
+    <string name="upload_photo">تصویر را انتخاب کنید</string>
+    <string name="first">اولین</string>
+    <string name="make_first">ساخت اولین</string>
+    <string name="notes">یادداشت ها</string>
+    <string name="is_captive">اسیر یا اهلی شده است</string>
+    <string name="location_visibility">دید موقعیت مکانی</string>
+    <string name="set_location">موقعیت مکانی</string>
+    <string name="coordinates_lat">عرض جغرافیایی:</string>
+    <string name="coordinates_lon">طول جغرافیایی:</string>
+    <string name="coordinates_acc">برچسب مکان</string>
+    <string name="required">ضروری</string>
+    <string name="downloading_observations">درحال بارگیری مشاهدات...</string>
+    <string name="no_thanks">نه ممنون</string>
+    <string name="turn_on">روشن کن</string>
+    <string name="introducing_auto_sync">معرفی همگامسازی-خودکار!</string>
+    <string name="turn_on_auto_sync">همگام‌سازی خودکار را در تنظیمات روشن کنید و مشاهدات شما به‌طور خودکار در iNaturalist آپلود می‌شوند.</string>
+    <string name="automatic_upload">بارگذاری خودکار (همگام سازی خودکار)</string>
+    <string name="waiting_to_upload">در انتظار بارگذاری...</string>
+    <string name="uploading">در حال بارگذاری...</string>
+    <string name="failed_to_add_to_project">افزودن به پروژه ناموفق بود \'%1$s\': %2$s</string>
+    <string name="needs_your_attention">به توجه شما نیاز دارد...</string>
+    <string name="observation">مشاهده</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="unable_to_acquire_location">به دست آوردن موقعیت مکانی ممکن نیست</string>
+    <string name="casual_grade">درجه عادی</string>
+    <string name="needs_id">نیاز به شناسه</string>
+    <string name="research_grade">درجه پژوهش</string>
+    <string name="data_quality">کیفیت داده</string>
+    <string name="casual_grade_add_location"><![CDATA[یک <b>مکان</b> اضافه کنید این مشاهده برای پیشرفت به وضعیت "شناسه نیاز دارد".]]></string>
+    <string name="casual_grade_add_date"><![CDATA[یک <b>تاریخ</b> اضافه کنید این مشاهده برای پیشرفت به وضعیت "شناسه نیاز دارد".]]></string>
+    <string name="casual_grade_add_photo"><![CDATA[یک <b>عکس</b> اضافه کنید این مشاهده برای پیشرفت به وضعیت "شناسه نیاز دارد".]]></string>
+    <string name="casual_grade_captive"><![CDATA[مشاهده درجه عادی است زیرا <b>در اسارت/ اهلی</b> است.]]></string>
+    <string name="needs_id_more_ids"><![CDATA[مشاهده به <b>شناسایی های بیشتر</b> از جامعه نیاز دارد تا به وضعیت "درجه پژوهش" تبدیل شود.]]></string>
+    <plurals name="included_in_projects">
+        <item quantity="one">شامل %1$d پروژه ها</item>
+        <item quantity="other">در %1$d پروژه ها گنجانده شده است</item>
+    </plurals>
+    <string name="geoprivacy_explanation"><![CDATA[حریم خصوصی جغرافیایی تنظیمی است که می توانید روی مشاهدات خود ایجاد کنید که نحوه نمایش مختصات مکانی (طول و عرض جغرافیایی) را کنترل می کند.  در اینجا گزینه ها وجود دارد: <br/><b>باز</b> - همه می توانند مختصات را ببینند مگر اینکه گونه مورد تهدید قرار گیرد.  <br/><b>معروف</b> - مختصات عمومی به عنوان یک نقطه تصادفی در یک منطقه 0.2 در 0.2 درجه نشان داده شده است که حاوی مختصات واقعی است، که در حدود 22x22 کیلومتر مربع مساحت عدم قطعیت در استوا کاهش می یابد.  همانطور که به قطب ها نزدیک می شوید.  مختصات واقعی فقط برای شما و متصدیان پروژه هایی که مشاهده را به آنها اضافه می کنید قابل مشاهده است.  <br/><b>خصوصی</b> - مختصات کاملاً پنهان از نقشه های عمومی، مختصات واقعی فقط برای شما و متصدیان پروژه هایی که مشاهده را به آنها اضافه می کنید قابل مشاهده است.  <br/><br/>توجه داشته باشید که متصدیان پروژه‌های فردی همیشه می‌توانند مختصات را بدون توجه به تنظیمات حریم خصوصی شما ببینند، بنابراین اگر نگران این هستید که چه کسی به مختصات دسترسی دارد، باید مطمئن شوید که به متصدیان پروژه‌هایی که در آن‌ها هستند اعتماد دارید.  شما شرکت می کنید]]></string>
+    <string name="id_title">%1$s\'s شناسه • %2$s</string>
+    <string name="comment_title">%1$s • %2$s</string>
+    <string name="delete">حذف</string>
+    <string name="delete_id">حذف شناسایی</string>
+    <string name="delete_comment">حذف نظر</string>
+    <string name="delete_id_message">آیا مطمئن هستید که می خواهید این شناسه را پس بگیرید؟</string>
+    <string name="delete_comment_message">آیا مطمئن هستید که می خواهید این نظر را حذف کنید؟</string>
+    <string name="suggest_id">شناسه پیشنهاد کنید</string>
+    <string name="update_comment">به روز رسانی نظر</string>
+    <string name="fave_this_observation">این مشاهده مورد علاقه است</string>
+    <string name="faved">مورد علاقه</string>
+    <string name="be_the_first_to_fave_this_obs">اولین کسی باشید که این مشاهده را می پسندد...</string>
+    <string name="leave_a_comment">نظر بدهید یا شناسه پیشنهاد دهید...</string>
+    <string name="location_coords">عرض جغرافیایی: %1$s طول جغرافیایی: %2$s معرفی موقعیت مکانی. %3$s</string>
+    <string name="location_coords_no_acc">عرض جغرافیایی: %1$s طول جغرافیایی: %2$s</string>
+    <string name="location">موقعیت مکانی</string>
+    <string name="login_in_to_add_comments_ids">برای ارسال نظر یا پیشنهاد شناسایی، وارد شوید یا ثبت نام کنید...</string>
+    <string name="login_in_to_fav">برای دیدن چهره ها یا مواجهه با این مشاهده وارد شوید یا ثبت نام کنید...</string>
+    <string name="sync_obs_to_see_favs">این مشاهده را برای دیدن موارد دلخواه همگام کنید...</string>
+    <!-- Message when you try to view faves on an observation you haven't uploaded yet -->
+    <string name="sync_obs_to_add_comments_ids">برای ارسال نظر یا پیشنهاد شناسایی، وارد شوید یا ثبت نام کنید...</string>
+    <!--  Label for a button to add an observation without a photo or a sound  -->
+    <string name="no_photo">بدون رسانه</string>
+    <string name="about_this_species">درباره این گونه</string>
+    <string name="view_on_wikipedia">مقاله ویکی‌پدیا</string>
+    <string name="photo"><![CDATA[عکس: <b><a href="%1$s">%2$s</a></b>]]></string>
+    <string name="photo_attr"><![CDATA[عکس: <b>%1$s</b>]]></string>
+    <string name="finding_current_location">پیدا کردن مکان فعلی...</string>
+    <string name="flag_as_captive">پرچم‌گذاری به‌عنوان اسیر/کشت‌شده</string>
+    <string name="observation_flagged_as_captive">مشاهده به عنوان اسیر/کشت شده پرچم گذاری شد</string>
+    <string name="are_you_sure_you_want_to_flag_as_captive_no_close">آیا مطمئنید که می‌خواهید این مشاهده را به‌عنوان اسیر/کشته شده پرچم‌گذاری کنید؟</string>
+    <string name="do_you_agree_to_the_following">آیا با موارد زیر موافقید؟</string>
+    <string name="terms">مقررات</string>
+    <string name="observation_rules">قوانین مشاهده</string>
+    <string name="couldnt_load_project_details">جزئیات پروژه بارگیری نشد: %1$s</string>
+    <string name="no_people_found">هیچ فردی پیدا نشد</string>
+    <string name="rank">رتبه</string>
+    <string name="identifications">شناسایی ها</string>
+    <string name="no_news_found">هیچ خبری یافت نشد</string>
+    <string name="news">اخبار</string>
+    <string name="article">مقاله</string>
+    <string name="couldnt_load_project_news">اخبار پروژه بارگیری نشد: %1$s</string>
+    <string name="couldnt_load_user_details">جزئیات کاربر بارگیری نشد: %1$s</string>
+    <string name="more_bio"><![CDATA[<b><font color="#ffffff">بیشتر »</font></b>]]></string>
+    <string name="no_location">بدون مکان</string>
+    <string name="add_to_projects">افزودن به پروژه(ها)</string>
+    <string name="are_you_sure_you_want_to_save_obs_without_coords">آیا مطمئن هستید که می خواهید مشاهده را بدون هیچ مختصاتی ذخیره کنید؟</string>
+    <string name="users_identification">%1$s\'s شناسه: %2$s</string>
+    <string name="edit_profile">ویرایش نمایه</string>
+    <string name="remove_photo">حذف عکس</string>
+    <string name="name">نام</string>
+    <string name="tell_us_about_yourself">از خودت بگو...</string>
+    <string name="view_profile">مشاهده نمایه</string>
+    <string name="are_you_sure_you_want_to_remove_photo">آیا مطمئن هستید که می خواهید عکس خود را حذف کنید؟</string>
+    <string name="updating_profile">در حال به روز رسانی نمایه...</string>
+    <string name="there_was_a_problem_updating_profile">هنگام به روز رسانی نمایه شما مشکلی پیش آمد!</string>
+    <string name="there_was_a_problem_updating_profile_params">هنگام به‌روزرسانی نمایه شما مشکلی روی داد: %1$s</string>
+    <!-- Notice of which user is currently logged in, e.g. "Currently logged in as kueda" -->
+    <string name="currently_logged_in_as_html"><![CDATA[در حال حاضر به عنوان وارد شده است <b>%1$s</b>]]></string>
+    <string name="log_out">خروج از حساب</string>
+    <string name="not_logged_in">وارد نشده اید</string>
+    <!-- Prompt to log in to your account or sign up for a new account -->
+    <string name="login_or_sign_up">ورود به سیستم یا ثبت نام</string>
+    <string name="auto_upload_description">بارگذاری خودکار مشاهدات و ویرایش های جدید در مشاهدات</string>
+    <string name="language">زبان</string>
+    <string name="version">نسخه</string>
+    <string name="inat_network">شبکه iNaturalist</string>
+    <string name="inat_network_description">شبکه iNaturalist چارچوبی برای بومی سازی جامعه iNaturalist است.  سایت های شبکه توسط مؤسسات محلی پشتیبانی می شوند که توافق نامه ای را با iNaturalist برای تشویق استفاده محلی و بهره مندی از تنوع زیستی محلی امضا کرده اند.</string>
+    <string name="more_info">اطلاعات بیشتر</string>
+    <string name="select_network">ارتباط شبکه را انتخاب کنید</string>
+    <string name="help">راهنما</string>
+    <string name="stop">متوقف کردن</string>
+    <string name="resume">از سرگیری</string>
+    <string name="cleaning_up">تمیز کردن...</string>
+    <string name="syncing">در حال همگام سازی...</string>
+    <string name="syncing_observation_fields">همگام سازی میدان مشاهده...</string>
+    <string name="syncing_observations">در حال همگام سازی مشاهدات...</string>
+    <string name="syncing_paused">متوقف شد</string>
+    <string name="upload">بارگذاری</string>
+    <string name="search_observations">جستجوی مشاهدات...</string>
+    <string name="withdraw">کنار کشیدن</string>
+    <!-- Dialog title for when you are updating the description of an identification -->
+    <string name="update_id_description">به روز رسانی شرح شناسایی</string>
+    <string name="your_identification">شناسه شما: %1$s</string>
+    <string name="onboarding_species_name">اگر می توانید آنچه را که دیدید نام ببرید، حتی اگر فقط \"حشره\" یا \"پرنده\" باشد، یا فقط این را خالی بگذارید.  دیگران ممکن است به شما در شناسایی آن کمک کنند!</string>
+    <string name="upload_complete">بارگذاری کامل شد!</string>
+    <string name="onboarding_upload_description">به زودی برای شناسایی و نظرات در مورد مشاهدات خود بازگردید.</string>
+    <string name="importing_photos">وارد کردن عکس (ها)...</string>
+    <string name="multi_select_description">با فشار دادن طولانی روی یک عکس، چندین عکس را وارد کنید</string>
+    <string name="preparing_photo">در حال آماده‌سازی عکس...</string>
+    <string name="recommended_for_you">توصیه شده برای شما</string>
+    <string name="missions">ماموریت ها</string>
+    <string name="browse_by_category">مرور بر اساس دسته بندی</string>
+    <string name="couldnt_load_recommended_missions">ماموریت های توصیه شده بارگیری نشد: %1$s</string>
+    <string name="plants">گیاهان</string>
+    <string name="mammals">پستانداران</string>
+    <string name="insects">حشرات</string>
+    <string name="reptiles">خزندگان</string>
+    <string name="animals">حیوانات</string>
+    <string name="fish">ماهی</string>
+    <string name="mollusks">نرم تنان</string>
+    <string name="protozoans">تک یاخته ها</string>
+    <string name="chromista">جلبک اشنه دریایی، جلبک دیاتوم، و متحدان</string>
+    <string name="amphibians">دوزیستان</string>
+    <string name="fungi">قارچ</string>
+    <string name="birds">پرنده ها</string>
+    <string name="arachnids">عنکبوتیان</string>
+    <string name="no_connectivity">بدون اتصال</string>
+    <string name="no_recommended_missions">به نظر می رسد هیچ توصیه ای در این زمینه وجود ندارد.  سعی کنید به مکان جدیدی بروید.</string>
+    <string name="what_to_look_for">دنبال چه چیزی میگردی</string>
+    <string name="have_been_seen_here">اینجا دیده شده است</string>
+    <string name="observe">مشاهده کردن</string>
+    <string name="nearby_missions">ماموریت های نزدیک</string>
+    <string name="searching_your_area">جستجوی منطقه شما...</string>
+    <string name="expanding_your_search_area">گسترش منطقه جستجوی شما...</string>
+    <string name="introducing_missions">معرفی ماموریت ها!</string>
+    <string name="missions_onboarding_description">ماموریت‌ها توصیه‌های بی‌درنگ درباره چیزهایی هستند که باید در اطراف خود جستجو کنید.  به این ترتیب می توانید گونه های جدیدی را برای خود کشف کنید!  (نیاز به اتصال دارد)</string>
+    <string name="ok_got_it">باشه فهمیدم!</string>
+    <string name="could_not_download_observations">آخرین مشاهدات بارگیری نشد - مشکلات اتصال.  بعدا دوباره تلاش کنید.</string>
+    <string name="no_news_yet">هنوز خبری نیست. گوش به زنگ باشید!</string>
+    <string name="my_content">مطالب من</string>
+    <string name="following">دنبال می کند</string>
+    <string name="no_updates_yet">هنوز به روز رسانی نشده است.  گوش به زنگ باشید!</string>
+    <string name="you_will_only_receive_updates_when_creating">(فقط زمانی که مشاهداتی ایجاد کردید به روز رسانی ها را دریافت خواهید کرد)</string>
+    <string name="you_will_only_receive_updates_when_following">(فقط زمانی به روز رسانی دریافت خواهید کرد که مشاهدات را دنبال کنید)</string>
+    <string name="user_activity_id"><![CDATA[<b>%1$s</b> شناسه پیشنهاد کرد: %2$s <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_activity_comment"><![CDATA[<b>%1$s</b> نظر داد: &ldquo;%2$s&rdquo; <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="user_activity_mention"><![CDATA[<b>%1$s</b> از شما یاد کرد: &ldquo;%2$s&rdquo; <font color="#8B8B8B">%3$s</font>]]></string>
+    <string name="deleted_photos_from_cache_error">به نظر می رسد قبل از بارگذاری با پاک کردن حافظه پنهان برنامه، عکسی را حذف کرده اید.  شما باید عکس را از گالری خود به مشاهده خود اضافه کنید.  در آینده، لطفاً مطمئن شوید که همه عکس‌های خود را قبل از پاک کردن حافظه پنهان برنامه بارگذاری کرده‌اید.</string>
+    <!--
+        Label for the number of new notifications you might have. This specific string is used in
+        the side drawer next to the Activity menu item when you have new activity on your own
+        content.
+    -->
+    <plurals name="new_activities">
+        <item quantity="one">%1s جدید</item>
+        <item quantity="other">%1s جدید</item>
+    </plurals>
+    <string name="no_results_found">نتیجه ای پیدا نشد...</string>
+    <plurals name="syncing_x_out_of_y_observations">
+        <item quantity="one">در حال همگام سازی %1$d از %2$d مشاهده...</item>
+        <item quantity="other">در حال همگام سازی %1$d از %2$d مشاهده...</item>
+    </plurals>
+    <string name="deleting_observations">در حال حذف مشاهدات...</string>
+    <string name="preparing">در حال آماده‌سازی...</string>
+    <string name="add_edit_remark">افزودن/ویرایش یادداشت</string>
+    <string name="restore">بازگرداندن</string>
+    <string name="compare">مقایسه کنید</string>
+    <string name="select">انتخاب کنید</string>
+    <string name="source_wikipedia">(منبع: ویکی‌پدیا)</string>
+    <string name="conservation_source"><![CDATA[<b>منبع:</b> <i>%1$s</i>]]></string>
+    <string name="conservation_status_least_concern">کمترین نگرانی</string>
+    <string name="conservation_status_near_threatened">نزدیک به تهدید</string>
+    <string name="conservation_status_vulnerable">آسیب پذیر</string>
+    <string name="conservation_status_endangered">در معرض خطر</string>
+    <string name="conservation_status_critically_endangered">به شدت در معرض خطر است</string>
+    <string name="conservation_status_extinct_in_the_wild">منقرض شده در طبیعت</string>
+    <string name="conservation_status_extinct">منقرض شده</string>
+    <string name="map_of_observations">نقشه مشاهدات</string>
+    <string name="taxonomy">طبقه‌بندی</string>
+    <string name="about_this_section">درباره این گونه</string>
+    <!-- Explanation of the taxonomy displayed on the taxon detail screen. -->
+    <string name="taxonomy_info">اینها پیوندهایی به اجداد این تاکسون خاص هستند.  آنها به ترتیب از درشت تر به تصفیه شده تر هستند.  از این پیوندها برای حرکت به سمت بالا و پایین درخت زندگی استفاده کنید.  برای مثال، اگر نمی‌دانید یک موجود زنده چیست، اما می‌دانید که در چه گروهی قرار می‌گیرد، روی یک تاکسون از لیست ضربه بزنید تا اطلاعات بیشتری درباره آن مشاهده کنید.</string>
+    <string name="more_info_on_inat">اطلاعات بیشتر در iNaturalist.org</string>
+    <string name="view_suggestions">مشاهده پیشنهادها</string>
+    <string name="species_search">جستجوی گونه ها</string>
+    <string name="were_not_confident_enough">ما به اندازه کافی برای ارائه یک توصیه مطمئن نیستیم، اما در اینجا بهترین پیشنهادهای ما وجود دارد:</string>
+    <string name="were_not_confident_enough_no_suggestions">ما به اندازه کافی برای ارائه یک توصیه مطمئن نیستیم.</string>
+    <!-- Header for a list of suggested taxa based on observation frequency (i.e. not incorporating visual similarity) -->
+    <string name="most_observed_options_matching_filters">بیشترین گزینه های مشاهده شده مطابق با فیلترها:</string>
+    <!-- Header for a list of suggested taxa -->
+    <string name="top_suggestions">پیشنهادهای برتر</string>
+    <string name="pretty_sure_rank">ما کاملا مطمئن هستیم که در این است %1$s:</string>
+    <string name="what_did_you_see">چه چیزی دیدی؟</string>
+    <string name="suggest_species">پیشنهاد گونه</string>
+    <string name="suggest_species_description">گونه ها را بر اساس شباهت بصری به عکس ها پیشنهاد کنید.</string>
+    <string name="visually_similar">از لحاظ بصری مشابه</string>
+    <string name="visually_similar_seen_nearby">بصری مشابه / در نزدیکی دیده می شود</string>
+    <string name="visually_similar_expected_nearby">از نظر بصری مشابه / قابل مشاهده در نزدیکی</string>
+    <string name="seen_nearby">در نزدیکی دیده می شود</string>
+    <string name="expected_nearby">مورد انتظار در نزدیکی</string>
+    <string name="enlarge">بزرگنمایی کنید</string>
+    <!-- Label for a button that shows children of the current taxon, e.g. species within a genus or families within an order -->
+    <string name="view_children">مشاهده کودکان</string>
+    <string name="taxon_has_no_photos">این تاکسون عکس ندارد.</string>
+    <string name="terrain">زمین</string>
+    <string name="filters">فیلترها</string>
+    <string name="exploring_all">کاوش در همه</string>
+    <string name="nearby">همین نزدیکی</string>
+    <string name="couldnt_load_results">نتایج بارگیری نشد: %1$s</string>
+    <!-- This should match the way Research Grade has been transalted, so if that's been translated as "grado de investigación" this should be "GI" -->
+    <string name="research_grade_initials">درجه پژوهش</string>
+    <string name="taxon_search_hint">به عنوان مثال،  پرندگان، سرآمد</string>
+    <string name="location_search_hint">به عنوان مثال،  پرندگان، پادشاه</string>
+    <string name="no_taxon">با عرض پوزش، تاکسون پیدا نشد</string>
+    <string name="please_select_taxon">لطفاً یک تاکسون معتبر از لیست انتخاب کنید (یا قسمت تاکسون را پاک کنید).</string>
+    <string name="sorry_no_location">با عرض پوزش، مکان یافت نشد</string>
+    <string name="location_not_found">مکان یا مکانی که جستجو کرده اید در پایگاه داده ما نیست.  لطفاً مکانی را از لیست گزینه‌های زیر قسمت جستجوی مکان انتخاب کنید یا قسمت جستجو را پاک کنید.</string>
+    <string name="undefined">تعریف نشده</string>
+    <string name="street_segment">بخش خیابان</string>
+    <string name="intersection">تقاطع</string>
+    <string name="town">شهر</string>
+    <!-- As in a political administrative area, e.g. Hawaii in the United States -->
+    <string name="state">استان/ایالت</string>
+    <string name="county">شهرستان</string>
+    <string name="local_administrative_area">منطقه اداری محلی</string>
+    <string name="country">کشور</string>
+    <string name="island">جزیره</string>
+    <string name="airport">فرودگاه</string>
+    <string name="drainage">شبکه فاضلاب</string>
+    <string name="land_feature">ویژگی زمین</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="miscellaneous">متفرقه</string>
+    <string name="nationality">ملیت</string>
+    <!-- Place type describing an area spanning multiple countries, e.g. Western Europe or Hispaniola -->
+    <string name="supername">ابَر نام</string>
+    <string name="point_of_interest">نقطه مورد علاقه</string>
+    <!-- Place type for a place like https://en.wikipedia.org/wiki/Region -->
+    <string name="region">منطقه</string>
+    <!-- Place type for a place without much of a formal definition, e.g. the San Francisco Bay Area -->
+    <string name="colloquial">محاوره ای</string>
+    <string name="zone">منطقه</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="historical_state">وضعیت تاریخی</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="historical_county">شهرستان تاریخی</string>
+    <string name="continent">قاره</string>
+    <string name="estate">املاک</string>
+    <string name="historical_town">شهرک تاریخی</string>
+    <string name="aggregate">مجموعه</string>
+    <string name="open_space">فضای باز</string>
+    <string name="territory">قلمرو</string>
+    <string name="district">ناحیه</string>
+    <string name="province">استان</string>
+    <string name="municipality">شهرداری</string>
+    <string name="parish">محله</string>
+    <!-- Added by mistake with some GADM place types, but subsequently used by some of our users. Assume it's a type of place contained within a "department" -->
+    <string name="department_segment">بخش مکانی</string>
+    <string name="city_building">ساختمان شهر</string>
+    <string name="commune">گفتگوی صمیمانه</string>
+    <string name="governorate">استانداری</string>
+    <string name="prefecture">بخشداری</string>
+    <string name="canton">بخش</string>
+    <string name="republic">جمهوری</string>
+    <string name="division">تقسیم</string>
+    <string name="subdivision">زير مجموعه</string>
+    <!-- https://gadm.org place type, presumably describing an area larger than an individual property but smaller than a neighborhood -->
+    <string name="village_block">بلوک روستا</string>
+    <!-- Mongolian sub-sub-national place type: https://en.wikipedia.org/wiki/Districts_of_Mongolia -->
+    <string name="sum">مجموع</string>
+    <string name="shire">ناحیه</string>
+    <string name="prefecture_city">قلمرو شهری</string>
+    <!-- Indonesian sub-sub-national place type -->
+    <string name="regency">قلمرو سلطنت</string>
+    <string name="constituency">حوزه انتخاباتی</string>
+    <string name="local_authority">مقامات محلی</string>
+    <!-- https://en.wikipedia.org/wiki/Poblacion -->
+    <string name="poblacion">جمعیت</string>
+    <!-- https://en.wikipedia.org/wiki/Delegations_of_Tunisia -->
+    <string name="delegation">هیئت نمایندگی</string>
+    <string name="apply_filters">اعمال فیلترها</string>
+    <string name="remove_filters">حذف فیلترها</string>
+    <string name="reset">بازنشانی</string>
+    <string name="show_only_my_observations">فقط مشاهدات من را نشان می دهد</string>
+    <string name="project">پروژه</string>
+    <string name="user">کاربر</string>
+    <string name="search_users">کاربران را جستجو کنید ...</string>
+    <string name="quality_grade">نمره عالی</string>
+    <!-- Label for observation filters specifying when the observations were made in the field (not necessarily when they were added to iNaturalist) -->
+    <string name="date_observed">تاریخ مشاهده شده</string>
+    <!-- Generally used as a menu option to indicate no preference, e.g. Date of Observation: Any / Exact / Range / Month -->
+    <string name="any">هر</string>
+    <!-- Used to separate a date range, e.g. "2018-01-04 to 2018-05-02" -->
+    <string name="to">به</string>
+    <string name="exact_date">تاریخ دقیق</string>
+    <string name="start">شروع</string>
+    <string name="end">پایان</string>
+    <string name="months">ماه ها</string>
+    <string name="choose_months">انتخاب ماه(ها)</string>
+    <string name="map_area">منطقه نقشه</string>
+    <string name="global">جهانی</string>
+    <!-- As in redo search in the current map area -->
+    <string name="search_map_area">جستجوی منطقه نقشه</string>
+    <!-- Compact form of "X minutes ago", so "3 minutes ago" would be "3m" -->
+    <string name="date_minute">%dدقیقه</string>
+    <!-- Compact form of "X hours ago", so "3 hours ago" would be "3h" -->
+    <string name="date_hour">%dساعت</string>
+    <!-- Compact form of "X days ago", so "3 days ago" would be "3d" -->
+    <string name="date_day">%dروز</string>
+    <!-- Compact form of "X weeks ago", so "3 weeks ago" would be "3w" -->
+    <string name="date_week">%dهفته</string>
+    <string name="new_observation">مشاهده جدید</string>
+    <string name="inactive_taxon">تاکسون غیر فعال</string>
+    <string name="no_identifications_found">شناسایی هایی را که برای مشاهده توسط افراد دیگر در اینجا پیشنهاد می کنید، ردیابی کنید.</string>
+    <string name="no_species_found">این لیستی از گونه‌هایی است که شما بیشتر مشاهده کرده‌اید.\n\nآگاهی: تخمین زده می‌شود که 9 میلیون گونه روی این سیاره وجود دارد، پس بیرون بروید و آنها را مشاهده کنید!</string>
+    <string name="make_an_observation">مشاهده کنید</string>
+    <string name="no_observations_found_new">مشاهدات سوابقی از برخوردهای شما با ارگانیسم های فردی در زمان ها و مکان های خاص هستند.</string>
+    <string name="discard_comment">آیا مطمئنید که می خواهید این نظر را نادیده بگیرید؟</string>
+    <string name="leave_comment">پیام بگذارید...</string>
+    <string name="swipe">انگشت خود را بکشید</string>
+    <string name="swipe_indicator">›</string>
+    <string name="potential_disagreement">اختلاف احتمالی</string>
+    <string name="do_you_think_this_could_be"><![CDATA[آیا شواهد ارائه شده برای تأیید <b>%1$s</b> کافی است؟]]></string>
+    <!-- This sentence expresses uncertainty at a fine taxonomic level but certainty at a higher taxonomic level, e.g. "I don't know if this is a dog but I'm sure it is a mammal." -->
+    <string name="i_dont_know_but"><![CDATA[نمی دانم اما مطمئنم که این <b>%1$s</b> است.]]></string>
+    <string name="no_but_it_is_a_member_of_taxon"><![CDATA[نه، اما عضو آن است <b>%1$s</b>.]]></string>
+    <string name="submit">ارائه دادن</string>
+    <string name="change_password">رمز عبور را تغییر دهید</string>
+    <string name="search_projects_youve_joined">جستجوی پروژه هایی که به آنها ملحق شده اید...</string>
+    <string name="must_be_connected_to_load_more_obs">برای بارگیری مشاهدات بیشتر باید به اینترنت متصل باشید</string>
+    <string name="inat_about_title_new">iNaturalist یک سازمان غیرانتفاعی مستقل ۵۰۱ (c)(۳)مستقر در ایالات متحده آمریکا (EIN ۹۲ - ۱۲۹۶۴۶۸)است.</string>
+    <!--
+        Pronunciation of people's names (as approved by the people in question):
+
+        Abhas Misraraj: ɑbhɑs mɪʃrɑrɑdʒ (http://ipa-reader.xyz/?text=%C9%91bh%C9%91s%20m%C9%AA%CA%83r%C9%91r%C9%91d%CA%92)
+        Alex Shepard: ˈæ.lɪks ˈʃɛpɚd (http://ipa-reader.xyz/?text=%CB%88%C3%A6.l%C9%AAks%20%CB%88%CA%83%C9%9Bp%C9%9Ad)
+        Ken-ichi Ueda: ˌkɛˈniʧi weɪdɑ (http://ipa-reader.xyz/?text=%CB%8Ck%C9%9B%CB%88ni%CA%A7i%20we%C9%AAd%C9%91)
+        Tony Iwane: ˈtoʊni ɪˈwɑneɪ (http://ipa-reader.xyz/?text=%CB%88to%CA%8Ani%20%C9%AA%CB%88w%C9%91ne%C9%AA)
+    -->
+    <string name="inat_credits2"><![CDATA[iNaturalist به لطف تک تک افرادی که در جامعه ما شرکت می کنند وجود دارد.  افرادی که نرم‌افزار را می‌سازند، رابط‌ها را طراحی می‌کنند، زیرساخت‌های ما را حفظ می‌کنند، از جامعه حمایت می‌کنند و همکاری‌ها را تقویت می‌کنند، یارون بودوفسکی، آماندا بولینگتون، تونی ایوان، یوهانس کلاین، پاتریک لیری، اسکات لواری، ابهاس میسراج، سیلوین مورین، کری سلتزر،  الکس شپرد، آنجی تا، و کن-ایچی اوئدا.<br/><br/>CalTech و Cornell Tech به توسعه سیستم بینایی کامپیوتری کمک کردند که شناسایی از روی عکس‌ها را نشان می‌دهد.  ما از Grant Van Horn، Serge Belongie و Pietro Perona برای پیشبرد تحقیقات بینایی رایانه تشکر می کنیم.  اطلاعات بیشتر را می‌توانید در <a href="https://www.visipedia.org">visipedia.org</a> پیدا کنید.  تشکر ویژه از NVIDIA برای کمک بیشتر.]]></string>
+    <string name="inat_credits_networks_pre"><![CDATA[شبکه بین‌المللی iNaturalist از وب‌سایت‌های محلی، کاملاً یکپارچه و مبتنی بر iNaturalist در کشورهای زیر، به لطف حمایت سازمان‌های شریک مرتبط پشتیبانی می‌کند.]]></string>
+    <string name="inat_credits_post"><![CDATA[iNaturalist همچنین عمیقاً از توسعه دهندگان منبع باز که بسیاری از نرم افزارهایی را که ما هر روز به آن تکیه می کنیم ارائه کرده اند سپاسگزار است.  برای کمک های منبع باز به <a href="https://github.com/inaturalist/iNaturalistAndroid">https://github.com/inaturalist/iNaturalistAndroid</a> مراجعه کنید.<br/> ما از کمک ترجمه سپاسگزاریم  ارائه شده توسط داوطلبان در جامعه crowdin.com، به ویژه ادواردو مارتینز، لین چنگ تائو، KestrelLam، cgalindo، vilseskog، NCAA، ldacosta، ​​رادانا، Mykola Pukhalskyi، danieleseglie، و katunchik.  <br/> مکانهای طبقه دوم IUCN ارائه شده توسط IUCN و UNEP-WCMC (2015)، پایگاه داده جهانی مناطق حفاظت شده (WDPA) [آنلاین]، [11/2014]، کمبریج، بریتانیا: UNEP-WCMC.  موجود در: <a href="http://www.protectedplanet.net">www.protectedplanet.net</a>]]></string>
+    <string name="credits_title">اعتبارات</string>
+    <string name="password_changed">رمز عبوری که برنامه استفاده می کند دیگر کار نمی کند - آیا رمز عبور خود را در وب سایت تغییر داده اید؟  لطفا مورد جدید را اینجا وارد کنید</string>
+    <string name="just_so_you_know">فقط برای اینکه بدانی...</string>
+    <string name="ask_for_g_plus_permissions">Google از ما می‌خواهد برای استفاده از حساب Google شما اجازه دسترسی به مخاطبین شما را بخواهیم، ​​حتی اگر به هر دلیلی به مخاطبین شما دسترسی نداریم.  اگر این مجوز را رد کردید، باید با نام کاربری و رمز عبور ثبت نام کنید یا وارد شوید.</string>
+    <string name="new_to_inat_sign_up_now"><![CDATA[برای %1$s جدید هستید؟  <b>اکنون ثبت نام کنید!</b>]]></string>
+    <string name="see_more_observations">مشاهده مشاهدات بیشتر</string>
+    <string name="see_more_species">مشاهده گونه های بیشتر</string>
+    <string name="see_more_identifications">شناسایی های بیشتر را ببینید</string>
+    <string name="collection_and_umbrella_projects">پروژه های مجموعه و چتر</string>
+    <string name="description">شرح</string>
+    <string name="quantity">تعداد</string>
+    <string name="agree2">موافق</string>
+    <string name="project_observations">مشاهدات</string>
+    <string name="project_species">گونه ها</string>
+    <string name="project_people">مردم</string>
+    <!-- People who added identifications to observations in a project -->
+    <string name="project_identifiers">شناسه ها</string>
+    <string name="got_it">فهمیدم!</string>
+    <string name="view_all">مشاهده همه</string>
+    <string name="observers">ناظران</string>
+    <!-- Describes the attribute being annotated, e.g. if the annotation is for life stage, "Life Stage" is the attribute. -->
+    <string name="attribute">صفت</string>
+    <!-- Value of an annotation, e.g. if the annotation is for life stage and the value chosen is "Adult" then "Adult" is the value -->
+    <string name="value">مقادیر</string>
+    <!-- Label for a button allowing users to state that they think an annotation is incorrect -->
+    <string name="disagree">مخالف بودن</string>
+    <!-- Annotations are key/value pairs applied to observations with a controlled vocabulary -->
+    <string name="annotations">حاشیه نویسی ها</string>
+    <!-- Used when filtering observations with annotations -->
+    <string name="with_annotation">با حاشیه نویسی</string>
+    <!-- Attribute of an annotation. Synonymous with "Attribute" but slightly more explanatory for use in a popup header -->
+    <string name="annotation_name">نام حاشیه نویسی</string>
+    <!-- Annotation value for when no annotation has been chosen -->
+    <string name="none">هیچ کدام</string>
+    <!-- Phenological state of flowers on a plant -->
+    <string name="annotation_name_flowers_and_fruits">گلها و میوه ها</string>
+    <!-- Describes life stage at the time of observation, e.g. juvenile, adult -->
+    <string name="annotation_name_life_stage">مرحله زندگی</string>
+    <!-- Noun, describes sex of the organism -->
+    <string name="annotation_name_sex">جنسیت</string>
+    <!-- Attribute that describes whether the organism is alive or dead -->
+    <string name="annotation_name_alive_or_dead">زنده یا مرده</string>
+    <!-- Attribute that describes what kind of evidence of an organism's presence was recorded in this observation -->
+    <string name="annotation_name_evidence_of_presence">مدارک حضور</string>
+    <!-- Attribute that describes the phenological state of the leaves on a plant -->
+    <string name="annotation_name_leaves">برگ ها</string>
+    <!-- Attribute that describes whether the observed organism is part of an established population or something more like a waif or escaped pet -->
+    <string name="annotation_name_established">تشکیل یافته</string>
+    <!-- Adjective, having open flowers -->
+    <string name="annotation_value_flowers">گلها</string>
+    <!-- Adjective, having fruit or seeds -->
+    <string name="annotation_value_fruits_or_seeds">میوه ها یا دانه ها</string>
+    <!-- Adjective, having unopened flowers -->
+    <string name="annotation_value_flower_buds">غنچه های گل</string>
+    <!-- Observation presents no evidence of flowering phenology -->
+    <string name="annotation_value_no_flowers_or_fruits">بدون گل و میوه</string>
+    <!-- Adjective describing the life stage where an individual can reproduce -->
+    <string name="annotation_value_adult">بالغ</string>
+    <!-- Adjective describing the odonate life stage between nymph and adult -->
+    <string name="annotation_value_teneral">دوره قبل بلوغ</string>
+    <!-- Noun for a dormant phase of holometabolous insects between larva and adult -->
+    <string name="annotation_value_pupa">شفیره</string>
+    <!-- Noun for larval stage of some aquatic insects and most hemimetabolous insects -->
+    <string name="annotation_value_nymph">آماده دگردیسی</string>
+    <!-- Noun for the arthropod life stage between egg and adult -->
+    <string name="annotation_value_larva">لارو</string>
+    <string name="annotation_value_egg">تخم</string>
+    <!-- Life stage before adulthood, could work as a noun or an adjective -->
+    <string name="annotation_value_juvenile">نوجوان</string>
+    <!-- Life stage between pupa and adult, generally used for mayflies (Ephemeroptera) -->
+    <string name="annotation_value_subimago">سابیماگو</string>
+    <string name="annotation_value_female">جنس ماده</string>
+    <string name="annotation_value_male">جنس نر</string>
+    <!-- Adjective, alive and shows no signs of imminent death -->
+    <string name="annotation_value_alive">زنده</string>
+    <!-- Adjective, dead or shows signs of imminent death -->
+    <string name="annotation_value_dead">مرده</string>
+    <!-- Value for when the value of the attribute cannot be determined -->
+    <string name="annotation_value_cannot_be_determined">نمی توان تعیین کرد</string>
+    <!-- "Evidence of Presence" value when the observation depicts the organism itself and not some kind of sign the organism left behind -->
+    <string name="annotation_value_organism">سازواره</string>
+    <!-- "Evidence of Presence" value when for bird feathers -->
+    <string name="annotation_value_feather">پَر</string>
+    <!-- "Evidence of Presence" value when for fecal remains -->
+    <string name="annotation_value_scat">مدفوع</string>
+    <!-- "Evidence of Presence" value for impressions in the ground or snow -->
+    <string name="annotation_value_track">ردپا</string>
+    <!-- "Evidence of Presence" value when for bones -->
+    <string name="annotation_value_bone">استخوان</string>
+    <!-- "Evidence of Presence" value when for discarded reptile skins and arthropod exoskeletons -->
+    <string name="annotation_value_molt">پوست اندازی</string>
+    <!-- "Evidence of Presence" value when for something created by an animal, made with or excavated from other materials -->
+    <string name="annotation_value_construction">ساخت و ساز</string>
+    <!-- "Evidence of Presence" value when for deformed plant tissue outgrowth caused by a parasitic organism -->
+    <string name="annotation_value_gall">گال (رشد غیرطبیعی بافت گیاه)</string>
+    <!-- "Evidence of Presence" value when for hair that is no longer attached to the organism from which it originated -->
+    <string name="annotation_value_hair">مو</string>
+    <!-- "Evidence of Presence" value when for evidence of feeding between the dermal layers of a leaf -->
+    <string name="annotation_value_leafmine">شواهد تغذیه بین لایه های پوستی برگ</string>
+    <!-- "Leaves" value when for leaf buds that are opening -->
+    <string name="annotation_value_breaking_leaf_buds">غنچه های برگ</string>
+    <!-- "Leaves" value when for green leaves -->
+    <string name="annotation_value_green_leaves">برگ های سبز</string>
+    <!-- "Leaves" value when for leaves with colors other than green, e.g. dying leaves in autumn -->
+    <string name="annotation_value_colored_leaves">برگ های رنگی</string>
+    <!-- "Leaves" value when there are no living leaves -->
+    <string name="annotation_value_no_live_leaves">بدون برگ های زنده</string>
+    <!-- "Established" value when the organism is not established, e.g. an escaped pet. See https://www.inaturalist.org/blog/91460-piloting-an-establishment-annotation-with-amphibians-and-reptiles -->
+    <string name="annotation_value_not_established">تشکیل نیافته</string>
+    <!-- Text for a label for a list of projects the viewer has joined -->
+    <string name="joined_projects_all_caps">پیوست</string>
+    <string name="nearby_projects_all_caps">در نزدیکی</string>
+    <string name="featured_projects_all_caps">ویژه</string>
+    <!-- Text for a button or label that allows someone to join a project -->
+    <string name="join_all_caps">پیوستن</string>
+    <string name="my_guides_all_caps">برای شما</string>
+    <string name="nearby_guides_all_caps">در نزدیکی</string>
+    <string name="all_guides_all_caps">همه</string>
+    <string name="description_all_caps">شرح</string>
+    <string name="quantity_all_caps">تعداد</string>
+    <plurals name="observation_count_all_caps">
+        <item quantity="one">%1$s مشاهده</item>
+        <item quantity="other">%1$s مشاهدات</item>
+    </plurals>
+    <string name="agree_all_caps">موافق</string>
+    <string name="observations_all_caps">مشاهدات</string>
+    <string name="species_all_caps">گونه ها</string>
+    <string name="people_all_caps">مردم</string>
+    <string name="identifiers_all_caps">شناسه ها</string>
+    <string name="identifications_all_caps">شناسه ها</string>
+    <string name="news_all_caps">اخبار</string>
+    <string name="got_it_all_caps">فهمیدم!</string>
+    <string name="view_all_all_caps">مشاهده همه</string>
+    <string name="observers_all_caps">ناظران</string>
+    <string name="observations_regular">مشاهدات</string>
+    <string name="data_quality_assessment">ارزیابی کیفیت داده ها</string>
+    <string name="research_grade_qualification">صلاحیت درجه پژوهشی</string>
+    <string name="date_specified">تاریخ مشخص شده</string>
+    <string name="location_specified">مکان مشخص شده است</string>
+    <string name="has_photos_or_sounds">عکس یا صدا دارد</string>
+    <string name="has_id_supported_by_two_or_more">دارای شناسه پشتیبانی شده توسط دو یا چند نفر</string>
+    <string name="date_is_accurate">تاریخ دقیق است</string>
+    <string name="location_is_accurate">مکان دقیق است</string>
+    <string name="organism_is_wild">سازواره وحشی است</string>
+    <string name="evidence_of_organism">شواهد موجودات زنده</string>
+    <string name="recent_evidence_of_an_organism">شواهد اخیر از یک سازواره</string>
+    <string name="community_id_at_species_level_or_lower">شناسه جامعه در سطح گونه یا کمتر</string>
+    <string name="based_on_evidence_can_community_id_be_confirmed">بر اساس شواهد، آیا هنوز هم می توان شناسه انجمن را تأیید یا بهبود بخشید؟</string>
+    <string name="no_as_good_as_it_can_be">نه، آنقدر که می تواند خوب است</string>
+    <string name="evidence_related_to_single_subject">شواهد مربوط به یک موضوع واحد</string>
+    <string name="seasonality">فصلی بودن</string>
+    <string name="verifiable">قابل تایید</string>
+    <string name="no_annotation">بدون حاشیه نویسی</string>
+    <string name="donate_to_inaturalist">به iNaturalist اهدا کنید</string>
+    <string name="prefers_scientific_name_first">ابتدا اسامی علمی را نشان دهید</string>
+    <string name="prefers_scientific_name_first_description">نمایش نام های علمی قبل از نام های رایج.</string>
+    <string name="network_credit_inaturalistcanada"><![CDATA[کانادا: فدراسیون حیات وحش کانادا، موزه سلطنتی انتاریو، NatureServe Canada، و پارک‌های کانادا که iNaturalist Canada را اداره می‌کنند (<a href="https://inaturalist.ca">inaturalist.ca</a>)]]></string>
+    <string name="network_credit_naturalistacolombia"><![CDATA[کلمبیا: مؤسسه هومبولت عامل Naturalista (<a href="https://colombia.inaturalist.org">colombia.inaturalist.org</a>)]]></string>
+    <string name="network_credit_naturalista"><![CDATA[مکزیک: کمیسیون ملی دانش و استفاده از تنوع زیستی (CONABIO) NaturaLista را اداره می‌کند (<a href="https://naturalista.mx">NaturaLista.mx</a>)]]></string>
+    <string name="network_credit_naturewatchnz"><![CDATA[نیوزلند: شبکه ضبط تنوع زیستی نیوزیلند در Naturalist NZ - ماتاکی تایائو (<a href="https://inaturalist.nz">inaturalist.nz</a>)]]></string>
+    <string name="network_credit_biodiversity4all"><![CDATA[پرتغال: Associação Biodiversidade Para Todos Biodiversity4All را اداره می کند (<a href="https://biodiversity4all.org">Biodiversity4All.org</a>)]]></string>
+    <string name="network_credit_inaturalistpanama"><![CDATA[پاناما: وزارت محیط زیست که iNaturalistPa را اداره می کند. (<a href="https://panama.inaturalist.org">panama.inaturalist.org</a>)]]></string>
+    <string name="network_credit_argentinat"><![CDATA[آرژانتین: Fundación Vida Silvestre آرژانتین از ArgentiNat حمایت می کند (<a href="https://www.argentinat.org">www.argentinat.org</a>)]]></string>
+    <string name="network_credit_inaturalistaustralia"><![CDATA[استرالیا: Atlas of Living Australia از iNaturalist استرالیا حمایت می کند (<a href="https://inaturalist.ala.org.au">inaturalist.ala.org.au</a>)]]></string>
+    <string name="network_credit_inaturalistecuador"><![CDATA[اکوادور: موسسه ملی تنوع زیستی (INABIO) از iNaturalist اکوادور حمایت می کند (<a href="https://ecuador.inaturalist.org">ecuador.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistil"><![CDATA[اسرائیل: دانشگاه حیفا از iNaturalist اسرائیل حمایت می‌کند (<a href="https://israel.inaturalist.org">israel.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistfi"><![CDATA[فنلاند: موزه تاریخ طبیعی فنلاند (LUOMUS) حامی iNaturalist فنلاند (<a href="https://inaturalist.laji.fi/"> inaturalist.laji.fi </a>)]]></string>
+    <string name="network_credit_inaturalistcl"><![CDATA[شیلی: Ministryio del Medio Ambiente از iNaturalist Chile حمایت می‌کند (<a href="https://inaturalist.mma.gob.cl/">inaturalist.mma.gob.cl</a>)]]></string>
+    <string name="network_credit_inaturalistgr"><![CDATA[یونان: iSea از یونان iNaturalist پشتیبانی می کند (<a href="https://greece.inaturalist.org">greece.iNaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistlu"><![CDATA[لوکزامبورگ: موزه ملی تاریخ طبیعی لوکزامبورگ (MnhnL) از iNaturalist Luxembourg حمایت می کند (<a href="https://naturalist.lu">naturalist.lu</a>)]]></string>
+    <string name="network_credit_inaturalistuk"><![CDATA[بریتانیا: اعتماد شبکه ملی تنوع زیستی حامی iNaturalist انگلستان (<a href="https://uk.inaturalist.org">uk.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistcr"><![CDATA[کاستاریکا: کمیسیون ملی مدیریت تنوع زیستی (CONAGEBIO) حامی ناتورالیستا کاستاریکا (<a href="https://costarica.inaturalist.org">costarica.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistgt"><![CDATA[گواتمالا: شورای ملی مناطق حفاظت شده (CONAP) از iNaturalist Guatemala حمایت می کند (<a href="https://guatemala.inaturalist.org">guatemala.inaturalist.org</a>)]]></string>
+    <string name="network_credit_inaturalistse"><![CDATA[سوئد: مرکز اطلاعات گونه‌های سوئدی SLU از iNaturalist سوئد پشتیبانی می‌کند (<a href="https://www.inaturalist.se">www.inaturalist.se</a>)]]></string>
+    <string name="network_credit_naturalistauy"><![CDATA[اروگوئه: JULANA و Biodiversidata از Naturalista اوروگوئه حمایت می کنند (<a href="http://www.naturalista.uy/">www.naturalista.uy</a>)]]></string>
+    <string name="network_credit_inaturalisttw"><![CDATA[تایوان: دانشگاه ملی چیای و موسسه تحقیقات جنگلداری تایوان از iNaturalist Taiwan حمایت می کنند (<a href="https://taiwan.inaturalist.org/">https://taiwan.inaturalist.org/</a>)]]></string>
+    <string name="mark_all_as_viewed">همه را به عنوان مشاهده شده علامت گذاری کنید</string>
+    <string name="content_hidden">محتوا پنهان شد</string>
+    <string name="show_hidden_content">نمایش محتوای پنهان</string>
+    <string name="content_hidden_because">محتوا توسط %1$s@ در %2$s پنهان شد زیرا: «%3$s»</string>
+    <string name="contact_support_with_link"><![CDATA[<a href="mailto:help@inaturalist.org">با پشتیبانی تماس بگیرید</a>]]></string>
+    <string name="content">محتوا</string>
+    <string name="has_photos">دارای عکس</string>
+    <string name="has_sounds">دارای صداها</string>
+    <string name="could_not_play_sound">صدا پخش نشد - احتمالاً مشکل شبکه است</string>
+    <string name="cant_play_soundcloud"><![CDATA[برای گوش دادن به صداهای Soundcloud، <a href="%1$s">وب‌سایت</a> را مشاهده کنید.]]></string>
+    <string name="soundcloud">ساندکلود</string>
+    <!-- Label for a button to open a sound recorder to record a new sound for an observation -->
+    <string name="record_sound">ضبط صدا</string>
+    <string name="couldnt_retrieve_sound">صدا از ضبط کننده پیش فرض بازیابی نشد - به جای آن صدا را وارد کنید</string>
+    <!-- Label for a button to import an existing sound for an observation -->
+    <string name="upload_sound">صدا را انتخاب کنید</string>
+    <string name="multi_select_sound_description">با فشار دادن طولانی روی یک صدا، چندین صدا را وارد کنید</string>
+    <string name="alert_unsupported_audio_type">متأسفیم، اما مشکلی در بارگیری صدا از این منبع وجود داشت</string>
+    <string name="invalid_audio_extension">خطا در وارد کردن صدا(ها): فقط می‌تواند فایل‌های صوتی را با پسوندهای WAV/MP3/AMR وارد کند</string>
+    <string name="importing_sounds">در حال وارد کردن صدا(ها)...</string>
+    <string name="observation_sound">صدا مشاهده شده</string>
+    <string name="deleted_sounds_from_cache_error">به نظر می‌رسد با پاک کردن حافظه پنهان برنامه قبل از آپلود، صدا را حذف کرده‌اید.  شما باید صدا را از گالری خود به مشاهده خود اضافه کنید.  در آینده، لطفاً مطمئن شوید که همه صداهای خود را قبل از پاک کردن حافظه پنهان برنامه آپلود کرده اید.</string>
+    <!-- Used when recording a sound - it's a counter, counting the number of seconds that have passed. e.g. 3.2 sec = 3.2. seconds -->
+    <string name="seconds">%1$.1f ثانیه</string>
+    <string name="clear_all_debug_logs">تمام گزارش های اشکال زدایی را پاک کنید</string>
+    <string name="clears_up_storage_room_on_your_phone">فضای ذخیره‌سازی گوشی شما را پاک می کند</string>
+    <string name="number_of_days_to_store_logs">تعداد روزها برای ذخیره اسناد مربوط</string>
+    <string name="send_debug_logs_from_start_date">ارسال گزارش اشکال زدایی از تاریخ شروع</string>
+    <string name="send_debug_logs_by_email">ارسال گزارش اشکال زدایی از طریق ایمیل (از تاریخ شروع مشخص شده)</string>
+    <string name="debug_settings">تنظیمات اشکال زدایی</string>
+    <string name="are_you_sure_you_want_to_delete_logs">آیا مطمئن هستید که می خواهید همه گزارش های اشکال زدایی را حذف کنید؟  فقط اگر می‌خواهید فضای ذخیره‌سازی گوشی خود را خالی کنید، «بله» را فشار دهید</string>
+    <string name="no_log_files_found">هیچ فایل گزارشی برای آن محدوده تاریخ یافت نشد - تاریخ قبلی را امتحان کنید؟</string>
+    <string name="choose_pinned_location">مکان پین شده را انتخاب کنید</string>
+    <string name="pin_current_location">پین کردن مکان فعلی</string>
+    <string name="location_pinned_successfully">مکان فعلی با موفقیت پین شد</string>
+    <string name="delete_this_pinned_location">این مکان پین شده حذف شود؟</string>
+    <!-- Verb, as in "Duplicate this photo" - Second person imperative -->
+    <string name="duplicate">کپی</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the photo for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_photo">عکس کپی نشد!</string>
+    <string name="couldnt_edit_photo">نمی توان عکس را ویرایش کرد!</string>
+    <!-- Verb, as in "Rotate this photo" -->
+    <string name="ucrop_rotate">چرخاندن</string>
+    <!-- Verb, as in "Scale (resize) this photo" -->
+    <string name="ucrop_scale">مقیاس</string>
+    <!-- Verb, as in "Crop this photo" -->
+    <string name="ucrop_crop">بریدن</string>
+    <!-- Label for adjusting the brightness of an image -->
+    <string name="ucrop_brightness">روشنایی</string>
+    <!-- Label for adjusting the contrast of an image -->
+    <string name="ucrop_contrast">کنتراست</string>
+    <!-- Label for adjusting the saturation of an image -->
+    <string name="ucrop_saturation">اشباع رنگ</string>
+    <!-- Label for adjusting the sharpness of an image -->
+    <string name="ucrop_sharpness">میزان وضوح تصاویر</string>
+    <!-- Label for image cropping mode that maintains the original aspect ratio -->
+    <string name="ucrop_label_original">اصلی</string>
+    <!-- Label for image cropping mode that has no limits on the aspect ratio -->
+    <string name="ucrop_label_free">آزاد</string>
+    <!-- Verb phrase, button label to edit an observation photo -->
+    <string name="ucrop_label_edit_photo">ویرایش عکس</string>
+    <string name="service_temporarily_unavailable">سرویس موقتا در دسترس نیست.</string>
+    <string name="please_try_again_in_a_few_hours">لطفاً چند ساعت دیگر دوباره امتحان کنید.</string>
+    <!-- e.g. "Please try again in 3 hours", or "Please try again in 15 minutes" -->
+    <string name="please_try_again_in_x">لطفاً بعد از %1$d %2$s دوباره امتحان کنید.</string>
+    <string name="hours">ساعات</string>
+    <string name="minutes">دقایق</string>
+    <string name="seconds_value">ثانیه ها</string>
+    <string name="shop_the_inat_store">از فروشگاه iNat خرید کنید</string>
+    <string name="delete_your_account">حساب کاربری خود را حذف کنید</string>
+    <string name="delete_account_message"><![CDATA[با حذف حساب خود، موارد زیر را حذف خواهید کرد:<br/><br/><ul><li> همه مشاهدات خود، از جمله کارهای همه افرادی که در زمینه شناسایی به شما کمک کرده اند.</li><li>  همه شناسه‌هایی که به مشاهدات افراد دیگر اضافه کرده‌اید، که به طور بالقوه بر کیفیت داده‌های آن مشاهدات تأثیر می‌گذارد.</li><li> همه نظراتی که اضافه کرده‌اید.</li></  ul><br/>علاوه بر این، این عمل قابل واگرد نیست.  اگر بعداً نظر خود را تغییر دهید، هیچ یک از آن محتوا را پس نمی‌گیرید.<br/><br/>اگر این سرویس اعلان‌های زیادی تولید می‌کند، <a href="https://www.inaturalist.org را در نظر بگیرید.  /users/edit">ویرایش تنظیمات خود در وب سایت</a> برای انصراف از برخی اعلان ها یا توقف دریافت ایمیل از ما.  اگر با شخص خاصی مشکل دارید، به جای حذف حساب خود <a href="https://www.inaturalist.org/users/edit">او را نادیده بگیرید</a>.<br/><  br/>اگر هنوز مطمئن هستید که می‌خواهید حساب خود را حذف کنید، <b>\"%1$s\"</b> را در فرم زیر وارد کنید و روی دکمه کلیک کنید تا حساب و همه داده‌هایتان حذف شود.]]></string>
+    <string name="your_account_has_been_deleted">حساب شما حذف شده است</string>
+    <string name="you_must_enter_username_in_the_form_to_delete_account">برای حذف حساب خود باید «%1$s» را در فرم وارد کنید</string>
+    <!-- Second person hint text asking the user to enter their username -->
+    <string name="type_your_username">نام کاربری خود را تایپ کنید</string>
+    <string name="error_deleting_account">هنگام حذف حساب شما خطایی روی داد - لطفاً اتصال اینترنت خود را بررسی کنید</string>
+    <string name="verify_your_password">رمز عبور خود را تأیید کنید</string>
+    <string name="third_party_data_sharing">اشتراک گذاری داده های شخص ثالث</string>
+    <string name="disable_third_party_data_sharing">اشتراک‌گذاری داده‌های شخص ثالث را غیرفعال کنید</string>
+    <string name="do_not_collect_third_party_data">داده های پایداری و استفاده را با استفاده از خدمات شخص ثالث جمع‌آوری نکنید</string>
+    <string name="enabled">فعال شد</string>
+    <string name="disabled">غیرفعال شده</string>
+    <string name="third_party_data_sharing_notes1"><![CDATA[ما از انواع خدمات شخص ثالث برای نظارت بر ثبات و تشخیص اشکالات و مشکلات در نرم افزار خود استفاده می کنیم.  این اشخاص ثالث عبارتند از:<br/><ul><li>Google (<a href="https://analytics.google.com/">Google Analytics</a>، <a href="https://  firebase.google.com/products/crashlytics/">Firebase Crashlytics</a>)</li><li><a href="https://newrelic.com/">New Relic</a></li  </ul>]]></string>
+    <string name="third_party_data_sharing_notes2"><![CDATA[اطلاعاتی که با این اشخاص ثالث به اشتراک می گذاریم عبارتند از:<br/><ul><li> آدرس های IP (که می توانند برای بدست آوردن موقعیت مکانی در سطح شهر و ردیابی شما در وب سایت ها و سرویس های مختلف استفاده شوند؛ توجه داشته باشید که ما فعال کرده ایم.  <a href="https://support.google.com/analytics/answer/2763052">ناشناس‌سازی IP</a> در Google Analytics و <a href="https://firebase.google.com/support/privacy  ">Firebase Crashlytics</a> آدرس IP را طبق اطلاعات ما ضبط نمی کند)</li><li>جزئیات مرورگر، مانند ساخت، مدل، و نسخه</li><li>جزئیات خرابی، مانند اینکه دقیقاً کدام خط کد  باعث خرابی شد</li><li>جزئیات دستگاه، مانند برند و مدل تلفن همراه</li></ul>]]></string>
+    <string name="third_party_data_sharing_notes3"><![CDATA[<b>این خدمات شخص ثالث ارزش بسیار زیادی را برای ما در حفظ ثبات و قابلیت استفاده iNaturalist با کارکنان نسبتاً کوچک ما فراهم می‌کنند.  در دستگاه‌های تلفن همراه، تقریباً هیچ راه دیگری وجود ندارد که بتوانیم بینشی در مورد مشکلاتی که رخ می‌دهند به دست آوریم، زیرا نرم‌افزار روی دستگاه‌هایی اجرا می‌شود که ما کنترل نمی‌کنیم.  گاهی اوقات تا زمانی که آنها را در داده‌هایی که این سرویس‌ها ارائه می‌کنند نبینیم، حتی از وقوع چنین مشکلاتی آگاه نیستیم.  <b>با اشتراک گذاری این اطلاعات، به ما کمک می کنید تا به شما و کل جامعه iNaturalist خدمت کنیم.</b>]]></string>
+    <string name="third_party_data_sharing_notes4"><![CDATA[توجه داشته باشید که این گزینه فقط برای تجزیه و تحلیل و داده های خرابی اعمال می شود که به صراحت برای این شرکت ها ارسال می کنیم.  همه سرورهای iNaturalist توسط مایکروسافت ارائه و میزبانی می شوند، همه تصاویر iNaturalist توسط آمازون میزبانی می شوند و تقریباً تمام نقشه های iNaturalist توسط Google ارائه می شوند، به این معنی که هر بار که به مشاهده ای در iNaturalist نگاه می کنید، به خدمات ارائه شده توسط این شرکت ها متصل می شوید و  آدرس IP خود را حداقل در معرض دید آنها قرار دهید (در برنامه آیفون ما از نقشه های اپل استفاده می کنیم).  iNaturalist احتمالاً بدون خدماتی که این شرکت‌ها ارائه می‌کنند وجود نخواهد داشت، و در حالی که ما می‌توانیم مقدار و نوع داده‌هایی را که با آنها به اشتراک می‌گذارید در حین استفاده از iNat محدود کنیم، نمی‌توانیم جریان داده‌ها را به طور کامل متوقف کنیم.]]></string>
+    <string name="common_names_place"><![CDATA[فهرست اسامی عامیانه: <b>%1$s</b>]]></string>
+    <string name="tap_to_prioritize_common_names">برای اولویت بندی نام های رایج از یک مکان خاص، ضربه بزنید.</string>
+    <string name="search_places">جستجوی مکان ها</string>
+    <string name="restart_app">برنامه را مجددا راه‌اندازی کنید</string>
+    <string name="disable_third_party_sharing_restart">برای غیرفعال کردن فوری اشتراک‌گذاری داده شخص ثالث، برنامه باید راه‌اندازی مجدد شود.</string>
+    <plurals name="are_you_sure_you_want_to_delete_observations">
+        <item quantity="one">آیا مطمئنید که می‌خواهید این %1$d مشاهده را حذف کنید؟</item>
+        <item quantity="other">آیا مطمئنید که می خواهید این %1$d مشاهدات را حذف کنید؟</item>
+    </plurals>
+    <string name="future_observed_on_date_error">Your observation was created (and submitted) on %1$s, but you\'re trying to set an observation date that is later than that: %2$s</string>
+    <string name="no_more_photos_allowed">مشاهدات فقط می توانند %1$d عکس داشته باشند.  برای افزودن موارد بیشتر، باید تعدادی را حذف کنید.</string>
+    <string name="warning_multiple_photos">اگر عکس‌هایی از انواع مختلف موجودات زنده به این مشاهده اضافه می‌کنید، یا همان نوع موجود در مکان‌ها یا زمان‌های مختلف، باید آن عکس‌ها را حذف کرده و به‌عنوان مشاهدات جداگانه اضافه کنید.  یک مشاهده فقط می تواند %1$d عکس داشته باشد.</string>
+    <string name="choosing_specific_language_warning">انتخاب یک زبان خاص برای حساب کاربری شما نیاز به اتصال اینترنت دارد</string>
+    <string name="running_in_background_notfication">در حال اجرا در پس زمینه تا بتوانیم بدون وقفه اجرا کنیم</string>
+    <string name="opt_out_of_community_taxon">از انجمن تاکسون انصراف دهید</string>
+    <string name="opt_in_to_community_taxon">در انجمن تاکسون شرکت کنید</string>
+    <string name="opt_out_message">انصراف از تاکسون انجمن این مشاهده را مجبور می‌کند تا با تاکسون شناسایی فعلی شما مرتبط شود، نه تاکسونی که از همه شناسایی‌هایی که به این مشاهدات اضافه شده‌اند به دست آمده است.  اگر تعداد کافی شناسه با شما مخالف باشد، مشاهده شما غیررسمی خواهد شد.  فقط در صورتی باید انصراف دهید که مطمئن باشید شناسایی شما صحیح است و سایر شناسایی ها نادرست هستند.</string>
+    <!-- Dialog title when notifying the user that the action they tried to perform requires them to grant location permission to the app -->
+    <string name="permission_required">مجوز لازم است</string>
+    <!-- Message displayed when the user tries to perform an action that requires location permission -->
+    <string name="to_access_your_location">برای دسترسی به موقعیت مکانی خود باید مجوز دسترسی به موقعیت مکانی را به این برنامه بدهید.</string>
+    <!-- Dialog title when displaying a message that an action is not permitted -->
+    <string name="forbidden">ممنوع</string>
+    <!-- Message displayed when the user tries to share media with the iNat app from another app that from which iNat does not accept media -->
+    <string name="app_you_shared_blocked">برنامه‌ای که از آن به اشتراک گذاشته‌اید، عکس‌هایی را ایجاد می‌کند که برای مشاهده مناسب نیستند، زیرا نشان‌دهنده تجربه شما با ارگانیسم دیگری نیستند، زیرا حاوی نام تجاری یا محتوای تجاری نامناسب هستند، یا به این دلیل که شرایط خدمات ما را به روش‌های دیگر نقض می‌کنند.</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="list_observation_checkbox_description">چک باکس برای انتخاب مشاهده در حالت انتخاب چندگانه</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="observation_list_item_iconic_pic_description">عکس کوچک برای مشاهده تاکسون</string>
+    <!-- Description of a UI element for screen readers -->
+    <string name="observation_list_item_obs_pic_description">عکس کوچک برای مشاهده</string>
+    <string name="messages">پیام ها</string>
+    <string name="all_messages">همه پیام ها</string>
+    <string name="search_messages">جستجوی پیام ها</string>
+    <string name="no_messages">شما در حال حاضر هیچ پیامی ندارید.  می توانید با دکمه سبز پیام جدیدی ارسال کنید یا از صفحه نمایه آنها پیام دهید.</string>
+    <string name="no_messages_found">هیچ پیامی یافت نشد</string>
+    <string name="send_a_message">ارسال یک پیام</string>
+    <string name="sending_message">ارسال پیام...</string>
+    <string name="could_not_send_message">پیام ارسال نشد: %1$s</string>
+    <string name="subject">موضوع</string>
+    <string name="body">بدن</string>
+    <string name="type_your_message_here">پیام خود را اینجا تایپ کنید</string>
+    <string name="new_message_to">پیام جدید به %1$s</string>
+    <string name="who_would_you_like_to_send_a_message_to">دوست دارید برای چه کسی پیام ارسال کنید؟</string>
+    <string name="new_message">پیام جدید</string>
+    <string name="search_for_inaturalist_users">کاربران iNaturalist را جستجو کنید</string>
+    <string name="please_sign_in_for_messages">برای مشاهده پیام های خود باید وارد شوید.</string>
+    <string name="sorry">متاسف</string>
+    <string name="you_must_have_three_observations">برای انجام این کار باید سه مشاهده قابل تأیید یا سه شناسایی برای دیگران داشته باشید.</string>
+    <string name="mute_this_user">این کاربر را نادیده بگیرید</string>
+    <string name="unmute_this_user">این کاربر را باصدا کنید</string>
+    <string name="flag_this_conversation">این مکالمه را پرچم گذاری کنید</string>
+    <string name="mute_this_user_question">این کاربر بی صدا شود؟</string>
+    <string name="you_will_no_longer_receive_messages">دیگر هیچ اعلانی درباره فعالیت این کاربر، از جمله پیام‌ها، نظرات، شناسایی‌ها و اشاره‌ها دریافت نخواهید کرد.</string>
+    <string name="mute">بی صدا</string>
+    <string name="muting_user">نادیده گرفتن کاربر...</string>
+    <string name="unmuting_user">لغو نادیده گرفتن کاربر...</string>
+    <string name="failed_muting_user">نادیده گرفتن کاربر ناموفق بود!</string>
+    <string name="failed_unmuting_user">لغو نادیده کاربر ناموفق بود!</string>
+    <string name="flag_conversation">پرچم گذاری مکالمه</string>
+    <string name="spam">هرزنامه</string>
+    <string name="commercial_solicitation">درخواست تجاری، پیوند به هیچ جا و غیره.</string>
+    <string name="offensive_inappropriate">توهین آمیز / نامناسب</string>
+    <string name="misleading_or_illegal_content">محتوای گمراه‌کننده یا غیرقانونی، توهین‌های نژادی یا قومیتی، و غیره. برای اطلاعات بیشتر در مورد تعریف «مناسب»، به پرسش‌های متداول مراجعه کنید.</string>
+    <string name="other">دیگر</string>
+    <string name="some_other_reason">یک دلیل دیگر که می توانید توضیح دهید.</string>
+    <string name="continue_text">ادامه</string>
+    <string name="why_are_you_flagging_this_item">چرا این مورد را پرچم گذاری می کنید؟</string>
+    <string name="thank_you_for_submitting_the_flag">از شما برای ارسال پرچم متشکریم!</string>
+    <string name="flagging_conversation">پرچم گذاری مکالمه...</string>
+    <string name="failed_flagging_conversation">پرچم گذاری مکالمه ناموفق بود!</string>
+    <string name="no_subject">بدون موضوع</string>
+    <!-- As in "matter and energy", or "life is a self-replicating pattern of matter subject to evolutionary processes" -->
+    <string name="rank_state_of_matter">حالت ماده</string>
+    <string name="rank_kingdom">پادشاهی</string>
+    <string name="rank_subkingdom">زیر فرمانرو</string>
+    <string name="rank_phylum">شاخه</string>
+    <string name="rank_subphylum">دودمان</string>
+    <string name="rank_superclass">ابَر رده</string>
+    <string name="rank_class">رده</string>
+    <string name="rank_subclass">زیر رده</string>
+    <string name="rank_infraclass">فُرورَده</string>
+    <string name="rank_superorder">میان رده</string>
+    <string name="rank_order">رسته</string>
+    <string name="rank_suborder">زیر راسته</string>
+    <string name="rank_infraorder">نا هم رگه</string>
+    <string name="rank_subterclass">خردپایان</string>
+    <string name="rank_parvorder">شریک کننده</string>
+    <string name="rank_zoosection">بخش باغ وحش</string>
+    <string name="rank_zoosubsection">زیربخش باغ وحش</string>
+    <string name="rank_superfamily">ابَر تیره</string>
+    <string name="rank_epifamily">برون تیره</string>
+    <string name="rank_family">تیره</string>
+    <string name="rank_subfamily">زیر خانواده</string>
+    <string name="rank_supertribe">ابَر خانواده</string>
+    <string name="rank_tribe">قبیله</string>
+    <string name="rank_subtribe">زیر قبیله</string>
+    <string name="rank_genus">سرده</string>
+    <string name="rank_genushybrid">دورگه</string>
+    <string name="rank_subgenus">زیر سرده</string>
+    <string name="rank_section">بخش</string>
+    <string name="rank_subsection">زیر بخش</string>
+    <string name="rank_complex">مجتمع</string>
+    <!-- Singular -->
+    <string name="rank_species">گونه ها</string>
+    <string name="rank_hybrid">ترکیبی</string>
+    <!-- Singular -->
+    <string name="rank_subspecies">زیرگونه ها</string>
+    <string name="rank_variety">تنوع</string>
+    <string name="rank_form">فرم</string>
+    <string name="rank_infrahybrid">زیرساخت ترکیبی</string>
+    <string name="rank_leaves">برگها</string>
+    <string name="location_lat_lng">مکان: %1$f, %2$f</string>
+    <string name="i_consent_process_personal_info"><![CDATA[من موافقت می‌کنم که به iNaturalist اجازه می‌دهم انواع محدودی از اطلاعات شخصی من را برای مدیریت حساب من ذخیره و پردازش کند.  <b>بیشتر بیاموزید</b>]]></string>
+    <string name="about_personal_information">درباره اطلاعات شخصی</string>
+    <string name="personal_information_notes"><![CDATA[ما اطلاعات شخصی مانند نام‌های کاربری و آدرس‌های ایمیل را برای مدیریت حساب‌ها در این سایت ذخیره می‌کنیم و برای رعایت قوانین حفظ حریم خصوصی، باید این کادر را علامت بزنید تا نشان دهید که با این استفاده از اطلاعات شخصی موافقت می‌کنید.  برای کسب اطلاعات بیشتر درباره اطلاعاتی که جمع‌آوری می‌کنیم و نحوه استفاده از آن‌ها، لطفاً به <a href="https://www.inaturalist.org/privacy">خط‌مشی رازداری</a> و <a href="https:  //www.inaturalist.org/terms">شرایط خدمات</a>.]]></string>
+    <string name="i_agree_to_tos_and_privacy"><![CDATA[من با <a href="https://www.inaturalist.org/terms">شرایط خدمات</a> و <a href="https://www.inaturalist.org/privacy">خط‌مشی رازداری موافقم  </a>، و من <a href="https://www.inaturalist.org/pages/community+guidelines">دستورالعمل‌های انجمن</a> را بررسی کرده‌ام.]]></string>
+    <string name="privacy_policy">سیاست پردازش اطلاعات محرمانه</string>
+    <string name="terms_of_service">شرایط خدمات</string>
+    <!-- Placeholder text shown in place of a username when the user has been deleted -->
+    <string name="deleted_user">کاربر حذف شده</string>
+    <!-- Short date formatting template for dates in the current year. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_short_this_year">d MMM</string>
+    <!-- Short date formatting template for any date. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_short">MM/dd/yy</string>
+    <!-- Short time formatting template for 24-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="time_short_24_hour">HH:mm</string>
+    <!-- Short time formatting template for 12-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="time_short_12_hour">hh:mma</string>
+    <!-- Long date formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_long">MMM d, yyyy</string>
+    <!-- Obscured observations date formatting template (only month+year). Note that non-formatting letters should be surrounded by single quotes, and to include an actual single quote you need to double it, so "MMM ''yy" will render as "Oct '24", and "'Month:' MMM, ''yy" will render as "Month: Oct '24" Odd numbers of single quotes are not allowed. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_obscured">MMM \'\'yy</string>
+    <!-- Long date with time formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="date_long_with_time">MMMM d, yyyy hh:mma</string>
+    <string name="show_common_names">نمایش نام های رایج</string>
+    <string name="show_common_names_description">اگر فقط می خواهید نام های علمی را مشاهده کنید غیرفعال کنید.</string>
+    <string name="email_must_look_like_email_address">ایمیل باید شبیه یک آدرس ایمیل باشد</string>
+    <string name="username_must_begin_with">نام کاربری باید با یک حرف شروع شود، بدون فاصله باشد و فقط از حروف، اعداد، خط تیره و زیرخط استفاده کند.</string>
+    <string name="password_too_short">رمز عبور باید حداقل شش کاراکتر باشد</string>
+    <string name="switch_to_grid_view">به نمای شبکه ای بروید</string>
+    <string name="switch_to_list_view">به نمای فهرست تغییر دهید</string>
+    <string name="remove_project_filter">فیلتر پروژه را حذف کنید</string>
+    <string name="remove_observer_filter">فیلتر ناظر را بردارید</string>
+    <string name="filter_observations_by_an_exact_date">مشاهدات را بر اساس تاریخ دقیق فیلتر کنید</string>
+    <string name="filter_observations_by_a_date_range">مشاهدات را بر اساس محدوده تاریخ فیلتر کنید</string>
+    <string name="filter_observations_by_months">مشاهدات را بر اساس ماه ها فیلتر کنید</string>
+    <!-- Used to demonstrate annotation filters, e.g. Life Stage = Egg -->
+    <string name="equals_sign">=</string>
+    <string name="include_suggestions_not_seen_nearby">شامل پیشنهاداتی که در این نزدیکی دیده نمی شوند</string>
+    <string name="only_view_nearby_suggestions">فقط پیشنهادهای نزدیک را مشاهده کنید</string>
+    <string name="suggestions_source">منبع پیشنهادها</string>
+    <string name="research_grade_observations">مشاهدات درجه تحقیق</string>
+    <string name="visually_similar_description">iNaturalist پیشنهاداتی را بر اساس شباهت بصری تصاویر به گونه‌های مشاهده شده در نزدیکی این مکان در این زمان از سال ارائه خواهد کرد.</string>
+    <string name="research_grade_observations_description">به جای پیشنهادها بصری مشابه، iNaturalist گونه هایی را پیشنهاد می کند که در یک مکان خاص و در یک گروه طبقه‌بندی خاص مشاهده شده اند.</string>
+    <string name="taxon">تاکسون:</string>
+    <string name="place">مکان:</string>
+    <string name="pretty_sure_kingdom">ما تقریباً مطمئن هستیم که در این قلمرو پادشاهی است:</string>
+    <string name="pretty_sure_subkingdom">ما تقریباً مطمئن هستیم که در این زیرقلمرو وجود دارد:</string>
+    <string name="pretty_sure_phylum">ما تقریباً مطمئن هستیم که در این شاخه قرار دارد:</string>
+    <string name="pretty_sure_subphylum">ما تقریباً مطمئن هستیم که در این زیرشاخه قرار دارد:</string>
+    <string name="pretty_sure_superclass">ما تقریباً مطمئن هستیم که در این ابَر رده است:</string>
+    <string name="pretty_sure_class">ما تقریباً مطمئن هستیم که در این رده است:</string>
+    <string name="pretty_sure_subclass">ما تقریباً مطمئن هستیم که در این زیر رده است:</string>
+    <string name="pretty_sure_infraclass">ما تقریباً مطمئن هستیم که در این فُرورَده است:</string>
+    <string name="pretty_sure_superorder">ما تقریباً مطمئن هستیم که در این ابَر راسته است:</string>
+    <string name="pretty_sure_order">ما تقریباً مطمئن هستیم که در این راسته است:</string>
+    <string name="pretty_sure_suborder">ما تقریباً مطمئن هستیم که در این زیر راسته است:</string>
+    <string name="pretty_sure_infraorder">ما تقریباً مطمئن هستیم که در این نا هم رگه است:</string>
+    <string name="pretty_sure_subterclass">ما تقریباً مطمئن هستیم که در این زیر رده قرار دارد:</string>
+    <string name="pretty_sure_parvorder">ما تقریباً مطمئن هستیم که در این فُروراسته وجود دارد:</string>
+    <string name="pretty_sure_zoosection">ما تقریباً مطمئن هستیم که در این بخش باغ وحش وجود دارد:</string>
+    <string name="pretty_sure_zoosubsection">ما تقریباً مطمئن هستیم که در این زیربخش باغ وحش وجود دارد:</string>
+    <string name="pretty_sure_superfamily">ما تقریباً مطمئن هستیم که در این ابَرخانواده است:</string>
+    <string name="pretty_sure_epifamily">ما تقریباً مطمئن هستیم که در این برون خانواده وجود دارد:</string>
+    <string name="pretty_sure_family">ما تقریباً مطمئن هستیم که در این خانواده است:</string>
+    <string name="pretty_sure_subfamily">ما تقریباً مطمئن هستیم که در این زیرخانواده است:</string>
+    <string name="pretty_sure_supertribe">ما تقریباً مطمئن هستیم که در این ابَر قبیله است:</string>
+    <string name="pretty_sure_tribe">ما تقریباً مطمئن هستیم که در این قبیله است:</string>
+    <string name="pretty_sure_subtribe">ما تقریباً مطمئن هستیم که در این زیر قبیله است:</string>
+    <string name="pretty_sure_genus">ما تقریباً مطمئن هستیم که در این جنس است:</string>
+    <string name="pretty_sure_genushybrid">ما تقریباً مطمئن هستیم که در این ترکیب جنس وجود دارد:</string>
+    <string name="pretty_sure_subgenus">ما تقریباً مطمئن هستیم که در این زیرسرده است:</string>
+    <string name="pretty_sure_section">ما تقریباً مطمئن هستیم که در این بخش است:</string>
+    <string name="pretty_sure_subsection">ما تقریباً مطمئن هستیم که در این زیربخش است:</string>
+    <string name="pretty_sure_complex">ما تقریباً مطمئن هستیم که در این مجموعه است:</string>
+    <!-- Singular -->
+    <string name="pretty_sure_species">ما تقریباً مطمئن هستیم که در این گونه است:</string>
+    <string name="pretty_sure_hybrid">ما تقریباً مطمئن هستیم که در این ترکیب است:</string>
+    <!-- Singular -->
+    <string name="pretty_sure_subspecies">ما تقریباً مطمئن هستیم که در این زیرگونه است:</string>
+    <string name="pretty_sure_variety">ما تقریباً مطمئن هستیم که در این واریته است:</string>
+    <string name="pretty_sure_form">ما تقریباً مطمئن هستیم که به این شکل است:</string>
+    <string name="pretty_sure_infrahybrid">ما تقریباً مطمئن هستیم که در این فُرو ترکیب وجود دارد:</string>
+    <string name="remove_date_observed">حذف تاریخ &amp;  زمان مشاهده شده</string>
+    <string name="remove_time_observed">زمان مشاهده شده را حذف کنید</string>
+    <string name="remove_location">حذف مکان</string>
+    <string name="are_you_sure_you_want_to_remove_date">آیا مطمئن هستید که می خواهید تاریخ را حذف کنید &amp;  زمان مشاهده شده؟</string>
+    <string name="are_you_sure_you_want_to_remove_time">آیا مطمئن هستید که می خواهید زمان مشاهده شده را حذف کنید؟</string>
+    <string name="are_you_sure_you_want_to_remove_location">آیا مطمئن هستید که می خواهید مکان را حذف کنید؟</string>
+    <string name="share_location">اشتراک گذاری مکان</string>
+    <string name="share_hidden_location">مکان پنهان را به اشتراک بگذارید</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the sound for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_sound">صدا کپی نشد!</string>
+    <string name="sound_format_not_supported">آن کدگذاری صوتی توسط Android پشتیبانی نمی شود.</string>
+    <string name="view_observations">مشاهده مشاهدات</string>
+    <string name="choose_this_option">این گزینه را انتخاب کنید</string>
+    <string name="compare_observation_with_this_option">مشاهده را با این گزینه مقایسه کنید</string>
+    <string name="go_back">برگرد</string>
+    <string name="change_the_source_of_the_suggestions">منبع پیشنهادها را تغییر دهید</string>
+    <string name="thumbnail_photo_for_suggested_taxon">عکس کوچک برای تاکسون پیشنهادی</string>
+    <!-- Accessibility text for the comments and IDs tab on the observation detail view -->
+    <string name="comments_ids_title">نظرات و شناسایی ها</string>
+    <!-- Accessibility text for the faves tab on the observation detail view -->
+    <string name="faves">مورد علاقه ها</string>
+    <!-- Accessibility text for a button that navigates to the previous option in a list of options -->
+    <string name="previous_option">گزینه قبلی</string>
+    <!-- Accessibility text for a button that navigates to the next option in a list of options -->
+    <string name="next_option">گزینه بعدی</string>
+    <string name="no_observations_yet2">هنوز مشاهداتی وجود ندارد.</string>
+    <string name="no_species_yet">هنوز هیچ گونه ای وجود ندارد.</string>
+    <string name="no_identifications_yet">هنوز هیچ شناسایی وجود ندارد.</string>
+    <string name="sort_by">مرتب‌سازی بر اساس</string>
+    <string-array name="explore_order_by_items">
+        <item>تاریخ اضافه شده</item>
+        <item>تاریخ مشاهده</item>
+        <item>تاریخ به روز رسانی</item>
+        <!--<item>Faves</item>-->
+        <item>تصادفی</item>
+    </string-array>
+    <string-array name="explore_order_items">
+        <item>نزولی</item>
+        <item>صعودی</item>
+    </string-array>
+    <!-- Full sentence will look something like: "Sorted by Date Observed (Descending)" -
+    See explore_order_by_items and explore_order_items keys !-->
+    <string name="sorted_by_full">مرتب شده بر اساس %1$s (%2$s)</string>
+    <!-- Label for an observation search filter to exclude your own observations -->
+    <string name="hide_my_observations">پنهان کردن مشاهدات من</string>
+    <!-- Label for an option to follow an observation, i.e. subscribe to future updates -->
+    <string name="follow_this_observation">این مشاهده را دنبال کنید</string>
+    <!-- Label for an option to unfollow an observation, i.e. unsubscribe to future updates -->
+    <string name="unfollow_this_observation">این مشاهده را لغو دنبال کنید</string>
+    <!-- Error message shown when an attempt to follow an observation fails -->
+    <string name="could_not_follow_observation">نمی توان این مشاهده را دنبال کرد</string>
+    <!-- Error message shown when an attempt to unfollow an observation fails -->
+    <string name="could_not_unfollow_observation">نمی توان این مشاهده را لغو کرد</string>
+    <!-- Label for a button to copy the coordinates of an observation -->
+    <string name="copy_coordinates">کپی مختصات</string>
+    <string name="coordinates_copied_to_clipboard">مختصات در حافظه موقت کپی شد</string>
+    <!--  Title of a section on the observation detail view that displays minor metadata  -->
+    <string name="metadata">متادیتا</string>
+    <!--  iNat observation identifier  -->
+    <string name="id">شناسه</string>
+    <!--  iNat observation Universally Unique Identifier  -->
+    <string name="uuid">شناسه منحصر به فرد همگانی</string>
+    <!--  Universal Resource Locator  -->
+    <string name="url">نشانی اینترنتی</string>
+    <string name="default_licenses">مجوز های پیش فرض</string>
+    <string name="default_observation_license">مجوز مشاهده پیش فرض</string>
+    <string name="default_photo_license">مجوز پیش فرض عکس</string>
+    <string name="default_sound_license">مجوز پیش فرض صدا</string>
+    <string name="change_existing_licenses">تغییر مجوزهای موجود</string>
+    <string name="change_licenses_for_existing_observations">مجوزها را برای مشاهدات، عکس ها و صداهای موجود تغییر دهید</string>
+    <string name="change_licenses_for_all_existing_observations">مجوزها را برای همه مشاهدات موجود تغییر دهید</string>
+    <string name="change_licenses_for_all_existing_photos">تغییر مجوز برای همه عکس های موجود</string>
+    <string name="change_licenses_for_all_existing_sounds">مجوزها را برای همه صداهای موجود تغییر دهید</string>
+    <string name="change_observation_licenses">تغییر مجوزهای مشاهده</string>
+    <string name="change_photo_licenses">مجوزهای عکس را تغییر دهید</string>
+    <string name="change_sound_licenses">مجوزهای صدا را تغییر دهید</string>
+    <string name="change_licenses_for_observations_confirmation"><![CDATA[مجوزهای <b>%1$d</b> مشاهدات موجود را به <b>%2$s</b> تغییر دهید؟]]></string>
+    <string name="change_licenses_for_photos_confirmation"><![CDATA[مجوز عکس‌های موجود را به <b>%1$s</b> تغییر دهید؟]]></string>
+    <string name="change_licenses_for_sounds_confirmation"><![CDATA[مجوزهای صداهای موجود را به <b>%1$s</b> تغییر دهید؟]]></string>
+    <string name="observation_licenses_updated">مجوزهای مشاهده به روز شد</string>
+    <string name="photo_licenses_updated">مجوزهای عکس به روز شد</string>
+    <string name="sound_licenses_updated">مجوزهای صدا به روز شد</string>
+    <string name="existing_observation_licenses_have_been_updated">همه مجوزهای مشاهده موجود به %1$s تغییر یافته است.</string>
+    <string name="existing_photo_licenses_have_been_updated">همه مجوزهای عکس موجود به %1$s تغییر یافته است.</string>
+    <string name="existing_sound_licenses_have_been_updated">همه مجوزهای صوتی موجود به %1$s تغییر یافته است.</string>
+    <string name="default_licenses_description"><![CDATA[مجوز دادن به محتوای شما به هر کس حق قانونی برای استفاده از آن را می‌دهد بدون این که از شما اجازه بخواهد که از شرایط مجوز تبعیت کنند. علاوه بر این، inat شامل محتوای غیر مجاز شما در بایگانی منظم تولید شده برای انتخاب سازمان‌های شریک علاقه‌مند به داده‌های ما می‌شود. به عنوان مثال، ما نه حق نسخه‌برداری (CC۰)، اسناد (CC به وسیله)، و اسناد اسناد (CC - NC)در بایگانی که برای the (href)< / a >، یک سازمان بین‌المللی، بین دولتی که گردآوری و توزیع می‌کند و اطلاعات گوناگونی را از سراسر جهان توزیع می‌کند.]]></string>
+    <string name="photo_license">مجوز عکس</string>
+    <string name="sound_license">مجوز صدا</string>
+    <string name="edit_photo_license">ویرایش مجوز عکس</string>
+    <string name="observation_license">مجوز مشاهده</string>
+    <string name="edit_observation_license">ویرایش مجوز مشاهده</string>
+    <string name="about_licenses">درباره مجوزها</string>
+    <string name="view_license">مشاهده مجوز</string>
+    <!-- License Names -->
+    <string name="license_name_cc0">دامنه عمومی</string>
+    <string name="license_name_cc_by">ارجاع</string>
+    <string name="license_name_cc_by_nc">ارجاع-غیر تجاری</string>
+    <string name="license_name_cc_by_nc_sa">ارجاع-غیرتجاری-اشتراک همسان</string>
+    <string name="license_name_cc_by_nc_nd">ارجاع-غیرتجاری-بدون اشتقاق</string>
+    <string name="license_name_cc_by_nd">ارجاع-بدون اشتقاق</string>
+    <string name="license_name_cc_by_sa">ارجاع-اشتراک همسان</string>
+    <string name="license_name_no_license">تمامی حقوق محفوظ است</string>
+    <!-- License Descriptions -->
+    <string name="license_description_cc0">این مجوز کار شما را در مالکیت عمومی منتشر می‌کند، بنابراین دیگران می‌توانند کار شما را حتی برای مقاصد تجاری، کپی، اصلاح، توزیع و انجام دهند، همه اینها بدون درخواست اجازه یا دادن اعتبار به شما.  این سازگارترین مجوز ارائه شده است.  برای حداکثر انتشار و استفاده از مواد دارای مجوز توصیه می شود.</string>
+    <string name="license_description_cc_by">این مجوز امکان کپی، نشر، نمایش و اجرا اثر و آثار اشتقاقی آن را می‌دهد فقط در صورتی که حق تعیین نحوهٔ استفاده برای مجوز دهنده یا پدیدآورنده اثر محفوظ باشد.</string>
+    <string name="license_description_cc_by_nc">این مجوز تنها برای مقاصد غیر تجاری امکان کپی، نشر، نمایش و اجرا اثر و آثار اشتقاقی آن را می‌دهد.</string>
+    <string name="license_description_cc_by_nc_sa">این مجوز به دیگران اجازه می‌دهد تا کارهای شما را به صورت غیرتجاری بازسازی کنند، تغییر دهند و بر اساس آن بسازند، تا زمانی که به شما اعتبار می‌دهند و آثار جدید خود را تحت شرایط یکسان مجوز می‌دهند.</string>
+    <string name="license_description_cc_by_nc_nd">این مجوز محدودترین مجوز از شش مجوز اصلی است و فقط به دیگران اجازه می‌دهد تا زمانی که به شما اعتبار می‌دهند آثار شما را دانلود کرده و با دیگران به اشتراک بگذارند، اما به هیچ وجه نمی‌توانند آن‌ها را تغییر دهند یا از آنها استفاده تجاری کنند.</string>
+    <string name="license_description_cc_by_nd">این مجوز امکان کپی، نشر، نمایش و اجرا اثر را می‌دهد فقط در صورتی که اثر اقتباسی از آن تهیه نشود.</string>
+    <string name="license_description_cc_by_sa">این مجوز امکان کپی، نشر، نمایش و اجرا اثر و آثار اشتقاقی آن را می‌دهد فقط در صورتی که مجوز استفاده همانند اثر اصلی باشد.</string>
+    <string name="license_description_no_license">شما حق چاپ کامل محتوای خود را به غیر از حقوقی که در شرایط خدمات ما به iNaturalist اعطا شده است، حفظ می کنید.</string>
+    <string name="invalid_photo">قالب عکس پشتیبانی نمی شود</string>
+    <!-- Text attributing observers and identifiers alongside automated identification suggestions -->
+    <string name="suggestions_based_on">پیشنهادها مبتنی بر مشاهدات و شناسایی های ارائه شده توسط جامعه iNaturalist، از جمله %1$s، %2$s، %3$s، و بسیاری دیگر.</string>
+    <!-- Preference to control what tapping on the action button does on My Observations -->
+    <string name="default_observation_action">عملکرد مشاهده پیش فرض</string>
+    <!-- Option for the "Default Observation Action" preference that performs the default action of showing a slide-up menu of options -->
+    <string name="show_options">نمایش گزینه ها</string>
+    <!-- Placeholder text for an observation field value -->
+    <string name="field_value">ارزش مِیدانی</string>
+    <string name="expand_annotation_to_agree_or_disagree">تفسیر را برای موافقت یا مخالفت گسترش دهید</string>
+    <string name="delete_attribute_value">مقدار ویژگی را حذف کنید</string>
+    <string name="open_menu_for_more_options">فهرست انتخاب را برای گزینه های بیشتر باز کنید</string>
+    <string name="change_user_profile_photo">تغییر عکس نمایه کاربر</string>
+    <string name="expand_list">گسترش لیست</string>
+    <string name="change_map_layers">تغییر لایه های نقشه (عوارض زمین در مقابل ماهواره)</string>
+    <string name="redo_observation_search">جستجوی مشاهده را در این منطقه نقشه دوباره انجام دهید</string>
+    <string name="view_observations_on_map">مشاهده مشاهدات روی نقشه</string>
+    <string name="view_observations_on_grid">مشاهده مشاهدات روی شبکه</string>
+    <string name="clear_text">متن را پاک کنید</string>
+    <string name="observation_has_sounds">مشاهده صداهایی دارد</string>
+    <string name="go_to_my_location">به مکان فعلی من بروید</string>
+    <string name="change_geoprivacy">حریم خصوصی جغرافیایی را تغییر دهید</string>
+    <string name="active_filters">فیلترهای فعال</string>
+    <string name="message_is_flagged">پیام پرچم گذاری شده است</string>
+    <string name="user_is_muted">کاربر بی صدا شده است</string>
+    <string name="cancel_multiple_obs_selection">لغو انتخاب مشاهده چندگانه</string>
+    <string name="delete_observations">حذف مشاهدات</string>
+    <string name="comment_count">تعداد نظرات</string>
+    <string name="id_count">شمارش شناسایی</string>
+    <string name="observation_selected">مشاهده انتخاب شد</string>
+    <string name="share_observation">مشاهده را به اشتراک بگذارید</string>
+    <string name="unknown_location">مکان نامعلوم</string>
+    <!-- Verb, used as an accessibility label for closing a view, e.g. a popup -->
+    <string name="close">بستن</string>
+    <string name="set_date2">تنظیم تاریخ</string>
+    <string name="project_selected">پروژه انتخاب شد</string>
+    <string name="project_unselected">پروژه انتخاب نشده است</string>
+    <string name="show_my_observations">مشاهدات من را نشان دهید</string>
+    <string name="play_pause_sound">پخش یا مکث صدا</string>
+    <string name="view_image">مشاهده تصویر</string>
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a green check mark and a thumbs-up icon -->
+    <string name="assessment_passes">پاس های ارزیابی</string>
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote in favor of a specific assessment -->
+    <string name="agree_assessment_passes">پاس های ارزیابی موافق</string>
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a red X and a thumbs-down icon -->
+    <string name="does_not_pass_assessment">ارزیابی را پاس نمی کند</string>
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote against a specific assessment -->
+    <string name="disagree_assessment_passes">پاس های ارزیابی مخالف</string>
+    <plurals name="delete_x_selected_observations">
+        <item quantity="one">%1$d مشاهده انتخابی را حذف کنید</item>
+        <item quantity="other">%1$d مشاهدات انتخابی را حذف کنید</item>
+    </plurals>
+    <plurals name="sync_x_selected_observations">
+        <item quantity="one">%1$d مشاهده انتخابی را همگام‌سازی کنید</item>
+        <item quantity="other">%1$d مشاهدات انتخابی را همگام‌سازی کنید</item>
+    </plurals>
+    <string name="add_media_evidence">شواهد رسانه ای را اضافه کنید</string>
+    <string name="remove_identification">حذف شناسایی</string>
+    <string name="issue_with_updating_photos">مشکلی در به‌روزرسانی عکس‌ها در این مشاهده وجود داشت که اخیراً برطرف شده است.  لطفاً برای حل این مشکل از سیستم خارج شوید و دوباره وارد شوید.</string>
+    <string name="app_version_copied_to_clipboard">نسخه برنامه در حافظه موقت کپی شد</string>
+    <string name="authentication_failed">احراز هویت ناموفق بود</string>
+    <string name="please_try_again_soon">لطفا به زودی دوباره امتحان کنید.</string>
+    <string name="verify_your_email">آدرس ایمیل خود را تایید کنید</string>
+    <string name="after_you_change_your_password">پس از تغییر رمز عبور، از سیستم خارج خواهید شد و باید دوباره با رمز عبور جدید وارد شوید.  همچنین از برنامه‌های تلفن همراه iNaturalist و سایر برنامه‌ها یا وب‌سایت‌هایی که از طرف شما به iNaturalist پست می‌کنند، خارج می‌شوید، بنابراین مطمئن شوید که قبل از انجام این کار، هرگونه مشاهدات معلق را آپلود کرده باشید.  هر مشاهده ای که آپلود نشود از بین خواهد رفت.</string>
+    <!-- Error message when a user tries to add upload a photo or a sound that is larger than the allowed 20 MB -->
+    <string name="couldnt_upload_file_too_large">فایل آپلود نشد - بزرگتر از 20 مگابایت</string>
+    <string name="you_have_been_signed_out_please_sign_in_again">شما خارج شده اید.  لطفاً دوباره وارد شوید.</string>
+    <!-- Accessibility label for a button that closes an announcement -->
+    <string name="close_announcement">بستن اعلامیه</string>
+    <string name="import_photos_from">وارد کردن عکس ها از...</string>
+    <string name="cannot_find_default_camera">دوربین پیش‌فرض برای گرفتن عکس پیدا نشد - لطفاً با پشتیبانی تماس بگیرید</string>
+    <string name="please_click_link_to_confirm_email">لطفاً برای تأیید ایمیل خود در iNaturalist روی پیوند موجود در ایمیل خود کلیک کنید.</string>
+    <string name="click_to_resend_confirmation_email">برای ارسال مجدد ایمیل تایید اینجا را کلیک کنید.</string>
+</resources>

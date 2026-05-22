@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="72dp"
+    android:orientation="horizontal"
+    android:paddingTop="7dp"
+    android:paddingStart="7dp"
+    android:paddingEnd="0dp"
+    android:paddingBottom="0dp"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/project_top_container"
+        android:layout_height="72dp"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:paddingEnd="10dp"
+        >
+        <ImageView
+            android:id="@+id/user_pic"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:visibility="gone"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="11dp"
+            android:importantForAccessibility="no"
+            />
+
+        <RelativeLayout
+            android:clickable="true"
+            android:id="@+id/project_pic_container"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="11dp"
+            android:background="@drawable/project_border"
+            android:layout_width="48dp"
+            android:layout_height="48dp">
+            <ImageView
+                android:id="@+id/project_pic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/ic_work_black_24dp"
+                android:padding="2dp"
+                android:visibility="gone"
+                android:importantForAccessibility="no"
+                />
+            <ImageView
+                android:id="@+id/project_pic_none"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/ic_work_black_24dp"
+                android:background="#dbdbdb"
+                android:tint="#ffffff"
+                android:padding="10dp"
+                android:visibility="visible"
+                android:importantForAccessibility="no"
+                />
+
+            <TextView
+                android:id="@+id/project_pic_info"
+                android:layout_width="15dp"
+                android:layout_height="18dp"
+                android:text="i"
+                android:textAlignment="center"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="#cecece"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/project_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:text="some project name with very lonsome project name with very longgsome project name with very long"
+            android:layout_toEndOf="@id/project_pic_container"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="4dp"
+            android:textAlignment="viewStart"
+            android:maxLines="2"
+            android:ellipsize="end"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#dfdfdf"
+        android:layout_marginStart="76dp"
+        android:layout_alignParentBottom="true"
+        android:paddingEnd="0dp"
+        />
+</RelativeLayout>

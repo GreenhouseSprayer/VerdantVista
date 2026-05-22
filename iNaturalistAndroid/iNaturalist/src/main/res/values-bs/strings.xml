@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_address">E-mail</string>
+    <string name="delete_observation">Izbriši opservaciju</string>
+    <string name="observation_deleted">Opservacija izbrisana</string>
+    <string name="species_guess_hint">Naziv vrste</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Otkaži</string>
+    <string name="loading">Učitavanje...</string>
+    <string name="street">Ulica</string>
+    <!-- As in map tiles using satellite imagery, generally used as an option when choosing a base map type -->
+    <string name="satellite">Satelit</string>
+    <string name="username_invalid">Pogrešno korisničko ime ili šifra , molimo ponovo se prijavite.</string>
+    <string name="signing_in">Prijava u toku...</string>
+    <string name="signed_in">Prijavljeni ste!</string>
+    <string name="please_sign_in"> Prijavi se.</string>
+    <string name="go_to_settings">Idite na postavke</string>
+    <string name="photo_not_specified">Fotografija nije navedena</string>
+    <string name="set_date">Datum</string>
+    <string name="set_time">Vrijeme</string>
+    <!-- "Blast" is meant to be a jocular, intentionally archaic curse. It should not be translated as a word that might offend anyone. If that's impossible, please just leave it out. We occasionally use language like this add a little personality, but that doesn't always translate very well. -->
+    <string name="edit">Uredi</string>
+    <string name="oh_no">O ne! %1$s</string>
+    <string name="observations">Moje opservacije</string>
+    <string name="map">Mapa</string>
+    <string name="settings">Postavke</string>
+    <string name="projects">Projekti</string>
+    <string name="delete_photo">Izbriši fotografiju</string>
+    <string name="my_location">Moja lokacija</string>
+    <string name="nearby_observations">Obližnje opservacije</string>
+    <string name="add">Dodaj</string>
+    <string name="view_on_inat">Vidi na iNaturalist.org</string>
+    <string name="reload">Ponovo učitaj</string>
+    <string name="view_in_browser">Vidi u browseru</string>
+    <string name="add_observation">Dodaj opservacije</string>
+    <string name="take_picture">Slikaj</string>
+    <string name="save">Spremi</string>
+    <string name="no_observations_yet">Još nema opservacija!</string>
+    <string name="or">ili</string>
+    <string name="signed_out">Odjavi se</string>
+    <string name="username">Korisničko Ime</string>
+    <string name="password">Šifra:</string>
+    <string name="unknown">Nepoznato</string>
+    <string name="unknown_species">Nepoznata vrsta</string>
+    <string name="edit_observation">Uredi opservaciju</string>
+    <string name="discard_changes">Jeste li sigurni da želite odbaciti nespašene promjene?</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <!-- Label for a button that adds an identification that is the same as another identification, as in "Do you agree this is correct?" Should be short. -->
+    <string name="agree">Da</string>
+    <string name="no_comments">Nema komentara/identifikacije još uvijek</string>
+    <string name="add_comment">Dodaj komentar</string>
+    <string name="add_id">Dodaj identifikaciju</string>
+    <string name="remarks">Primjedbe...</string>
+    <string name="enter_taxon_name">Naziv vrste</string>
+    <string name="no_projects">Nisu pronađeni projekti!</string>
+    <string name="no_guides">Nisu pronađeni vodiči!</string>
+    <string name="loading_projects">Učitavanje projekata...</string>
+    <string name="joined_projects">Pridružio se</string>
+    <string name="nearby_projects">obližnji</string>
+    <!-- Tab title for the list of featured projects in the Projects screen -->
+    <string name="featured_projects">Osobine</string>
+    <!-- Verb, used as a label for actions like leaving a project -->
+    <string name="leave">Napusti</string>
+    <string name="join">pridružite se</string>
+    <string name="invalid_project_field">Unesite valjanu vrijednost za polje \'%1s\'</string>
+    <!-- Title of interface used to add an observation to a project. This should be relatively short, not much more than a few characters longer than the English translation. -->
+    <string name="select_projects">Odaberi iz pristupljenih projekata</string>
+    <string name="not_connected">Morate biti povezani na Internet da biste to učinili!</string>
+    <string name="search_projects">Pretraži projekte...</string>
+    <string name="search_guides">Pretraži vodiče...</string>
+    <string name="save_observation">Spasi opservaciju</string>
+    <!-- Header for a description an individual guide -->
+    <string name="about_guide">O</string>
+    <string name="about_guide_all_caps">O</string>
+    <!-- Header for a description an individual project -->
+    <string name="about_project">o</string>
+    <string name="about_project_all_caps">o</string>
+    <string name="about_this_app">o</string>
+    <string name="about_taxon_short">O</string>
+    <!-- Noun describing the ability to obscure or hide the coordinates of an observation. Should be a short noun or noun-phrase suitable for use on a button or popup header -->
+    <string name="geoprivacy">Geoprivatnost</string>
+    <!-- Generally used when we need to display both the label and the value on one line. Specifically used in the toolbar at the top of the location chooser -->
+    <string name="geoprivacy_with_value">Geoprivatnost: %1$s</string>
+    <string name="delete_confirmation">Jeste li sigurni da želite izbrisati ovu opservaciju?</string>
+    <!-- This refers to field guide-like content within the app, i.e. user-created lists of species that help other people identify organisms. It does not refer to tutorials or other instructional content. -->
+    <string name="guides">Vodiči</string>
+    <string name="my_guides">Vaše</string>
+    <string name="nearby_guides">obližnji</string>
+    <string name="all_guides">Svi</string>
+    <string name="no_internet_projects">Projekat zahtjeva pristup Internetu</string>
+    <string name="locale_gl">galicijski</string>
+    <string name="locale_eu">Baskijski</string>
+    <string name="use_device_language_settings">Koristi jezičke postavke uređaja</string>
+    <string name="choose_location">Izaberi lokaciju</string>
+    <string name="done">Završeno</string>
+    <string name="please_sign_in_via_settings">Morate biti prijavljeni da vidite projekte kojima ste se pridružili.</string>
+    <string name="contact_support">Kontaktirajte podršku</string>
+    <string name="leave_project">Napusti projekat</string>
+    <string name="leave_project_confirmation">Jeste li sigurni da želite napustiti ovaj projekat?</string>
+    <string name="discard_location_changes">Jeste li sigurni da želite odbaciti promjene?</string>
+    <string name="edit_location">Uredi lokaciju</string>
+    <string name="edit_locality_notes">Uredi bilješke lokacije</string>
+    <string name="get_current_location">Trenutna lokacija</string>
+    <string name="pull_to_refresh">Povuci za osvježenje...</string>
+    <string name="release_to_refresh">Otpusti za osvježenje...</string>
+    <string name="refreshing">Osvježavanje...</string>
+    <plurals name="sync_x_observations">
+        <item quantity="one">Sinhronizuj %1$d opservaciju</item>
+        <item quantity="few">Sinhronizuj %1$d opservacije</item>
+        <item quantity="other">Sinhronizuj %1$d opservacije</item>
+    </plurals>
+    <string name="sync_observations">Sinhronizuj opservacije</string>
+    <string name="lets_get_started">Počnimo!</string>
+    <string name="view_nearby_observations">Vidi obližnje opservacije</string>
+    <string name="skip_for_now">Preskoči za sada</string>
+    <string-array name="tutorial_titles">
+        <item></item>
+        <item>Uoči</item>
+        <item>Podjeli</item>
+        <item>Uči</item>
+        <item>Doprinesi</item>
+    </string-array>
+    <string-array name="tutorial_descriptions">
+        <item>Istraži i poveži se sa prirodom</item>
+        <item>Izađi vani! Pronađi nešto divlje, snimite jasnu fotografiju u punom kadru.</item>
+        <item>Podijelite svoju opservaciju sa iNaturalist zajednicom.</item>
+        <item>Vratite se za komentare i identifikacije vaše opservacije!</item>
+        <item><![CDATA[<b>Research Grade</b> observations are shared with scientists working to better understand and protect nature.]]></item>
+    </string-array>
+    <string-array name="geoprivacy_items">
+        <item>Otvori</item>
+        <item>Obscured</item>
+        <item>Privatnost</item>
+    </string-array>
+    <string name="alert_sign_out">Jeste li sigurni da se želite odjaviti? Ovim ćete izbrisati sva vaša opservacijena ovom uređaju. To neće utjecati na bilo koje opservacije koja ste prenijeli na iNaturalist.</string>
+    <string name="alert_unsupported_media_type">Žao nam je, ali došlo je do problema prilikom učitavanja fotografije iz ovog izvora</string>
+    <!-- Second person verb, used as a section title as in the "Explore" screen where you explore observations made by other people -->
+    <string name="explore">Istražite</string>
+    <string name="restricted_to_current_map_area">Ograničeno na trenutno područje karte</string>
+    <string name="search">Traži</string>
+    <string name="details">Detalji</string>
+    <string name="observation_photos">Fotografija opservacije</string>
+    <string name="no_observations_found">Opservacija nije pronađena</string>
+    <string name="photos"><![CDATA[<b>Fotografije:</b> %1$s]]></string>
+    <string name="text"><![CDATA[<b>Tekst:</b> %1$s]]></string>
+    <!-- The dialog content asking the user to switch to another iNat network -->
+    <string name="alert_message_use_inaturalist">Glavna iNaturalist mreža. Klikom na OK postavit ćete svoju aplikaciju kao dio globalne mreže iNaturalist.</string>
+    <string name="license">Licenca</string>
+    <string name="are_you_sure">Jeste li sigurni?</string>
+    <string name="failed_to_download_guide">Neuspješno preuzimanje vodiča!</string>
+    <string name="internet_connection_seems_to_be_offline">Čini se da je Internet veza offline.</string>
+    <string name="downloaded">Preuzeto</string>
+    <string name="delete_download">Obriši preuzimanje</string>
+    <string name="re_download">Ponovno preuzimanje</string>
+    <string name="error">Greška</string>
+    <string name="send_email">pošalji email</string>
+    <string name="login_with">Prijavite se sa</string>
+    <string name="gplus">Google</string>
+    <string name="email">Email</string>
+    <string name="skip">Preskoči  ›</string>
+    <string name="log_in">Prijavi se</string>
+    <!-- Second person imperative, usually a label on a button to sign up for a new account -->
+    <string name="sign_up">Registruj se</string>
+    <!-- Title of the view used to sign up for a new account -->
+    <string name="sign_up_title">Registruj se</string>
+    <string name="min_6_chars">Min 6 znakova</string>
+    <!-- Try to keep this about the length of the English text -->
+    <string name="username_or_email">Korisničko ime ili email adresa</string>
+    <string name="forgot">Zaboravio?</string>
+    <string name="or_login_with">ili se prijavite sa:</string>
+    <string name="registering">Prijava...</string>
+    <string name="recommended_next_step">Preporučeni slijedeći koraci</string>
+    <string name="could_not_register_user">Nije moguće registrirati korisnika</string>
+    <!-- Short label for a button in the side bar, not much more than 16 characters -->
+    <string name="login_signup">Prijava ili registracija</string>
+    <string name="please_sign_in_via_settings_for_guides">Morate biti prijavljeni da biste vidjeli svoje vodiče.</string>
+    <string name="please_sign_in_for_updates">Morate biti prijavljeni da biste vidjeli svoja ažuriranja.</string>
+    <string name="activity">Aktivnost</string>
+    <!-- Label for a button to open the camera to take a new photo for an observation -->
+    <string name="camera">Uslikaj</string>
+    <!-- Label for a button to import an existing photo for an observation -->
+    <string name="upload_photo">Izaberi sliku</string>
+    <string name="first">Prvi</string>
+    <string name="notes">Napomene</string>
+    <string name="set_location">Lokacija</string>
+    <string name="required">* Potrebno</string>
+    <string name="no_thanks">Ne, hvala</string>
+    <string name="turn_on">Uključi</string>
+    <string name="automatic_upload">Automatski Upload (Auto Sinhronizacija)</string>
+    <string name="failed_to_add_to_project">Dodavanje u projekat \'%1$s\': %2$s nije uspjelo</string>
+    <string name="needs_your_attention">Potrebna vaša pažnja...</string>
+    <string name="observation">Opservacija</string>
+    <string name="share">Podjeli</string>
+    <string name="unable_to_acquire_location">Nije moguće dobiti lokaciju</string>
+    <string name="needs_id">Potreban ID</string>
+    <string name="data_quality">Kvalitet podataka</string>
+    <string name="delete">Obriši</string>
+    <string name="delete_id">Povuci identifikaciju</string>
+    <string name="delete_comment">Izbriši komentar</string>
+    <string name="delete_id_message">Jeste li sigurni da želite povući ovu identifikaciju?</string>
+    <string name="delete_comment_message">Jeste li sigurni da želite obrisati ovaj komentar?</string>
+    <string name="suggest_id">Predloži ID</string>
+    <string name="update_comment">Ažuriraj komentar</string>
+    <string name="faved">Omiljeno</string>
+    <string name="leave_a_comment">Ostavite komentar ili predložite identifikaciju ...</string>
+    <string name="location">Lokacija</string>
+    <!-- Message when you try to view faves on an observation you haven't uploaded yet -->
+    <!--  Label for a button to add an observation without a photo or a sound  -->
+    <string name="about_this_species">O ovoj vrsti</string>
+    <string name="view_on_wikipedia">Wikipedia članak</string>
+    <string name="photo"><![CDATA[Fotografija: <b><a href="%1$s">%2$s</a></b>]]></string>
+    <string name="photo_attr"><![CDATA[Fotografija: <b>%1$s</b>]]></string>
+    <string name="finding_current_location">Traženje trenutne lokacije ...</string>
+    <string name="do_you_agree_to_the_following">Slažete li se sa sljedećim?</string>
+    <string name="terms">Uvjeti</string>
+    <string name="observation_rules">Pravila opservacija</string>
+    <string name="couldnt_load_project_details">Nije moguće učitati detalje projekta: %1$s</string>
+    <string name="no_people_found">Osobe nisu pronađene</string>
+    <string name="rank">Rang</string>
+    <string name="identifications">Identifikacija</string>
+    <string name="no_news_found">Novosti nisu pronađene</string>
+    <string name="news">Vijesti</string>
+    <string name="article">Članak</string>
+    <string name="couldnt_load_project_news">Nije moguće učitati novosti projekta: %1$s</string>
+    <string name="couldnt_load_user_details">Nije moguće učitati detalje korisnika: %1$s</string>
+    <string name="more_bio"><![CDATA[<b><font color="#ffffff">Više »</font></b>]]></string>
+    <string name="no_location">Nema Lokacija</string>
+    <string name="add_to_projects">Dodaj u projekat(e)</string>
+    <string name="are_you_sure_you_want_to_save_obs_without_coords">Jeste li sigurni da želite spasiti opservaciju bez koordinata?</string>
+    <string name="edit_profile">Izmjeni profil</string>
+    <string name="remove_photo">Ukloni fotografiju</string>
+    <string name="name">Ime</string>
+    <string name="tell_us_about_yourself">Recite nam o sebi...</string>
+    <string name="view_profile">Pogledaj profil</string>
+    <string name="are_you_sure_you_want_to_remove_photo">Jeste li sigurni da želite obrisati ovu fotografiju?</string>
+    <string name="updating_profile">Ažuriranje profila...</string>
+    <string name="there_was_a_problem_updating_profile">Došlo je do problema prilikom ažuriranja vašeg profila!</string>
+    <string name="there_was_a_problem_updating_profile_params">Došlo je do problema prilikom ažuriranja vašeg profila!: %1$s</string>
+    <!-- Notice of which user is currently logged in, e.g. "Currently logged in as kueda" -->
+    <string name="log_out">Odjava</string>
+    <string name="not_logged_in">Niste prijavljeni</string>
+    <!-- Prompt to log in to your account or sign up for a new account -->
+    <string name="auto_upload_description">Automatski učitaj nove opservacije i uređivanja opservacija</string>
+    <string name="language">Jezik</string>
+    <string name="version">Verzija</string>
+    <string name="inat_network">iNaturalist Mreža</string>
+    <string name="inat_network_description">iNaturalista mreža je okvir za lokalizaciju iNaturalisti zajednice. Mrežne stranice podržavaju lokalne institucije koje su potpisale sporazum s iNaturalist za poticanje lokalne upotrebe i dobrobit lokalne biološke raznolikosti.</string>
+    <string name="more_info">Više informacija</string>
+    <string name="select_network">Odaberite mrežnu pripadnost</string>
+    <string name="help">Pomoć</string>
+    <string name="stop">Zaustavi</string>
+    <string name="resume">Nastavi</string>
+    <string name="syncing">Sinhronizacija...</string>
+    <string name="syncing_paused">Pauzirano</string>
+    <string name="withdraw">Povuci</string>
+    <!-- Dialog title for when you are updating the description of an identification -->
+    <string name="your_identification">Vaš ID: %1$s</string>
+    <string name="upload_complete">Učitavanje završeno</string>
+    <string name="preparing_photo">Pripremanje fotografije</string>
+    <string name="recommended_for_you">Predloženo za Vas</string>
+    <string name="missions">Misije</string>
+    <string name="plants">Biljke</string>
+    <string name="mammals">Sisari</string>
+    <string name="insects">Insekti</string>
+    <string name="reptiles">Reptili</string>
+    <string name="fish">Ribe</string>
+    <string name="mollusks">Mekušci</string>
+    <string name="amphibians">Vodozemci</string>
+    <string name="fungi">Gljive</string>
+    <string name="birds">Ptice</string>
+    <string name="arachnids">Pauci</string>
+    <string name="no_connectivity">Bez konekcije</string>
+    <string name="searching_your_area">Pretražite vaše područje...</string>
+    <string name="my_content">Moj sadržaj</string>
+    <string name="following">Pratite</string>
+    <!--
+        Label for the number of new notifications you might have. This specific string is used in
+        the side drawer next to the Activity menu item when you have new activity on your own
+        content.
+    -->
+    <plurals name="new_activities">
+        <item quantity="one">%1s novi</item>
+        <item quantity="few">%1s novi</item>
+        <item quantity="other">%1s novi</item>
+    </plurals>
+    <string name="no_results_found">Rezultati nisu pronađeni...</string>
+    <plurals name="syncing_x_out_of_y_observations">
+        <item quantity="one">Sinhoriziranje %1$d od %2$d opservacija...</item>
+        <item quantity="few">Sinhoriziranje %1$d od %2$d opservacija...</item>
+        <item quantity="other">Sinhoriziranje %1$d od %2$d opservacija...</item>
+    </plurals>
+    <string name="deleting_observations">Brisnje opservacija...</string>
+    <string name="preparing">Priprema...</string>
+    <string name="restore">Povratiti</string>
+    <string name="compare">Uporedi</string>
+    <string name="select">Odaberite</string>
+    <string name="source_wikipedia">(Izvor: Wikipedia)</string>
+    <string name="conservation_source"><![CDATA[<b>Izvor:</b> <i>%1$s</i>]]></string>
+    <string name="conservation_status_least_concern">Od najmanjeg značaja</string>
+    <string name="conservation_status_vulnerable">Osjetljive</string>
+    <string name="conservation_status_endangered">Ugrožene</string>
+    <string name="conservation_status_critically_endangered">Kritično ugrožene</string>
+    <string name="conservation_status_extinct_in_the_wild">Izumrli u divljini</string>
+    <string name="conservation_status_extinct">Izumrli</string>
+    <string name="map_of_observations">Karta opservacija</string>
+    <string name="taxonomy">Taksonomija</string>
+    <string name="about_this_section">O ovoj sekciji</string>
+    <!-- Explanation of the taxonomy displayed on the taxon detail screen. -->
+    <string name="more_info_on_inat">Više informacija na iNaturalist.org</string>
+    <string name="view_suggestions">Vidi sugestiju</string>
+    <string name="species_search">Pretraživanje vrsta</string>
+    <!-- Header for a list of suggested taxa based on observation frequency (i.e. not incorporating visual similarity) -->
+    <!-- Header for a list of suggested taxa -->
+    <string name="top_suggestions">Top sugestije:</string>
+    <string name="pretty_sure_rank">Prilično smo sigurni da je u %1$s:</string>
+    <string name="what_did_you_see">Šta ste vidjeli?</string>
+    <string name="suggest_species">Predloži vrstu</string>
+    <string name="visually_similar">Vizuelno slični</string>
+    <string name="visually_similar_seen_nearby">Vizuelno slični / Viđeno u okolini</string>
+    <string name="seen_nearby">Viđeno u okolini</string>
+    <string name="enlarge">Povećaj</string>
+    <!-- Label for a button that shows children of the current taxon, e.g. species within a genus or families within an order -->
+    <string name="view_children">Vidi mladunčad</string>
+    <string name="terrain">Teren</string>
+    <string name="filters">Filteri</string>
+    <string name="nearby">Obližnji</string>
+    <string name="couldnt_load_results">Nismo moglu učitati rezultate: %1$s</string>
+    <!-- This should match the way Research Grade has been transalted, so if that's been translated as "grado de investigación" this should be "GI" -->
+    <string name="undefined">Nedefinisano</string>
+    <string name="intersection">Raskrsnica</string>
+    <string name="town">Grad</string>
+    <!-- As in a political administrative area, e.g. Hawaii in the United States -->
+    <string name="state">Država</string>
+    <string name="county">Okrug</string>
+    <string name="country">Država</string>
+    <string name="airport">Aerodrom</string>
+    <string name="drainage">Drenaža</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="miscellaneous">Razno</string>
+    <string name="nationality">Nacionalnost</string>
+    <!-- Place type describing an area spanning multiple countries, e.g. Western Europe or Hispaniola -->
+    <!-- Place type for a place like https://en.wikipedia.org/wiki/Region -->
+    <string name="region">Regija</string>
+    <!-- Place type for a place without much of a formal definition, e.g. the San Francisco Bay Area -->
+    <string name="colloquial">Kolokvijalan</string>
+    <string name="zone">Zona</string>
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <!-- Vestigial place type from the defunct Yahoo GeoPlanet API. Please just do your best to translate it or leave it in English -->
+    <string name="continent">Kontinent</string>
+    <string name="territory">Teritorija</string>
+    <string name="district">Oblast</string>
+    <string name="province">Pokrajina</string>
+    <string name="municipality">Općina</string>
+    <string name="parish">Parohija</string>
+    <!-- Added by mistake with some GADM place types, but subsequently used by some of our users. Assume it's a type of place contained within a "department" -->
+    <string name="canton">Kanton</string>
+    <string name="republic">Republika</string>
+    <string name="division">Divizija</string>
+    <!-- https://gadm.org place type, presumably describing an area larger than an individual property but smaller than a neighborhood -->
+    <!-- Mongolian sub-sub-national place type: https://en.wikipedia.org/wiki/Districts_of_Mongolia -->
+    <string name="sum">Suma</string>
+    <!-- Indonesian sub-sub-national place type -->
+    <string name="local_authority">Lokalna vlast</string>
+    <!-- https://en.wikipedia.org/wiki/Poblacion -->
+    <!-- https://en.wikipedia.org/wiki/Delegations_of_Tunisia -->
+    <string name="delegation">Delegacija</string>
+    <string name="apply_filters">Primjeni filtere</string>
+    <string name="reset">Resetuj</string>
+    <string name="show_only_my_observations">Prikaži samo moje opservacije</string>
+    <string name="project">Projekat</string>
+    <string name="user">Korisnik</string>
+    <string name="search_users">Pretraži korisnike...</string>
+    <!-- Label for observation filters specifying when the observations were made in the field (not necessarily when they were added to iNaturalist) -->
+    <string name="date_observed">Datum opservacije</string>
+    <!-- Generally used as a menu option to indicate no preference, e.g. Date of Observation: Any / Exact / Range / Month -->
+    <string name="any">Bilo koji</string>
+    <!-- Used to separate a date range, e.g. "2018-01-04 to 2018-05-02" -->
+    <string name="exact_date">Tačan datum</string>
+    <string name="start">Početak</string>
+    <string name="end">Kraj</string>
+    <string name="months">Mjeseci</string>
+    <string name="map_area">Karta područja</string>
+    <string name="global">Global</string>
+    <!-- As in redo search in the current map area -->
+    <string name="search_map_area">Pretraži površinu karte</string>
+    <!-- Compact form of "X minutes ago", so "3 minutes ago" would be "3m" -->
+    <!-- Compact form of "X hours ago", so "3 hours ago" would be "3h" -->
+    <!-- Compact form of "X days ago", so "3 days ago" would be "3d" -->
+    <string name="date_day">%dd</string>
+    <!-- Compact form of "X weeks ago", so "3 weeks ago" would be "3w" -->
+    <string name="new_observation">Nova opservacija</string>
+    <string name="make_an_observation">Izvršite opservaciju</string>
+    <string name="leave_comment">Ostavite komentar...</string>
+    <string name="swipe">Prevucite</string>
+    <string name="swipe_indicator">›</string>
+    <string name="potential_disagreement">Potencijalno neslaganje</string>
+    <string name="do_you_think_this_could_be"><![CDATA[Da li su pruženi dokazi dovoljni da potvrde da je ovo <b>%1$s</b>?]]></string>
+    <!-- This sentence expresses uncertainty at a fine taxonomic level but certainty at a higher taxonomic level, e.g. "I don't know if this is a dog but I'm sure it is a mammal." -->
+    <string name="no_but_it_is_a_member_of_taxon"><![CDATA[Ne, ali jeste član  <b>%1$s</b>.]]></string>
+    <string name="submit">Pošalji</string>
+    <string name="change_password">Promjeni lozinku</string>
+    <string name="search_projects_youve_joined">Pretraži projekte kojima ste pristupili...</string>
+    <string name="must_be_connected_to_load_more_obs">Morate biti povezani na Internet da biste učitali više opservacija</string>
+    <!--
+        Pronunciation of people's names (as approved by the people in question):
+
+        Abhas Misraraj: ɑbhɑs mɪʃrɑrɑdʒ (http://ipa-reader.xyz/?text=%C9%91bh%C9%91s%20m%C9%AA%CA%83r%C9%91r%C9%91d%CA%92)
+        Alex Shepard: ˈæ.lɪks ˈʃɛpɚd (http://ipa-reader.xyz/?text=%CB%88%C3%A6.l%C9%AAks%20%CB%88%CA%83%C9%9Bp%C9%9Ad)
+        Ken-ichi Ueda: ˌkɛˈniʧi weɪdɑ (http://ipa-reader.xyz/?text=%CB%8Ck%C9%9B%CB%88ni%CA%A7i%20we%C9%AAd%C9%91)
+        Tony Iwane: ˈtoʊni ɪˈwɑneɪ (http://ipa-reader.xyz/?text=%CB%88to%CA%8Ani%20%C9%AA%CB%88w%C9%91ne%C9%AA)
+    -->
+    <string name="see_more_observations">Vidi više opservacija</string>
+    <string name="see_more_species">Vidi više vrsta</string>
+    <string name="see_more_identifications">Vidi više identifikacija</string>
+    <string name="description">Opis</string>
+    <string name="quantity">Kol</string>
+    <string name="agree2">Slažem se</string>
+    <string name="project_observations">Opservacija</string>
+    <string name="project_species">Vrste</string>
+    <string name="project_people">Ljudi</string>
+    <!-- People who added identifications to observations in a project -->
+    <string name="view_all">Vidi sve</string>
+    <string name="observers">Posmatrači</string>
+    <!-- Describes the attribute being annotated, e.g. if the annotation is for life stage, "Life Stage" is the attribute. -->
+    <string name="attribute">Atribut</string>
+    <!-- Value of an annotation, e.g. if the annotation is for life stage and the value chosen is "Adult" then "Adult" is the value -->
+    <string name="value">Vrijednost</string>
+    <!-- Label for a button allowing users to state that they think an annotation is incorrect -->
+    <string name="disagree">Ne slažem se</string>
+    <!-- Annotations are key/value pairs applied to observations with a controlled vocabulary -->
+    <string name="annotations">Bilješke</string>
+    <!-- Used when filtering observations with annotations -->
+    <string name="with_annotation">Sa bilješkom</string>
+    <!-- Attribute of an annotation. Synonymous with "Attribute" but slightly more explanatory for use in a popup header -->
+    <string name="annotation_name">Naziv bilješke</string>
+    <!-- Annotation value for when no annotation has been chosen -->
+    <string name="none">Nijedan</string>
+    <!-- Phenological state of flowers on a plant -->
+    <!-- Describes life stage at the time of observation, e.g. juvenile, adult -->
+    <string name="annotation_name_life_stage">Životna faza</string>
+    <!-- Noun, describes sex of the organism -->
+    <string name="annotation_name_sex">Spol</string>
+    <!-- Attribute that describes whether the organism is alive or dead -->
+    <string name="annotation_name_alive_or_dead">Živo ili mrtvo</string>
+    <!-- Attribute that describes what kind of evidence of an organism's presence was recorded in this observation -->
+    <!-- Attribute that describes the phenological state of the leaves on a plant -->
+    <!-- Attribute that describes whether the observed organism is part of an established population or something more like a waif or escaped pet -->
+    <!-- Adjective, having open flowers -->
+    <!-- Adjective, having fruit or seeds -->
+    <!-- Adjective, having unopened flowers -->
+    <!-- Observation presents no evidence of flowering phenology -->
+    <!-- Adjective describing the life stage where an individual can reproduce -->
+    <string name="annotation_value_adult">Odrasli</string>
+    <!-- Adjective describing the odonate life stage between nymph and adult -->
+    <!-- Noun for a dormant phase of holometabolous insects between larva and adult -->
+    <!-- Noun for larval stage of some aquatic insects and most hemimetabolous insects -->
+    <!-- Noun for the arthropod life stage between egg and adult -->
+    <string name="annotation_value_larva">Larva</string>
+    <string name="annotation_value_egg">Jaje</string>
+    <!-- Life stage before adulthood, could work as a noun or an adjective -->
+    <!-- Life stage between pupa and adult, generally used for mayflies (Ephemeroptera) -->
+    <string name="annotation_value_female">Žensko</string>
+    <string name="annotation_value_male">Muški</string>
+    <!-- Adjective, alive and shows no signs of imminent death -->
+    <string name="annotation_value_alive">Živo</string>
+    <!-- Adjective, dead or shows signs of imminent death -->
+    <string name="annotation_value_dead">Mrtvo</string>
+    <!-- Value for when the value of the attribute cannot be determined -->
+    <string name="annotation_value_cannot_be_determined">Ne može se utvrditi</string>
+    <!-- "Evidence of Presence" value when the observation depicts the organism itself and not some kind of sign the organism left behind -->
+    <!-- "Evidence of Presence" value when for bird feathers -->
+    <!-- "Evidence of Presence" value when for fecal remains -->
+    <!-- "Evidence of Presence" value for impressions in the ground or snow -->
+    <!-- "Evidence of Presence" value when for bones -->
+    <!-- "Evidence of Presence" value when for discarded reptile skins and arthropod exoskeletons -->
+    <!-- "Evidence of Presence" value when for something created by an animal, made with or excavated from other materials -->
+    <!-- "Evidence of Presence" value when for deformed plant tissue outgrowth caused by a parasitic organism -->
+    <!-- "Evidence of Presence" value when for hair that is no longer attached to the organism from which it originated -->
+    <!-- "Evidence of Presence" value when for evidence of feeding between the dermal layers of a leaf -->
+    <!-- "Leaves" value when for leaf buds that are opening -->
+    <!-- "Leaves" value when for green leaves -->
+    <!-- "Leaves" value when for leaves with colors other than green, e.g. dying leaves in autumn -->
+    <!-- "Leaves" value when there are no living leaves -->
+    <!-- "Established" value when the organism is not established, e.g. an escaped pet. See https://www.inaturalist.org/blog/91460-piloting-an-establishment-annotation-with-amphibians-and-reptiles -->
+    <!-- Text for a label for a list of projects the viewer has joined -->
+    <string name="nearby_projects_all_caps">Obližnji</string>
+    <!-- Text for a button or label that allows someone to join a project -->
+    <string name="join_all_caps">Pridruži se</string>
+    <string name="view_all_all_caps">Vidi sve</string>
+    <string name="observers_all_caps">PROMATRAČI</string>
+    <string name="observations_regular">Opservacija</string>
+    <string name="date_specified">Datum naveden</string>
+    <string name="location_specified">Lokacija navedena</string>
+    <string name="has_photos_or_sounds">Ima fotografije ili zvukove</string>
+    <string name="has_id_supported_by_two_or_more">Ima identifikaciju podržanu od dvoje ili više</string>
+    <string name="date_is_accurate">Datum je tačan</string>
+    <string name="location_is_accurate">Lokacija je tačna</string>
+    <string name="organism_is_wild">Organizam je divlji</string>
+    <string name="evidence_of_organism">Dokazi o organizmu</string>
+    <string name="seasonality">Senzonalnost</string>
+    <string name="verifiable">Proverljivo</string>
+    <string name="no_annotation">Bez bilješke</string>
+    <string name="donate_to_inaturalist">Donirajte iNaturalist-u</string>
+    <string name="content">Sadržaj</string>
+    <string name="has_photos">Ima fotografiju</string>
+    <string name="has_sounds">Ima zvuk</string>
+    <!-- Label for a button to open a sound recorder to record a new sound for an observation -->
+    <string name="record_sound">Snimite zvuk</string>
+    <!-- Label for a button to import an existing sound for an observation -->
+    <!-- Used when recording a sound - it's a counter, counting the number of seconds that have passed. e.g. 3.2 sec = 3.2. seconds -->
+    <!-- Verb, as in "Duplicate this photo" - Second person imperative -->
+    <string name="duplicate">Dupliciraj</string>
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the photo for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <string name="couldnt_duplicate_photo">Nemoguće dupliciranje fotografije!</string>
+    <string name="couldnt_edit_photo">Nemoguće uređivanje fotografije!</string>
+    <!-- Verb, as in "Rotate this photo" -->
+    <string name="ucrop_rotate">Rotiraj</string>
+    <!-- Verb, as in "Scale (resize) this photo" -->
+    <string name="ucrop_scale">Skala</string>
+    <!-- Verb, as in "Crop this photo" -->
+    <string name="ucrop_crop">Odsijeci</string>
+    <!-- Label for adjusting the brightness of an image -->
+    <string name="ucrop_brightness">Osvjetljenje</string>
+    <!-- Label for adjusting the contrast of an image -->
+    <string name="ucrop_contrast">Kontrast</string>
+    <!-- Label for adjusting the saturation of an image -->
+    <string name="ucrop_saturation">Zasićenje</string>
+    <!-- Label for adjusting the sharpness of an image -->
+    <string name="ucrop_sharpness">Oštrina</string>
+    <!-- Label for image cropping mode that maintains the original aspect ratio -->
+    <string name="ucrop_label_original">Originalni</string>
+    <!-- Label for image cropping mode that has no limits on the aspect ratio -->
+    <string name="ucrop_label_free">Besplatno</string>
+    <!-- Verb phrase, button label to edit an observation photo -->
+    <string name="ucrop_label_edit_photo">Uredi fotografiju</string>
+    <!-- e.g. "Please try again in 3 hours", or "Please try again in 15 minutes" -->
+    <string name="hours">sati</string>
+    <string name="minutes">minute</string>
+    <string name="seconds_value">sekunde</string>
+    <string name="delete_your_account">Izbriši svoj račun</string>
+    <string name="your_account_has_been_deleted">Vaš račun je izbrisan!</string>
+    <!-- Second person hint text asking the user to enter their username -->
+    <string name="type_your_username">Unesite svoje korisničko ime</string>
+    <string name="verify_your_password">Verificiraj svoju šifru</string>
+    <!-- Dialog title when notifying the user that the action they tried to perform requires them to grant location permission to the app -->
+    <!-- Message displayed when the user tries to perform an action that requires location permission -->
+    <!-- Dialog title when displaying a message that an action is not permitted -->
+    <!-- Message displayed when the user tries to share media with the iNat app from another app that from which iNat does not accept media -->
+    <!-- Description of a UI element for screen readers -->
+    <!-- Description of a UI element for screen readers -->
+    <!-- Description of a UI element for screen readers -->
+    <string name="new_message">Nova poruka</string>
+    <string name="search_for_inaturalist_users">Traži korisnika iNaturalist </string>
+    <string name="sorry">Oprosti</string>
+    <string name="mute_this_user">Mutiraj ovog korisnika</string>
+    <string name="flag_this_conversation">Označi ovaj razgovor</string>
+    <string name="mute_this_user_question">Mutiraj ovog korisnika?</string>
+    <string name="spam">Spam</string>
+    <string name="continue_text">Nastavi</string>
+    <string name="why_are_you_flagging_this_item">Zašto označavate ovaj predmet?</string>
+    <!-- As in "matter and energy", or "life is a self-replicating pattern of matter subject to evolutionary processes" -->
+    <!-- Singular -->
+    <!-- Singular -->
+    <!-- Placeholder text shown in place of a username when the user has been deleted -->
+    <!-- Short date formatting template for dates in the current year. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <!-- Short date formatting template for any date. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <!-- Short time formatting template for 24-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <!-- Short time formatting template for 12-hour locales. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <!-- Long date formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <!-- Obscured observations date formatting template (only month+year). Note that non-formatting letters should be surrounded by single quotes, and to include an actual single quote you need to double it, so "MMM ''yy" will render as "Oct '24", and "'Month:' MMM, ''yy" will render as "Month: Oct '24" Odd numbers of single quotes are not allowed. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <!-- Long date with time formatting template. You must use *some* of the date formatting letters, and non-formatting Roman letters from A-z must be surrounded by single quotes. See https://developer.android.com/reference/java/text/SimpleDateFormat#date-and-time-patterns for formatting options -->
+    <string name="switch_to_grid_view">Prebaci na Grid pogled</string>
+    <string name="switch_to_list_view">Prebaci na pogled listi</string>
+    <string name="remove_project_filter">Ukloni filter projekta</string>
+    <!-- Used to demonstrate annotation filters, e.g. Life Stage = Egg -->
+    <!-- Singular -->
+    <!-- Singular -->
+    <!-- Message shown when the user attempts to duplicate an observation but the app was unable to create a copy of the sound for some reason, e.g. the disk if full or the app lost the permission to write to disk -->
+    <!-- Accessibility text for the comments and IDs tab on the observation detail view -->
+    <!-- Accessibility text for the faves tab on the observation detail view -->
+    <!-- Accessibility text for a button that navigates to the previous option in a list of options -->
+    <!-- Accessibility text for a button that navigates to the next option in a list of options -->
+    <!-- Full sentence will look something like: "Sorted by Date Observed (Descending)" -
+    See explore_order_by_items and explore_order_items keys !-->
+    <!-- Label for an observation search filter to exclude your own observations -->
+    <!-- Label for an option to follow an observation, i.e. subscribe to future updates -->
+    <!-- Label for an option to unfollow an observation, i.e. unsubscribe to future updates -->
+    <!-- Error message shown when an attempt to follow an observation fails -->
+    <!-- Error message shown when an attempt to unfollow an observation fails -->
+    <!-- Label for a button to copy the coordinates of an observation -->
+    <!--  Title of a section on the observation detail view that displays minor metadata  -->
+    <!--  iNat observation identifier  -->
+    <!--  iNat observation Universally Unique Identifier  -->
+    <!--  Universal Resource Locator  -->
+    <!-- License Names -->
+    <!-- License Descriptions -->
+    <!-- Text attributing observers and identifiers alongside automated identification suggestions -->
+    <!-- Preference to control what tapping on the action button does on My Observations -->
+    <!-- Option for the "Default Observation Action" preference that performs the default action of showing a slide-up menu of options -->
+    <!-- Placeholder text for an observation field value -->
+    <!-- Verb, used as an accessibility label for closing a view, e.g. a popup -->
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a green check mark and a thumbs-up icon -->
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote in favor of a specific assessment -->
+    <!-- Accessibility label in the Data Quality Assessment showing that the observation passes a specific assessment, usually represented visually with a red X and a thumbs-down icon -->
+    <!-- Accessibility label for a button in the Data Quality Assessment to vote against a specific assessment -->
+    <!-- Error message when a user tries to add upload a photo or a sound that is larger than the allowed 20 MB -->
+    <!-- Accessibility label for a button that closes an announcement -->
+</resources>

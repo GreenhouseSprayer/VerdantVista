@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="20dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/title_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_help_black_24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="gone"
+        android:importantForAccessibility="no"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:textSize="22sp"
+        android:layout_toStartOf="@id/title_icon"
+        android:text="Some title"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAlignment="viewStart"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:textSize="16sp"
+        android:textColor="@color/inatapptheme_color"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_below="@id/title"
+        android:layout_above="@id/cancel"
+        android:textSize="18sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+
+

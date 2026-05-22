@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!--  The various iNaturalist networks (note that these values are used to load other configurations
+    	and strings: For example, inat_country_naturlista, inat_country_naturewatchnz, ... -->
+    <string-array name="inat_networks">
+        <item>inaturalist</item> <!--  iNaturalist must be first -->
+        <item>inaturalistcanada</item>
+        <item>naturalistacolombia</item>
+        <item>naturalista</item>
+        <item>naturewatchnz</item>
+        <item>biodiversity4all</item>
+        <item>inaturalistpanama</item>
+        <item>inaturalistecuador</item>
+        <item>inaturalistaustralia</item>
+        <item>argentinat</item>
+        <item>inaturalistil</item>
+        <item>inaturalistfi</item>
+        <item>inaturalistcl</item>
+        <item>inaturalistgr</item>
+        <item>inaturalistlu</item>
+        <item>inaturalistuk</item>
+        <item>inaturalistcr</item>
+        <item>inaturalistgt</item>
+        <item>inaturalistse</item>
+        <item>naturalistauy</item>
+        <item>inaturalisttw</item>
+    </string-array>
+
+    <!-- The names of the iNat networks -->
+    <string name="network_inaturalist">iNaturalist</string>
+    <string name="network_naturalista">NaturaLista</string>
+    <string name="network_naturewatchnz">iNaturalist NZ - Mātaki Taiao</string>
+    <string name="network_inaturalistcanada">iNaturalist Canada</string>
+    <string name="network_naturalistacolombia">Naturalista Colombia</string>
+    <string name="network_biodiversity4all">Biodiversity4all</string>
+    <string name="network_inaturalistpanama">iNaturalist Panamá</string>
+    <string name="network_inaturalistecuador">iNaturalist Ecuador</string>
+    <string name="network_inaturalistaustralia">iNaturalist Australia</string>
+    <string name="network_argentinat">ArgentiNat</string>
+    <string name="network_inaturalistil">iNaturalist Israel</string>
+    <string name="network_inaturalistfi">iNaturalist Finland</string>
+    <string name="network_inaturalistcl">iNaturalist Chile</string>
+    <string name="network_inaturalistgr">iNaturalist Greece</string>
+    <string name="network_inaturalistlu">iNaturalist Luxembourg</string>
+    <string name="network_inaturalistuk">iNaturalist United Kingdom</string>
+    <string name="network_inaturalistcr">Naturalista Costa Rica</string>
+    <string name="network_inaturalistgt">iNaturalist Guatemala</string>
+    <string name="network_inaturalistse">iNaturalist Sweden</string>
+    <string name="network_naturalistauy">Naturalista Uruguay</string>
+    <string name="network_inaturalisttw">愛自然-臺灣 (iNaturalist Taiwan)</string>
+
+    <!-- If value==1 -> change app name/title in the Android launcher, when network is changed.
+    Otherwise, just keep it as the original app name ("iNaturalist") -->
+    <string name="change_app_title_inaturalist">1</string>
+    <string name="change_app_title_naturalista">0</string>
+    <string name="change_app_title_naturewatchnz">0</string>
+    <string name="change_app_title_inaturalistcanada">0</string>
+    <string name="change_app_title_naturalistacolombia">0</string>
+    <string name="change_app_title_biodiversity4all">1</string>
+    <string name="change_app_title_inaturalistpanama">0</string>
+    <string name="change_app_title_inaturalistecuador">0</string>
+    <string name="change_app_title_inaturalistaustralia">0</string>
+    <string name="change_app_title_argentinat">0</string>
+    <string name="change_app_title_inaturalistil">0</string>
+    <string name="change_app_title_inaturalistfi">0</string>
+    <string name="change_app_title_inaturalistcl">0</string>
+    <string name="change_app_title_inaturalistgr">0</string>
+    <string name="change_app_title_inaturalistlu">0</string>
+    <string name="change_app_title_inaturalistuk">0</string>
+    <string name="change_app_title_inaturalistcr">0</string>
+    <string name="change_app_title_inaturalistgt">0</string>
+    <string name="change_app_title_inaturalistse">0</string>
+    <string name="change_app_title_naturalistauy">0</string>
+    <string name="change_app_title_inaturalisttw">0</string>
+
+
+    <!-- The ISO-3166 alpha-2 country code to use for each network type - used when detecting the user's country -->
+    <string name="inat_country_inaturalist"></string> <!-- Empty - any country -->
+    <string name="inat_country_naturalista">mx</string> <!-- Mexico -->
+    <string name="inat_country_naturewatchnz">nz</string> <!-- New Zealand -->
+    <string name="inat_country_inaturalistcanada">ca</string> <!-- Canada -->
+    <string name="inat_country_naturalistacolombia">co</string> <!-- Colombia -->
+    <string name="inat_country_biodiversity4all">pt</string> <!-- Portugal -->
+    <string name="inat_country_inaturalistpanama">pa</string> <!-- Panama -->
+    <string name="inat_country_inaturalistecuador">ec</string> <!-- Ecuador -->
+    <string name="inat_country_inaturalistaustralia">au</string> <!-- Australia -->
+    <string name="inat_country_argentinat">ar</string> <!-- Argentina -->
+    <string name="inat_country_inaturalistil">il</string> <!-- Israel -->
+    <string name="inat_country_inaturalistfi">fi</string> <!-- Finland -->
+    <string name="inat_country_inaturalistcl">cl</string> <!-- Chile -->
+    <string name="inat_country_inaturalistgr">gr</string> <!-- Greece -->
+    <string name="inat_country_inaturalistlu">lu</string> <!-- Luxembourg -->
+    <string name="inat_country_inaturalistuk">gb</string> <!-- UK -->
+    <string name="inat_country_inaturalistcr">cr</string> <!-- Costa Rica -->
+    <string name="inat_country_inaturalistgt">gt</string> <!-- Guatemala -->
+    <string name="inat_country_inaturalistse">se</string> <!-- Sweden -->
+    <string name="inat_country_naturalistauy">uy</string> <!-- Uruguay -->
+    <string name="inat_country_inaturalisttw">tw</string> <!-- Taiwan -->
+
+     <!-- The country display name to use for each network type - used when detecting the user's country -->
+    <string name="inat_country_name_inaturalist">Global</string>
+    <string name="inat_country_name_naturalista">Mexico</string>
+    <string name="inat_country_name_naturewatchnz">New Zealand</string>
+    <string name="inat_country_name_inaturalistcanada">Canada</string>
+    <string name="inat_country_name_naturalistacolombia">Colombia</string>
+    <string name="inat_country_name_biodiversity4all">Portugal</string>
+    <string name="inat_country_name_inaturalistpanama">Panama</string>
+    <string name="inat_country_name_inaturalistecuador">Ecuador</string>
+    <string name="inat_country_name_inaturalistaustralia">Australia</string>
+    <string name="inat_country_name_argentinat">Argentina</string>
+    <string name="inat_country_name_inaturalistil">Israel</string>
+    <string name="inat_country_name_inaturalistfi">Finland</string>
+    <string name="inat_country_name_inaturalistcl">Chile</string>
+    <string name="inat_country_name_inaturalistgr">Greece</string>
+    <string name="inat_country_name_inaturalistlu">Luxembourg</string>
+    <string name="inat_country_name_inaturalistuk">United Kingdom</string>
+    <string name="inat_country_name_inaturalistcr">Costa Rica</string>
+    <string name="inat_country_name_inaturalistgt">Guatemala</string>
+    <string name="inat_country_name_inaturalistse">Sweden</string>
+    <string name="inat_country_name_naturalistauy">Uruguay</string>
+    <string name="inat_country_name_inaturalisttw">Taiwan</string>
+
+    <!-- The domain endpoint to use for each network type - used when adding new observations (NO trailing slash at the end) -->
+    <string name="inat_host_inaturalist">https://www.inaturalist.org</string>
+    <string name="inat_host_naturalista">https://www.naturalista.mx</string>
+    <string name="inat_host_naturewatchnz">https://inaturalist.nz</string>
+    <string name="inat_host_inaturalistcanada">https://www.inaturalist.ca</string>
+    <string name="inat_host_naturalistacolombia">https://colombia.inaturalist.org</string>
+    <string name="inat_host_biodiversity4all">https://www.biodiversity4all.org</string>
+    <string name="inat_host_inaturalistpanama">https://panama.inaturalist.org</string>
+    <string name="inat_host_inaturalistecuador">https://ecuador.inaturalist.org</string>
+    <string name="inat_host_inaturalistaustralia">https://inaturalist.ala.org.au</string>
+    <string name="inat_host_argentinat">https://www.argentinat.org</string>
+    <string name="inat_host_inaturalistil">https://israel.inaturalist.org</string>
+    <string name="inat_host_inaturalistfi">https://inaturalist.laji.fi</string>
+    <string name="inat_host_inaturalistcl">https://inaturalist.mma.gob.cl/</string>
+    <string name="inat_host_inaturalistgr">https://greece.inaturalist.org</string>
+    <string name="inat_host_inaturalistlu">https://inaturalist.lu/</string>
+    <string name="inat_host_inaturalistuk">https://uk.inaturalist.org</string>
+    <string name="inat_host_inaturalistcr">https://costarica.inaturalist.org</string>
+    <string name="inat_host_inaturalistgt">https://guatemala.inaturalist.org</string>
+    <string name="inat_host_inaturalistse">https://www.inaturalist.se</string>
+    <string name="inat_host_naturalistauy">https://www.naturalista.uy/</string>
+    <string name="inat_host_inaturalisttw">https://taiwan.inaturalist.org/</string>
+
+    <!-- The site id parameter to use for each network type - used when adding new observations -->
+    <string name="inat_site_id_inaturalist">1</string>
+    <string name="inat_site_id_naturalista">2</string>
+    <string name="inat_site_id_naturewatchnz">3</string>
+    <string name="inat_site_id_inaturalistcanada">5</string>
+    <string name="inat_site_id_naturalistacolombia">6</string>
+    <string name="inat_site_id_biodiversity4all">8</string>
+    <string name="inat_site_id_inaturalistpanama">13</string>
+    <string name="inat_site_id_inaturalistecuador">14</string>
+    <string name="inat_site_id_inaturalistaustralia">9</string>
+    <string name="inat_site_id_argentinat">16</string>
+    <string name="inat_site_id_inaturalistil">15</string>
+    <string name="inat_site_id_inaturalistfi">20</string>
+    <string name="inat_site_id_inaturalistcl">18</string>
+    <string name="inat_site_id_inaturalistgr">23</string>
+    <string name="inat_site_id_inaturalistlu">26</string>
+    <string name="inat_site_id_inaturalistuk">25</string>
+    <string name="inat_site_id_inaturalistcr">17</string>
+    <string name="inat_site_id_inaturalistgt">24</string>
+    <string name="inat_site_id_inaturalistse">21</string>
+    <string name="inat_site_id_naturalistauy">28</string>
+    <string name="inat_site_id_inaturalisttw">27</string>
+
+    <!-- The lexicon name to use for each network type - used when searching for taxa (so we'll
+    	know which display name to use for the results) -->
+    <string name="inat_lexicon_inaturalist">English</string>
+    <string name="inat_lexicon_naturalista">Spanish</string>
+    <string name="inat_lexicon_naturewatchnz">English</string>
+    <string name="inat_lexicon_inaturalistcanada">English</string>
+    <string name="inat_lexicon_naturalistacolombia">Spanish</string>
+    <string name="inat_lexicon_biodiversity4all">Portuguese</string>
+    <string name="inat_lexicon_inaturalistpanama">Spanish</string>
+    <string name="inat_lexicon_inaturalistecuador">Spanish</string>
+    <string name="inat_lexicon_inaturalistaustralia">English</string>
+    <string name="inat_lexicon_argentinat">Spanish</string>
+    <string name="inat_lexicon_inaturalistil">Hebrew</string>
+    <string name="inat_lexicon_inaturalistfi">Finnish</string>
+    <string name="inat_lexicon_inaturalistcl">Spanish</string>
+    <string name="inat_lexicon_inaturalistgr">Greek</string>
+    <string name="inat_lexicon_inaturalistlu">English</string>
+    <string name="inat_lexicon_inaturalistuk">English</string>
+    <string name="inat_lexicon_inaturalistcr">Spanish</string>
+    <string name="inat_lexicon_inaturalistgt">Spanish</string>
+    <string name="inat_lexicon_inaturalistse">Swedish</string>
+    <string name="inat_lexicon_naturalistauy">Spanish</string>
+    <string name="inat_lexicon_inaturalisttw">Chinese</string>
+
+    <!-- The logo drawable name to use for each network type -->
+    <string name="inat_logo_inaturalist">logo_text</string>
+    <string name="inat_logo_naturalista">logo_naturalista</string>
+    <string name="inat_logo_naturewatchnz">logo_naturewatchnz</string>
+    <string name="inat_logo_inaturalistcanada">logo_inaturalistcanada</string>
+    <string name="inat_logo_naturalistacolombia">logo_naturalista_colombia</string>
+    <string name="inat_logo_biodiversity4all">logo_biodiversity4all</string>
+    <string name="inat_logo_inaturalistpanama">logo_panama</string>
+    <string name="inat_logo_inaturalistecuador">logo_ecuador</string>
+    <string name="inat_logo_inaturalistaustralia">logo_australia</string>
+    <string name="inat_logo_argentinat">logo_argentinat</string>
+    <string name="inat_logo_inaturalistil">logo_inaturalistil</string>
+    <string name="inat_logo_inaturalistfi">logo_inaturalistfi</string>
+    <string name="inat_logo_inaturalistcl">logo_inaturalistcl</string>
+    <string name="inat_logo_inaturalistgr">logo_inaturalistgr</string>
+    <string name="inat_logo_inaturalistlu">logo_inaturalistlu</string>
+    <string name="inat_logo_inaturalistuk">logo_inaturalistuk</string>
+    <string name="inat_logo_inaturalistcr">logo_inaturalistcr</string>
+    <string name="inat_logo_inaturalistgt">logo_inaturalistgt</string>
+    <string name="inat_logo_inaturalistse">logo_inaturalistse</string>
+    <string name="inat_logo_naturalistauy">logo_naturalistauy</string>
+    <string name="inat_logo_inaturalisttw">logo_inaturalisttw</string>
+</resources>

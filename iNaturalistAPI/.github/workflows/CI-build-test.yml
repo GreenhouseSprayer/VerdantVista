@@ -1,0 +1,62 @@
+name: API Build and Test
+
+on:
+  workflow_call:
+
+jobs:
+  build-and-test:
+    name: Build/Test 
+    runs-on: ubuntu-22.04
+    services:
+      postgres:
+        image: postgis/postgis:13-3.2
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: inaturalist_test
+        ports:
+          - 5432:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+    steps:
+
+    - uses: actions/checkout@v4
+
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20.15.1
+
+    - name: Configure sysctl limits
+      run: |
+        sudo swapoff -a
+        sudo sysctl -w vm.swappiness=1
+        sudo sysctl -w fs.file-max=262144
+        sudo sysctl -w vm.max_map_count=262144
+
+    - name: Runs Elasticsearch
+      uses: elastic/elastic-github-actions/elasticsearch@master
+      with:
+        stack-version: 8.15.3
+        security-enabled: false
+        plugins: analysis-kuromoji
+
+    - name: Elasticsearch is reachable
+      run: |
+        curl --verbose --show-error http://localhost:9200
+
+    - name: Copy config
+      run: |
+        cp config.js.ci config.js
+        touch vision-taxonomy.csv
+
+    - run: npm install
+
+    - run: npm run coverage
+      env:
+        NODE_ENV: test
+        PGHOST: 0.0.0.0
+        PGUSER: postgres
+        PGPASSWORD: postgres
+        CI: true
+
+    - run: npm run eslint
