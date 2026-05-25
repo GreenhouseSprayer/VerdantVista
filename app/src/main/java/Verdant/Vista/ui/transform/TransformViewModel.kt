@@ -100,11 +100,28 @@ class TransformViewModel(application: Application) : AndroidViewModel(applicatio
                             try {
                                 val detailedTaxon = repository.getTaxonDetails(scoutedWinner.id, currentPlaceId)
                                 if (detailedTaxon != null && _discoveredTaxon.value?.id == scoutedWinner.id) {
-                                    // PATCH: Transfer the badges from the scouted winner to the detailed one
-                                    detailedTaxon.copyMetadataFrom(scoutedWinner)
                                     
-                                    // RE-PUBLISH: The UI will update the description/family but keep the badges
-                                    _discoveredTaxon.postValue(detailedTaxon)
+                                    // --- THE "UNKNOWN SPECIES" FIREWALL ---
+                                    // Only allow the update if the new data actually has an identity.
+                                    // If it's null or unknown, we keep the scoutedWinner's identity.
+                                    val hasIdentity = !detailedTaxon.commonName.isNullOrBlank() || !detailedTaxon.name.isNullOrBlank()
+                                    
+                                    if (hasIdentity) {
+                                        // PATCH: Transfer the badges from the scouted winner to the detailed one
+                                        detailedTaxon.copyMetadataFrom(scoutedWinner)
+                                        
+                                        Log.d(TAG, "Publishing patched detailed taxon: ${detailedTaxon.getDisplayName()}")
+                                        _discoveredTaxon.postValue(detailedTaxon)
+                                    } else {
+                                        // DEEP PATCH: If details missing names, we merge everything into the EXISTING winner
+                                        Log.w(TAG, "Details missing identity, performing Deep Patch onto existing winner")
+                                        scoutedWinner.summary = detailedTaxon.summary
+                                        scoutedWinner.ancestors = detailedTaxon.ancestors
+                                        scoutedWinner.taxonPhotos = detailedTaxon.taxonPhotos
+                                        
+                                        // Re-publish the winner with its original name but NEW deep data
+                                        _discoveredTaxon.postValue(scoutedWinner)
+                                    }
                                 }
                             } catch (e: Exception) {
                                 Log.e(TAG, "Background details fetch failed", e)

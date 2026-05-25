@@ -12,8 +12,8 @@ android {
         applicationId = "com.verdant.vista"
         minSdk = 26
         targetSdk = 35
-        versionCode = 18
-        versionName = "2.5"
+        versionCode = 21
+        versionName = "2.8"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

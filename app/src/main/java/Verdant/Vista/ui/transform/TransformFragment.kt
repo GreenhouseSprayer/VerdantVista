@@ -171,13 +171,11 @@ class TransformFragment : Fragment() {
         // Instead, we only update them when we have new content.
         // This keeps the screen populated during the "Scouting" phase.
         
-        val rawName = taxon.commonName ?: taxon.name ?: "Unknown Species"
-        val commonName = rawName.split(" ")
-            .joinToString(" ") { it.replaceFirstChar { char -> char.uppercase() } }
-
         // Update names instantly
-        binding.textCommonName.text = commonName
+        binding.textCommonName.text = taxon.getDisplayName()
         binding.textScientificName.text = taxon.name ?: ""
+
+        Log.d(TAG, "displayTaxon: ${taxon.getDisplayName()}, Peak=${taxon.isPeakSeason}, Native=${taxon.establishmentMeans}")
 
         // --- Seasonal Badge Logic ---
         when {

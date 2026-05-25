@@ -1,8 +1,10 @@
 package Verdant.Vista.data.api
 
 import Verdant.Vista.data.model.INaturalistResponse
+import Verdant.Vista.data.model.TaxonResponse
 import retrofit2.http.GET
 import retrofit2.http.Header
+import retrofit2.http.Path
 import retrofit2.http.Query
 
 /**
@@ -41,4 +43,10 @@ interface INaturalistV2Service {
         @Header("X-Fields") fields: String? = null,
         @Header("Cache-Control") cacheControl: String? = null
     ): Verdant.Vista.data.model.SpeciesCountResponse
+    @GET("taxa/{id}")
+    suspend fun getTaxonDetails(
+        @Path("id") id: Int,
+        @Query("preferred_place_id") preferredPlaceId: Int? = null,
+        @Header("X-Fields") fields: String? = null
+    ): TaxonResponse
 }

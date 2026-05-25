@@ -42,10 +42,10 @@ data class Taxon(
     @SerializedName("default_photo")
     val defaultPhoto: Photo?,
     @SerializedName("taxon_photos")
-    val taxonPhotos: List<TaxonPhoto>?,
+    var taxonPhotos: List<TaxonPhoto>?,
     @SerializedName("wikipedia_summary")
-    val summary: String?,
-    val ancestors: List<Taxon>?,
+    var summary: String?,
+    var ancestors: List<Taxon>?,
     val rank: String?,
     @SerializedName("observations_count")
     val observationsCount: Int?,
@@ -60,6 +60,11 @@ data class Taxon(
     @SerializedName("preferred_establishment_means")
     val establishmentMeans: String? = null
 ) {
+    fun getDisplayName(): String {
+        val raw = commonName ?: name ?: "Unknown Species"
+        return raw.split(" ").joinToString(" ") { it.replaceFirstChar { char -> char.uppercase() } }
+    }
+
     fun isNative(): Boolean = establishmentMeans?.lowercase() == "native" || establishmentMeans?.lowercase() == "endemic"
     fun isIntroduced(): Boolean = establishmentMeans?.lowercase() == "introduced"
 

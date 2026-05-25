@@ -54,7 +54,7 @@ class ImageAdapter(
         // PHASE 1: BLUR-UP PREVIEW (Tiny thumb variants load in milliseconds)
         holder.binding.imageViewBlur.load(thumbUrl) {
             precision(Precision.EXACT)
-            size(40, 40) // Create organic pixel blending
+            size(60, 60) // Slightly larger for better organic blur
         }
 
         // PHASE 2: HIGH-RES FOREGROUND (4K Photography)

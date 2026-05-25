@@ -96,10 +96,11 @@ object PhotoUtils {
     fun getThumbUrl(url: String?): String? {
         if (url == null) return null
         val httpsUrl = ensureHttps(url)!!
+        // "square" is a tiny 75x75 variant, perfect for instant blur-ups
         for (size in PHOTO_SIZES) {
             val pattern = "/$size."
             if (httpsUrl.contains(pattern)) {
-                return httpsUrl.replace(pattern, "/thumb.")
+                return httpsUrl.replace(pattern, "/square.")
             }
         }
         return httpsUrl
@@ -160,36 +161,22 @@ object PhotoUtils {
 
     /**
      * Master method to create a high-impact, gap-free widget bitmap.
-     * Uses an aggressive 'Zoom-to-Fill' strategy to eliminate all black bars.
-     * Target size increased to 600px for 'Gallery Sharpness'.
+     * Uses a 'Smart Fit' strategy: scales the image to fill the width (600px)
+     * and lets the height be natural, avoiding the harsh top/bottom crops
+     * of standard center-cropping.
      */
     fun createCinematicWidgetBitmap(source: Bitmap?): Bitmap? {
         if (source == null) return null
 
-        val targetSize = 600 
-        val output = Bitmap.createBitmap(targetSize, targetSize, Bitmap.Config.RGB_565)
-        val canvas = Canvas(output)
-        
-        val paint = Paint(Paint.FILTER_BITMAP_FLAG)
-
-        // GAP-FREE FILL: Use the larger scale factor to ensure the image 
-        // completely covers the 600x600 area, killing all black bars.
+        val targetWidth = 600
         val sourceW = source.width.toFloat()
         val sourceH = source.height.toFloat()
-        val scale = Math.max(targetSize / sourceW, targetSize / sourceH)
         
-        val fgW = (sourceW * scale).toInt()
+        // Scale to fit width, let height be natural
+        val scale = targetWidth / sourceW
+        val fgW = targetWidth
         val fgH = (sourceH * scale).toInt()
         
-        val fillImg = Bitmap.createScaledBitmap(source, fgW, fgH, true)
-        
-        // Center the 'Zoomed' image
-        val left = (targetSize - fgW) / 2f
-        val top = (targetSize - fgH) / 2f
-        
-        canvas.drawBitmap(fillImg, left, top, paint)
-        fillImg.recycle()
-
-        return output
+        return Bitmap.createScaledBitmap(source, fgW, fgH, true)
     }
 }

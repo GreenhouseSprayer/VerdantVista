@@ -10,8 +10,8 @@
         android:id="@+id/widget_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:layout_gravity="center" />
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
 
     <ImageView
         android:id="@+id/widget_gradient"
